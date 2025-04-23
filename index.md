@@ -12,9 +12,9 @@ system defined types, interfaces, methods and constants that can be used in a Sl
 program.
 
 This reference groups the standard library declarations as:
-- [Interfaces](./interfaces/index): all builtin interfaces usable as generic constraints.
-- [Types](./types/index): all builtin types and their members, such as `StructuredBuffer`, `Texture2D` and etc.
-- [Global Declarations](./global-decls/index): all other constants and functions defined in the global scope.
+- [Interfaces](./interfaces/index.md): all builtin interfaces usable as generic constraints.
+- [Types](./types/index.md): all builtin types and their members, such as `StructuredBuffer`, `Texture2D` and etc.
+- [Global Declarations](./global-decls/index.md): all other constants and functions defined in the global scope.
 
 This documentation is still a work-in-progress.
 
