@@ -25,7 +25,7 @@ This documentation is still a work-in-progress.
 Interfaces <./interfaces/index>
 Types <./types/index>
 Attributes <./attributes/index>
-Global Declarations <./global-decl/index>
+Global Declarations <./global-decls/index>
 ```
 
 <script>

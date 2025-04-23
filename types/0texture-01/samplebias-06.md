@@ -135,8 +135,10 @@ if (window.location.hostname.includes('readthedocs') ||
   document.addEventListener('DOMContentLoaded', function() {
     const links = document.querySelectorAll('a');
     links.forEach(link => {
-      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
-        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      const href = link.getAttribute('href');
+      if (href && href.includes('.md')) {
+        // This regex will handle .md links with or without fragment identifiers or query parameters
+        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
       }
     });
   });
