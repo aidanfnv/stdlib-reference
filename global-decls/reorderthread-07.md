@@ -20,16 +20,16 @@ Where possible, reordering will also attempt to retain locality in the thread429
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="reorderthread-07.html">ReorderThread</a>(
-    <span class="code_keyword">uint</span> <a href="reorderthread-07.html#decl-CoherenceHint" class="code_param">CoherenceHint</a>,
-    <span class="code_keyword">uint</span> <a href="reorderthread-07.html#decl-NumCoherenceHintBitsFromLSB" class="code_param">NumCoherenceHintBitsFromLSB</a>);
+<span class="code_keyword">void</span> <a href="reorderthread-07.md">ReorderThread</a>(
+    <span class="code_keyword">uint</span> <a href="reorderthread-07.md#decl-CoherenceHint" class="code_param">CoherenceHint</a>,
+    <span class="code_keyword">uint</span> <a href="reorderthread-07.md#decl-NumCoherenceHintBitsFromLSB" class="code_param">NumCoherenceHintBitsFromLSB</a>);
 
-<span class="code_keyword">void</span> <a href="reorderthread-07.html">ReorderThread</a>(
-    <a href="../types/hitobject-03/index.html" class="code_type">HitObject</a> <a href="reorderthread-07.html#decl-HitOrMiss" class="code_param">HitOrMiss</a>,
-    <span class="code_keyword">uint</span> <a href="reorderthread-07.html#decl-CoherenceHint" class="code_param">CoherenceHint</a>,
-    <span class="code_keyword">uint</span> <a href="reorderthread-07.html#decl-NumCoherenceHintBitsFromLSB" class="code_param">NumCoherenceHintBitsFromLSB</a>);
+<span class="code_keyword">void</span> <a href="reorderthread-07.md">ReorderThread</a>(
+    <a href="../types/hitobject-03/index.md" class="code_type">HitObject</a> <a href="reorderthread-07.md#decl-HitOrMiss" class="code_param">HitOrMiss</a>,
+    <span class="code_keyword">uint</span> <a href="reorderthread-07.md#decl-CoherenceHint" class="code_param">CoherenceHint</a>,
+    <span class="code_keyword">uint</span> <a href="reorderthread-07.md#decl-NumCoherenceHintBitsFromLSB" class="code_param">NumCoherenceHintBitsFromLSB</a>);
 
-<span class="code_keyword">void</span> <a href="reorderthread-07.html">ReorderThread</a>(<a href="../types/hitobject-03/index.html" class="code_type">HitObject</a> <a href="reorderthread-07.html#decl-HitOrMiss" class="code_param">HitOrMiss</a>);
+<span class="code_keyword">void</span> <a href="reorderthread-07.md">ReorderThread</a>(<a href="../types/hitobject-03/index.md" class="code_type">HitObject</a> <a href="reorderthread-07.md#decl-HitOrMiss" class="code_param">HitOrMiss</a>);
 
 </pre>
 
@@ -37,7 +37,7 @@ Where possible, reordering will also attempt to retain locality in the thread429
 
 ####  <a id="decl-CoherenceHint"></a>CoherenceHint  : uint
 ####  <a id="decl-NumCoherenceHintBitsFromLSB"></a>NumCoherenceHintBitsFromLSB  : uint
-####  <a id="decl-HitOrMiss"></a>HitOrMiss  : [HitObject](../types/hitobject-03/index.html)
+####  <a id="decl-HitOrMiss"></a>HitOrMiss  : [HitObject](../types/hitobject-03/index.md)
 
 ## Availability and Requirements
 
@@ -56,3 +56,18 @@ Available in `raygen` stage only.
 Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`.
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

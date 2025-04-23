@@ -14,7 +14,7 @@ of stride of <span class='code'>uint3</span>, which is 12.
 ## Signature 
 
 <pre>
-<a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="index.html" class="code_type">ByteAddressBuffer</a>.<a href="load3aligned-05.html">Load3Aligned</a>(<span class="code_keyword">int</span> <a href="load3aligned-05.html#decl-location" class="code_param">location</a>);
+<a href="../vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="index.md" class="code_type">ByteAddressBuffer</a>.<a href="load3aligned-05.md">Load3Aligned</a>(<span class="code_keyword">int</span> <a href="load3aligned-05.md#decl-location" class="code_param">location</a>);
 
 </pre>
 
@@ -52,3 +52,18 @@ Available in all stages.
 
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

@@ -20,3 +20,18 @@ This enum defines different matrix layout options that affect how matrix data is
 including standard row-major and column-major layouts as well as specialized layouts optimized for specific operations.
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

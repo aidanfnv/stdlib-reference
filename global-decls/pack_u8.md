@@ -14,16 +14,16 @@ Pack a vector of 4 unsigned 32/16 bit integers into a packed value of 4 8-bit in
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="pack_u8.html">pack_u8</a>(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="pack_u8.html#decl-unpackedValue" class="code_param">unpackedValue</a>);
+<span class="code_keyword">uint</span> <a href="pack_u8.md">pack_u8</a>(<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="pack_u8.md#decl-unpackedValue" class="code_param">unpackedValue</a>);
 
-<span class="code_keyword">uint</span> <a href="pack_u8.html">pack_u8</a>(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;uint16_t, 4&gt; <a href="pack_u8.html#decl-unpackedValue" class="code_param">unpackedValue</a>);
+<span class="code_keyword">uint</span> <a href="pack_u8.md">pack_u8</a>(<a href="../types/vector/index.md" class="code_type">vector</a>&lt;uint16_t, 4&gt; <a href="pack_u8.md#decl-unpackedValue" class="code_param">unpackedValue</a>);
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.html)\<uint, 4\>
-####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.html)\<uint16\_t, 4\>
+####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.md)\<uint, 4\>
+####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.md)\<uint16\_t, 4\>
 
 ## Availability and Requirements
 
@@ -52,3 +52,18 @@ Available in all stages.
 
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

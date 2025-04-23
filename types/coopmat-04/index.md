@@ -4,39 +4,39 @@ layout: stdlib-reference
 
 # struct CoopMat\<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse\>
 
-*Conforms to:* [IArray](../../interfaces/iarray-01/index.html)\<[T](../../interfaces/iarray-01/index.html#typeparam-T)\>, [IArithmetic](../../interfaces/iarithmetic-01/index.html)
+*Conforms to:* [IArray](../../interfaces/iarray-01/index.md)\<[T](../../interfaces/iarray-01/index.md#typeparam-T)\>, [IArithmetic](../../interfaces/iarithmetic-01/index.md)
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.html)
-####  <a id="decl-S"></a>S  : [CoopMatScope](../coopmatscope-047/index.html)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.md)
+####  <a id="decl-S"></a>S  : [CoopMatScope](../coopmatscope-047/index.md)
 ####  <a id="decl-M"></a>M  : int
 ####  <a id="decl-N"></a>N  : int
-####  <a id="decl-R"></a>R  : [CoopMatMatrixUse](../coopmatmatrixuse-047d/index.html)
+####  <a id="decl-R"></a>R  : [CoopMatMatrixUse](../coopmatmatrixuse-047d/index.md)
 
 ## Methods
 
-* [init](init.html)
-* [fill](fill.html)
-* [copyFrom](copyfrom-4.html)
-* [getCount](getcount-3.html)
-* [getRowCount](getrowcount-36.html)
-* [getColumnCount](getcolumncount-39.html)
-* [subscript](subscript.html)
-* [getLength](getlength-3.html)
-* [store](store.html)
-* [storeAny](storeany-5.html)
-* [load](load.html)
-* [loadAny](loadany-4.html)
-* [add](add.html)
-* [sub](sub.html)
-* [mul](mul.html)
-* [div](div.html)
-* [neg](neg.html)
-* [mod](mod.html)
-* [equals](equals.html)
-* [lessThan](lessthan-4.html)
-* [lessThanOrEquals](lessthanorequals-48a.html)
+* [init](init.md)
+* [fill](fill.md)
+* [copyFrom](copyfrom-4.md)
+* [getCount](getcount-3.md)
+* [getRowCount](getrowcount-36.md)
+* [getColumnCount](getcolumncount-39.md)
+* [subscript](subscript.md)
+* [getLength](getlength-3.md)
+* [store](store.md)
+* [storeAny](storeany-5.md)
+* [load](load.md)
+* [loadAny](loadany-4.md)
+* [add](add.md)
+* [sub](sub.md)
+* [mul](mul.md)
+* [div](div.md)
+* [neg](neg.md)
+* [mod](mod.md)
+* [equals](equals.md)
+* [lessThan](lessthan-4.md)
+* [lessThanOrEquals](lessthanorequals-48a.md)
 
 
 ```{toctree}
@@ -65,3 +65,18 @@ storeAny <../types/coopmat-04/storeany-5>
 sub <../types/coopmat-04/sub>
 subscript <../types/coopmat-04/subscript>
 ```
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

@@ -14,10 +14,10 @@ This function computes the absolute differences of the byte alignments of the re
 ## Signature 
 
 <pre>
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="msad4.html">msad4</a>(
-    <span class="code_keyword">uint</span> <a href="msad4.html#decl-reference" class="code_param">reference</a>,
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="msad4.html#decl-source" class="code_param">source</a>,
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="msad4.html#decl-accum" class="code_param">accum</a>);
+<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="msad4.md">msad4</a>(
+    <span class="code_keyword">uint</span> <a href="msad4.md#decl-reference" class="code_param">reference</a>,
+    <a href="../types/vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="msad4.md#decl-source" class="code_param">source</a>,
+    <a href="../types/vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="msad4.md#decl-accum" class="code_param">accum</a>);
 
 </pre>
 
@@ -26,10 +26,10 @@ This function computes the absolute differences of the byte alignments of the re
 ####  <a id="decl-reference"></a>reference  : uint
 The reference 4 bytes packed in a uint.
 
-####  <a id="decl-source"></a>source  : [vector](../types/vector/index.html)\<uint, 2\>
+####  <a id="decl-source"></a>source  : [vector](../types/vector/index.md)\<uint, 2\>
 The source 2 uints packed in a uint2.
 
-####  <a id="decl-accum"></a>accum  : [vector](../types/vector/index.html)\<uint, 4\>
+####  <a id="decl-accum"></a>accum  : [vector](../types/vector/index.md)\<uint, 4\>
 The accumulated differences.
 
 
@@ -61,3 +61,18 @@ Available in all stages.
 
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

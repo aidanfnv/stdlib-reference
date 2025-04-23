@@ -5,29 +5,29 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [asdouble](asdouble.html)
+#### [asdouble](asdouble.md)
 
-#### [asfloat](asfloat.html)
+#### [asfloat](asfloat.md)
 
-#### [asfloat16](asfloat16.html)
+#### [asfloat16](asfloat16.md)
 
-#### [asint](asint.html)
+#### [asint](asint.md)
 
-#### [asint16](asint16.html)
+#### [asint16](asint16.md)
 
-#### [asuint](asuint.html)
+#### [asuint](asuint.md)
 
-#### [asuint16](asuint16.html)
+#### [asuint16](asuint16.md)
 
-#### [bit\_cast\<T, U\>](bit_cast.html)
+#### [bit\_cast\<T, U\>](bit_cast.md)
 
-#### [f16tof32](f16tof32.html)
+#### [f16tof32](f16tof32.md)
 
-#### [f32tof16](f32tof16.html)
+#### [f32tof16](f32tof16.md)
 
-#### [f32tof16\_](f32tof16_.html)
+#### [f32tof16\_](f32tof16_.md)
 
-#### [reinterpret\<T, U\>](reinterpret.html)
+#### [reinterpret\<T, U\>](reinterpret.md)
 
 
 ```{toctree}
@@ -47,3 +47,18 @@ f32tof16 <f32tof16>
 f32tof16_ <f32tof16_>
 reinterpret <reinterpret>
 ```
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

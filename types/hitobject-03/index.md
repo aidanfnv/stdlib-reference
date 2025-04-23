@@ -13,33 +13,33 @@ and its related functions are available in raytracing shader types only.
 
 ## Methods
 
-* [init](init.html)
-* [TraceRay](traceray-05.html)
-* [TraceMotionRay](tracemotionray-05b.html)
-* [MakeHit](makehit-04.html)
-* [MakeMotionHit](makemotionhit-04a.html)
-* [MakeMiss](makemiss-04.html)
-* [MakeMotionMiss](makemotionmiss-04a.html)
-* [MakeNop](makenop-04.html)
-* [Invoke](invoke-0.html)
-* [IsMiss](ismiss-02.html)
-* [IsHit](ishit-02.html)
-* [IsNop](isnop-02.html)
-* [GetRayDesc](getraydesc-036.html)
-* [GetShaderTableIndex](getshadertableindex-039e.html)
-* [GetInstanceIndex](getinstanceindex-03b.html)
-* [GetInstanceID](getinstanceid-03bc.html)
-* [GetGeometryIndex](getgeometryindex-03b.html)
-* [GetPrimitiveIndex](getprimitiveindex-03c.html)
-* [GetHitKind](gethitkind-036.html)
-* [GetWorldToObject](getworldtoobject-038a.html)
-* [GetObjectToWorld](getobjecttoworld-039b.html)
-* [GetCurrentTime](getcurrenttime-03a.html)
-* [GetObjectRayOrigin](getobjectrayorigin-039c.html)
-* [GetObjectRayDirection](getobjectraydirection-039c.html)
-* [GetShaderRecordBufferHandle](getshaderrecordbufferhandle-039fl.html)
-* [GetAttributes](getattributes-03.html)
-* [LoadLocalRootTableConstant](loadlocalroottableconstant-049di.html)
+* [init](init.md)
+* [TraceRay](traceray-05.md)
+* [TraceMotionRay](tracemotionray-05b.md)
+* [MakeHit](makehit-04.md)
+* [MakeMotionHit](makemotionhit-04a.md)
+* [MakeMiss](makemiss-04.md)
+* [MakeMotionMiss](makemotionmiss-04a.md)
+* [MakeNop](makenop-04.md)
+* [Invoke](invoke-0.md)
+* [IsMiss](ismiss-02.md)
+* [IsHit](ishit-02.md)
+* [IsNop](isnop-02.md)
+* [GetRayDesc](getraydesc-036.md)
+* [GetShaderTableIndex](getshadertableindex-039e.md)
+* [GetInstanceIndex](getinstanceindex-03b.md)
+* [GetInstanceID](getinstanceid-03bc.md)
+* [GetGeometryIndex](getgeometryindex-03b.md)
+* [GetPrimitiveIndex](getprimitiveindex-03c.md)
+* [GetHitKind](gethitkind-036.md)
+* [GetWorldToObject](getworldtoobject-038a.md)
+* [GetObjectToWorld](getobjecttoworld-039b.md)
+* [GetCurrentTime](getcurrenttime-03a.md)
+* [GetObjectRayOrigin](getobjectrayorigin-039c.md)
+* [GetObjectRayDirection](getobjectraydirection-039c.md)
+* [GetShaderRecordBufferHandle](getshaderrecordbufferhandle-039fl.md)
+* [GetAttributes](getattributes-03.md)
+* [LoadLocalRootTableConstant](loadlocalroottableconstant-049di.md)
 
 
 ```{toctree}
@@ -74,3 +74,18 @@ TraceMotionRay <../types/hitobject-03/tracemotionray-05b>
 TraceRay <../types/hitobject-03/traceray-05>
 init <../types/hitobject-03/init>
 ```
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

@@ -11,7 +11,7 @@ Used on a hull shader entrypoint to specify the associated function that compute
 ## Signature
 
 <pre>
-[<a href="patchconstantfunc.html">patchconstantfunc</a>(<a href="patchconstantfunc.html#decl-name" class="code_param">name</a>)]
+[<a href="patchconstantfunc.md">patchconstantfunc</a>(<a href="patchconstantfunc.md#decl-name" class="code_param">name</a>)]
 </pre>
 
 ## Parameters
@@ -20,3 +20,18 @@ Used on a hull shader entrypoint to specify the associated function that compute
 The name of the function (in string literal) that computes the patch constant data.
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

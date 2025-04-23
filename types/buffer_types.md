@@ -5,21 +5,21 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [AppendStructuredBuffer\<T, L\>](appendstructuredbuffer-06g/index.html)
+#### [AppendStructuredBuffer\<T, L\>](appendstructuredbuffer-06g/index.md)
 
-#### [ByteAddressBuffer](byteaddressbuffer-04b/index.html)
+#### [ByteAddressBuffer](byteaddressbuffer-04b/index.md)
 
-#### [ConsumeStructuredBuffer\<T, L\>](consumestructuredbuffer-07h/index.html)
+#### [ConsumeStructuredBuffer\<T, L\>](consumestructuredbuffer-07h/index.md)
 
-#### [RWByteAddressBuffer](rwbyteaddressbuffer-0126d/index.html)
+#### [RWByteAddressBuffer](rwbyteaddressbuffer-0126d/index.md)
 
-#### [RWStructuredBuffer\<T, L\>](rwstructuredbuffer-012c/index.html)
+#### [RWStructuredBuffer\<T, L\>](rwstructuredbuffer-012c/index.md)
 
-#### [RasterizerOrderedByteAddressBuffer](rasterizerorderedbyteaddressbuffer-0ahls/index.html)
+#### [RasterizerOrderedByteAddressBuffer](rasterizerorderedbyteaddressbuffer-0ahls/index.md)
 
-#### [RasterizerOrderedStructuredBuffer\<T, L\>](rasterizerorderedstructuredbuffer-0ahr/index.html)
+#### [RasterizerOrderedStructuredBuffer\<T, L\>](rasterizerorderedstructuredbuffer-0ahr/index.md)
 
-#### [StructuredBuffer\<T, L\>](structuredbuffer-0a/index.html)
+#### [StructuredBuffer\<T, L\>](structuredbuffer-0a/index.md)
 
 
 ```{toctree}
@@ -35,3 +35,18 @@ RasterizerOrderedByteAddressBuffer <../types/rasterizerorderedbyteaddressbuffer-
 RasterizerOrderedStructuredBuffer <../types/rasterizerorderedstructuredbuffer-0ahr/index>
 StructuredBuffer <../types/structuredbuffer-0a/index>
 ```
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

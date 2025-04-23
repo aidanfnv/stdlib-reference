@@ -13,14 +13,14 @@ Set three values to the buffer at the specified location.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="store3-0.html">Store3</a>(
-    <span class="code_keyword">uint</span> <a href="store3-0.html#decl-address" class="code_param">address</a>,
-    <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="store3-0.html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="index.md" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="store3-0.md">Store3</a>(
+    <span class="code_keyword">uint</span> <a href="store3-0.md#decl-address" class="code_param">address</a>,
+    <a href="../vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="store3-0.md#decl-value" class="code_param">value</a>);
 
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="store3-0.html">Store3</a>(
-    <span class="code_keyword">uint</span> <a href="store3-0.html#decl-address" class="code_param">address</a>,
-    <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="store3-0.html#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">uint</span> <a href="store3-0.html#decl-alignment" class="code_param">alignment</a>);
+<span class="code_keyword">void</span> <a href="index.md" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="store3-0.md">Store3</a>(
+    <span class="code_keyword">uint</span> <a href="store3-0.md#decl-address" class="code_param">address</a>,
+    <a href="../vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="store3-0.md#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">uint</span> <a href="store3-0.md#decl-alignment" class="code_param">alignment</a>);
 
 </pre>
 
@@ -29,7 +29,7 @@ Set three values to the buffer at the specified location.
 ####  <a id="decl-address"></a>address  : uint
 The input address in bytes, which must be a multiple of 4.
 
-####  <a id="decl-value"></a>value  : [vector](../vector/index.html)\<uint, 3\>
+####  <a id="decl-value"></a>value  : [vector](../vector/index.md)\<uint, 3\>
 Three input values.
 
 ####  <a id="decl-alignment"></a>alignment  : uint
@@ -60,3 +60,18 @@ Available in all stages.
 
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

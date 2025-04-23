@@ -15,10 +15,25 @@ This attribute has no effect on other targets.
 ## Signature
 
 <pre>
-[vk::offset(<a href="vk_offset.html#decl-index" class="code_param">index</a> : <span class="code_keyword">int</span>)]
+[vk::offset(<a href="vk_offset.md#decl-index" class="code_param">index</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters
 
 ####  <a id="decl-index"></a>index  : int
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

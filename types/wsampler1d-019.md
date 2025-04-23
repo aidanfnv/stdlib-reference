@@ -11,13 +11,13 @@ Represents a handle to a write-only 1D combined texture-sampler.
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="wsampler1d-019.html" class="code_type">WSampler1D</a>&lt;T, sampleCount:<span class="code_keyword">int</span>, format:<span class="code_keyword">int</span>&gt; = 
-    <a href="0texture-01/index.html" class="code_type">_Texture</a>&lt;T, <a href="0_shape1d-028/index.html" class="code_type">__Shape1D</a>, 0, 0, sampleCount, 2, 0, 1, format&gt;;
+<span class='code_keyword'>typealias</span> <a href="wsampler1d-019.md" class="code_type">WSampler1D</a>&lt;T, sampleCount:<span class="code_keyword">int</span>, format:<span class="code_keyword">int</span>&gt; = 
+    <a href="0texture-01/index.md" class="code_type">_Texture</a>&lt;T, <a href="0_shape1d-028/index.md" class="code_type">__Shape1D</a>, 0, 0, sampleCount, 2, 0, 1, format&gt;;
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [ITexelElement](../interfaces/itexelelement-016/index.html) = [vector](vector/index.html)\<float, 4\>
+####  <a id="typeparam-T"></a>T: [ITexelElement](../interfaces/itexelelement-016/index.md) = [vector](vector/index.md)\<float, 4\>
 The texel type of the texture.
 
 ####  <a id="decl-sampleCount"></a>sampleCount  : int = 0
@@ -29,6 +29,21 @@ The storage format of the texture.
 
 ## See also
 
-Please refer to <span class='code'><a href="0texture-01/index.html" class="code_type">_Texture</a></span> for more information about texture types.
+Please refer to <span class='code'><a href="0texture-01/index.md" class="code_type">_Texture</a></span> for more information about texture types.
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

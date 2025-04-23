@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct RWByteAddressBuffer
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>, [IPhysicalBuffer](../../interfaces/iphysicalbuffer-019/index.html), [IRWPhysicalBuffer](../../interfaces/irwphysicalbuffer-0123b/index.html)
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>, [IPhysicalBuffer](../../interfaces/iphysicalbuffer-019/index.md), [IRWPhysicalBuffer](../../interfaces/irwphysicalbuffer-0123b/index.md)
 
 ## Description
 
@@ -15,66 +15,66 @@ four 32-bit typeless address values.
 
 ## Fields
 
-####  <a id="decl-kind"></a>[kind](kind.html) : [DescriptorKind](../descriptorkind-0a/index.html) = [DescriptorKind](../descriptorkind-0a/index.html)\.[Buffer](../descriptorkind-0a/index.html#decl-Buffer)
+####  <a id="decl-kind"></a>[kind](kind.md) : [DescriptorKind](../descriptorkind-0a/index.md) = [DescriptorKind](../descriptorkind-0a/index.md)\.[Buffer](../descriptorkind-0a/index.md#decl-Buffer)
 
 ## Methods
 
-* [GetDimensions](getdimensions-03.html)
-* [Load2Aligned](load2aligned-05.html)
-* [Load2](load2-0.html)
-* [Load3Aligned](load3aligned-05.html)
-* [Load3](load3-0.html)
-* [Load4Aligned](load4aligned-05.html)
-* [Load4](load4-0.html)
-* [Load](load-0.html)
-* [LoadAligned](loadaligned-04.html)
-* [InterlockedAddF64](interlockedaddf64-0be.html)
-* [\_NvInterlockedAddFp16x2](0nvinterlockedaddfp16x2-013eh.html)
-* [InterlockedAddF16](interlockedaddf16-0be.html)
-* [InterlockedAddF16Emulated](interlockedaddf16emulated-0beh.html)
-* [InterlockedAddF32](interlockedaddf32-0be.html)
-* [InterlockedAddI64](interlockedaddi64-0be.html)
-* [InterlockedCompareExchangeU64](interlockedcompareexchangeu64-0biq.html)
-* [InterlockedMaxU64](interlockedmaxu64-0be.html)
-* [InterlockedMax64](interlockedmax64-0b.html)
-* [InterlockedMinU64](interlockedminu64-0be.html)
-* [InterlockedMin64](interlockedmin64-0b.html)
-* [InterlockedAddU64](interlockedaddu64-0be.html)
-* [InterlockedAdd64](interlockedadd64-0b.html)
-* [InterlockedAndU64](interlockedandu64-0be.html)
-* [InterlockedAnd64](interlockedand64-0b.html)
-* [InterlockedOrU64](interlockedoru64-0bd.html)
-* [InterlockedOr64](interlockedor64-0b.html)
-* [InterlockedXorU64](interlockedxoru64-0be.html)
-* [InterlockedXor64](interlockedxor64-0b.html)
-* [InterlockedExchangeU64](interlockedexchangeu64-0bj.html)
-* [InterlockedExchange64](interlockedexchange64-0b.html)
-* [InterlockedCompareExchange64](interlockedcompareexchange64-0bi.html)
-* [InterlockedCompareExchangeFloatBitwise](interlockedcompareexchangefloatbitwise-0biqv.html)
-* [InterlockedExchangeFloat](interlockedexchangefloat-0bj.html)
-* [InterlockedCompareStore64](interlockedcomparestore64-0bi.html)
-* [InterlockedCompareStoreFloatBitwise](interlockedcomparestorefloatbitwise-0bins.html)
-* [InterlockedMax](interlockedmax-0b.html)
-* [InterlockedMin](interlockedmin-0b.html)
-* [InterlockedAdd](interlockedadd-0b.html)
-* [InterlockedAnd](interlockedand-0b.html)
-* [InterlockedOr](interlockedor-0b.html)
-* [InterlockedXor](interlockedxor-0b.html)
-* [InterlockedExchange](interlockedexchange-0b.html)
-* [InterlockedCompareExchange](interlockedcompareexchange-0bi.html)
-* [InterlockedCompareStore](interlockedcomparestore-0bi.html)
-* [Store2](store2-0.html)
-* [Store2Aligned](store2aligned-06.html)
-* [Store3](store3-0.html)
-* [Store3Aligned](store3aligned-06.html)
-* [Store4](store4-0.html)
-* [Store4Aligned](store4aligned-06.html)
-* [Store](store-0.html)
-* [StoreAligned](storealigned-05.html)
-* [init](init.html)
-* [GetBufferPointer](getbufferpointer-039.html)
-* [LoadByteOffset](loadbyteoffset-048.html)
-* [StoreByteOffset](storebyteoffset-059.html)
+* [GetDimensions](getdimensions-03.md)
+* [Load2Aligned](load2aligned-05.md)
+* [Load2](load2-0.md)
+* [Load3Aligned](load3aligned-05.md)
+* [Load3](load3-0.md)
+* [Load4Aligned](load4aligned-05.md)
+* [Load4](load4-0.md)
+* [Load](load-0.md)
+* [LoadAligned](loadaligned-04.md)
+* [InterlockedAddF64](interlockedaddf64-0be.md)
+* [\_NvInterlockedAddFp16x2](0nvinterlockedaddfp16x2-013eh.md)
+* [InterlockedAddF16](interlockedaddf16-0be.md)
+* [InterlockedAddF16Emulated](interlockedaddf16emulated-0beh.md)
+* [InterlockedAddF32](interlockedaddf32-0be.md)
+* [InterlockedAddI64](interlockedaddi64-0be.md)
+* [InterlockedCompareExchangeU64](interlockedcompareexchangeu64-0biq.md)
+* [InterlockedMaxU64](interlockedmaxu64-0be.md)
+* [InterlockedMax64](interlockedmax64-0b.md)
+* [InterlockedMinU64](interlockedminu64-0be.md)
+* [InterlockedMin64](interlockedmin64-0b.md)
+* [InterlockedAddU64](interlockedaddu64-0be.md)
+* [InterlockedAdd64](interlockedadd64-0b.md)
+* [InterlockedAndU64](interlockedandu64-0be.md)
+* [InterlockedAnd64](interlockedand64-0b.md)
+* [InterlockedOrU64](interlockedoru64-0bd.md)
+* [InterlockedOr64](interlockedor64-0b.md)
+* [InterlockedXorU64](interlockedxoru64-0be.md)
+* [InterlockedXor64](interlockedxor64-0b.md)
+* [InterlockedExchangeU64](interlockedexchangeu64-0bj.md)
+* [InterlockedExchange64](interlockedexchange64-0b.md)
+* [InterlockedCompareExchange64](interlockedcompareexchange64-0bi.md)
+* [InterlockedCompareExchangeFloatBitwise](interlockedcompareexchangefloatbitwise-0biqv.md)
+* [InterlockedExchangeFloat](interlockedexchangefloat-0bj.md)
+* [InterlockedCompareStore64](interlockedcomparestore64-0bi.md)
+* [InterlockedCompareStoreFloatBitwise](interlockedcomparestorefloatbitwise-0bins.md)
+* [InterlockedMax](interlockedmax-0b.md)
+* [InterlockedMin](interlockedmin-0b.md)
+* [InterlockedAdd](interlockedadd-0b.md)
+* [InterlockedAnd](interlockedand-0b.md)
+* [InterlockedOr](interlockedor-0b.md)
+* [InterlockedXor](interlockedxor-0b.md)
+* [InterlockedExchange](interlockedexchange-0b.md)
+* [InterlockedCompareExchange](interlockedcompareexchange-0bi.md)
+* [InterlockedCompareStore](interlockedcomparestore-0bi.md)
+* [Store2](store2-0.md)
+* [Store2Aligned](store2aligned-06.md)
+* [Store3](store3-0.md)
+* [Store3Aligned](store3aligned-06.md)
+* [Store4](store4-0.md)
+* [Store4Aligned](store4aligned-06.md)
+* [Store](store-0.md)
+* [StoreAligned](storealigned-05.md)
+* [init](init.md)
+* [GetBufferPointer](getbufferpointer-039.md)
+* [LoadByteOffset](loadbyteoffset-048.md)
+* [StoreByteOffset](storebyteoffset-059.md)
 
 ## Conditional Conformances
 
@@ -154,3 +154,18 @@ _NvInterlockedAddFp16x2 <../types/rwbyteaddressbuffer-0126d/0nvinterlockedaddfp1
 init <../types/rwbyteaddressbuffer-0126d/init>
 kind <../types/rwbyteaddressbuffer-0126d/kind>
 ```
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

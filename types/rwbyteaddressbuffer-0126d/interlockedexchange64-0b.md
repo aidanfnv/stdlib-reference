@@ -6,22 +6,22 @@ layout: stdlib-reference
 
 ## Description
 
-Perform a 64-bit integer atomic exchange operation at <span class='code'><a href="interlockedexchange64-0b.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
+Perform a 64-bit integer atomic exchange operation at <span class='code'><a href="interlockedexchange64-0b.md#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedexchange64-0b.html">InterlockedExchange64</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedexchange64-0b.html#decl-byteAddress" class="code_param">byteAddress</a>,
-    int64_t <a href="interlockedexchange64-0b.html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="index.md" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedexchange64-0b.md">InterlockedExchange64</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedexchange64-0b.md#decl-byteAddress" class="code_param">byteAddress</a>,
+    int64_t <a href="interlockedexchange64-0b.md#decl-value" class="code_param">value</a>);
 
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedexchange64-0b.html">InterlockedExchange64</a>&lt;<a href="interlockedexchange64-0b.html#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">uint</span> <a href="interlockedexchange64-0b.html#decl-byteAddress" class="code_param">byteAddress</a>,
-    <a href="interlockedexchange64-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedexchange64-0b.html#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">out</span> <a href="interlockedexchange64-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedexchange64-0b.html#decl-outOriginalValue" class="code_param">outOriginalValue</a>)
-    <span class='code_keyword'>where</span> <a href="interlockedexchange64-0b.html#typeparam-T" class="code_type">T</a> : __BuiltinInt64Type;
+<span class="code_keyword">void</span> <a href="index.md" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedexchange64-0b.md">InterlockedExchange64</a>&lt;<a href="interlockedexchange64-0b.md#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">uint</span> <a href="interlockedexchange64-0b.md#decl-byteAddress" class="code_param">byteAddress</a>,
+    <a href="interlockedexchange64-0b.md#typeparam-T" class="code_type">T</a> <a href="interlockedexchange64-0b.md#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <a href="interlockedexchange64-0b.md#typeparam-T" class="code_type">T</a> <a href="interlockedexchange64-0b.md#decl-outOriginalValue" class="code_param">outOriginalValue</a>)
+    <span class='code_keyword'>where</span> <a href="interlockedexchange64-0b.md#typeparam-T" class="code_type">T</a> : __BuiltinInt64Type;
 
 </pre>
 
@@ -37,11 +37,11 @@ The address at which to perform the atomic exchange operation.
 ####  <a id="decl-value"></a>value  : int64\_t
 The operand for the exchange operation.
 
-####  <a id="decl-value"></a>value  : [T](interlockedexchange64-0b.html#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](interlockedexchange64-0b.md#typeparam-T)
 The operand for the exchange operation.
 
-####  <a id="decl-outOriginalValue"></a>outOriginalValue  : [T](interlockedexchange64-0b.html#typeparam-T)
-The original value at <span class='code'><a href="interlockedexchange64-0b.html#decl-byteAddress" class="code_param">byteAddress</a></span> before the exchange operation.
+####  <a id="decl-outOriginalValue"></a>outOriginalValue  : [T](interlockedexchange64-0b.md#typeparam-T)
+The original value at <span class='code'><a href="interlockedexchange64-0b.md#decl-byteAddress" class="code_param">byteAddress</a></span> before the exchange operation.
 
 
 ## Availability and Requirements
@@ -63,3 +63,18 @@ Available in all stages.
 Requires capability: `spvInt64Atomics`.
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

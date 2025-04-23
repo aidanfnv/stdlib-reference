@@ -5,25 +5,25 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [Process2DQuadTessFactorsAvg](process2dquadtessfactorsavg-089dho.html)
+#### [Process2DQuadTessFactorsAvg](process2dquadtessfactorsavg-089dho.md)
 
-#### [Process2DQuadTessFactorsMax](process2dquadtessfactorsmax-089dho.html)
+#### [Process2DQuadTessFactorsMax](process2dquadtessfactorsmax-089dho.md)
 
-#### [Process2DQuadTessFactorsMin](process2dquadtessfactorsmin-089dho.html)
+#### [Process2DQuadTessFactorsMin](process2dquadtessfactorsmin-089dho.md)
 
-#### [ProcessIsolineTessFactors](processisolinetessfactors-07ei.html)
+#### [ProcessIsolineTessFactors](processisolinetessfactors-07ei.md)
 
-#### [ProcessQuadTessFactorsAvg](processquadtessfactorsavg-07bfm.html)
+#### [ProcessQuadTessFactorsAvg](processquadtessfactorsavg-07bfm.md)
 
-#### [ProcessQuadTessFactorsMax](processquadtessfactorsmax-07bfm.html)
+#### [ProcessQuadTessFactorsMax](processquadtessfactorsmax-07bfm.md)
 
-#### [ProcessQuadTessFactorsMin](processquadtessfactorsmin-07bfm.html)
+#### [ProcessQuadTessFactorsMin](processquadtessfactorsmin-07bfm.md)
 
-#### [ProcessTriTessFactorsAvg](processtritessfactorsavg-07ael.html)
+#### [ProcessTriTessFactorsAvg](processtritessfactorsavg-07ael.md)
 
-#### [ProcessTriTessFactorsMax](processtritessfactorsmax-07ael.html)
+#### [ProcessTriTessFactorsMax](processtritessfactorsmax-07ael.md)
 
-#### [ProcessTriTessFactorsMin](processtritessfactorsmin-07ael.html)
+#### [ProcessTriTessFactorsMin](processtritessfactorsmin-07ael.md)
 
 
 ```{toctree}
@@ -41,3 +41,18 @@ ProcessTriTessFactorsAvg <processtritessfactorsavg-07ael>
 ProcessTriTessFactorsMax <processtritessfactorsmax-07ael>
 ProcessTriTessFactorsMin <processtritessfactorsmin-07ael>
 ```
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

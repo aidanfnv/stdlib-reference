@@ -5,179 +5,179 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [abs\<T\>](abs.html)
+#### [abs\<T\>](abs.md)
 
-#### [acos\<T\>](acos.html)
+#### [acos\<T\>](acos.md)
 
-#### [acosh\<T\>](acosh.html)
+#### [acosh\<T\>](acosh.md)
 
-#### [asin\<T\>](asin.html)
+#### [asin\<T\>](asin.md)
 
-#### [asinh\<T\>](asinh.html)
+#### [asinh\<T\>](asinh.md)
 
-#### [atan\<T\>](atan.html)
+#### [atan\<T\>](atan.md)
 
-#### [atan2\<T\>](atan2.html)
+#### [atan2\<T\>](atan2.md)
 
-#### [atanh\<T\>](atanh.html)
+#### [atanh\<T\>](atanh.md)
 
-#### [ceil\<T\>](ceil.html)
+#### [ceil\<T\>](ceil.md)
 
-#### [clamp\<T\>](clamp.html)
+#### [clamp\<T\>](clamp.md)
 
-#### [copysign\<T, N:int\>](copysign.html)
+#### [copysign\<T, N:int\>](copysign.md)
 
-#### [copysign\_double\<N:int\>](copysign_double.html)
+#### [copysign\_double\<N:int\>](copysign_double.md)
 
-#### [copysign\_float\<N:int\>](copysign_float.html)
+#### [copysign\_float\<N:int\>](copysign_float.md)
 
-#### [copysign\_half\<N:int\>](copysign_half.html)
+#### [copysign\_half\<N:int\>](copysign_half.md)
 
-#### [cos\<T\>](cos.html)
+#### [cos\<T\>](cos.md)
 
-#### [cosh\<T\>](cosh.html)
+#### [cosh\<T\>](cosh.md)
 
-#### [cospi\<T\>](cospi.html)
+#### [cospi\<T\>](cospi.md)
 
-#### [cross\<T\>](cross.html)
+#### [cross\<T\>](cross.md)
 
-#### [degrees\<T\>](degrees.html)
+#### [degrees\<T\>](degrees.md)
 
-#### [determinant\<T, N:int\>](determinant.html)
+#### [determinant\<T, N:int\>](determinant.md)
 
-#### [distance\<T, N:int\>](distance.html)
+#### [distance\<T, N:int\>](distance.md)
 
-#### [divide\<T\>](divide.html)
+#### [divide\<T\>](divide.md)
 
-#### [dot\<T\>](dot.html)
+#### [dot\<T\>](dot.md)
 
-#### [dot2add](dot2add.html)
+#### [dot2add](dot2add.md)
 
-#### [dot4add\_i8packed](dot4add_i8packed.html)
+#### [dot4add\_i8packed](dot4add_i8packed.md)
 
-#### [dot4add\_u8packed](dot4add_u8packed.html)
+#### [dot4add\_u8packed](dot4add_u8packed.md)
 
-#### [dst\<T\>](dst.html)
+#### [dst\<T\>](dst.md)
 
-#### [exp\<T\>](exp.html)
+#### [exp\<T\>](exp.md)
 
-#### [exp10\<T\>](exp10.html)
+#### [exp10\<T\>](exp10.md)
 
-#### [exp2\<T\>](exp2.html)
+#### [exp2\<T\>](exp2.md)
 
-#### [fabs\<T\>](fabs.html)
+#### [fabs\<T\>](fabs.md)
 
-#### [faceforward\<T, N:int\>](faceforward.html)
+#### [faceforward\<T, N:int\>](faceforward.md)
 
-#### [fdim\<T\>](fdim.html)
+#### [fdim\<T\>](fdim.md)
 
-#### [floor\<T\>](floor.html)
+#### [floor\<T\>](floor.md)
 
-#### [fma\<T\>](fma.html)
+#### [fma\<T\>](fma.md)
 
-#### [fmax\<T\>](fmax.html)
+#### [fmax\<T\>](fmax.md)
 
-#### [fmax3\<T\>](fmax3.html)
+#### [fmax3\<T\>](fmax3.md)
 
-#### [fmedian3\<T\>](fmedian3.html)
+#### [fmedian3\<T\>](fmedian3.md)
 
-#### [fmin\<T\>](fmin.html)
+#### [fmin\<T\>](fmin.md)
 
-#### [fmin3\<T\>](fmin3.html)
+#### [fmin3\<T\>](fmin3.md)
 
-#### [fmod\<T\>](fmod.html)
+#### [fmod\<T\>](fmod.md)
 
-#### [frac\<T\>](frac.html)
+#### [frac\<T\>](frac.md)
 
-#### [fract\<T\>](fract.html)
+#### [fract\<T\>](fract.md)
 
-#### [frexp\<T\>](frexp.html)
+#### [frexp\<T\>](frexp.md)
 
-#### [isfinite\<T\>](isfinite.html)
+#### [isfinite\<T\>](isfinite.md)
 
-#### [isinf\<T\>](isinf.html)
+#### [isinf\<T\>](isinf.md)
 
-#### [isnan\<T\>](isnan.html)
+#### [isnan\<T\>](isnan.md)
 
-#### [ldexp\<T\>](ldexp.html)
+#### [ldexp\<T\>](ldexp.md)
 
-#### [length\<T, N:int\>](length.html)
+#### [length\<T, N:int\>](length.md)
 
-#### [lerp\<T\>](lerp.html)
+#### [lerp\<T\>](lerp.md)
 
-#### [lit](lit.html)
+#### [lit](lit.md)
 
-#### [log\<T\>](log.html)
+#### [log\<T\>](log.md)
 
-#### [log10\<T\>](log10.html)
+#### [log10\<T\>](log10.md)
 
-#### [log2\<T\>](log2.html)
+#### [log2\<T\>](log2.md)
 
-#### [mad\<T\>](mad.html)
+#### [mad\<T\>](mad.md)
 
-#### [max\<T\>](max.html)
+#### [max\<T\>](max.md)
 
-#### [max3\<T\>](max3.html)
+#### [max3\<T\>](max3.md)
 
-#### [median3\<T\>](median3.html)
+#### [median3\<T\>](median3.md)
 
-#### [min\<T\>](min.html)
+#### [min\<T\>](min.md)
 
-#### [min3\<T\>](min3.html)
+#### [min3\<T\>](min3.md)
 
-#### [modf\<T\>](modf.html)
+#### [modf\<T\>](modf.md)
 
-#### [msad4](msad4.html)
+#### [msad4](msad4.md)
 
-#### [mul\<T\>](mul.html)
+#### [mul\<T\>](mul.md)
 
-#### [normalize\<T, N:int\>](normalize.html)
+#### [normalize\<T, N:int\>](normalize.md)
 
-#### [pow\<T\>](pow.html)
+#### [pow\<T\>](pow.md)
 
-#### [powr\<T\>](powr.html)
+#### [powr\<T\>](powr.md)
 
-#### [radians\<T\>](radians.html)
+#### [radians\<T\>](radians.md)
 
-#### [rcp\<T\>](rcp.html)
+#### [rcp\<T\>](rcp.md)
 
-#### [reflect\<T\>](reflect.html)
+#### [reflect\<T\>](reflect.md)
 
-#### [refract\<T, N:int\>](refract.html)
+#### [refract\<T, N:int\>](refract.md)
 
-#### [rint\<T\>](rint.html)
+#### [rint\<T\>](rint.md)
 
-#### [round\<T\>](round.html)
+#### [round\<T\>](round.md)
 
-#### [rsqrt\<T\>](rsqrt.html)
+#### [rsqrt\<T\>](rsqrt.md)
 
-#### [saturate\<T\>](saturate.html)
+#### [saturate\<T\>](saturate.md)
 
-#### [sign\<T\>](sign.html)
+#### [sign\<T\>](sign.md)
 
-#### [sin\<T\>](sin.html)
+#### [sin\<T\>](sin.md)
 
-#### [sincos\<T\>](sincos.html)
+#### [sincos\<T\>](sincos.md)
 
-#### [sinh\<T\>](sinh.html)
+#### [sinh\<T\>](sinh.md)
 
-#### [sinpi\<T\>](sinpi.html)
+#### [sinpi\<T\>](sinpi.md)
 
-#### [smoothstep\<T\>](smoothstep.html)
+#### [smoothstep\<T\>](smoothstep.md)
 
-#### [sqrt\<T\>](sqrt.html)
+#### [sqrt\<T\>](sqrt.md)
 
-#### [step\<T\>](step.html)
+#### [step\<T\>](step.md)
 
-#### [tan\<T\>](tan.html)
+#### [tan\<T\>](tan.md)
 
-#### [tanh\<T\>](tanh.html)
+#### [tanh\<T\>](tanh.md)
 
-#### [tanpi\<T\>](tanpi.html)
+#### [tanpi\<T\>](tanpi.md)
 
-#### [transpose\<T, N:int, M:int\>](transpose.html)
+#### [transpose\<T, N:int, M:int\>](transpose.md)
 
-#### [trunc\<T\>](trunc.html)
+#### [trunc\<T\>](trunc.md)
 
 
 ```{toctree}
@@ -272,3 +272,18 @@ tanpi <tanpi>
 transpose <transpose>
 trunc <trunc>
 ```
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

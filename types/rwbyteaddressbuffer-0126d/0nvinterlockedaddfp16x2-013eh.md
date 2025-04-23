@@ -9,14 +9,14 @@ layout: stdlib-reference
 
 
 Maps to the <span class='code'>NvInterlockedAddFp16x2</span> NVAPI function.
-Perform 2 16-bit floating point atomic add operations at <span class='code'><a href="0nvinterlockedaddfp16x2-013eh.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
+Perform 2 16-bit floating point atomic add operations at <span class='code'><a href="0nvinterlockedaddfp16x2-013eh.md#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="0nvinterlockedaddfp16x2-013eh.html">_NvInterlockedAddFp16x2</a>(
-    <span class="code_keyword">uint</span> <a href="0nvinterlockedaddfp16x2-013eh.html#decl-byteAddress" class="code_param">byteAddress</a>,
-    <span class="code_keyword">uint</span> <a href="0nvinterlockedaddfp16x2-013eh.html#decl-fp16x2Value" class="code_param">fp16x2Value</a>);
+<span class="code_keyword">uint</span> <a href="index.md" class="code_type">RWByteAddressBuffer</a>.<a href="0nvinterlockedaddfp16x2-013eh.md">_NvInterlockedAddFp16x2</a>(
+    <span class="code_keyword">uint</span> <a href="0nvinterlockedaddfp16x2-013eh.md#decl-byteAddress" class="code_param">byteAddress</a>,
+    <span class="code_keyword">uint</span> <a href="0nvinterlockedaddfp16x2-013eh.md#decl-fp16x2Value" class="code_param">fp16x2Value</a>);
 
 </pre>
 
@@ -48,3 +48,18 @@ Available in all stages.
 
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

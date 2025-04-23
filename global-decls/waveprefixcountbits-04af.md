@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="waveprefixcountbits-04af.html">WavePrefixCountBits</a>(<span class="code_keyword">bool</span> <a href="waveprefixcountbits-04af.html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">uint</span> <a href="waveprefixcountbits-04af.md">WavePrefixCountBits</a>(<span class="code_keyword">bool</span> <a href="waveprefixcountbits-04af.md#decl-value" class="code_param">value</a>);
 
 </pre>
 
@@ -40,3 +40,18 @@ Available in all stages.
 Requires capability: `spvGroupNonUniformBallot`.
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

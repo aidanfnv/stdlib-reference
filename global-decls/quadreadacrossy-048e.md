@@ -13,14 +13,14 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a> <a href="quadreadacrossy-048e.html">QuadReadAcrossY</a>&lt;<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a>&gt;(<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a> <a href="quadreadacrossy-048e.html#decl-localValue" class="code_param">localValue</a>)
-    <span class='code_keyword'>where</span> <a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="quadreadacrossy-048e.md#typeparam-T" class="code_type">T</a> <a href="quadreadacrossy-048e.md">QuadReadAcrossY</a>&lt;<a href="quadreadacrossy-048e.md#typeparam-T" class="code_type">T</a>&gt;(<a href="quadreadacrossy-048e.md#typeparam-T" class="code_type">T</a> <a href="quadreadacrossy-048e.md#decl-localValue" class="code_param">localValue</a>)
+    <span class='code_keyword'>where</span> <a href="quadreadacrossy-048e.md#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.html#decl-N" class="code_var">N</a>&gt; <a href="quadreadacrossy-048e.html">QuadReadAcrossY</a>&lt;<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.html#decl-N" class="code_var">N</a>&gt; <a href="quadreadacrossy-048e.html#decl-localValue" class="code_param">localValue</a>)
-    <span class='code_keyword'>where</span> <a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<a href="quadreadacrossy-048e.md#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.md#decl-N" class="code_var">N</a>&gt; <a href="quadreadacrossy-048e.md">QuadReadAcrossY</a>&lt;<a href="quadreadacrossy-048e.md#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<a href="quadreadacrossy-048e.md#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.md#decl-N" class="code_var">N</a>&gt; <a href="quadreadacrossy-048e.md#decl-localValue" class="code_param">localValue</a>)
+    <span class='code_keyword'>where</span> <a href="quadreadacrossy-048e.md#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.html#decl-N" class="code_var">N</a>, <a href="quadreadacrossy-048e.html#decl-M" class="code_var">M</a>&gt; <a href="quadreadacrossy-048e.html">QuadReadAcrossY</a>&lt;<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="quadreadacrossy-048e.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.html#decl-N" class="code_var">N</a>, <a href="quadreadacrossy-048e.html#decl-M" class="code_var">M</a>&gt; <a href="quadreadacrossy-048e.html#decl-localValue" class="code_param">localValue</a>)
-    <span class='code_keyword'>where</span> <a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="quadreadacrossy-048e.md#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.md#decl-N" class="code_var">N</a>, <a href="quadreadacrossy-048e.md#decl-M" class="code_var">M</a>&gt; <a href="quadreadacrossy-048e.md">QuadReadAcrossY</a>&lt;<a href="quadreadacrossy-048e.md#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="quadreadacrossy-048e.md#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="quadreadacrossy-048e.md#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.md#decl-N" class="code_var">N</a>, <a href="quadreadacrossy-048e.md#decl-M" class="code_var">M</a>&gt; <a href="quadreadacrossy-048e.md#decl-localValue" class="code_param">localValue</a>)
+    <span class='code_keyword'>where</span> <a href="quadreadacrossy-048e.md#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>
 
@@ -32,9 +32,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-localValue"></a>localValue  : [T](quadreadacrossy-048e.html#typeparam-T)
-####  <a id="decl-localValue"></a>localValue  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
-####  <a id="decl-localValue"></a>localValue  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
+####  <a id="decl-localValue"></a>localValue  : [T](quadreadacrossy-048e.md#typeparam-T)
+####  <a id="decl-localValue"></a>localValue  : [vector](../types/vector/index.md)\<[T](../types/vector/index.md#typeparam-T), [N](../types/vector/index.md#decl-N)\>
+####  <a id="decl-localValue"></a>localValue  : [matrix](../types/matrix/index.md)\<[T](../types/matrix/t-0.md), [N](../types/matrix/index.md#decl-N), [M](../types/matrix/index.md#decl-M)\>
 
 ## Availability and Requirements
 
@@ -58,3 +58,18 @@ Available in all stages.
 Requires capability: `spvGroupNonUniformQuad`.
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

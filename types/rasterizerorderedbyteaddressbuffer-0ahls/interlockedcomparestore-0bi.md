@@ -7,17 +7,17 @@ layout: stdlib-reference
 ## Description
 
 Perform a 32-bit integer atomic compare-and-store operation at
-the specified byte address within the <span class='code'><a href="../rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a></span>.
+the specified byte address within the <span class='code'><a href="../rwbyteaddressbuffer-0126d/index.md" class="code_type">RWByteAddressBuffer</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="interlockedcomparestore-0bi.html">InterlockedCompareStore</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedcomparestore-0bi.html#decl-dest" class="code_param">dest</a>,
-    <span class="code_keyword">uint</span> <a href="interlockedcomparestore-0bi.html#decl-compare_value" class="code_param">compare_value</a>,
-    <span class="code_keyword">uint</span> <a href="interlockedcomparestore-0bi.html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="index.md" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="interlockedcomparestore-0bi.md">InterlockedCompareStore</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedcomparestore-0bi.md#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href="interlockedcomparestore-0bi.md#decl-compare_value" class="code_param">compare_value</a>,
+    <span class="code_keyword">uint</span> <a href="interlockedcomparestore-0bi.md#decl-value" class="code_param">value</a>);
 
 </pre>
 
@@ -35,7 +35,7 @@ The value to store at <span class='code'>byteAddress</span> if the comparison is
 
 ## Remarks
 For SPIR-V, this function maps to <span class='code'>OpAtomicCompareExchange</span>. For HLSL, this function
-translates to <span class='code'><a href="interlockedcomparestore-0bi.html">InterlockedCompareStore</a></span>.
+translates to <span class='code'><a href="interlockedcomparestore-0bi.md">InterlockedCompareStore</a></span>.
 For CUDA, this function maps to <span class='code'>atomicCAS</span>.
 
 
@@ -60,3 +60,18 @@ Available in all stages.
 
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

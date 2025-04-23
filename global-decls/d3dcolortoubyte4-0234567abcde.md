@@ -13,13 +13,13 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 4&gt; <a href="d3dcolortoubyte4-0234567abcde.html">D3DCOLORtoUBYTE4</a>(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 4&gt; <a href="d3dcolortoubyte4-0234567abcde.html#decl-color" class="code_param">color</a>);
+<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 4&gt; <a href="d3dcolortoubyte4-0234567abcde.md">D3DCOLORtoUBYTE4</a>(<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 4&gt; <a href="d3dcolortoubyte4-0234567abcde.md#decl-color" class="code_param">color</a>);
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-color"></a>color  : [vector](../types/vector/index.html)\<float, 4\>
+####  <a id="decl-color"></a>color  : [vector](../types/vector/index.md)\<float, 4\>
 
 ## Availability and Requirements
 
@@ -48,3 +48,18 @@ Available in all stages.
 
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

@@ -13,20 +13,20 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a> <a href="quadreadlaneat-048c.html">QuadReadLaneAt</a>&lt;<a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a> <a href="quadreadlaneat-048c.html#decl-sourceValue" class="code_param">sourceValue</a>,
-    <span class="code_keyword">uint</span> <a href="quadreadlaneat-048c.html#decl-quadLaneID" class="code_param">quadLaneID</a>)
-    <span class='code_keyword'>where</span> <a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="quadreadlaneat-048c.md#typeparam-T" class="code_type">T</a> <a href="quadreadlaneat-048c.md">QuadReadLaneAt</a>&lt;<a href="quadreadlaneat-048c.md#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="quadreadlaneat-048c.md#typeparam-T" class="code_type">T</a> <a href="quadreadlaneat-048c.md#decl-sourceValue" class="code_param">sourceValue</a>,
+    <span class="code_keyword">uint</span> <a href="quadreadlaneat-048c.md#decl-quadLaneID" class="code_param">quadLaneID</a>)
+    <span class='code_keyword'>where</span> <a href="quadreadlaneat-048c.md#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.html#decl-N" class="code_var">N</a>&gt; <a href="quadreadlaneat-048c.html">QuadReadLaneAt</a>&lt;<a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.html#decl-N" class="code_var">N</a>&gt; <a href="quadreadlaneat-048c.html#decl-sourceValue" class="code_param">sourceValue</a>,
-    <span class="code_keyword">uint</span> <a href="quadreadlaneat-048c.html#decl-quadLaneID" class="code_param">quadLaneID</a>)
-    <span class='code_keyword'>where</span> <a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<a href="quadreadlaneat-048c.md#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.md#decl-N" class="code_var">N</a>&gt; <a href="quadreadlaneat-048c.md">QuadReadLaneAt</a>&lt;<a href="quadreadlaneat-048c.md#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/vector/index.md" class="code_type">vector</a>&lt;<a href="quadreadlaneat-048c.md#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.md#decl-N" class="code_var">N</a>&gt; <a href="quadreadlaneat-048c.md#decl-sourceValue" class="code_param">sourceValue</a>,
+    <span class="code_keyword">uint</span> <a href="quadreadlaneat-048c.md#decl-quadLaneID" class="code_param">quadLaneID</a>)
+    <span class='code_keyword'>where</span> <a href="quadreadlaneat-048c.md#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.html#decl-N" class="code_var">N</a>, <a href="quadreadlaneat-048c.html#decl-M" class="code_var">M</a>&gt; <a href="quadreadlaneat-048c.html">QuadReadLaneAt</a>&lt;<a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="quadreadlaneat-048c.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.html#decl-N" class="code_var">N</a>, <a href="quadreadlaneat-048c.html#decl-M" class="code_var">M</a>&gt; <a href="quadreadlaneat-048c.html#decl-sourceValue" class="code_param">sourceValue</a>,
-    <span class="code_keyword">uint</span> <a href="quadreadlaneat-048c.html#decl-quadLaneID" class="code_param">quadLaneID</a>)
-    <span class='code_keyword'>where</span> <a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="quadreadlaneat-048c.md#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.md#decl-N" class="code_var">N</a>, <a href="quadreadlaneat-048c.md#decl-M" class="code_var">M</a>&gt; <a href="quadreadlaneat-048c.md">QuadReadLaneAt</a>&lt;<a href="quadreadlaneat-048c.md#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="quadreadlaneat-048c.md#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="quadreadlaneat-048c.md#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.md#decl-N" class="code_var">N</a>, <a href="quadreadlaneat-048c.md#decl-M" class="code_var">M</a>&gt; <a href="quadreadlaneat-048c.md#decl-sourceValue" class="code_param">sourceValue</a>,
+    <span class="code_keyword">uint</span> <a href="quadreadlaneat-048c.md#decl-quadLaneID" class="code_param">quadLaneID</a>)
+    <span class='code_keyword'>where</span> <a href="quadreadlaneat-048c.md#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>
 
@@ -38,10 +38,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-sourceValue"></a>sourceValue  : [T](quadreadlaneat-048c.html#typeparam-T)
+####  <a id="decl-sourceValue"></a>sourceValue  : [T](quadreadlaneat-048c.md#typeparam-T)
 ####  <a id="decl-quadLaneID"></a>quadLaneID  : uint
-####  <a id="decl-sourceValue"></a>sourceValue  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
-####  <a id="decl-sourceValue"></a>sourceValue  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
+####  <a id="decl-sourceValue"></a>sourceValue  : [vector](../types/vector/index.md)\<[T](../types/vector/index.md#typeparam-T), [N](../types/vector/index.md#decl-N)\>
+####  <a id="decl-sourceValue"></a>sourceValue  : [matrix](../types/matrix/index.md)\<[T](../types/matrix/t-0.md), [N](../types/matrix/index.md#decl-N), [M](../types/matrix/index.md#decl-M)\>
 
 ## Availability and Requirements
 
@@ -62,3 +62,18 @@ Available in all stages.
 Requires capability: `spvGroupNonUniformQuad`.
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

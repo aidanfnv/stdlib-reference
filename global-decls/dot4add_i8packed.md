@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Treats <span class='code'><a href="dot4add_i8packed.html#decl-x" class="code_param">x</a></span> and <span class='code'><a href="dot4add_i8packed.html#decl-y" class="code_param">y</a></span> as 4-component vectors of <span class='code'>int8</span> and computes <span class='code'><a href="dot.html">dot</a>(<a href="dot.html#decl-x" class="code_param">x</a>, <a href="dot.html#decl-y" class="code_param">y</a>)+acc</span>
+Treats <span class='code'><a href="dot4add_i8packed.md#decl-x" class="code_param">x</a></span> and <span class='code'><a href="dot4add_i8packed.md#decl-y" class="code_param">y</a></span> as 4-component vectors of <span class='code'>int8</span> and computes <span class='code'><a href="dot.md">dot</a>(<a href="dot.md#decl-x" class="code_param">x</a>, <a href="dot.md#decl-y" class="code_param">y</a>)+acc</span>
 
 
 
@@ -14,10 +14,10 @@ Treats <span class='code'><a href="dot4add_i8packed.html#decl-x" class="code_par
 ## Signature 
 
 <pre>
-<span class="code_keyword">int</span> <a href="dot4add_i8packed.html">dot4add_i8packed</a>(
-    <span class="code_keyword">uint</span> <a href="dot4add_i8packed.html#decl-x" class="code_param">x</a>,
-    <span class="code_keyword">uint</span> <a href="dot4add_i8packed.html#decl-y" class="code_param">y</a>,
-    <span class="code_keyword">int</span> <a href="dot4add_i8packed.html#decl-acc" class="code_param">acc</a>);
+<span class="code_keyword">int</span> <a href="dot4add_i8packed.md">dot4add_i8packed</a>(
+    <span class="code_keyword">uint</span> <a href="dot4add_i8packed.md#decl-x" class="code_param">x</a>,
+    <span class="code_keyword">uint</span> <a href="dot4add_i8packed.md#decl-y" class="code_param">y</a>,
+    <span class="code_keyword">int</span> <a href="dot4add_i8packed.md#decl-acc" class="code_param">acc</a>);
 
 </pre>
 
@@ -55,3 +55,18 @@ Available in all stages.
 Requires capabilities: `SPV_KHR_non_semantic_info`, `SPV_GOOGLE_user_type`, `spvDerivativeControl`, `spvImageQuery`, `spvImageGatherExtended`, `spvSparseResidency`, `spvMinLod`, `spvFragmentBarycentricKHR`, `spvFragmentFullyCoveredEXT`, `spvGroupNonUniformBallot`, `spvGroupNonUniformShuffle`, `spvGroupNonUniformArithmetic`, `spvGroupNonUniformQuad`, `spvGroupNonUniformVote`, `spvRayTracingPositionFetchKHR`, `spvShaderNonUniformEXT`.
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

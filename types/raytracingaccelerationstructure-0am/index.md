@@ -13,11 +13,11 @@ Opaque type representing a ray-tracing acceleration structure.
 
 ## Fields
 
-####  <a id="decl-kind"></a>[kind](kind.html) : [DescriptorKind](../descriptorkind-0a/index.html) = [DescriptorKind](../descriptorkind-0a/index.html)\.[AccelerationStructure](../descriptorkind-0a/index.html#decl-AccelerationStructure)
+####  <a id="decl-kind"></a>[kind](kind.md) : [DescriptorKind](../descriptorkind-0a/index.md) = [DescriptorKind](../descriptorkind-0a/index.md)\.[AccelerationStructure](../descriptorkind-0a/index.md#decl-AccelerationStructure)
 
 ## Methods
 
-* [init](init.html)
+* [init](init.md)
 
 ## Conditional Conformances
 
@@ -32,3 +32,18 @@ Handle <../types/raytracingaccelerationstructure-0am/handle-0>
 init <../types/raytracingaccelerationstructure-0am/init>
 kind <../types/raytracingaccelerationstructure-0am/kind>
 ```
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

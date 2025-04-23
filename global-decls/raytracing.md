@@ -5,99 +5,99 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [AcceptHitAndEndSearch](accepthitandendsearch-069cf.html)
+#### [AcceptHitAndEndSearch](accepthitandendsearch-069cf.md)
 
-#### [CANDIDATE\_NON\_OPAQUE\_TRIANGLE](candidate_non_opaque_triangle-012345678abcefghijlmnopqrs.html)
+#### [CANDIDATE\_NON\_OPAQUE\_TRIANGLE](candidate_non_opaque_triangle-012345678abcefghijlmnopqrs.md)
 
-#### [CANDIDATE\_PROCEDURAL\_PRIMITIVE](candidate_procedural_primitive-012345678abcdefghijlmnopqrst.html)
+#### [CANDIDATE\_PROCEDURAL\_PRIMITIVE](candidate_procedural_primitive-012345678abcdefghijlmnopqrst.md)
 
-#### [COMMITTED\_NOTHING](committed_nothing-012345678abcdefg.html)
+#### [COMMITTED\_NOTHING](committed_nothing-012345678abcdefg.md)
 
-#### [COMMITTED\_PROCEDURAL\_PRIMITIVE\_HIT](committed_procedural_primitive_hit-012345678abcdefghijlmnopqrstvwx.html)
+#### [COMMITTED\_PROCEDURAL\_PRIMITIVE\_HIT](committed_procedural_primitive_hit-012345678abcdefghijlmnopqrstvwx.md)
 
-#### [COMMITTED\_TRIANGLE\_HIT](committed_triangle_hit-012345678abcdefghjkl.html)
+#### [COMMITTED\_TRIANGLE\_HIT](committed_triangle_hit-012345678abcdefghjkl.md)
 
-#### [CallShader\<Payload\>](callshader-04.html)
+#### [CallShader\<Payload\>](callshader-04.md)
 
-#### [DispatchRaysDimensions](dispatchraysdimensions-08c.html)
+#### [DispatchRaysDimensions](dispatchraysdimensions-08c.md)
 
-#### [DispatchRaysIndex](dispatchraysindex-08c.html)
+#### [DispatchRaysIndex](dispatchraysindex-08c.md)
 
-#### [GeometryIndex](geometryindex-08.html)
+#### [GeometryIndex](geometryindex-08.md)
 
-#### [HIT\_KIND\_TRIANGLE\_BACK\_FACE](hit_kind_triangle_back_face-01245679abcdefgijklnopq.html)
+#### [HIT\_KIND\_TRIANGLE\_BACK\_FACE](hit_kind_triangle_back_face-01245679abcdefgijklnopq.md)
 
-#### [HIT\_KIND\_TRIANGLE\_FRONT\_FACE](hit_kind_triangle_front_face-01245679abcdefgijklmopqr.html)
+#### [HIT\_KIND\_TRIANGLE\_FRONT\_FACE](hit_kind_triangle_front_face-01245679abcdefgijklmopqr.md)
 
-#### [HitKind](hitkind-03.html)
+#### [HitKind](hitkind-03.md)
 
-#### [HitTriangleVertexPosition](hittrianglevertexposition-03bh.html)
+#### [HitTriangleVertexPosition](hittrianglevertexposition-03bh.md)
 
-#### [IgnoreHit](ignorehit-06.html)
+#### [IgnoreHit](ignorehit-06.md)
 
-#### [InstanceID](instanceid-089.html)
+#### [InstanceID](instanceid-089.md)
 
-#### [InstanceIndex](instanceindex-08.html)
+#### [InstanceIndex](instanceindex-08.md)
 
-#### [ObjectRayDirection](objectraydirection-069.html)
+#### [ObjectRayDirection](objectraydirection-069.md)
 
-#### [ObjectRayOrigin](objectrayorigin-069.html)
+#### [ObjectRayOrigin](objectrayorigin-069.md)
 
-#### [ObjectToWorld](objecttoworld-068.html)
+#### [ObjectToWorld](objecttoworld-068.md)
 
-#### [ObjectToWorld3x4](objecttoworld3x4-068.html)
+#### [ObjectToWorld3x4](objecttoworld3x4-068.md)
 
-#### [ObjectToWorld4x3](objecttoworld4x3-068.html)
+#### [ObjectToWorld4x3](objecttoworld4x3-068.md)
 
-#### [PrimitiveIndex](primitiveindex-09.html)
+#### [PrimitiveIndex](primitiveindex-09.md)
 
-#### [RAY\_FLAG\_ACCEPT\_FIRST\_HIT\_AND\_END\_SEARCH](ray_flag_accept_first_hit_and_end_search-01245679abcdeghijkmnoqrsuvwyz10111213.html)
+#### [RAY\_FLAG\_ACCEPT\_FIRST\_HIT\_AND\_END\_SEARCH](ray_flag_accept_first_hit_and_end_search-01245679abcdeghijkmnoqrsuvwyz10111213.md)
 
-#### [RAY\_FLAG\_CULL\_BACK\_FACING\_TRIANGLES](ray_flag_cull_back_facing_triangles-01245679abcefghjklmnoqrstuvwxy.html)
+#### [RAY\_FLAG\_CULL\_BACK\_FACING\_TRIANGLES](ray_flag_cull_back_facing_triangles-01245679abcefghjklmnoqrstuvwxy.md)
 
-#### [RAY\_FLAG\_CULL\_FRONT\_FACING\_TRIANGLES](ray_flag_cull_front_facing_triangles-01245679abcefghiklmnoprstuvwxyz.html)
+#### [RAY\_FLAG\_CULL\_FRONT\_FACING\_TRIANGLES](ray_flag_cull_front_facing_triangles-01245679abcefghiklmnoprstuvwxyz.md)
 
-#### [RAY\_FLAG\_CULL\_NON\_OPAQUE](ray_flag_cull_non_opaque-01245679abcefgijklmn.html)
+#### [RAY\_FLAG\_CULL\_NON\_OPAQUE](ray_flag_cull_non_opaque-01245679abcefgijklmn.md)
 
-#### [RAY\_FLAG\_CULL\_OPAQUE](ray_flag_cull_opaque-01245679abcefghij.html)
+#### [RAY\_FLAG\_CULL\_OPAQUE](ray_flag_cull_opaque-01245679abcefghij.md)
 
-#### [RAY\_FLAG\_FORCE\_NON\_OPAQUE](ray_flag_force_non_opaque-01245679abcdfghjklmno.html)
+#### [RAY\_FLAG\_FORCE\_NON\_OPAQUE](ray_flag_force_non_opaque-01245679abcdfghjklmno.md)
 
-#### [RAY\_FLAG\_FORCE\_OPAQUE](ray_flag_force_opaque-01245679abcdfghijk.html)
+#### [RAY\_FLAG\_FORCE\_OPAQUE](ray_flag_force_opaque-01245679abcdfghijk.md)
 
-#### [RAY\_FLAG\_NONE](ray_flag_none-01245679abc.html)
+#### [RAY\_FLAG\_NONE](ray_flag_none-01245679abc.md)
 
-#### [RAY\_FLAG\_SKIP\_CLOSEST\_HIT\_SHADER](ray_flag_skip_closest_hit_shader-01245679abcefghijkmnoqrstuv.html)
+#### [RAY\_FLAG\_SKIP\_CLOSEST\_HIT\_SHADER](ray_flag_skip_closest_hit_shader-01245679abcefghijkmnoqrstuv.md)
 
-#### [RAY\_FLAG\_SKIP\_PROCEDURAL\_PRIMITIVES](ray_flag_skip_procedural_primitives-01245679abcefghijklmnpqrstuvwxy.html)
+#### [RAY\_FLAG\_SKIP\_PROCEDURAL\_PRIMITIVES](ray_flag_skip_procedural_primitives-01245679abcefghijklmnpqrstuvwxy.md)
 
-#### [RAY\_FLAG\_SKIP\_TRIANGLES](ray_flag_skip_triangles-01245679abcefghijklm.html)
+#### [RAY\_FLAG\_SKIP\_TRIANGLES](ray_flag_skip_triangles-01245679abcefghijklm.md)
 
-#### [RayCurrentTime](raycurrenttime-03a.html)
+#### [RayCurrentTime](raycurrenttime-03a.md)
 
-#### [RayFlags](rayflags-03.html)
+#### [RayFlags](rayflags-03.md)
 
-#### [RayTCurrent](raytcurrent-034.html)
+#### [RayTCurrent](raytcurrent-034.md)
 
-#### [RayTMin](raytmin-034.html)
+#### [RayTMin](raytmin-034.md)
 
-#### [ReportHit\<A\>](reporthit-06.html)
+#### [ReportHit\<A\>](reporthit-06.md)
 
-#### [ReportHitOptix\<each T\>](reporthitoptix-069.html)
+#### [ReportHitOptix\<each T\>](reporthitoptix-069.md)
 
-#### [TraceMotionRay\<payload\_t\>](tracemotionray-05b.html)
+#### [TraceMotionRay\<payload\_t\>](tracemotionray-05b.md)
 
-#### [TraceRay\<payload\_t\>](traceray-05.html)
+#### [TraceRay\<payload\_t\>](traceray-05.md)
 
-#### [WorldRayDirection](worldraydirection-058.html)
+#### [WorldRayDirection](worldraydirection-058.md)
 
-#### [WorldRayOrigin](worldrayorigin-058.html)
+#### [WorldRayOrigin](worldrayorigin-058.md)
 
-#### [WorldToObject](worldtoobject-057.html)
+#### [WorldToObject](worldtoobject-057.md)
 
-#### [WorldToObject3x4](worldtoobject3x4-057.html)
+#### [WorldToObject3x4](worldtoobject3x4-057.md)
 
-#### [WorldToObject4x3](worldtoobject4x3-057.html)
+#### [WorldToObject4x3](worldtoobject4x3-057.md)
 
 
 ```{toctree}
@@ -152,3 +152,18 @@ WorldToObject <worldtoobject-057>
 WorldToObject3x4 <worldtoobject3x4-057>
 WorldToObject4x3 <worldtoobject4x3-057>
 ```
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

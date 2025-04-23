@@ -11,7 +11,7 @@ Declare the Vulkan binding location of a global shader variable.
 ## Signature
 
 <pre>
-[vk::<a href="vk_binding.html#decl-binding" class="code_param">binding</a>(<a href="vk_binding.html#decl-binding" class="code_param">binding</a> : <span class="code_keyword">int</span>, <a href="vk_binding.html#decl-set" class="code_keyword">set</a> : <span class="code_keyword">int</span>)]
+[vk::<a href="vk_binding.md#decl-binding" class="code_param">binding</a>(<a href="vk_binding.md#decl-binding" class="code_param">binding</a> : <span class="code_keyword">int</span>, <a href="vk_binding.md#decl-set" class="code_keyword">set</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters
@@ -23,3 +23,18 @@ The binding location.
 The descriptor set index of the binding.
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

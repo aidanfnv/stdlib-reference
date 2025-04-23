@@ -14,7 +14,22 @@ Provide an access to a record object that only holds a single record.
 ## Signature 
 
 <pre>
-<a href="../ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt; <a href="index.html" class="code_type">DispatchNodeInputRecord</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="get-0.html">Get</a>();
+<a href="../ptr-0/index.md" class="code_type">Ptr</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt; <a href="index.md" class="code_type">DispatchNodeInputRecord</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="get-0.md">Get</a>();
 
 </pre>
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

@@ -13,29 +13,29 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class='code_keyword'>static</span> <a href="index.html" class="code_type">TorchTensor</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt; <a href="index.html" class="code_type">TorchTensor</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="alloc.html">alloc</a>(<span class="code_keyword">uint</span> <a href="alloc.html#decl-x" class="code_param">x</a>);
+<span class='code_keyword'>static</span> <a href="index.md" class="code_type">TorchTensor</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt; <a href="index.md" class="code_type">TorchTensor</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="alloc.md">alloc</a>(<span class="code_keyword">uint</span> <a href="alloc.md#decl-x" class="code_param">x</a>);
 
-<span class='code_keyword'>static</span> <a href="index.html" class="code_type">TorchTensor</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt; <a href="index.html" class="code_type">TorchTensor</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="alloc.html">alloc</a>(
-    <span class="code_keyword">uint</span> <a href="alloc.html#decl-x" class="code_param">x</a>,
-    <span class="code_keyword">uint</span> <a href="alloc.html#decl-y" class="code_param">y</a>);
+<span class='code_keyword'>static</span> <a href="index.md" class="code_type">TorchTensor</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt; <a href="index.md" class="code_type">TorchTensor</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="alloc.md">alloc</a>(
+    <span class="code_keyword">uint</span> <a href="alloc.md#decl-x" class="code_param">x</a>,
+    <span class="code_keyword">uint</span> <a href="alloc.md#decl-y" class="code_param">y</a>);
 
-<span class='code_keyword'>static</span> <a href="index.html" class="code_type">TorchTensor</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt; <a href="index.html" class="code_type">TorchTensor</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="alloc.html">alloc</a>(
-    <span class="code_keyword">uint</span> <a href="alloc.html#decl-x" class="code_param">x</a>,
-    <span class="code_keyword">uint</span> <a href="alloc.html#decl-y" class="code_param">y</a>,
-    <span class="code_keyword">uint</span> <a href="alloc.html#decl-z" class="code_param">z</a>);
+<span class='code_keyword'>static</span> <a href="index.md" class="code_type">TorchTensor</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt; <a href="index.md" class="code_type">TorchTensor</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="alloc.md">alloc</a>(
+    <span class="code_keyword">uint</span> <a href="alloc.md#decl-x" class="code_param">x</a>,
+    <span class="code_keyword">uint</span> <a href="alloc.md#decl-y" class="code_param">y</a>,
+    <span class="code_keyword">uint</span> <a href="alloc.md#decl-z" class="code_param">z</a>);
 
-<span class='code_keyword'>static</span> <a href="index.html" class="code_type">TorchTensor</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt; <a href="index.html" class="code_type">TorchTensor</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="alloc.html">alloc</a>(
-    <span class="code_keyword">uint</span> <a href="alloc.html#decl-x" class="code_param">x</a>,
-    <span class="code_keyword">uint</span> <a href="alloc.html#decl-y" class="code_param">y</a>,
-    <span class="code_keyword">uint</span> <a href="alloc.html#decl-z" class="code_param">z</a>,
-    <span class="code_keyword">uint</span> <a href="alloc.html#decl-w" class="code_param">w</a>);
+<span class='code_keyword'>static</span> <a href="index.md" class="code_type">TorchTensor</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt; <a href="index.md" class="code_type">TorchTensor</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="alloc.md">alloc</a>(
+    <span class="code_keyword">uint</span> <a href="alloc.md#decl-x" class="code_param">x</a>,
+    <span class="code_keyword">uint</span> <a href="alloc.md#decl-y" class="code_param">y</a>,
+    <span class="code_keyword">uint</span> <a href="alloc.md#decl-z" class="code_param">z</a>,
+    <span class="code_keyword">uint</span> <a href="alloc.md#decl-w" class="code_param">w</a>);
 
-<span class='code_keyword'>static</span> <a href="index.html" class="code_type">TorchTensor</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt; <a href="index.html" class="code_type">TorchTensor</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="alloc.html">alloc</a>(
-    <span class="code_keyword">uint</span> <a href="alloc.html#decl-i0" class="code_param">i0</a>,
-    <span class="code_keyword">uint</span> <a href="alloc.html#decl-i1" class="code_param">i1</a>,
-    <span class="code_keyword">uint</span> <a href="alloc.html#decl-i2" class="code_param">i2</a>,
-    <span class="code_keyword">uint</span> <a href="alloc.html#decl-i3" class="code_param">i3</a>,
-    <span class="code_keyword">uint</span> <a href="alloc.html#decl-i4" class="code_param">i4</a>);
+<span class='code_keyword'>static</span> <a href="index.md" class="code_type">TorchTensor</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt; <a href="index.md" class="code_type">TorchTensor</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="alloc.md">alloc</a>(
+    <span class="code_keyword">uint</span> <a href="alloc.md#decl-i0" class="code_param">i0</a>,
+    <span class="code_keyword">uint</span> <a href="alloc.md#decl-i1" class="code_param">i1</a>,
+    <span class="code_keyword">uint</span> <a href="alloc.md#decl-i2" class="code_param">i2</a>,
+    <span class="code_keyword">uint</span> <a href="alloc.md#decl-i3" class="code_param">i3</a>,
+    <span class="code_keyword">uint</span> <a href="alloc.md#decl-i4" class="code_param">i4</a>);
 
 </pre>
 
@@ -51,3 +51,18 @@ layout: stdlib-reference
 ####  <a id="decl-i3"></a>i3  : uint
 ####  <a id="decl-i4"></a>i4  : uint
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-<span class='code'>[<a href="forwardderivative-07.html">ForwardDerivative</a>(fwdFn)]</span> attribute can be used to provide a forward-mode
+<span class='code'>[<a href="forwardderivative-07.md">ForwardDerivative</a>(fwdFn)]</span> attribute can be used to provide a forward-mode
 derivative implementation.
 Invoking <span class='code'>fwd_diff(decoratedFn)</span> will place a call to <span class='code'>fwdFn</span> instead of synthesizing
 a derivative implementation.
@@ -17,7 +17,7 @@ The same behavior holds if <span class='code'>decoratedFn</span> is used in a di
 ## Signature
 
 <pre>
-[<a href="forwardderivative-07.html">ForwardDerivative</a>(<a href="forwardderivative-07.html#decl-function" class="code_param">function</a>)]
+[<a href="forwardderivative-07.md">ForwardDerivative</a>(<a href="forwardderivative-07.md#decl-function" class="code_param">function</a>)]
 </pre>
 
 ## Parameters
@@ -34,9 +34,9 @@ The same behavior holds if <span class='code'>decoratedFn</span> is used in a di
 - This attribute can be used on generic functions, member functions and accessors.
 - For generic functions, the generic signatures (parameters + constraints) of both functions must match exactly.
 
-- The decorated function will be considered forward-differentiable. There is no need for a <span class='code'>[<a href="differentiable-0.html">Differentiable</a>]</span> tag.
-If the <span class='code'>[<a href="differentiable-0.html">Differentiable</a>]</span> tag is present,
-and no custom backward derivative is specified with <span class='code'>[<a href="backwardderivative-08.html">BackwardDerivative</a>]</span>, then the
+- The decorated function will be considered forward-differentiable. There is no need for a <span class='code'>[<a href="differentiable-0.md">Differentiable</a>]</span> tag.
+If the <span class='code'>[<a href="differentiable-0.md">Differentiable</a>]</span> tag is present,
+and no custom backward derivative is specified with <span class='code'>[<a href="backwardderivative-08.md">BackwardDerivative</a>]</span>, then the
 Slang will use auto-diff to generate the backward=mode derivative, but will use the provided
 derivative for forward-mode.
 
@@ -62,3 +62,18 @@ float bar(float x) { /* ... */ }
 ```
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

@@ -5,21 +5,21 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [float16\_t](float16_t.html)
+#### [float16\_t](float16_t.md)
 
-#### [float32\_t](float32_t.html)
+#### [float32\_t](float32_t.md)
 
-#### [float64\_t](float64_t.html)
+#### [float64\_t](float64_t.md)
 
-#### [int32\_t](int32_t.html)
+#### [int32\_t](int32_t.md)
 
-#### [size\_t](size_t.html)
+#### [size\_t](size_t.md)
 
-#### [ssize\_t](ssize_t.html)
+#### [ssize\_t](ssize_t.md)
 
-#### [uint32\_t](uint32_t.html)
+#### [uint32\_t](uint32_t.md)
 
-#### [usize\_t](usize_t.html)
+#### [usize\_t](usize_t.md)
 
 
 ```{toctree}
@@ -35,3 +35,18 @@ ssize_t <../types/ssize_t>
 uint32_t <../types/uint32_t>
 usize_t <../types/usize_t>
 ```
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

@@ -5,19 +5,19 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [ddx\<T\>](ddx.html)
+#### [ddx\<T\>](ddx.md)
 
-#### [ddx\_coarse\<T\>](ddx_coarse.html)
+#### [ddx\_coarse\<T\>](ddx_coarse.md)
 
-#### [ddx\_fine\<T\>](ddx_fine.html)
+#### [ddx\_fine\<T\>](ddx_fine.md)
 
-#### [ddy\<T\>](ddy.html)
+#### [ddy\<T\>](ddy.md)
 
-#### [ddy\_coarse\<T\>](ddy_coarse.html)
+#### [ddy\_coarse\<T\>](ddy_coarse.md)
 
-#### [ddy\_fine\<T\>](ddy_fine.html)
+#### [ddy\_fine\<T\>](ddy_fine.md)
 
-#### [fwidth\<T\>](fwidth.html)
+#### [fwidth\<T\>](fwidth.md)
 
 
 ```{toctree}
@@ -32,3 +32,18 @@ ddy_coarse <ddy_coarse>
 ddy_fine <ddy_fine>
 fwidth <fwidth>
 ```
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

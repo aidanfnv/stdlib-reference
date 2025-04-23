@@ -13,18 +13,18 @@ Set one value to the buffer at the specified location.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="store-0.html">Store</a>(
-    <span class="code_keyword">uint</span> <a href="store-0.html#decl-address" class="code_param">address</a>,
-    <span class="code_keyword">uint</span> <a href="store-0.html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="index.md" class="code_type">RWByteAddressBuffer</a>.<a href="store-0.md">Store</a>(
+    <span class="code_keyword">uint</span> <a href="store-0.md#decl-address" class="code_param">address</a>,
+    <span class="code_keyword">uint</span> <a href="store-0.md#decl-value" class="code_param">value</a>);
 
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="store-0.html">Store</a>&lt;<a href="store-0.html#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">uint</span> <a href="store-0.html#decl-address" class="code_param">address</a>,
-    <a href="store-0.html#typeparam-T" class="code_type">T</a> <a href="store-0.html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="index.md" class="code_type">RWByteAddressBuffer</a>.<a href="store-0.md">Store</a>&lt;<a href="store-0.md#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">uint</span> <a href="store-0.md#decl-address" class="code_param">address</a>,
+    <a href="store-0.md#typeparam-T" class="code_type">T</a> <a href="store-0.md#decl-value" class="code_param">value</a>);
 
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="store-0.html">Store</a>&lt;<a href="store-0.html#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">uint</span> <a href="store-0.html#decl-address" class="code_param">address</a>,
-    <a href="store-0.html#typeparam-T" class="code_type">T</a> <a href="store-0.html#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">uint</span> <a href="store-0.html#decl-alignment" class="code_param">alignment</a>);
+<span class="code_keyword">void</span> <a href="index.md" class="code_type">RWByteAddressBuffer</a>.<a href="store-0.md">Store</a>&lt;<a href="store-0.md#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">uint</span> <a href="store-0.md#decl-address" class="code_param">address</a>,
+    <a href="store-0.md#typeparam-T" class="code_type">T</a> <a href="store-0.md#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">uint</span> <a href="store-0.md#decl-alignment" class="code_param">alignment</a>);
 
 </pre>
 
@@ -42,7 +42,7 @@ The input address in bytes, which must be a multiple of 4.
 ####  <a id="decl-value"></a>value  : uint
 The input value.
 
-####  <a id="decl-value"></a>value  : [T](store-0.html#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](store-0.md#typeparam-T)
 The input value.
 
 ####  <a id="decl-alignment"></a>alignment  : uint
@@ -73,3 +73,18 @@ Available in all stages.
 
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

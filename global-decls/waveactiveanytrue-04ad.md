@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href="waveactiveanytrue-04ad.html">WaveActiveAnyTrue</a>(<span class="code_keyword">bool</span> <a href="waveactiveanytrue-04ad.html#decl-condition" class="code_param">condition</a>);
+<span class="code_keyword">bool</span> <a href="waveactiveanytrue-04ad.md">WaveActiveAnyTrue</a>(<span class="code_keyword">bool</span> <a href="waveactiveanytrue-04ad.md#decl-condition" class="code_param">condition</a>);
 
 </pre>
 
@@ -46,3 +46,18 @@ Available in all stages.
 Requires capability: `spvGroupNonUniformVote`.
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

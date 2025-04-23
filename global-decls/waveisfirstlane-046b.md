@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href="waveisfirstlane-046b.html">WaveIsFirstLane</a>();
+<span class="code_keyword">bool</span> <a href="waveisfirstlane-046b.md">WaveIsFirstLane</a>();
 
 </pre>
 
@@ -42,3 +42,18 @@ Available in all stages.
 Requires capability: `spvGroupNonUniformBallot`.
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

@@ -6,25 +6,25 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html) = float
-####  <a id="typeparam-A"></a>A: [IDiffTensorWrapper](../../interfaces/idifftensorwrapper-015b/index.html) = [AtomicAdd](../atomicadd-06/index.html)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.md) = float
+####  <a id="typeparam-A"></a>A: [IDiffTensorWrapper](../../interfaces/idifftensorwrapper-015b/index.md) = [AtomicAdd](../atomicadd-06/index.md)
 
 ## Fields
 
-####  <a id="decl-diff"></a>[diff](diff.html) : [A](index.html#typeparam-A)
-####  <a id="decl-primal"></a>[primal](primal.html) : [TensorView](../tensorview-06/index.html)\<[T](../tensorview-06/index.html#typeparam-T)\>
+####  <a id="decl-diff"></a>[diff](diff.md) : [A](index.md#typeparam-A)
+####  <a id="decl-primal"></a>[primal](primal.md) : [TensorView](../tensorview-06/index.md)\<[T](../tensorview-06/index.md#typeparam-T)\>
 
 ## Methods
 
-* [size](size.html)
-* [dims](dims.html)
-* [stride](stride.html)
-* [init](init.html)
-* [load](load.html)
-* [store](store.html)
-* [subscript](subscript.html)
-* [loadOnce](loadonce-4.html)
-* [storeOnce](storeonce-5.html)
+* [size](size.md)
+* [dims](dims.md)
+* [stride](stride.md)
+* [init](init.md)
+* [load](load.md)
+* [store](store.md)
+* [subscript](subscript.md)
+* [loadOnce](loadonce-4.md)
+* [storeOnce](storeonce-5.md)
 
 
 ```{toctree}
@@ -43,3 +43,18 @@ storeOnce <../types/difftensorview-04a/storeonce-5>
 stride <../types/difftensorview-04a/stride>
 subscript <../types/difftensorview-04a/subscript>
 ```
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

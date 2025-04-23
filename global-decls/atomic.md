@@ -5,27 +5,27 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [InterlockedAdd\<T\>](interlockedadd-0b.html)
+#### [InterlockedAdd\<T\>](interlockedadd-0b.md)
 
-#### [InterlockedAnd\<T\>](interlockedand-0b.html)
+#### [InterlockedAnd\<T\>](interlockedand-0b.md)
 
-#### [InterlockedCompareExchange\<T\>](interlockedcompareexchange-0bi.html)
+#### [InterlockedCompareExchange\<T\>](interlockedcompareexchange-0bi.md)
 
-#### [InterlockedCompareExchangeFloatBitwise](interlockedcompareexchangefloatbitwise-0biqv.html)
+#### [InterlockedCompareExchangeFloatBitwise](interlockedcompareexchangefloatbitwise-0biqv.md)
 
-#### [InterlockedCompareStore\<T\>](interlockedcomparestore-0bi.html)
+#### [InterlockedCompareStore\<T\>](interlockedcomparestore-0bi.md)
 
-#### [InterlockedCompareStoreFloatBitwise\<T\>](interlockedcomparestorefloatbitwise-0bins.html)
+#### [InterlockedCompareStoreFloatBitwise\<T\>](interlockedcomparestorefloatbitwise-0bins.md)
 
-#### [InterlockedExchange\<T\>](interlockedexchange-0b.html)
+#### [InterlockedExchange\<T\>](interlockedexchange-0b.md)
 
-#### [InterlockedMax\<T\>](interlockedmax-0b.html)
+#### [InterlockedMax\<T\>](interlockedmax-0b.md)
 
-#### [InterlockedMin\<T\>](interlockedmin-0b.html)
+#### [InterlockedMin\<T\>](interlockedmin-0b.md)
 
-#### [InterlockedOr\<T\>](interlockedor-0b.html)
+#### [InterlockedOr\<T\>](interlockedor-0b.md)
 
-#### [InterlockedXor\<T\>](interlockedxor-0b.html)
+#### [InterlockedXor\<T\>](interlockedxor-0b.md)
 
 
 ```{toctree}
@@ -44,3 +44,18 @@ InterlockedMin <interlockedmin-0b>
 InterlockedOr <interlockedor-0b>
 InterlockedXor <interlockedxor-0b>
 ```
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

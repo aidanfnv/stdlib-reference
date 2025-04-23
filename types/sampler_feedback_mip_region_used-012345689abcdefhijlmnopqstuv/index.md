@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct SAMPLER\_FEEDBACK\_MIP\_REGION\_USED
 
-*Conforms to:* \_\_BuiltinSamplerFeedbackType, [ITexelElement](../../interfaces/itexelelement-016/index.html)
+*Conforms to:* \_\_BuiltinSamplerFeedbackType, [ITexelElement](../../interfaces/itexelelement-016/index.md)
 
 ## Description
 
@@ -12,11 +12,11 @@ layout: stdlib-reference
 
 ## Fields
 
-####  <a id="decl-elementCount"></a>[elementCount](elementcount-7.html) : int = 1
+####  <a id="decl-elementCount"></a>[elementCount](elementcount-7.md) : int = 1
 
 ## Methods
 
-* [init](init.html)
+* [init](init.md)
 
 
 ```{toctree}
@@ -27,3 +27,18 @@ Element <../types/sampler_feedback_mip_region_used-012345689abcdefhijlmnopqstuv/
 elementCount <../types/sampler_feedback_mip_region_used-012345689abcdefhijlmnopqstuv/elementcount-7>
 init <../types/sampler_feedback_mip_region_used-012345689abcdefhijlmnopqstuv/init>
 ```
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

@@ -4,21 +4,21 @@ layout: stdlib-reference
 
 # extension T : ITexelElement
 
-*Conforms to:* [ITexelElement](../../interfaces/itexelelement-016/index.html)
+*Conforms to:* [ITexelElement](../../interfaces/itexelelement-016/index.md)
 
-*Conditionally conforms to:* [ITexelElement](../../interfaces/itexelelement-016/index.html)
+*Conditionally conforms to:* [ITexelElement](../../interfaces/itexelelement-016/index.md)
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.html)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.md)
 
 ## Fields
 
-####  <a id="decl-elementCount"></a>[elementCount](elementcount-7.html) : int = 1
+####  <a id="decl-elementCount"></a>[elementCount](elementcount-7.md) : int = 1
 
 ## Methods
 
-* [init](init.html)
+* [init](init.md)
 
 ## Conditional Conformances
 
@@ -33,3 +33,18 @@ Element <../types/t-0/element-0>
 elementCount <../types/t-0/elementcount-7>
 init <../types/t-0/init>
 ```
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

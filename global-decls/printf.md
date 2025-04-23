@@ -13,9 +13,9 @@ Print a message to the debug output.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="printf.html">printf</a>&lt;<span class="code_keyword">each</span> <a href="printf.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="../types/nativestring-06/index.html" class="code_type">NativeString</a> <a href="printf.html#decl-format" class="code_param">format</a>,
-    <a href="printf.html#typeparam-T" class="code_type">T</a> <a href="printf.html#decl-args" class="code_param">args</a>);
+<span class="code_keyword">void</span> <a href="printf.md">printf</a>&lt;<span class="code_keyword">each</span> <a href="printf.md#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="../types/nativestring-06/index.md" class="code_type">NativeString</a> <a href="printf.md#decl-format" class="code_param">format</a>,
+    <a href="printf.md#typeparam-T" class="code_type">T</a> <a href="printf.md#decl-args" class="code_param">args</a>);
 
 </pre>
 
@@ -27,15 +27,15 @@ The variadic type pack parameter for the arguments to be printed.
 
 ## Parameters
 
-####  <a id="decl-format"></a>format  : [NativeString](../types/nativestring-06/index.html)
+####  <a id="decl-format"></a>format  : [NativeString](../types/nativestring-06/index.md)
 The format string.
 
-####  <a id="decl-args"></a>args  : [T](printf.html#typeparam-T)
+####  <a id="decl-args"></a>args  : [T](printf.md#typeparam-T)
 (optional) The arguments to be printed.
 
 
 ## Remarks
-The function maps to <span class='code'><a href="printf.html">printf</a></span> for HLSL, CPU and CUDA targets, and maps to <span class='code'>OpDebugPrintf</span> for SPIR-V target,
+The function maps to <span class='code'><a href="printf.md">printf</a></span> for HLSL, CPU and CUDA targets, and maps to <span class='code'>OpDebugPrintf</span> for SPIR-V target,
 and maps to <span class='code'>debugPrintfEXT</span> for GLSL target. Depending on the target and execution environment, the function may have
 no effect.
 
@@ -72,3 +72,18 @@ Available in all stages.
 Requires capability: `SPV_KHR_non_semantic_info`.
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>

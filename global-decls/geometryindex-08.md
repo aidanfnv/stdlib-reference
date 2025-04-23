@@ -13,7 +13,7 @@ Returns the index of the geometry that was hit in an intersection, any-hit, or c
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="geometryindex-08.html">GeometryIndex</a>();
+<span class="code_keyword">uint</span> <a href="geometryindex-08.md">GeometryIndex</a>();
 
 </pre>
 
@@ -40,3 +40,18 @@ Available in stages: `intersection`, `closesthit`, `anyhit`.
 Requires capability: `spvRayTracingKHR`.
 
 
+
+<script>
+// Fix .md links to .html when on ReadTheDocs
+if (window.location.hostname.includes('readthedocs') || 
+    window.location.hostname.includes('rtfd.io')) {
+  document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('a');
+    links.forEach(link => {
+      if (link.getAttribute('href') && link.getAttribute('href').endsWith('.md')) {
+        link.href = link.href.replace(/\.md($|#|\?)/, '.html$1');
+      }
+    });
+  });
+}
+</script>
