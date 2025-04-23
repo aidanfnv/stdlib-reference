@@ -5,17 +5,30 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [ddx\<T\>](/stdlib-reference/global-decls/ddx)
+#### [ddx\<T\>](ddx.html)
 
-#### [ddx\_coarse\<T\>](/stdlib-reference/global-decls/ddx_coarse)
+#### [ddx\_coarse\<T\>](ddx_coarse.html)
 
-#### [ddx\_fine\<T\>](/stdlib-reference/global-decls/ddx_fine)
+#### [ddx\_fine\<T\>](ddx_fine.html)
 
-#### [ddy\<T\>](/stdlib-reference/global-decls/ddy)
+#### [ddy\<T\>](ddy.html)
 
-#### [ddy\_coarse\<T\>](/stdlib-reference/global-decls/ddy_coarse)
+#### [ddy\_coarse\<T\>](ddy_coarse.html)
 
-#### [ddy\_fine\<T\>](/stdlib-reference/global-decls/ddy_fine)
+#### [ddy\_fine\<T\>](ddy_fine.html)
 
-#### [fwidth\<T\>](/stdlib-reference/global-decls/fwidth)
+#### [fwidth\<T\>](fwidth.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+ddx <ddx>
+ddx_coarse <ddx_coarse>
+ddx_fine <ddx_fine>
+ddy <ddy>
+ddy_coarse <ddy_coarse>
+ddy_fine <ddy_fine>
+fwidth <fwidth>
+```

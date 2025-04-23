@@ -10,10 +10,17 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T {#typeparam-T}
-#### N  : int {#decl-N}
+####  <a id="typeparam-T"></a>T
+####  <a id="decl-N"></a>N  : int
 
 ## Methods
 
 * operator\[\]
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+subscript <../types/outputpatch-06/subscript>
+```

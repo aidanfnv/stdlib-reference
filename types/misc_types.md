@@ -5,29 +5,48 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [DefaultDataLayout](/stdlib-reference/types/defaultdatalayout-07b/index)
+#### [DefaultDataLayout](defaultdatalayout-07b/index.html)
 
-#### [MemoryOrder](/stdlib-reference/types/memoryorder-06/index)
+#### [MemoryOrder](memoryorder-06/index.html)
 
-#### [NativeString](/stdlib-reference/types/nativestring-06/index)
+#### [NativeString](nativestring-06/index.html)
 
-#### [ScalarDataLayout](/stdlib-reference/types/scalardatalayout-06a/index)
+#### [ScalarDataLayout](scalardatalayout-06a/index.html)
 
-#### [SideEffectBehavior](/stdlib-reference/types/sideeffectbehavior-04a/index)
+#### [SideEffectBehavior](sideeffectbehavior-04a/index.html)
 
-#### [Std140DataLayout](/stdlib-reference/types/std140datalayout-06a/index)
+#### [Std140DataLayout](std140datalayout-06a/index.html)
 
-#### [Std430DataLayout](/stdlib-reference/types/std430datalayout-06a/index)
+#### [Std430DataLayout](std430datalayout-06a/index.html)
 
-#### [\_\_Shape1D](/stdlib-reference/types/0_shape1d-028/index)
+#### [\_\_Shape1D](0_shape1d-028/index.html)
 
-#### [\_\_Shape2D](/stdlib-reference/types/0_shape2d-028/index)
+#### [\_\_Shape2D](0_shape2d-028/index.html)
 
-#### [\_\_Shape3D](/stdlib-reference/types/0_shape3d-028/index)
+#### [\_\_Shape3D](0_shape3d-028/index.html)
 
-#### [\_\_ShapeBuffer](/stdlib-reference/types/0_shapebuffer-027/index)
+#### [\_\_ShapeBuffer](0_shapebuffer-027/index.html)
 
-#### [\_\_ShapeCube](/stdlib-reference/types/0_shapecube-027/index)
+#### [\_\_ShapeCube](0_shapecube-027/index.html)
 
-#### [string](/stdlib-reference/types/string)
+#### [string](string.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+DefaultDataLayout <../types/defaultdatalayout-07b/index>
+MemoryOrder <../types/memoryorder-06/index>
+NativeString <../types/nativestring-06/index>
+ScalarDataLayout <../types/scalardatalayout-06a/index>
+SideEffectBehavior <../types/sideeffectbehavior-04a/index>
+Std140DataLayout <../types/std140datalayout-06a/index>
+Std430DataLayout <../types/std430datalayout-06a/index>
+__Shape1D <../types/0_shape1d-028/index>
+__Shape2D <../types/0_shape2d-028/index>
+__Shape3D <../types/0_shape3d-028/index>
+__ShapeBuffer <../types/0_shapebuffer-027/index>
+__ShapeCube <../types/0_shapecube-027/index>
+string <../types/string>
+```

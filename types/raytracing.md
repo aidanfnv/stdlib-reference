@@ -5,19 +5,33 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [BuiltInTriangleIntersectionAttributes](/stdlib-reference/types/builtintriangleintersectionattributes-057fr/index)
+#### [BuiltInTriangleIntersectionAttributes](builtintriangleintersectionattributes-057fr/index.html)
 
-#### [CANDIDATE\_TYPE](/stdlib-reference/types/candidate_type-012345678abcd)
+#### [CANDIDATE\_TYPE](candidate_type-012345678abcd.html)
 
-#### [COMMITTED\_STATUS](/stdlib-reference/types/committed_status-012345678abcdef)
+#### [COMMITTED\_STATUS](committed_status-012345678abcdef.html)
 
-#### [HitObject](/stdlib-reference/types/hitobject-03/index)
+#### [HitObject](hitobject-03/index.html)
 
-#### [RAY\_FLAG](/stdlib-reference/types/ray_flag-0124567)
+#### [RAY\_FLAG](ray_flag-0124567.html)
 
-#### [RayDesc](/stdlib-reference/types/raydesc-03/index)
+#### [RayDesc](raydesc-03/index.html)
 
-#### [RayQuery\<rayFlagsGeneric:uint\>](/stdlib-reference/types/rayquery-03/index)
+#### [RayQuery\<rayFlagsGeneric:uint\>](rayquery-03/index.html)
 
-#### [RaytracingAccelerationStructure](/stdlib-reference/types/raytracingaccelerationstructure-0am/index)
+#### [RaytracingAccelerationStructure](raytracingaccelerationstructure-0am/index.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+BuiltInTriangleIntersectionAttributes <../types/builtintriangleintersectionattributes-057fr/index>
+CANDIDATE_TYPE <../types/candidate_type-012345678abcd>
+COMMITTED_STATUS <../types/committed_status-012345678abcdef>
+HitObject <../types/hitobject-03/index>
+RAY_FLAG <../types/ray_flag-0124567>
+RayDesc <../types/raydesc-03/index>
+RayQuery <../types/rayquery-03/index>
+RaytracingAccelerationStructure <../types/raytracingaccelerationstructure-0am/index>
+```

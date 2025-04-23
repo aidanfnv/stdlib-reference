@@ -4,16 +4,27 @@ layout: stdlib-reference
 
 # struct NullDifferential
 
-*Conforms to:* [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index)
+*Conforms to:* [IDifferentiable](../../interfaces/idifferentiable-01/index.html)
 
 ## Fields
 
-#### [dummy](/stdlib-reference/types/nulldifferential-04/dummy) : uint {#decl-dummy}
+####  <a id="decl-dummy"></a>[dummy](dummy.html) : uint
 
 ## Methods
 
 * init
-* [dzero](/stdlib-reference/types/nulldifferential-04/dzero)
-* [dadd](/stdlib-reference/types/nulldifferential-04/dadd)
-* [dmul](/stdlib-reference/types/nulldifferential-04/dmul)
+* [dzero](dzero.html)
+* [dadd](dadd.html)
+* [dmul](dmul.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+Differential <../types/nulldifferential-04/differential-0>
+dadd <../types/nulldifferential-04/dadd>
+dmul <../types/nulldifferential-04/dmul>
+dummy <../types/nulldifferential-04/dummy>
+dzero <../types/nulldifferential-04/dzero>
+```

@@ -4,11 +4,11 @@ layout: stdlib-reference
 
 # struct DifferentialPair\<T\>
 
-*Conforms to:* [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index)
+*Conforms to:* [IDifferentiable](../../interfaces/idifferentiable-01/index.html)
 
 ## Description
 
-<span class='code'><a href="/stdlib-reference/types/differentialpair-0c/index" class="code_type">DifferentialPair</a>&lt;<a href="/stdlib-reference/types/differentialpair-0c/index#typeparam-T" class="code_type">T</a>&gt;</span> is a built-in type that carries both the original and derivative value of a term.
+<span class='code'><a href="index.html" class="code_type">DifferentialPair</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;</span> is a built-in type that carries both the original and derivative value of a term.
 It is defined as follows:
 ```csharp
 struct DifferentialPair<T : IDifferentiable> : IDifferentiable
@@ -21,7 +21,7 @@ struct DifferentialPair<T : IDifferentiable> : IDifferentiable
 }
 ```
 
-Differential pairs can be created via constructor or through the <span class='code'><a href="/stdlib-reference/global-decls/diffpair-4">diffPair</a>()</span> operation
+Differential pairs can be created via constructor or through the <span class='code'><a href="../../global-decls/diffpair-4.html">diffPair</a>()</span> operation
 ```csharp
 DifferentialPair<float> dpa = DifferentialPair<float>(1.0f, 2.0f);
 DifferentialPair<float> dpa = diffPair(1.0f, 2.0f);
@@ -32,20 +32,37 @@ See documentation on <span class='code'>fwd_diff</span> and <span class='code'>b
 
 ## Generic Parameters
 
-#### T: [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index) {#typeparam-T}
+####  <a id="typeparam-T"></a>T: [IDifferentiable](../../interfaces/idifferentiable-01/index.html)
 
 ## Properties
 
-#### [d](/stdlib-reference/types/differentialpair-0c/d) {#decl-d}
-#### [p](/stdlib-reference/types/differentialpair-0c/p) {#decl-p}
-#### [v](/stdlib-reference/types/differentialpair-0c/v) {#decl-v}
+####  <a id="decl-d"></a>[d](d.html)
+####  <a id="decl-p"></a>[p](p.html)
+####  <a id="decl-v"></a>[v](v.html)
 
 ## Methods
 
-* [init](/stdlib-reference/types/differentialpair-0c/init)
-* [getDifferential](/stdlib-reference/types/differentialpair-0c/getdifferential-3)
-* [getPrimal](/stdlib-reference/types/differentialpair-0c/getprimal-3)
-* [dzero](/stdlib-reference/types/differentialpair-0c/dzero)
-* [dadd](/stdlib-reference/types/differentialpair-0c/dadd)
-* [dmul](/stdlib-reference/types/differentialpair-0c/dmul)
+* [init](init.html)
+* [getDifferential](getdifferential-3.html)
+* [getPrimal](getprimal-3.html)
+* [dzero](dzero.html)
+* [dadd](dadd.html)
+* [dmul](dmul.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+Differential <../types/differentialpair-0c/differential-0>
+DifferentialElementType <../types/differentialpair-0c/differentialelementtype-0cj>
+d <../types/differentialpair-0c/d>
+dadd <../types/differentialpair-0c/dadd>
+dmul <../types/differentialpair-0c/dmul>
+dzero <../types/differentialpair-0c/dzero>
+getDifferential <../types/differentialpair-0c/getdifferential-3>
+getPrimal <../types/differentialpair-0c/getprimal-3>
+init <../types/differentialpair-0c/init>
+p <../types/differentialpair-0c/p>
+v <../types/differentialpair-0c/v>
+```

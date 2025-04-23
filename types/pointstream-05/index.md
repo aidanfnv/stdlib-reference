@@ -10,10 +10,18 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T {#typeparam-T}
+####  <a id="typeparam-T"></a>T
 
 ## Methods
 
-* [Append](/stdlib-reference/types/pointstream-05/append-0)
-* [RestartStrip](/stdlib-reference/types/pointstream-05/restartstrip-07)
+* [Append](append-0.html)
+* [RestartStrip](restartstrip-07.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+Append <../types/pointstream-05/append-0>
+RestartStrip <../types/pointstream-05/restartstrip-07>
+```

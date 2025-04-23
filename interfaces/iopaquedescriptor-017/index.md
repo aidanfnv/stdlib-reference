@@ -12,7 +12,14 @@ whose size may be undefined and can't be directly accessed as ordinary data.
 
 ## Fields
 
-#### [kind](/stdlib-reference/interfaces/iopaquedescriptor-017/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) {#decl-kind}
+####  <a id="decl-kind"></a>[kind](kind.html) : [DescriptorKind](../../types/descriptorkind-0a/index.html)
 The kind of the descriptor.
 
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+kind <../interfaces/iopaquedescriptor-017/kind>
+```

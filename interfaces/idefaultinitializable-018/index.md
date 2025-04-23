@@ -11,5 +11,12 @@ Represents types that can be initialized with a default constructor.
 
 ## Methods
 
-* [init](/stdlib-reference/interfaces/idefaultinitializable-018/init)
+* [init](init.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+init <../interfaces/idefaultinitializable-018/init>
+```

@@ -5,7 +5,15 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [SamplerComparisonState](/stdlib-reference/types/samplercomparisonstate-07h/index)
+#### [SamplerComparisonState](samplercomparisonstate-07h/index.html)
 
-#### [SamplerState](/stdlib-reference/types/samplerstate-07/index)
+#### [SamplerState](samplerstate-07/index.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+SamplerComparisonState <../types/samplercomparisonstate-07h/index>
+SamplerState <../types/samplerstate-07/index>
+```

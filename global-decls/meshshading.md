@@ -5,7 +5,15 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [DispatchMesh\<P\>](/stdlib-reference/global-decls/dispatchmesh-08)
+#### [DispatchMesh\<P\>](dispatchmesh-08.html)
 
-#### [SetMeshOutputCounts](/stdlib-reference/global-decls/setmeshoutputcounts-037d)
+#### [SetMeshOutputCounts](setmeshoutputcounts-037d.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+DispatchMesh <dispatchmesh-08>
+SetMeshOutputCounts <setmeshoutputcounts-037d>
+```

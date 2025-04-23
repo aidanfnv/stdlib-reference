@@ -5,25 +5,42 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [InterlockedAdd\<T\>](/stdlib-reference/global-decls/interlockedadd-0b)
+#### [InterlockedAdd\<T\>](interlockedadd-0b.html)
 
-#### [InterlockedAnd\<T\>](/stdlib-reference/global-decls/interlockedand-0b)
+#### [InterlockedAnd\<T\>](interlockedand-0b.html)
 
-#### [InterlockedCompareExchange\<T\>](/stdlib-reference/global-decls/interlockedcompareexchange-0bi)
+#### [InterlockedCompareExchange\<T\>](interlockedcompareexchange-0bi.html)
 
-#### [InterlockedCompareExchangeFloatBitwise](/stdlib-reference/global-decls/interlockedcompareexchangefloatbitwise-0biqv)
+#### [InterlockedCompareExchangeFloatBitwise](interlockedcompareexchangefloatbitwise-0biqv.html)
 
-#### [InterlockedCompareStore\<T\>](/stdlib-reference/global-decls/interlockedcomparestore-0bi)
+#### [InterlockedCompareStore\<T\>](interlockedcomparestore-0bi.html)
 
-#### [InterlockedCompareStoreFloatBitwise\<T\>](/stdlib-reference/global-decls/interlockedcomparestorefloatbitwise-0bins)
+#### [InterlockedCompareStoreFloatBitwise\<T\>](interlockedcomparestorefloatbitwise-0bins.html)
 
-#### [InterlockedExchange\<T\>](/stdlib-reference/global-decls/interlockedexchange-0b)
+#### [InterlockedExchange\<T\>](interlockedexchange-0b.html)
 
-#### [InterlockedMax\<T\>](/stdlib-reference/global-decls/interlockedmax-0b)
+#### [InterlockedMax\<T\>](interlockedmax-0b.html)
 
-#### [InterlockedMin\<T\>](/stdlib-reference/global-decls/interlockedmin-0b)
+#### [InterlockedMin\<T\>](interlockedmin-0b.html)
 
-#### [InterlockedOr\<T\>](/stdlib-reference/global-decls/interlockedor-0b)
+#### [InterlockedOr\<T\>](interlockedor-0b.html)
 
-#### [InterlockedXor\<T\>](/stdlib-reference/global-decls/interlockedxor-0b)
+#### [InterlockedXor\<T\>](interlockedxor-0b.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+InterlockedAdd <interlockedadd-0b>
+InterlockedAnd <interlockedand-0b>
+InterlockedCompareExchange <interlockedcompareexchange-0bi>
+InterlockedCompareExchangeFloatBitwise <interlockedcompareexchangefloatbitwise-0biqv>
+InterlockedCompareStore <interlockedcomparestore-0bi>
+InterlockedCompareStoreFloatBitwise <interlockedcomparestorefloatbitwise-0bins>
+InterlockedExchange <interlockedexchange-0b>
+InterlockedMax <interlockedmax-0b>
+InterlockedMin <interlockedmin-0b>
+InterlockedOr <interlockedor-0b>
+InterlockedXor <interlockedxor-0b>
+```

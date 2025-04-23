@@ -4,29 +4,40 @@ layout: stdlib-reference
 
 # struct Array\<T, N:int\>
 
-*Conforms to:* [IRWArray](/stdlib-reference/interfaces/irwarray-0123/index)\<[T](/stdlib-reference/interfaces/irwarray-0123/index#typeparam-T)\>
+*Conforms to:* [IRWArray](../../interfaces/irwarray-0123/index.html)\<[T](../../interfaces/irwarray-0123/index.html#typeparam-T)\>
 
-*Conditionally conforms to:* [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index), [IDifferentiablePtrType](/stdlib-reference/interfaces/idifferentiableptrtype-01fi/index)
+*Conditionally conforms to:* [IDifferentiable](../../interfaces/idifferentiable-01/index.html), [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index.html)
 
 ## Generic Parameters
 
-#### T {#typeparam-T}
-#### N  : int {#decl-N}
+####  <a id="typeparam-T"></a>T
+####  <a id="decl-N"></a>N  : int
 
 ## Methods
 
-* [getCount](/stdlib-reference/types/array-0/getcount-3)
-* [dzero](/stdlib-reference/types/array-0/dzero)
-* [dadd](/stdlib-reference/types/array-0/dadd)
-* [dmul](/stdlib-reference/types/array-0/dmul)
+* [getCount](getcount-3.html)
+* [dzero](dzero.html)
+* [dadd](dadd.html)
+* [dmul](dmul.html)
 
 ## Conditional Conformances
 
 ### Conformance to IDifferentiable
 `Array<T, N:int>` additionally conforms to `IDifferentiable` when the following conditions are met:
 
-  * [T](/stdlib-reference/types/array-0/index#typeparam-T) : [IDifferentiable](/stdlib-reference/interfaces/idifferentiable-01/index)
+  * [T](index.html#typeparam-T) : [IDifferentiable](../../interfaces/idifferentiable-01/index.html)
 ### Conformance to IDifferentiablePtrType
 `Array<T, N:int>` additionally conforms to `IDifferentiablePtrType` when the following conditions are met:
 
-  * [T](/stdlib-reference/types/array-0/index#typeparam-T) : [IDifferentiablePtrType](/stdlib-reference/interfaces/idifferentiableptrtype-01fi/index)
+  * [T](index.html#typeparam-T) : [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index.html)
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+Differential <../types/array-0/differential-0>
+dadd <../types/array-0/dadd>
+dmul <../types/array-0/dmul>
+dzero <../types/array-0/dzero>
+getCount <../types/array-0/getcount-3>
+```

@@ -6,23 +6,40 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinFloatingPointType](/stdlib-reference/interfaces/0_builtinfloatingpointtype-029hm/index) = float {#typeparam-T}
-#### A: [IDiffTensorWrapper](/stdlib-reference/interfaces/idifftensorwrapper-015b/index) = [AtomicAdd](/stdlib-reference/types/atomicadd-06/index) {#typeparam-A}
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../../interfaces/0_builtinfloatingpointtype-029hm/index.html) = float
+####  <a id="typeparam-A"></a>A: [IDiffTensorWrapper](../../interfaces/idifftensorwrapper-015b/index.html) = [AtomicAdd](../atomicadd-06/index.html)
 
 ## Fields
 
-#### [diff](/stdlib-reference/types/difftensorview-04a/diff) : [A](/stdlib-reference/types/difftensorview-04a/index#typeparam-A) {#decl-diff}
-#### [primal](/stdlib-reference/types/difftensorview-04a/primal) : [TensorView](/stdlib-reference/types/tensorview-06/index)\<[T](/stdlib-reference/types/tensorview-06/index#typeparam-T)\> {#decl-primal}
+####  <a id="decl-diff"></a>[diff](diff.html) : [A](index.html#typeparam-A)
+####  <a id="decl-primal"></a>[primal](primal.html) : [TensorView](../tensorview-06/index.html)\<[T](../tensorview-06/index.html#typeparam-T)\>
 
 ## Methods
 
-* [size](/stdlib-reference/types/difftensorview-04a/size)
-* [dims](/stdlib-reference/types/difftensorview-04a/dims)
-* [stride](/stdlib-reference/types/difftensorview-04a/stride)
-* [init](/stdlib-reference/types/difftensorview-04a/init)
-* [load](/stdlib-reference/types/difftensorview-04a/load)
-* [store](/stdlib-reference/types/difftensorview-04a/store)
-* [subscript](/stdlib-reference/types/difftensorview-04a/subscript)
-* [loadOnce](/stdlib-reference/types/difftensorview-04a/loadonce-4)
-* [storeOnce](/stdlib-reference/types/difftensorview-04a/storeonce-5)
+* [size](size.html)
+* [dims](dims.html)
+* [stride](stride.html)
+* [init](init.html)
+* [load](load.html)
+* [store](store.html)
+* [subscript](subscript.html)
+* [loadOnce](loadonce-4.html)
+* [storeOnce](storeonce-5.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+diff <../types/difftensorview-04a/diff>
+dims <../types/difftensorview-04a/dims>
+init <../types/difftensorview-04a/init>
+load <../types/difftensorview-04a/load>
+loadOnce <../types/difftensorview-04a/loadonce-4>
+primal <../types/difftensorview-04a/primal>
+size <../types/difftensorview-04a/size>
+store <../types/difftensorview-04a/store>
+storeOnce <../types/difftensorview-04a/storeonce-5>
+stride <../types/difftensorview-04a/stride>
+subscript <../types/difftensorview-04a/subscript>
+```

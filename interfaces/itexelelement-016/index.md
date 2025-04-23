@@ -9,7 +9,7 @@ layout: stdlib-reference
 Represent types that can be used as texel element.
 
 
-# Associated types
+## Associated types
 
 #### _Element
 
@@ -22,9 +22,17 @@ Constraints:
 
 ## Fields
 
-#### [elementCount](/stdlib-reference/interfaces/itexelelement-016/elementcount-7) : int {#decl-elementCount}
+####  <a id="decl-elementCount"></a>[elementCount](elementcount-7.html) : int
 
 ## Methods
 
-* [init](/stdlib-reference/interfaces/itexelelement-016/init)
+* [init](init.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+elementCount <../interfaces/itexelelement-016/elementcount-7>
+init <../interfaces/itexelelement-016/init>
+```

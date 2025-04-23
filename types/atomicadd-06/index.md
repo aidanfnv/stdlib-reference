@@ -4,21 +4,36 @@ layout: stdlib-reference
 
 # struct AtomicAdd
 
-*Conforms to:* [IDiffTensorWrapper](/stdlib-reference/interfaces/idifftensorwrapper-015b/index)
+*Conforms to:* [IDiffTensorWrapper](../../interfaces/idifftensorwrapper-015b/index.html)
 
 ## Fields
 
-#### [diff](/stdlib-reference/types/atomicadd-06/diff) : [TensorView](/stdlib-reference/types/tensorview-06/index)\<float\> {#decl-diff}
+####  <a id="decl-diff"></a>[diff](diff.html) : [TensorView](../tensorview-06/index.html)\<float\>
 
 ## Methods
 
 * init
-* [load\_forward](/stdlib-reference/types/atomicadd-06/load_forward)
-* [load\_backward](/stdlib-reference/types/atomicadd-06/load_backward)
-* [store\_forward](/stdlib-reference/types/atomicadd-06/store_forward)
-* [store\_backward](/stdlib-reference/types/atomicadd-06/store_backward)
-* [loadOnce\_forward](/stdlib-reference/types/atomicadd-06/loadonce_forward-4)
-* [loadOnce\_backward](/stdlib-reference/types/atomicadd-06/loadonce_backward-4)
-* [storeOnce\_forward](/stdlib-reference/types/atomicadd-06/storeonce_forward-5)
-* [storeOnce\_backward](/stdlib-reference/types/atomicadd-06/storeonce_backward-5)
+* [load\_forward](load_forward.html)
+* [load\_backward](load_backward.html)
+* [store\_forward](store_forward.html)
+* [store\_backward](store_backward.html)
+* [loadOnce\_forward](loadonce_forward-4.html)
+* [loadOnce\_backward](loadonce_backward-4.html)
+* [storeOnce\_forward](storeonce_forward-5.html)
+* [storeOnce\_backward](storeonce_backward-5.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+diff <../types/atomicadd-06/diff>
+loadOnce_backward <../types/atomicadd-06/loadonce_backward-4>
+loadOnce_forward <../types/atomicadd-06/loadonce_forward-4>
+load_backward <../types/atomicadd-06/load_backward>
+load_forward <../types/atomicadd-06/load_forward>
+storeOnce_backward <../types/atomicadd-06/storeonce_backward-5>
+storeOnce_forward <../types/atomicadd-06/storeonce_forward-5>
+store_backward <../types/atomicadd-06/store_backward>
+store_forward <../types/atomicadd-06/store_forward>
+```

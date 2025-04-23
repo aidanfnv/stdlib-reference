@@ -5,29 +5,48 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [InputPatch\<T, N:int\>](/stdlib-reference/types/inputpatch-05/index)
+#### [InputPatch\<T, N:int\>](inputpatch-05/index.html)
 
-#### [LineStream\<T\>](/stdlib-reference/types/linestream-04/index)
+#### [LineStream\<T\>](linestream-04/index.html)
 
-#### [OutputIndices\<T, MAX\_PRIMITIVES:uint\>](/stdlib-reference/types/outputindices-06/index)
+#### [OutputIndices\<T, MAX\_PRIMITIVES:uint\>](outputindices-06/index.html)
 
-#### [OutputPatch\<T, N:int\>](/stdlib-reference/types/outputpatch-06/index)
+#### [OutputPatch\<T, N:int\>](outputpatch-06/index.html)
 
-#### [OutputPrimitives\<T, MAX\_PRIMITIVES:uint\>](/stdlib-reference/types/outputprimitives-06/index)
+#### [OutputPrimitives\<T, MAX\_PRIMITIVES:uint\>](outputprimitives-06/index.html)
 
-#### [OutputVertices\<T, MAX\_VERTS:uint\>](/stdlib-reference/types/outputvertices-06/index)
+#### [OutputVertices\<T, MAX\_VERTS:uint\>](outputvertices-06/index.html)
 
-#### [PointStream\<T\>](/stdlib-reference/types/pointstream-05/index)
+#### [PointStream\<T\>](pointstream-05/index.html)
 
-#### [SubpassInput\<T, isMS:int\>](/stdlib-reference/types/subpassinput-07)
+#### [SubpassInput\<T, isMS:int\>](subpassinput-07.html)
 
-#### [SubpassInputMS\<T, isMS:int\>](/stdlib-reference/types/subpassinputms-07cd)
+#### [SubpassInputMS\<T, isMS:int\>](subpassinputms-07cd.html)
 
-#### [TextureFootprint\<ND:int\>](/stdlib-reference/types/texturefootprint-07/index)
+#### [TextureFootprint\<ND:int\>](texturefootprint-07/index.html)
 
-#### [TextureFootprint2D](/stdlib-reference/types/texturefootprint2d-07h)
+#### [TextureFootprint2D](texturefootprint2d-07h.html)
 
-#### [TextureFootprint3D](/stdlib-reference/types/texturefootprint3d-07h)
+#### [TextureFootprint3D](texturefootprint3d-07h.html)
 
-#### [TriangleStream\<T\>](/stdlib-reference/types/trianglestream-08/index)
+#### [TriangleStream\<T\>](trianglestream-08/index.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+InputPatch <../types/inputpatch-05/index>
+LineStream <../types/linestream-04/index>
+OutputIndices <../types/outputindices-06/index>
+OutputPatch <../types/outputpatch-06/index>
+OutputPrimitives <../types/outputprimitives-06/index>
+OutputVertices <../types/outputvertices-06/index>
+PointStream <../types/pointstream-05/index>
+SubpassInput <../types/subpassinput-07>
+SubpassInputMS <../types/subpassinputms-07cd>
+TextureFootprint <../types/texturefootprint-07/index>
+TextureFootprint2D <../types/texturefootprint2d-07h>
+TextureFootprint3D <../types/texturefootprint3d-07h>
+TriangleStream <../types/trianglestream-08/index>
+```

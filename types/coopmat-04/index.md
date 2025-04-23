@@ -4,37 +4,64 @@ layout: stdlib-reference
 
 # struct CoopMat\<T, S:CoopMatScope, M:int, N:int, R:CoopMatMatrixUse\>
 
-*Conforms to:* [IArray](/stdlib-reference/interfaces/iarray-01/index)\<[T](/stdlib-reference/interfaces/iarray-01/index#typeparam-T)\>, [IArithmetic](/stdlib-reference/interfaces/iarithmetic-01/index)
+*Conforms to:* [IArray](../../interfaces/iarray-01/index.html)\<[T](../../interfaces/iarray-01/index.html#typeparam-T)\>, [IArithmetic](../../interfaces/iarithmetic-01/index.html)
 
 ## Generic Parameters
 
-#### T: [\_\_BuiltinArithmeticType](/stdlib-reference/interfaces/0_builtinarithmetictype-029j/index) {#typeparam-T}
-#### S  : [CoopMatScope](/stdlib-reference/types/coopmatscope-047/index) {#decl-S}
-#### M  : int {#decl-M}
-#### N  : int {#decl-N}
-#### R  : [CoopMatMatrixUse](/stdlib-reference/types/coopmatmatrixuse-047d/index) {#decl-R}
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index.html)
+####  <a id="decl-S"></a>S  : [CoopMatScope](../coopmatscope-047/index.html)
+####  <a id="decl-M"></a>M  : int
+####  <a id="decl-N"></a>N  : int
+####  <a id="decl-R"></a>R  : [CoopMatMatrixUse](../coopmatmatrixuse-047d/index.html)
 
 ## Methods
 
-* [init](/stdlib-reference/types/coopmat-04/init)
-* [fill](/stdlib-reference/types/coopmat-04/fill)
-* [copyFrom](/stdlib-reference/types/coopmat-04/copyfrom-4)
-* [getCount](/stdlib-reference/types/coopmat-04/getcount-3)
-* [getRowCount](/stdlib-reference/types/coopmat-04/getrowcount-36)
-* [getColumnCount](/stdlib-reference/types/coopmat-04/getcolumncount-39)
-* [subscript](/stdlib-reference/types/coopmat-04/subscript)
-* [getLength](/stdlib-reference/types/coopmat-04/getlength-3)
-* [store](/stdlib-reference/types/coopmat-04/store)
-* [storeAny](/stdlib-reference/types/coopmat-04/storeany-5)
-* [load](/stdlib-reference/types/coopmat-04/load)
-* [loadAny](/stdlib-reference/types/coopmat-04/loadany-4)
-* [add](/stdlib-reference/types/coopmat-04/add)
-* [sub](/stdlib-reference/types/coopmat-04/sub)
-* [mul](/stdlib-reference/types/coopmat-04/mul)
-* [div](/stdlib-reference/types/coopmat-04/div)
-* [neg](/stdlib-reference/types/coopmat-04/neg)
-* [mod](/stdlib-reference/types/coopmat-04/mod)
-* [equals](/stdlib-reference/types/coopmat-04/equals)
-* [lessThan](/stdlib-reference/types/coopmat-04/lessthan-4)
-* [lessThanOrEquals](/stdlib-reference/types/coopmat-04/lessthanorequals-48a)
+* [init](init.html)
+* [fill](fill.html)
+* [copyFrom](copyfrom-4.html)
+* [getCount](getcount-3.html)
+* [getRowCount](getrowcount-36.html)
+* [getColumnCount](getcolumncount-39.html)
+* [subscript](subscript.html)
+* [getLength](getlength-3.html)
+* [store](store.html)
+* [storeAny](storeany-5.html)
+* [load](load.html)
+* [loadAny](loadany-4.html)
+* [add](add.html)
+* [sub](sub.html)
+* [mul](mul.html)
+* [div](div.html)
+* [neg](neg.html)
+* [mod](mod.html)
+* [equals](equals.html)
+* [lessThan](lessthan-4.html)
+* [lessThanOrEquals](lessthanorequals-48a.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+add <../types/coopmat-04/add>
+copyFrom <../types/coopmat-04/copyfrom-4>
+div <../types/coopmat-04/div>
+equals <../types/coopmat-04/equals>
+fill <../types/coopmat-04/fill>
+getColumnCount <../types/coopmat-04/getcolumncount-39>
+getCount <../types/coopmat-04/getcount-3>
+getLength <../types/coopmat-04/getlength-3>
+getRowCount <../types/coopmat-04/getrowcount-36>
+init <../types/coopmat-04/init>
+lessThan <../types/coopmat-04/lessthan-4>
+lessThanOrEquals <../types/coopmat-04/lessthanorequals-48a>
+load <../types/coopmat-04/load>
+loadAny <../types/coopmat-04/loadany-4>
+mod <../types/coopmat-04/mod>
+mul <../types/coopmat-04/mul>
+neg <../types/coopmat-04/neg>
+store <../types/coopmat-04/store>
+storeAny <../types/coopmat-04/storeany-5>
+sub <../types/coopmat-04/sub>
+subscript <../types/coopmat-04/subscript>
+```

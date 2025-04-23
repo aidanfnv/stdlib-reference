@@ -6,6 +6,14 @@ layout: stdlib-reference
 
 ## Methods
 
-* [LoadByteOffset](/stdlib-reference/interfaces/iphysicalbuffer-019/loadbyteoffset-048)
-* [GetBufferPointer](/stdlib-reference/interfaces/iphysicalbuffer-019/getbufferpointer-039)
+* [LoadByteOffset](loadbyteoffset-048.html)
+* [GetBufferPointer](getbufferpointer-039.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+GetBufferPointer <../interfaces/iphysicalbuffer-019/getbufferpointer-039>
+LoadByteOffset <../interfaces/iphysicalbuffer-019/loadbyteoffset-048>
+```

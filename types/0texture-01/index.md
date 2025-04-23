@@ -15,107 +15,107 @@ layout: stdlib-reference
 A parameterized type that represents all flavors of texture types supported by the Slang language.
 Please note that this type is not intended to be used directly in user code, and not all combinations
 of the generic arguments are valid.
-Instead, use the specific texture types such as <span class='code'><a href="/stdlib-reference/types/texture1d-08" class="code_type">Texture1D</a></span>, <span class='code'><a href="/stdlib-reference/types/texture2darray-089" class="code_type">Texture2DArray</a></span> and <span class='code'><a href="/stdlib-reference/types/sampler2d-08" class="code_type">Sampler2D</a></span> etc.
+Instead, use the specific texture types such as <span class='code'><a href="../texture1d-08.html" class="code_type">Texture1D</a></span>, <span class='code'><a href="../texture2darray-089.html" class="code_type">Texture2DArray</a></span> and <span class='code'><a href="../sampler2d-08.html" class="code_type">Sampler2D</a></span> etc.
 This documentation is provided for reference purposes only.
 
 
 ## Generic Parameters
 
-#### T: [ITexelElement](/stdlib-reference/interfaces/itexelelement-016/index) {#typeparam-T}
+####  <a id="typeparam-T"></a>T: [ITexelElement](../../interfaces/itexelelement-016/index.html)
 The element type of the texture. Must be a scalar or vector type.
 
-#### Shape: [\_\_ITextureShape](/stdlib-reference/interfaces/0_itextureshape-023a/index) {#typeparam-Shape}
-The shape of the texture. Must be one of <span class='code'><a href="/stdlib-reference/types/0_shape1d-028/index" class="code_type">__Shape1D</a></span>, <span class='code'><a href="/stdlib-reference/types/0_shape2d-028/index" class="code_type">__Shape2D</a></span>, <span class='code'><a href="/stdlib-reference/types/0_shape3d-028/index" class="code_type">__Shape3D</a></span>, <span class='code'><a href="/stdlib-reference/types/0_shapecube-027/index" class="code_type">__ShapeCube</a></span> or <span class='code'><a href="/stdlib-reference/types/0_shapebuffer-027/index" class="code_type">__ShapeBuffer</a></span>.
+####  <a id="typeparam-Shape"></a>Shape: [\_\_ITextureShape](../../interfaces/0_itextureshape-023a/index.html)
+The shape of the texture. Must be one of <span class='code'><a href="../0_shape1d-028/index.html" class="code_type">__Shape1D</a></span>, <span class='code'><a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a></span>, <span class='code'><a href="../0_shape3d-028/index.html" class="code_type">__Shape3D</a></span>, <span class='code'><a href="../0_shapecube-027/index.html" class="code_type">__ShapeCube</a></span> or <span class='code'><a href="../0_shapebuffer-027/index.html" class="code_type">__ShapeBuffer</a></span>.
 
-#### isArray  : int {#decl-isArray}
+####  <a id="decl-isArray"></a>isArray  : int
 Indicates whether the texture is an array texture.
 
-#### isMS  : int {#decl-isMS}
+####  <a id="decl-isMS"></a>isMS  : int
 Indicates whether the texture is a multisampled texture.
 
-#### sampleCount  : int {#decl-sampleCount}
+####  <a id="decl-sampleCount"></a>sampleCount  : int
 The number of samples of a multisampled texture.
 
-#### access  : int {#decl-access}
+####  <a id="decl-access"></a>access  : int
 The access mode of the texture. 0 for read-only, 1 for read-write, 2 for rasterizer-ordered, 3 for feedback.
 
-#### isShadow  : int {#decl-isShadow}
+####  <a id="decl-isShadow"></a>isShadow  : int
 Indicates whether the texture is a shadow texture (for combined texture-sampler only).
 
-#### isCombined  : int {#decl-isCombined}
+####  <a id="decl-isCombined"></a>isCombined  : int
 Indicates whether the texture is a combined texture-sampler.
 
-#### format  : int {#decl-format}
-The storage format of the texture. Users should specify the format using an <span class='code'>[<a href="/stdlib-reference/types/0texture-01/index#decl-format" class="code_var">format</a>(&quot;...&quot;)]</span> attribute instead.
+####  <a id="decl-format"></a>format  : int
+The storage format of the texture. Users should specify the format using an <span class='code'>[<a href="index.html#decl-format" class="code_var">format</a>(&quot;...&quot;)]</span> attribute instead.
 
 
 ## Fields
 
-#### [kind](/stdlib-reference/types/0texture-01/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) =\.\.\. {#decl-kind}
+####  <a id="decl-kind"></a>[kind](kind.html) : [DescriptorKind](../descriptorkind-0a/index.html) =\.\.\.
 
 ## Methods
 
-* [CalculateLevelOfDetail](/stdlib-reference/types/0texture-01/calculatelevelofdetail-09eg)
-* [CalculateLevelOfDetailUnclamped](/stdlib-reference/types/0texture-01/calculatelevelofdetailunclamped-09egm)
-* [Sample](/stdlib-reference/types/0texture-01/sample-0)
-* [SampleBias](/stdlib-reference/types/0texture-01/samplebias-06)
-* [SampleCmp](/stdlib-reference/types/0texture-01/samplecmp-06)
-* [SampleCmpLevelZero](/stdlib-reference/types/0texture-01/samplecmplevelzero-069e)
-* [SampleCmpLevel](/stdlib-reference/types/0texture-01/samplecmplevel-069)
-* [SampleGrad](/stdlib-reference/types/0texture-01/samplegrad-06)
-* [SampleLevel](/stdlib-reference/types/0texture-01/samplelevel-06)
-* [GetSamplePosition](/stdlib-reference/types/0texture-01/getsampleposition-039)
-* [Gather](/stdlib-reference/types/0texture-01/gather-0)
-* [GatherRed](/stdlib-reference/types/0texture-01/gatherred-06)
-* [GatherGreen](/stdlib-reference/types/0texture-01/gathergreen-06)
-* [GatherBlue](/stdlib-reference/types/0texture-01/gatherblue-06)
-* [GatherAlpha](/stdlib-reference/types/0texture-01/gatheralpha-06)
-* [GatherCmp](/stdlib-reference/types/0texture-01/gathercmp-06)
-* [GatherCmpRed](/stdlib-reference/types/0texture-01/gathercmpred-069)
-* [GatherCmpGreen](/stdlib-reference/types/0texture-01/gathercmpgreen-069)
-* [GatherCmpBlue](/stdlib-reference/types/0texture-01/gathercmpblue-069)
-* [GatherCmpAlpha](/stdlib-reference/types/0texture-01/gathercmpalpha-069)
-* [Store](/stdlib-reference/types/0texture-01/store-0)
-* [GetDimensions](/stdlib-reference/types/0texture-01/getdimensions-03)
-* [Load](/stdlib-reference/types/0texture-01/load-0)
-* [subscript](/stdlib-reference/types/0texture-01/subscript)
-* [WriteSamplerFeedbackLevel](/stdlib-reference/types/0texture-01/writesamplerfeedbacklevel-05ck)
-* [WriteSamplerFeedback](/stdlib-reference/types/0texture-01/writesamplerfeedback-05c)
-* [WriteSamplerFeedbackBias](/stdlib-reference/types/0texture-01/writesamplerfeedbackbias-05ck)
-* [WriteSamplerFeedbackGrad](/stdlib-reference/types/0texture-01/writesamplerfeedbackgrad-05ck)
-* [queryFootprintCoarse](/stdlib-reference/types/0texture-01/queryfootprintcoarse-5e)
-* [queryFootprintCoarseBias](/stdlib-reference/types/0texture-01/queryfootprintcoarsebias-5ek)
-* [queryFootprintCoarseClamp](/stdlib-reference/types/0texture-01/queryfootprintcoarseclamp-5ek)
-* [queryFootprintCoarseBiasClamp](/stdlib-reference/types/0texture-01/queryfootprintcoarsebiasclamp-5eko)
-* [queryFootprintCoarseLevel](/stdlib-reference/types/0texture-01/queryfootprintcoarselevel-5ek)
-* [queryFootprintCoarseGrad](/stdlib-reference/types/0texture-01/queryfootprintcoarsegrad-5ek)
-* [queryFootprintCoarseGradClamp](/stdlib-reference/types/0texture-01/queryfootprintcoarsegradclamp-5eko)
-* [queryFootprintFine](/stdlib-reference/types/0texture-01/queryfootprintfine-5e)
-* [queryFootprintFineBias](/stdlib-reference/types/0texture-01/queryfootprintfinebias-5ei)
-* [queryFootprintFineClamp](/stdlib-reference/types/0texture-01/queryfootprintfineclamp-5ei)
-* [queryFootprintFineBiasClamp](/stdlib-reference/types/0texture-01/queryfootprintfinebiasclamp-5eim)
-* [queryFootprintFineLevel](/stdlib-reference/types/0texture-01/queryfootprintfinelevel-5ei)
-* [queryFootprintFineGrad](/stdlib-reference/types/0texture-01/queryfootprintfinegrad-5ei)
-* [queryFootprintFineGradClamp](/stdlib-reference/types/0texture-01/queryfootprintfinegradclamp-5eim)
-* [InterlockedAddF32](/stdlib-reference/types/0texture-01/interlockedaddf32-0be)
-* [init](/stdlib-reference/types/0texture-01/init)
+* [CalculateLevelOfDetail](calculatelevelofdetail-09eg.html)
+* [CalculateLevelOfDetailUnclamped](calculatelevelofdetailunclamped-09egm.html)
+* [Sample](sample-0.html)
+* [SampleBias](samplebias-06.html)
+* [SampleCmp](samplecmp-06.html)
+* [SampleCmpLevelZero](samplecmplevelzero-069e.html)
+* [SampleCmpLevel](samplecmplevel-069.html)
+* [SampleGrad](samplegrad-06.html)
+* [SampleLevel](samplelevel-06.html)
+* [GetSamplePosition](getsampleposition-039.html)
+* [Gather](gather-0.html)
+* [GatherRed](gatherred-06.html)
+* [GatherGreen](gathergreen-06.html)
+* [GatherBlue](gatherblue-06.html)
+* [GatherAlpha](gatheralpha-06.html)
+* [GatherCmp](gathercmp-06.html)
+* [GatherCmpRed](gathercmpred-069.html)
+* [GatherCmpGreen](gathercmpgreen-069.html)
+* [GatherCmpBlue](gathercmpblue-069.html)
+* [GatherCmpAlpha](gathercmpalpha-069.html)
+* [Store](store-0.html)
+* [GetDimensions](getdimensions-03.html)
+* [Load](load-0.html)
+* [subscript](subscript.html)
+* [WriteSamplerFeedbackLevel](writesamplerfeedbacklevel-05ck.html)
+* [WriteSamplerFeedback](writesamplerfeedback-05c.html)
+* [WriteSamplerFeedbackBias](writesamplerfeedbackbias-05ck.html)
+* [WriteSamplerFeedbackGrad](writesamplerfeedbackgrad-05ck.html)
+* [queryFootprintCoarse](queryfootprintcoarse-5e.html)
+* [queryFootprintCoarseBias](queryfootprintcoarsebias-5ek.html)
+* [queryFootprintCoarseClamp](queryfootprintcoarseclamp-5ek.html)
+* [queryFootprintCoarseBiasClamp](queryfootprintcoarsebiasclamp-5eko.html)
+* [queryFootprintCoarseLevel](queryfootprintcoarselevel-5ek.html)
+* [queryFootprintCoarseGrad](queryfootprintcoarsegrad-5ek.html)
+* [queryFootprintCoarseGradClamp](queryfootprintcoarsegradclamp-5eko.html)
+* [queryFootprintFine](queryfootprintfine-5e.html)
+* [queryFootprintFineBias](queryfootprintfinebias-5ei.html)
+* [queryFootprintFineClamp](queryfootprintfineclamp-5ei.html)
+* [queryFootprintFineBiasClamp](queryfootprintfinebiasclamp-5eim.html)
+* [queryFootprintFineLevel](queryfootprintfinelevel-5ei.html)
+* [queryFootprintFineGrad](queryfootprintfinegrad-5ei.html)
+* [queryFootprintFineGradClamp](queryfootprintfinegradclamp-5eim.html)
+* [InterlockedAddF32](interlockedaddf32-0be.html)
+* [init](init.html)
 
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 `_Texture<T, Shape, isArray:int, isMS:int, sampleCount:int, access:int, isShadow:int, isCombined:int, format:int>` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>` when the following conditions are met:
 
-  * [T](/stdlib-reference/types/0texture-01/index#typeparam-T) : [ITexelElement](/stdlib-reference/interfaces/itexelelement-016/index)
-  * [Shape](/stdlib-reference/types/0texture-01/index#typeparam-Shape) : [\_\_ITextureShape](/stdlib-reference/interfaces/0_itextureshape-023a/index)
+  * [T](index.html#typeparam-T) : [ITexelElement](../../interfaces/itexelelement-016/index.html)
+  * [Shape](index.html#typeparam-Shape) : [\_\_ITextureShape](../../interfaces/0_itextureshape-023a/index.html)
 ## Remarks
 
 
-HLSL texture types are implemented as typealiases to the builtin <span class='code'><a href="/stdlib-reference/types/0texture-01/index" class="code_type">_Texture</a></span> type. Users
-are advised to use the HLSL-specific texture types instead of <span class='code'><a href="/stdlib-reference/types/0texture-01/index" class="code_type">_Texture</a></span> directly.
+HLSL texture types are implemented as typealiases to the builtin <span class='code'><a href="index.html" class="code_type">_Texture</a></span> type. Users
+are advised to use the HLSL-specific texture types instead of <span class='code'><a href="index.html" class="code_type">_Texture</a></span> directly.
 
-For read-write textures, Slang will automatically infer <span class='code'><a href="/stdlib-reference/types/0texture-01/index#decl-format" class="code_var">format</a></span> from <span class='code'><a href="/stdlib-reference/types/0texture-01/index#typeparam-T" class="code_type">T</a></span>.
+For read-write textures, Slang will automatically infer <span class='code'><a href="index.html#decl-format" class="code_var">format</a></span> from <span class='code'><a href="index.html#typeparam-T" class="code_type">T</a></span>.
 To explicitly specify texel storage formats for read-write textures,
-use the <span class='code'>[<a href="/stdlib-reference/types/0texture-01/index#decl-format" class="code_var">format</a>(&quot;formatString&quot;)]</span> attribute on the texture parameter declaration.
+use the <span class='code'>[<a href="index.html#decl-format" class="code_var">format</a>(&quot;formatString&quot;)]</span> attribute on the texture parameter declaration.
 Allowed <span class='code'>formatString</span> values are:
 
 |id | Format string        | Meaning           |
@@ -162,14 +162,70 @@ Allowed <span class='code'>formatString</span> values are:
 |40 |<span class='code'>&quot;r64ui&quot;</span>             | 1 channel 64-bit unsigned integer texture |
 |41 |<span class='code'>&quot;r64i&quot;</span>              | 1 channel 64-bit signed integer texture |
 
-When targeting Vulkan, a combined-texture-sampler type (<span class='code'><a href="/stdlib-reference/types/0texture-01/index#decl-isCombined" class="code_var">isCombined</a>==1</span>) translates to a <span class='code'>OpTypeSampledImage</span> type in SPIR-V.
-For other targets, the combined-texture-sampler type is translated to a pair of a <span class='code'>Texture</span> and <span class='code'><a href="/stdlib-reference/types/samplerstate-07/index" class="code_type">SamplerState</a></span>.
-<span class='code'><a href="/stdlib-reference/types/0texture-01/index#decl-isShadow" class="code_var">isShadow</a></span> is only applicable to combined-texture-sampler types and must be <span class='code'>0</span> for non-combined texture types.
+When targeting Vulkan, a combined-texture-sampler type (<span class='code'><a href="index.html#decl-isCombined" class="code_var">isCombined</a>==1</span>) translates to a <span class='code'>OpTypeSampledImage</span> type in SPIR-V.
+For other targets, the combined-texture-sampler type is translated to a pair of a <span class='code'>Texture</span> and <span class='code'><a href="../samplerstate-07/index.html" class="code_type">SamplerState</a></span>.
+<span class='code'><a href="index.html#decl-isShadow" class="code_var">isShadow</a></span> is only applicable to combined-texture-sampler types and must be <span class='code'>0</span> for non-combined texture types.
 
 ## See also
 
-<span class='code'><a href="/stdlib-reference/types/texture1d-08" class="code_type">Texture1D</a></span>, <span class='code'><a href="/stdlib-reference/types/texture2d-08" class="code_type">Texture2D</a></span>, <span class='code'><a href="/stdlib-reference/types/texture3d-08" class="code_type">Texture3D</a></span>, <span class='code'><a href="/stdlib-reference/types/texturecube-07" class="code_type">TextureCube</a></span>, <span class='code'><a href="/stdlib-reference/types/texture1darray-089" class="code_type">Texture1DArray</a></span>,
-<span class='code'><a href="/stdlib-reference/types/texture2darray-089" class="code_type">Texture2DArray</a></span>, <span class='code'><a href="/stdlib-reference/types/texturecubearray-07b" class="code_type">TextureCubeArray</a></span>, <span class='code'><a href="/stdlib-reference/types/sampler1d-08" class="code_type">Sampler1D</a></span>, <span class='code'><a href="/stdlib-reference/types/sampler2d-08" class="code_type">Sampler2D</a></span>, <span class='code'><a href="/stdlib-reference/types/sampler3d-08" class="code_type">Sampler3D</a></span>, <span class='code'><a href="/stdlib-reference/types/samplercube-07" class="code_type">SamplerCube</a></span>, <span class='code'><a href="/stdlib-reference/types/sampler1darray-089" class="code_type">Sampler1DArray</a></span>, <span class='code'><a href="/stdlib-reference/types/sampler2darray-089" class="code_type">Sampler2DArray</a></span>, <span class='code'><a href="/stdlib-reference/types/samplercubearray-07b" class="code_type">SamplerCubeArray</a></span>,
-<span class='code'><a href="/stdlib-reference/types/texture2dms-089a" class="code_type">Texture2DMS</a></span>, <span class='code'><a href="/stdlib-reference/types/texture2dmsarray-089ab" class="code_type">Texture2DMSArray</a></span>, <span class='code'><a href="/stdlib-reference/types/rwtexture1d-012a" class="code_type">RWTexture1D</a></span>, <span class='code'><a href="/stdlib-reference/types/rwtexture2d-012a" class="code_type">RWTexture2D</a></span>, <span class='code'><a href="/stdlib-reference/types/rwtexture3d-012a" class="code_type">RWTexture3D</a></span>, <span class='code'><a href="/stdlib-reference/types/rwtexture1darray-012ab" class="code_type">RWTexture1DArray</a></span>, <span class='code'><a href="/stdlib-reference/types/rwtexture2darray-012ab" class="code_type">RWTexture2DArray</a></span>,
-<span class='code'><a href="/stdlib-reference/types/rwtexture2dms-012abc" class="code_type">RWTexture2DMS</a></span>, <span class='code'><a href="/stdlib-reference/types/rwtexture2dmsarray-012abcd" class="code_type">RWTexture2DMSArray</a></span>, <span class='code'><a href="/stdlib-reference/types/buffer-0" class="code_type">Buffer</a></span>, <span class='code'><a href="/stdlib-reference/types/rwbuffer-012" class="code_type">RWBuffer</a></span>, <span class='code'><a href="/stdlib-reference/types/feedbacktexture2d-08g" class="code_type">FeedbackTexture2D</a></span>, <span class='code'><a href="/stdlib-reference/types/feedbacktexture2darray-08gh" class="code_type">FeedbackTexture2DArray</a></span>.
+<span class='code'><a href="../texture1d-08.html" class="code_type">Texture1D</a></span>, <span class='code'><a href="../texture2d-08.html" class="code_type">Texture2D</a></span>, <span class='code'><a href="../texture3d-08.html" class="code_type">Texture3D</a></span>, <span class='code'><a href="../texturecube-07.html" class="code_type">TextureCube</a></span>, <span class='code'><a href="../texture1darray-089.html" class="code_type">Texture1DArray</a></span>,
+<span class='code'><a href="../texture2darray-089.html" class="code_type">Texture2DArray</a></span>, <span class='code'><a href="../texturecubearray-07b.html" class="code_type">TextureCubeArray</a></span>, <span class='code'><a href="../sampler1d-08.html" class="code_type">Sampler1D</a></span>, <span class='code'><a href="../sampler2d-08.html" class="code_type">Sampler2D</a></span>, <span class='code'><a href="../sampler3d-08.html" class="code_type">Sampler3D</a></span>, <span class='code'><a href="../samplercube-07.html" class="code_type">SamplerCube</a></span>, <span class='code'><a href="../sampler1darray-089.html" class="code_type">Sampler1DArray</a></span>, <span class='code'><a href="../sampler2darray-089.html" class="code_type">Sampler2DArray</a></span>, <span class='code'><a href="../samplercubearray-07b.html" class="code_type">SamplerCubeArray</a></span>,
+<span class='code'><a href="../texture2dms-089a.html" class="code_type">Texture2DMS</a></span>, <span class='code'><a href="../texture2dmsarray-089ab.html" class="code_type">Texture2DMSArray</a></span>, <span class='code'><a href="../rwtexture1d-012a.html" class="code_type">RWTexture1D</a></span>, <span class='code'><a href="../rwtexture2d-012a.html" class="code_type">RWTexture2D</a></span>, <span class='code'><a href="../rwtexture3d-012a.html" class="code_type">RWTexture3D</a></span>, <span class='code'><a href="../rwtexture1darray-012ab.html" class="code_type">RWTexture1DArray</a></span>, <span class='code'><a href="../rwtexture2darray-012ab.html" class="code_type">RWTexture2DArray</a></span>,
+<span class='code'><a href="../rwtexture2dms-012abc.html" class="code_type">RWTexture2DMS</a></span>, <span class='code'><a href="../rwtexture2dmsarray-012abcd.html" class="code_type">RWTexture2DMSArray</a></span>, <span class='code'><a href="../buffer-0.html" class="code_type">Buffer</a></span>, <span class='code'><a href="../rwbuffer-012.html" class="code_type">RWBuffer</a></span>, <span class='code'><a href="../feedbacktexture2d-08g.html" class="code_type">FeedbackTexture2D</a></span>, <span class='code'><a href="../feedbacktexture2darray-08gh.html" class="code_type">FeedbackTexture2DArray</a></span>.
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+CalculateLevelOfDetail <../types/0texture-01/calculatelevelofdetail-09eg>
+CalculateLevelOfDetailUnclamped <../types/0texture-01/calculatelevelofdetailunclamped-09egm>
+Coords <../types/0texture-01/coords-0>
+Footprint <../types/0texture-01/footprint-0>
+FootprintGranularity <../types/0texture-01/footprintgranularity-09>
+Gather <../types/0texture-01/gather-0>
+GatherAlpha <../types/0texture-01/gatheralpha-06>
+GatherBlue <../types/0texture-01/gatherblue-06>
+GatherCmp <../types/0texture-01/gathercmp-06>
+GatherCmpAlpha <../types/0texture-01/gathercmpalpha-069>
+GatherCmpBlue <../types/0texture-01/gathercmpblue-069>
+GatherCmpGreen <../types/0texture-01/gathercmpgreen-069>
+GatherCmpRed <../types/0texture-01/gathercmpred-069>
+GatherGreen <../types/0texture-01/gathergreen-06>
+GatherRed <../types/0texture-01/gatherred-06>
+GetDimensions <../types/0texture-01/getdimensions-03>
+GetSamplePosition <../types/0texture-01/getsampleposition-039>
+Handle <../types/0texture-01/handle-0>
+InterlockedAddF32 <../types/0texture-01/interlockedaddf32-0be>
+Load <../types/0texture-01/load-0>
+Sample <../types/0texture-01/sample-0>
+SampleBias <../types/0texture-01/samplebias-06>
+SampleCmp <../types/0texture-01/samplecmp-06>
+SampleCmpLevel <../types/0texture-01/samplecmplevel-069>
+SampleCmpLevelZero <../types/0texture-01/samplecmplevelzero-069e>
+SampleGrad <../types/0texture-01/samplegrad-06>
+SampleLevel <../types/0texture-01/samplelevel-06>
+Store <../types/0texture-01/store-0>
+TextureCoord <../types/0texture-01/texturecoord-07>
+WriteSamplerFeedback <../types/0texture-01/writesamplerfeedback-05c>
+WriteSamplerFeedbackBias <../types/0texture-01/writesamplerfeedbackbias-05ck>
+WriteSamplerFeedbackGrad <../types/0texture-01/writesamplerfeedbackgrad-05ck>
+WriteSamplerFeedbackLevel <../types/0texture-01/writesamplerfeedbacklevel-05ck>
+init <../types/0texture-01/init>
+kind <../types/0texture-01/kind>
+queryFootprintCoarse <../types/0texture-01/queryfootprintcoarse-5e>
+queryFootprintCoarseBias <../types/0texture-01/queryfootprintcoarsebias-5ek>
+queryFootprintCoarseBiasClamp <../types/0texture-01/queryfootprintcoarsebiasclamp-5eko>
+queryFootprintCoarseClamp <../types/0texture-01/queryfootprintcoarseclamp-5ek>
+queryFootprintCoarseGrad <../types/0texture-01/queryfootprintcoarsegrad-5ek>
+queryFootprintCoarseGradClamp <../types/0texture-01/queryfootprintcoarsegradclamp-5eko>
+queryFootprintCoarseLevel <../types/0texture-01/queryfootprintcoarselevel-5ek>
+queryFootprintFine <../types/0texture-01/queryfootprintfine-5e>
+queryFootprintFineBias <../types/0texture-01/queryfootprintfinebias-5ei>
+queryFootprintFineBiasClamp <../types/0texture-01/queryfootprintfinebiasclamp-5eim>
+queryFootprintFineClamp <../types/0texture-01/queryfootprintfineclamp-5ei>
+queryFootprintFineGrad <../types/0texture-01/queryfootprintfinegrad-5ei>
+queryFootprintFineGradClamp <../types/0texture-01/queryfootprintfinegradclamp-5eim>
+queryFootprintFineLevel <../types/0texture-01/queryfootprintfinelevel-5ei>
+subscript <../types/0texture-01/subscript>
+```

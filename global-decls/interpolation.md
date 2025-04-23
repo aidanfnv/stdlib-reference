@@ -5,9 +5,18 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [EvaluateAttributeAtCentroid\<T\>](/stdlib-reference/global-decls/evaluateattributeatcentroid-08hj)
+#### [EvaluateAttributeAtCentroid\<T\>](evaluateattributeatcentroid-08hj.html)
 
-#### [EvaluateAttributeAtSample\<T\>](/stdlib-reference/global-decls/evaluateattributeatsample-08hj)
+#### [EvaluateAttributeAtSample\<T\>](evaluateattributeatsample-08hj.html)
 
-#### [EvaluateAttributeSnapped\<T\>](/stdlib-reference/global-decls/evaluateattributesnapped-08h)
+#### [EvaluateAttributeSnapped\<T\>](evaluateattributesnapped-08h.html)
 
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+EvaluateAttributeAtCentroid <evaluateattributeatcentroid-08hj>
+EvaluateAttributeAtSample <evaluateattributeatsample-08hj>
+EvaluateAttributeSnapped <evaluateattributesnapped-08h>
+```

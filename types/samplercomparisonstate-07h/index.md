@@ -13,13 +13,22 @@ Sampling state for filtered texture fetches that include a comparison operation 
 
 ## Fields
 
-#### [kind](/stdlib-reference/types/samplercomparisonstate-07h/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) = [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index)\.[Sampler](/stdlib-reference/types/descriptorkind-0a/index#decl-Sampler) {#decl-kind}
+####  <a id="decl-kind"></a>[kind](kind.html) : [DescriptorKind](../descriptorkind-0a/index.html) = [DescriptorKind](../descriptorkind-0a/index.html)\.[Sampler](../descriptorkind-0a/index.html#decl-Sampler)
 
 ## Methods
 
-* [init](/stdlib-reference/types/samplercomparisonstate-07h/init)
+* [init](init.html)
 
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.Sampler\>
 `SamplerComparisonState` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.Sampler\>`.
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+Handle <../types/samplercomparisonstate-07h/handle-0>
+init <../types/samplercomparisonstate-07h/init>
+kind <../types/samplercomparisonstate-07h/kind>
+```

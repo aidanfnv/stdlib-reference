@@ -13,13 +13,22 @@ Opaque type representing a ray-tracing acceleration structure.
 
 ## Fields
 
-#### [kind](/stdlib-reference/types/raytracingaccelerationstructure-0am/kind) : [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index) = [DescriptorKind](/stdlib-reference/types/descriptorkind-0a/index)\.[AccelerationStructure](/stdlib-reference/types/descriptorkind-0a/index#decl-AccelerationStructure) {#decl-kind}
+####  <a id="decl-kind"></a>[kind](kind.html) : [DescriptorKind](../descriptorkind-0a/index.html) = [DescriptorKind](../descriptorkind-0a/index.html)\.[AccelerationStructure](../descriptorkind-0a/index.html#decl-AccelerationStructure)
 
 ## Methods
 
-* [init](/stdlib-reference/types/raytracingaccelerationstructure-0am/init)
+* [init](init.html)
 
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 `RaytracingAccelerationStructure` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>`.
+
+```{toctree}
+:titlesonly:
+:hidden:
+
+Handle <../types/raytracingaccelerationstructure-0am/handle-0>
+init <../types/raytracingaccelerationstructure-0am/init>
+kind <../types/raytracingaccelerationstructure-0am/kind>
+```
