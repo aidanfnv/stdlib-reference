@@ -13,28 +13,28 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="waveactivebitor-04ad.md#typeparam-T" class="code_type">T</a> <a href="waveactivebitor-04ad.md">WaveActiveBitOr</a>&lt;<a href="waveactivebitor-04ad.md#typeparam-T" class="code_type">T</a>&gt;(<a href="waveactivebitor-04ad.md#typeparam-T" class="code_type">T</a> <a href="waveactivebitor-04ad.md#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="waveactivebitor-04ad.md#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.md" class="code_type">__BuiltinIntegerType</a>;
+<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a> <a href="waveactivebitor-04ad.html">WaveActiveBitOr</a>&lt;<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a>&gt;(<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a> <a href="waveactivebitor-04ad.html#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
-<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<a href="waveactivebitor-04ad.md#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.md#decl-N" class="code_var">N</a>&gt; <a href="waveactivebitor-04ad.md">WaveActiveBitOr</a>&lt;<a href="waveactivebitor-04ad.md#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<a href="waveactivebitor-04ad.md#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.md#decl-N" class="code_var">N</a>&gt; <a href="waveactivebitor-04ad.md#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="waveactivebitor-04ad.md#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.md" class="code_type">__BuiltinIntegerType</a>;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.html#decl-N" class="code_var">N</a>&gt; <a href="waveactivebitor-04ad.html">WaveActiveBitOr</a>&lt;<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.html#decl-N" class="code_var">N</a>&gt; <a href="waveactivebitor-04ad.html#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
-<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="waveactivebitor-04ad.md#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.md#decl-N" class="code_var">N</a>, <a href="waveactivebitor-04ad.md#decl-M" class="code_var">M</a>&gt; <a href="waveactivebitor-04ad.md">WaveActiveBitOr</a>&lt;<a href="waveactivebitor-04ad.md#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="waveactivebitor-04ad.md#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="waveactivebitor-04ad.md#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.md#decl-N" class="code_var">N</a>, <a href="waveactivebitor-04ad.md#decl-M" class="code_var">M</a>&gt; <a href="waveactivebitor-04ad.md#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="waveactivebitor-04ad.md#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.md" class="code_type">__BuiltinIntegerType</a>;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.html#decl-N" class="code_var">N</a>, <a href="waveactivebitor-04ad.html#decl-M" class="code_var">M</a>&gt; <a href="waveactivebitor-04ad.html">WaveActiveBitOr</a>&lt;<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="waveactivebitor-04ad.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitor-04ad.html#decl-N" class="code_var">N</a>, <a href="waveactivebitor-04ad.html#decl-M" class="code_var">M</a>&gt; <a href="waveactivebitor-04ad.html#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="waveactivebitor-04ad.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index.md)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index.html)
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
 
 ## Parameters
 
-####  <a id="decl-expr"></a>expr  : [T](waveactivebitor-04ad.md#typeparam-T)
-####  <a id="decl-expr"></a>expr  : [vector](../types/vector/index.md)\<[T](../types/vector/index.md#typeparam-T), [N](../types/vector/index.md#decl-N)\>
-####  <a id="decl-expr"></a>expr  : [matrix](../types/matrix/index.md)\<[T](../types/matrix/t-0.md), [N](../types/matrix/index.md#decl-N), [M](../types/matrix/index.md#decl-M)\>
+####  <a id="decl-expr"></a>expr  : [T](waveactivebitor-04ad.html#typeparam-T)
+####  <a id="decl-expr"></a>expr  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-expr"></a>expr  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 
 ## Availability and Requirements
 
@@ -61,20 +61,3 @@ Available in all stages.
 Requires capability: `spvGroupNonUniformArithmetic`.
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

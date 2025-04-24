@@ -14,46 +14,46 @@ Computes base-e exponent.
 
 <pre>
 /// Requires Capability Set 1:
-<a href="exp.md#typeparam-T" class="code_type">T</a> <a href="exp.md">exp</a>&lt;<a href="exp.md#typeparam-T" class="code_type">T</a>&gt;(<a href="exp.md#typeparam-T" class="code_type">T</a> <a href="exp.md#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="exp.md#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.md" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="exp.html#typeparam-T" class="code_type">T</a> <a href="exp.html">exp</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>&gt;(<a href="exp.html#typeparam-T" class="code_type">T</a> <a href="exp.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="exp.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 1:
-<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<a href="exp.md#typeparam-T" class="code_type">T</a>, <a href="exp.md#decl-N" class="code_var">N</a>&gt; <a href="exp.md">exp</a>&lt;<a href="exp.md#typeparam-T" class="code_type">T</a>, <a href="exp.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<a href="exp.md#typeparam-T" class="code_type">T</a>, <a href="exp.md#decl-N" class="code_var">N</a>&gt; <a href="exp.md#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="exp.md#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.md" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>&gt; <a href="exp.html">exp</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>&gt; <a href="exp.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="exp.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 1:
-<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="exp.md#typeparam-T" class="code_type">T</a>, <a href="exp.md#decl-N" class="code_var">N</a>, <a href="exp.md#decl-M" class="code_var">M</a>&gt; <a href="exp.md">exp</a>&lt;<a href="exp.md#typeparam-T" class="code_type">T</a>, <a href="exp.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="exp.md#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="exp.md#typeparam-T" class="code_type">T</a>, <a href="exp.md#decl-N" class="code_var">N</a>, <a href="exp.md#decl-M" class="code_var">M</a>&gt; <a href="exp.md#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="exp.md#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.md" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>, <a href="exp.html#decl-M" class="code_var">M</a>&gt; <a href="exp.html">exp</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="exp.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>, <a href="exp.html#decl-M" class="code_var">M</a>&gt; <a href="exp.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="exp.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 2:
-<a href="../types/coopvec-04/index.md" class="code_type">CoopVec</a>&lt;<a href="exp.md#typeparam-T" class="code_type">T</a>, <a href="exp.md#decl-N" class="code_var">N</a>&gt; <a href="exp.md">exp</a>&lt;<a href="exp.md#typeparam-T" class="code_type">T</a>, <a href="exp.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/coopvec-04/index.md" class="code_type">CoopVec</a>&lt;<a href="exp.md#typeparam-T" class="code_type">T</a>, <a href="exp.md#decl-N" class="code_var">N</a>&gt; <a href="exp.md#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="exp.md#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.md" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>&gt; <a href="exp.html">exp</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="exp.html#typeparam-T" class="code_type">T</a>, <a href="exp.html#decl-N" class="code_var">N</a>&gt; <a href="exp.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="exp.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.md)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](exp.md#typeparam-T)
+####  <a id="decl-x"></a>x  : [T](exp.html#typeparam-T)
 The input value.
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index.md)\<[T](../types/vector/index.md#typeparam-T), [N](../types/vector/index.md#decl-N)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The input value.
 
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index.md)\<[T](../types/matrix/t-0.md), [N](../types/matrix/index.md#decl-N), [M](../types/matrix/index.md#decl-M)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 The input value.
 
-####  <a id="decl-x"></a>x  : [CoopVec](../types/coopvec-04/index.md)\<[T](../types/coopvec-04/index.md#typeparam-T), [N](../types/coopvec-04/index.md#decl-N)\>
+####  <a id="decl-x"></a>x  : [CoopVec](../types/coopvec-04/index.html)\<[T](../types/coopvec-04/index.html#typeparam-T), [N](../types/coopvec-04/index.html#decl-N)\>
 The input value.
 
 
 ## Return value
-The base-e exponent of <span class='code'><a href="exp.md#decl-x" class="code_param">x</a></span>.
+The base-e exponent of <span class='code'><a href="exp.html#decl-x" class="code_param">x</a></span>.
 
 
 ## Availability and Requirements
@@ -103,20 +103,3 @@ Available in all stages.
 Requires capability: `spvCooperativeVectorNV`.
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

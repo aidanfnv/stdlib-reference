@@ -12,9 +12,9 @@ system defined types, interfaces, methods and constants that can be used in a Sl
 program.
 
 This reference groups the standard library declarations as:
-- [Interfaces](./interfaces/index.md): all builtin interfaces usable as generic constraints.
-- [Types](./types/index.md): all builtin types and their members, such as `StructuredBuffer`, `Texture2D` and etc.
-- [Global Declarations](./global-decls/index.md): all other constants and functions defined in the global scope.
+- [Interfaces](./interfaces/index): all builtin interfaces usable as generic constraints.
+- [Types](./types/index.html): all builtin types and their members, such as `StructuredBuffer`, `Texture2D` and etc.
+- [Global Declarations](./global-decls/index.html): all other constants and functions defined in the global scope.
 
 This documentation is still a work-in-progress.
 
@@ -27,16 +27,3 @@ Types <./types/index>
 Attributes <./attributes/index>
 Global Declarations <./global-decls/index>
 ```
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a[href$=".md"]');
-    links.forEach(link => {
-      link.href = link.href.replace(/\.md$/, '.html');
-    });
-  });
-}
-</script>

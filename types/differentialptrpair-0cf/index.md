@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct DifferentialPtrPair\<T\>
 
-*Conforms to:* [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index.md)
+*Conforms to:* [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index.html)
 
 > #### Experimental Feature
 > The feature described in this page is marked as experimental, and may be subject to change in future releases.
@@ -12,9 +12,9 @@ layout: stdlib-reference
 
 ## Description
 
-<span class='code'><a href="index.md" class="code_type">DifferentialPtrPair</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;</span> is a built-in type that carries both the original and differential of a
+<span class='code'><a href="index.html" class="code_type">DifferentialPtrPair</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;</span> is a built-in type that carries both the original and differential of a
 pointer-like object.
-<span class='code'><a href="index.md#typeparam-T" class="code_type">T</a></span> must conform to <span class='code'><a href="../../interfaces/idifferentiableptrtype-01fi/index.md" class="code_type">IDifferentiablePtrType</a></span>
+<span class='code'><a href="index.html#typeparam-T" class="code_type">T</a></span> must conform to <span class='code'><a href="../../interfaces/idifferentiableptrtype-01fi/index.html" class="code_type">IDifferentiablePtrType</a></span>
 
 It is defined as follows:
 ```csharp
@@ -28,17 +28,17 @@ struct DifferentialPtrPair<T : IDifferentiablePtrType> : IDifferentiablePtrType
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index.md)
+####  <a id="typeparam-T"></a>T: [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index.html)
 
 ## Properties
 
-####  <a id="decl-d"></a>[d](d.md)
-####  <a id="decl-p"></a>[p](p.md)
-####  <a id="decl-v"></a>[v](v.md)
+####  <a id="decl-d"></a>[d](d.html)
+####  <a id="decl-p"></a>[p](p.html)
+####  <a id="decl-v"></a>[v](v.html)
 
 ## Methods
 
-* [init](init.md)
+* [init](init.html)
 
 ## Remarks
 
@@ -64,27 +64,10 @@ See documentation on <span class='code'>fwd_diff</span> and <span class='code'>b
 :titlesonly:
 :hidden:
 
-Differential <../types/differentialptrpair-0cf/differential-0>
-DifferentialElementType <../types/differentialptrpair-0cf/differentialelementtype-0cj>
-d <../types/differentialptrpair-0cf/d>
-init <../types/differentialptrpair-0cf/init>
-p <../types/differentialptrpair-0cf/p>
-v <../types/differentialptrpair-0cf/v>
+Differential <differential-0>
+DifferentialElementType <differentialelementtype-0cj>
+d <d>
+init <init>
+p <p>
+v <v>
 ```
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

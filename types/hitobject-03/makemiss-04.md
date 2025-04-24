@@ -16,16 +16,16 @@ table.
 ## Signature 
 
 <pre>
-<span class='code_keyword'>static</span> <a href="index.md" class="code_type">HitObject</a> <a href="index.md" class="code_type">HitObject</a>.<a href="makemiss-04.md">MakeMiss</a>(
-    <span class="code_keyword">uint</span> <a href="makemiss-04.md#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
-    <a href="../raydesc-03/index.md" class="code_type">RayDesc</a> <a href="makemiss-04.md#decl-Ray" class="code_param">Ray</a>);
+<span class='code_keyword'>static</span> <a href="index.html" class="code_type">HitObject</a> <a href="index.html" class="code_type">HitObject</a>.<a href="makemiss-04.html">MakeMiss</a>(
+    <span class="code_keyword">uint</span> <a href="makemiss-04.html#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
+    <a href="../raydesc-03/index.html" class="code_type">RayDesc</a> <a href="makemiss-04.html#decl-Ray" class="code_param">Ray</a>);
 
 </pre>
 
 ## Parameters
 
 ####  <a id="decl-MissShaderIndex"></a>MissShaderIndex  : uint
-####  <a id="decl-Ray"></a>Ray  : [RayDesc](../raydesc-03/index.md)
+####  <a id="decl-Ray"></a>Ray  : [RayDesc](../raydesc-03/index.html)
 
 ## Availability and Requirements
 
@@ -44,20 +44,3 @@ Available in stages: `raygen`, `closesthit`, `miss`.
 Requires capabilities: `spvRayTracingKHR`, `spvShaderInvocationReorderNV`.
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

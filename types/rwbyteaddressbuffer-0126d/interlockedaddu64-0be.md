@@ -6,16 +6,16 @@ layout: stdlib-reference
 
 ## Description
 
-Perform a 64-bit unsigned integer atomic add operation at <span class='code'><a href="interlockedaddu64-0be.md#decl-byteAddress" class="code_param">byteAddress</a></span>.
+Perform a 64-bit unsigned integer atomic add operation at <span class='code'><a href="interlockedaddu64-0be.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-uint64_t <a href="index.md" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedaddu64-0be.md">InterlockedAddU64</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedaddu64-0be.md#decl-byteAddress" class="code_param">byteAddress</a>,
-    uint64_t <a href="interlockedaddu64-0be.md#decl-value" class="code_param">value</a>);
+uint64_t <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedaddu64-0be.html">InterlockedAddU64</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedaddu64-0be.html#decl-byteAddress" class="code_param">byteAddress</a>,
+    uint64_t <a href="interlockedaddu64-0be.html#decl-value" class="code_param">value</a>);
 
 </pre>
 
@@ -47,20 +47,3 @@ Available in all stages.
 Requires capability: `spvInt64Atomics`.
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

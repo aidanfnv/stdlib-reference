@@ -13,28 +13,28 @@ Matrix transpose.
 ## Signature 
 
 <pre>
-<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="transpose.md#typeparam-T" class="code_type">T</a>, <a href="transpose.md#decl-M" class="code_var">M</a>, <a href="transpose.md#decl-N" class="code_var">N</a>&gt; <a href="transpose.md">transpose</a>&lt;<a href="transpose.md#typeparam-T" class="code_type">T</a>, <a href="transpose.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="transpose.md#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="transpose.md#typeparam-T" class="code_type">T</a>, <a href="transpose.md#decl-N" class="code_var">N</a>, <a href="transpose.md#decl-M" class="code_var">M</a>&gt; <a href="transpose.md#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="transpose.md#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.md" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="transpose.html#typeparam-T" class="code_type">T</a>, <a href="transpose.html#decl-M" class="code_var">M</a>, <a href="transpose.html#decl-N" class="code_var">N</a>&gt; <a href="transpose.html">transpose</a>&lt;<a href="transpose.html#typeparam-T" class="code_type">T</a>, <a href="transpose.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="transpose.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="transpose.html#typeparam-T" class="code_type">T</a>, <a href="transpose.html#decl-N" class="code_var">N</a>, <a href="transpose.html#decl-M" class="code_var">M</a>&gt; <a href="transpose.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="transpose.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="transpose.md#typeparam-T" class="code_type">T</a>, <a href="transpose.md#decl-M" class="code_var">M</a>, <a href="transpose.md#decl-N" class="code_var">N</a>&gt; <a href="transpose.md">transpose</a>&lt;<a href="transpose.md#typeparam-T" class="code_type">T</a>, <a href="transpose.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="transpose.md#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="transpose.md#typeparam-T" class="code_type">T</a>, <a href="transpose.md#decl-N" class="code_var">N</a>, <a href="transpose.md#decl-M" class="code_var">M</a>&gt; <a href="transpose.md#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="transpose.md#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.md" class="code_type">__BuiltinIntegerType</a>;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="transpose.html#typeparam-T" class="code_type">T</a>, <a href="transpose.html#decl-M" class="code_var">M</a>, <a href="transpose.html#decl-N" class="code_var">N</a>&gt; <a href="transpose.html">transpose</a>&lt;<a href="transpose.html#typeparam-T" class="code_type">T</a>, <a href="transpose.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="transpose.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="transpose.html#typeparam-T" class="code_type">T</a>, <a href="transpose.html#decl-N" class="code_var">N</a>, <a href="transpose.html#decl-M" class="code_var">M</a>&gt; <a href="transpose.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="transpose.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
-<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="transpose.md#typeparam-T" class="code_type">T</a>, <a href="transpose.md#decl-M" class="code_var">M</a>, <a href="transpose.md#decl-N" class="code_var">N</a>&gt; <a href="transpose.md">transpose</a>&lt;<a href="transpose.md#typeparam-T" class="code_type">T</a>, <a href="transpose.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="transpose.md#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="transpose.md#typeparam-T" class="code_type">T</a>, <a href="transpose.md#decl-N" class="code_var">N</a>, <a href="transpose.md#decl-M" class="code_var">M</a>&gt; <a href="transpose.md#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="transpose.md#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinlogicaltype-029g/index.md" class="code_type">__BuiltinLogicalType</a>;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="transpose.html#typeparam-T" class="code_type">T</a>, <a href="transpose.html#decl-M" class="code_var">M</a>, <a href="transpose.html#decl-N" class="code_var">N</a>&gt; <a href="transpose.html">transpose</a>&lt;<a href="transpose.html#typeparam-T" class="code_type">T</a>, <a href="transpose.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="transpose.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="transpose.html#typeparam-T" class="code_type">T</a>, <a href="transpose.html#decl-N" class="code_var">N</a>, <a href="transpose.html#decl-M" class="code_var">M</a>&gt; <a href="transpose.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="transpose.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinlogicaltype-029g/index.html" class="code_type">__BuiltinLogicalType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.md)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index.md)
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinLogicalType](../interfaces/0_builtinlogicaltype-029g/index.md)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index.html)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinLogicalType](../interfaces/0_builtinlogicaltype-029g/index.html)
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index.md)\<[T](../types/matrix/t-0.md), [N](../types/matrix/index.md#decl-N), [M](../types/matrix/index.md#decl-M)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 The matrix to transpose.
 
 
@@ -66,20 +66,3 @@ Available in all stages.
 
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

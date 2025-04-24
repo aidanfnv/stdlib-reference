@@ -13,15 +13,15 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.md" class="code_type">TensorView</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedadd-0b.md">InterlockedAdd</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedadd-0b.md#decl-index" class="code_param">index</a>,
-    <a href="index.md#typeparam-T" class="code_type">T</a> <a href="interlockedadd-0b.md#decl-val" class="code_param">val</a>,
-    <span class="code_keyword">out</span> <a href="index.md#typeparam-T" class="code_type">T</a> <a href="interlockedadd-0b.md#decl-oldVal" class="code_param">oldVal</a>);
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedadd-0b.html">InterlockedAdd</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedadd-0b.html#decl-index" class="code_param">index</a>,
+    <a href="index.html#typeparam-T" class="code_type">T</a> <a href="interlockedadd-0b.html#decl-val" class="code_param">val</a>,
+    <span class="code_keyword">out</span> <a href="index.html#typeparam-T" class="code_type">T</a> <a href="interlockedadd-0b.html#decl-oldVal" class="code_param">oldVal</a>);
 
-<span class="code_keyword">void</span> <a href="index.md" class="code_type">TensorView</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedadd-0b.md">InterlockedAdd</a>&lt;<a href="interlockedadd-0b.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="interlockedadd-0b.md#decl-N" class="code_var">N</a>&gt; <a href="interlockedadd-0b.md#decl-index" class="code_param">index</a>,
-    <a href="index.md#typeparam-T" class="code_type">T</a> <a href="interlockedadd-0b.md#decl-val" class="code_param">val</a>,
-    <span class="code_keyword">out</span> <a href="index.md#typeparam-T" class="code_type">T</a> <a href="interlockedadd-0b.md#decl-oldVal" class="code_param">oldVal</a>);
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedadd-0b.html">InterlockedAdd</a>&lt;<a href="interlockedadd-0b.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="interlockedadd-0b.html#decl-N" class="code_var">N</a>&gt; <a href="interlockedadd-0b.html#decl-index" class="code_param">index</a>,
+    <a href="index.html#typeparam-T" class="code_type">T</a> <a href="interlockedadd-0b.html#decl-val" class="code_param">val</a>,
+    <span class="code_keyword">out</span> <a href="index.html#typeparam-T" class="code_type">T</a> <a href="interlockedadd-0b.html#decl-oldVal" class="code_param">oldVal</a>);
 
 </pre>
 
@@ -32,9 +32,9 @@ layout: stdlib-reference
 ## Parameters
 
 ####  <a id="decl-index"></a>index  : uint
-####  <a id="decl-val"></a>val  : [T](index.md#typeparam-T)
-####  <a id="decl-oldVal"></a>oldVal  : [T](index.md#typeparam-T)
-####  <a id="decl-index"></a>index  : [vector](../vector/index.md)\<uint, [N](../vector/index.md#decl-N)\>
+####  <a id="decl-val"></a>val  : [T](index.html#typeparam-T)
+####  <a id="decl-oldVal"></a>oldVal  : [T](index.html#typeparam-T)
+####  <a id="decl-index"></a>index  : [vector](../vector/index.html)\<uint, [N](../vector/index.html#decl-N)\>
 
 ## Availability and Requirements
 
@@ -45,20 +45,3 @@ Available in all stages.
 
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

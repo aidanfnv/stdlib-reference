@@ -15,16 +15,16 @@ clamping each value to the range [0, 255] to ensure it fits within 8 bits.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="packuint4x8clamp-4b.md">packUint4x8Clamp</a>(<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 4&gt; <a href="packuint4x8clamp-4b.md#decl-unpackedValue" class="code_param">unpackedValue</a>);
+<span class="code_keyword">uint</span> <a href="packuint4x8clamp-4b.html">packUint4x8Clamp</a>(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 4&gt; <a href="packuint4x8clamp-4b.html#decl-unpackedValue" class="code_param">unpackedValue</a>);
 
-<span class="code_keyword">uint</span> <a href="packuint4x8clamp-4b.md">packUint4x8Clamp</a>(<a href="../types/vector/index.md" class="code_type">vector</a>&lt;int16_t, 4&gt; <a href="packuint4x8clamp-4b.md#decl-unpackedValue" class="code_param">unpackedValue</a>);
+<span class="code_keyword">uint</span> <a href="packuint4x8clamp-4b.html">packUint4x8Clamp</a>(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;int16_t, 4&gt; <a href="packuint4x8clamp-4b.html#decl-unpackedValue" class="code_param">unpackedValue</a>);
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.md)\<int, 4\>
-####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.md)\<int16\_t, 4\>
+####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.html)\<int, 4\>
+####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.html)\<int16\_t, 4\>
 
 ## Availability and Requirements
 
@@ -53,20 +53,3 @@ Available in all stages.
 
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

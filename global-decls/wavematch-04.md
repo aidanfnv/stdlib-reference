@@ -13,14 +13,14 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="wavematch-04.md">WaveMatch</a>&lt;<a href="wavematch-04.md#typeparam-T" class="code_type">T</a>&gt;(<a href="wavematch-04.md#typeparam-T" class="code_type">T</a> <a href="wavematch-04.md#decl-value" class="code_param">value</a>)
-    <span class='code_keyword'>where</span> <a href="wavematch-04.md#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="wavematch-04.html">WaveMatch</a>&lt;<a href="wavematch-04.html#typeparam-T" class="code_type">T</a>&gt;(<a href="wavematch-04.html#typeparam-T" class="code_type">T</a> <a href="wavematch-04.html#decl-value" class="code_param">value</a>)
+    <span class='code_keyword'>where</span> <a href="wavematch-04.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="wavematch-04.md">WaveMatch</a>&lt;<a href="wavematch-04.md#typeparam-T" class="code_type">T</a>, <a href="wavematch-04.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<a href="wavematch-04.md#typeparam-T" class="code_type">T</a>, <a href="wavematch-04.md#decl-N" class="code_var">N</a>&gt; <a href="wavematch-04.md#decl-value" class="code_param">value</a>)
-    <span class='code_keyword'>where</span> <a href="wavematch-04.md#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="wavematch-04.html">WaveMatch</a>&lt;<a href="wavematch-04.html#typeparam-T" class="code_type">T</a>, <a href="wavematch-04.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="wavematch-04.html#typeparam-T" class="code_type">T</a>, <a href="wavematch-04.html#decl-N" class="code_var">N</a>&gt; <a href="wavematch-04.html#decl-value" class="code_param">value</a>)
+    <span class='code_keyword'>where</span> <a href="wavematch-04.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="wavematch-04.md">WaveMatch</a>&lt;<a href="wavematch-04.md#typeparam-T" class="code_type">T</a>, <a href="wavematch-04.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="wavematch-04.md#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="wavematch-04.md#typeparam-T" class="code_type">T</a>, <a href="wavematch-04.md#decl-N" class="code_var">N</a>, <a href="wavematch-04.md#decl-M" class="code_var">M</a>&gt; <a href="wavematch-04.md#decl-value" class="code_param">value</a>)
-    <span class='code_keyword'>where</span> <a href="wavematch-04.md#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="wavematch-04.html">WaveMatch</a>&lt;<a href="wavematch-04.html#typeparam-T" class="code_type">T</a>, <a href="wavematch-04.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="wavematch-04.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="wavematch-04.html#typeparam-T" class="code_type">T</a>, <a href="wavematch-04.html#decl-N" class="code_var">N</a>, <a href="wavematch-04.html#decl-M" class="code_var">M</a>&gt; <a href="wavematch-04.html#decl-value" class="code_param">value</a>)
+    <span class='code_keyword'>where</span> <a href="wavematch-04.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>
 
@@ -32,9 +32,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [T](wavematch-04.md#typeparam-T)
-####  <a id="decl-value"></a>value  : [vector](../types/vector/index.md)\<[T](../types/vector/index.md#typeparam-T), [N](../types/vector/index.md#decl-N)\>
-####  <a id="decl-value"></a>value  : [matrix](../types/matrix/index.md)\<[T](../types/matrix/t-0.md), [N](../types/matrix/index.md#decl-N), [M](../types/matrix/index.md#decl-M)\>
+####  <a id="decl-value"></a>value  : [T](wavematch-04.html#typeparam-T)
+####  <a id="decl-value"></a>value  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-value"></a>value  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 
 ## Availability and Requirements
 
@@ -55,20 +55,3 @@ Available in all stages.
 Requires capabilities: `spvGroupNonUniformBallot`, `spvGroupNonUniformPartitionedNV`.
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

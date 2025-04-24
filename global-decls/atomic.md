@@ -5,27 +5,27 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [InterlockedAdd\<T\>](interlockedadd-0b.md)
+#### [InterlockedAdd\<T\>](interlockedadd-0b.html)
 
-#### [InterlockedAnd\<T\>](interlockedand-0b.md)
+#### [InterlockedAnd\<T\>](interlockedand-0b.html)
 
-#### [InterlockedCompareExchange\<T\>](interlockedcompareexchange-0bi.md)
+#### [InterlockedCompareExchange\<T\>](interlockedcompareexchange-0bi.html)
 
-#### [InterlockedCompareExchangeFloatBitwise](interlockedcompareexchangefloatbitwise-0biqv.md)
+#### [InterlockedCompareExchangeFloatBitwise](interlockedcompareexchangefloatbitwise-0biqv.html)
 
-#### [InterlockedCompareStore\<T\>](interlockedcomparestore-0bi.md)
+#### [InterlockedCompareStore\<T\>](interlockedcomparestore-0bi.html)
 
-#### [InterlockedCompareStoreFloatBitwise\<T\>](interlockedcomparestorefloatbitwise-0bins.md)
+#### [InterlockedCompareStoreFloatBitwise\<T\>](interlockedcomparestorefloatbitwise-0bins.html)
 
-#### [InterlockedExchange\<T\>](interlockedexchange-0b.md)
+#### [InterlockedExchange\<T\>](interlockedexchange-0b.html)
 
-#### [InterlockedMax\<T\>](interlockedmax-0b.md)
+#### [InterlockedMax\<T\>](interlockedmax-0b.html)
 
-#### [InterlockedMin\<T\>](interlockedmin-0b.md)
+#### [InterlockedMin\<T\>](interlockedmin-0b.html)
 
-#### [InterlockedOr\<T\>](interlockedor-0b.md)
+#### [InterlockedOr\<T\>](interlockedor-0b.html)
 
-#### [InterlockedXor\<T\>](interlockedxor-0b.md)
+#### [InterlockedXor\<T\>](interlockedxor-0b.html)
 
 
 ```{toctree}
@@ -44,20 +44,3 @@ InterlockedMin <interlockedmin-0b>
 InterlockedOr <interlockedor-0b>
 InterlockedXor <interlockedxor-0b>
 ```
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

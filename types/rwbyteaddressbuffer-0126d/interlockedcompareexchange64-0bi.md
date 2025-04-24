@@ -6,19 +6,19 @@ layout: stdlib-reference
 
 ## Description
 
-Perform a 64-bit integer atomic compare-and-exchange operation at <span class='code'><a href="interlockedcompareexchange64-0bi.md#decl-byteAddress" class="code_param">byteAddress</a></span>.
+Perform a 64-bit integer atomic compare-and-exchange operation at <span class='code'><a href="interlockedcompareexchange64-0bi.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.md" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedcompareexchange64-0bi.md">InterlockedCompareExchange64</a>&lt;<a href="interlockedcompareexchange64-0bi.md#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange64-0bi.md#decl-byteAddress" class="code_param">byteAddress</a>,
-    <a href="interlockedcompareexchange64-0bi.md#typeparam-T" class="code_type">T</a> <a href="interlockedcompareexchange64-0bi.md#decl-compareValue" class="code_param">compareValue</a>,
-    <a href="interlockedcompareexchange64-0bi.md#typeparam-T" class="code_type">T</a> <a href="interlockedcompareexchange64-0bi.md#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">out</span> <a href="interlockedcompareexchange64-0bi.md#typeparam-T" class="code_type">T</a> <a href="interlockedcompareexchange64-0bi.md#decl-outOriginalValue" class="code_param">outOriginalValue</a>)
-    <span class='code_keyword'>where</span> <a href="interlockedcompareexchange64-0bi.md#typeparam-T" class="code_type">T</a> : __BuiltinInt64Type;
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedcompareexchange64-0bi.html">InterlockedCompareExchange64</a>&lt;<a href="interlockedcompareexchange64-0bi.html#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange64-0bi.html#decl-byteAddress" class="code_param">byteAddress</a>,
+    <a href="interlockedcompareexchange64-0bi.html#typeparam-T" class="code_type">T</a> <a href="interlockedcompareexchange64-0bi.html#decl-compareValue" class="code_param">compareValue</a>,
+    <a href="interlockedcompareexchange64-0bi.html#typeparam-T" class="code_type">T</a> <a href="interlockedcompareexchange64-0bi.html#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <a href="interlockedcompareexchange64-0bi.html#typeparam-T" class="code_type">T</a> <a href="interlockedcompareexchange64-0bi.html#decl-outOriginalValue" class="code_param">outOriginalValue</a>)
+    <span class='code_keyword'>where</span> <a href="interlockedcompareexchange64-0bi.html#typeparam-T" class="code_type">T</a> : __BuiltinInt64Type;
 
 </pre>
 
@@ -31,19 +31,19 @@ Perform a 64-bit integer atomic compare-and-exchange operation at <span class='c
 ####  <a id="decl-byteAddress"></a>byteAddress  : uint
 The address at which to perform the atomic compare-and-exchange operation.
 
-####  <a id="decl-compareValue"></a>compareValue  : [T](interlockedcompareexchange64-0bi.md#typeparam-T)
-The value to compare to the value at <span class='code'><a href="interlockedcompareexchange64-0bi.md#decl-byteAddress" class="code_param">byteAddress</a></span>.
+####  <a id="decl-compareValue"></a>compareValue  : [T](interlockedcompareexchange64-0bi.html#typeparam-T)
+The value to compare to the value at <span class='code'><a href="interlockedcompareexchange64-0bi.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
-####  <a id="decl-value"></a>value  : [T](interlockedcompareexchange64-0bi.md#typeparam-T)
-The value to store at <span class='code'><a href="interlockedcompareexchange64-0bi.md#decl-byteAddress" class="code_param">byteAddress</a></span> if the comparison is successful.
+####  <a id="decl-value"></a>value  : [T](interlockedcompareexchange64-0bi.html#typeparam-T)
+The value to store at <span class='code'><a href="interlockedcompareexchange64-0bi.html#decl-byteAddress" class="code_param">byteAddress</a></span> if the comparison is successful.
 
-####  <a id="decl-outOriginalValue"></a>outOriginalValue  : [T](interlockedcompareexchange64-0bi.md#typeparam-T)
-The original value at <span class='code'><a href="interlockedcompareexchange64-0bi.md#decl-byteAddress" class="code_param">byteAddress</a></span> before the add operation.
+####  <a id="decl-outOriginalValue"></a>outOriginalValue  : [T](interlockedcompareexchange64-0bi.html#typeparam-T)
+The original value at <span class='code'><a href="interlockedcompareexchange64-0bi.html#decl-byteAddress" class="code_param">byteAddress</a></span> before the add operation.
 
 
 ## Remarks
 For SPIR-V, this function maps to <span class='code'>OpAtomicCompareExchange</span>. For HLSL, this function
-translates to <span class='code'><a href="interlockedcompareexchange64-0bi.md">InterlockedCompareExchange64</a></span> and requires shader model 6.6.
+translates to <span class='code'><a href="interlockedcompareexchange64-0bi.html">InterlockedCompareExchange64</a></span> and requires shader model 6.6.
 For CUDA, this function maps to <span class='code'>atomicCAS</span>.
 
 
@@ -66,20 +66,3 @@ Available in all stages.
 Requires capability: `spvInt64Atomics`.
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

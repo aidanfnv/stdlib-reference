@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct ByteAddressBuffer
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>, [IPhysicalBuffer](../../interfaces/iphysicalbuffer-019/index.md)
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>, [IPhysicalBuffer](../../interfaces/iphysicalbuffer-019/index.html)
 
 ## Description
 
@@ -15,22 +15,22 @@ four 32-bit typeless address values.
 
 ## Fields
 
-####  <a id="decl-kind"></a>[kind](kind.md) : [DescriptorKind](../descriptorkind-0a/index.md) = [DescriptorKind](../descriptorkind-0a/index.md)\.[Buffer](../descriptorkind-0a/index.md#decl-Buffer)
+####  <a id="decl-kind"></a>[kind](kind.html) : [DescriptorKind](../descriptorkind-0a/index.html) = [DescriptorKind](../descriptorkind-0a/index.html)\.[Buffer](../descriptorkind-0a/index.html#decl-Buffer)
 
 ## Methods
 
-* [GetDimensions](getdimensions-03.md)
-* [Load2](load2-0.md)
-* [Load2Aligned](load2aligned-05.md)
-* [Load3](load3-0.md)
-* [Load3Aligned](load3aligned-05.md)
-* [Load4](load4-0.md)
-* [Load4Aligned](load4aligned-05.md)
-* [Load](load-0.md)
-* [LoadAligned](loadaligned-04.md)
-* [init](init.md)
-* [GetBufferPointer](getbufferpointer-039.md)
-* [LoadByteOffset](loadbyteoffset-048.md)
+* [GetDimensions](getdimensions-03.html)
+* [Load2](load2-0.html)
+* [Load2Aligned](load2aligned-05.html)
+* [Load3](load3-0.html)
+* [Load3Aligned](load3aligned-05.html)
+* [Load4](load4-0.html)
+* [Load4Aligned](load4aligned-05.html)
+* [Load](load-0.html)
+* [LoadAligned](loadaligned-04.html)
+* [init](init.html)
+* [GetBufferPointer](getbufferpointer-039.html)
+* [LoadByteOffset](loadbyteoffset-048.html)
 
 ## Conditional Conformances
 
@@ -50,35 +50,18 @@ For all other targets, this type maps to a buffer of 32bit unsigned integers.
 :titlesonly:
 :hidden:
 
-GetBufferPointer <../types/byteaddressbuffer-04b/getbufferpointer-039>
-GetDimensions <../types/byteaddressbuffer-04b/getdimensions-03>
-Handle <../types/byteaddressbuffer-04b/handle-0>
-Load <../types/byteaddressbuffer-04b/load-0>
-Load2 <../types/byteaddressbuffer-04b/load2-0>
-Load2Aligned <../types/byteaddressbuffer-04b/load2aligned-05>
-Load3 <../types/byteaddressbuffer-04b/load3-0>
-Load3Aligned <../types/byteaddressbuffer-04b/load3aligned-05>
-Load4 <../types/byteaddressbuffer-04b/load4-0>
-Load4Aligned <../types/byteaddressbuffer-04b/load4aligned-05>
-LoadAligned <../types/byteaddressbuffer-04b/loadaligned-04>
-LoadByteOffset <../types/byteaddressbuffer-04b/loadbyteoffset-048>
-init <../types/byteaddressbuffer-04b/init>
-kind <../types/byteaddressbuffer-04b/kind>
+GetBufferPointer <getbufferpointer-039>
+GetDimensions <getdimensions-03>
+Handle <handle-0>
+Load <load-0>
+Load2 <load2-0>
+Load2Aligned <load2aligned-05>
+Load3 <load3-0>
+Load3Aligned <load3aligned-05>
+Load4 <load4-0>
+Load4Aligned <load4aligned-05>
+LoadAligned <loadaligned-04>
+LoadByteOffset <loadbyteoffset-048>
+init <init>
+kind <kind>
 ```
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

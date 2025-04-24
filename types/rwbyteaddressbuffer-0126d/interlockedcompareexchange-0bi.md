@@ -7,18 +7,18 @@ layout: stdlib-reference
 ## Description
 
 Perform a 32-bit integer atomic compare-and-exchange operation at
-the specified byte address within the <span class='code'><a href="index.md" class="code_type">RWByteAddressBuffer</a></span>.
+the specified byte address within the <span class='code'><a href="index.html" class="code_type">RWByteAddressBuffer</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.md" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedcompareexchange-0bi.md">InterlockedCompareExchange</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.md#decl-dest" class="code_param">dest</a>,
-    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.md#decl-compare_value" class="code_param">compare_value</a>,
-    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.md#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.md#decl-original_value" class="code_param">original_value</a>);
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedcompareexchange-0bi.html">InterlockedCompareExchange</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.html#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.html#decl-compare_value" class="code_param">compare_value</a>,
+    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.html#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.html#decl-original_value" class="code_param">original_value</a>);
 
 </pre>
 
@@ -39,7 +39,7 @@ The original value at <span class='code'>byteAddress</span> before the compare-a
 
 ## Remarks
 For SPIR-V, this function maps to <span class='code'>OpAtomicCompareExchange</span>. For HLSL, this function
-translates to <span class='code'><a href="interlockedcompareexchange-0bi.md">InterlockedCompareExchange</a></span>.
+translates to <span class='code'><a href="interlockedcompareexchange-0bi.html">InterlockedCompareExchange</a></span>.
 For CUDA, this function maps to <span class='code'>atomicCAS</span>.
 
 
@@ -64,20 +64,3 @@ Available in all stages.
 
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

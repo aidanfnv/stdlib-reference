@@ -5,77 +5,77 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [QuadReadAcrossDiagonal\<T\>](quadreadacrossdiagonal-048e.md)
+#### [QuadReadAcrossDiagonal\<T\>](quadreadacrossdiagonal-048e.html)
 
-#### [QuadReadAcrossX\<T\>](quadreadacrossx-048e.md)
+#### [QuadReadAcrossX\<T\>](quadreadacrossx-048e.html)
 
-#### [QuadReadAcrossY\<T\>](quadreadacrossy-048e.md)
+#### [QuadReadAcrossY\<T\>](quadreadacrossy-048e.html)
 
-#### [QuadReadLaneAt\<T\>](quadreadlaneat-048c.md)
+#### [QuadReadLaneAt\<T\>](quadreadlaneat-048c.html)
 
-#### [WaveActiveAllEqual\<T\>](waveactiveallequal-04ad.md)
+#### [WaveActiveAllEqual\<T\>](waveactiveallequal-04ad.html)
 
-#### [WaveActiveAllTrue](waveactivealltrue-04ad.md)
+#### [WaveActiveAllTrue](waveactivealltrue-04ad.html)
 
-#### [WaveActiveAnyTrue](waveactiveanytrue-04ad.md)
+#### [WaveActiveAnyTrue](waveactiveanytrue-04ad.html)
 
-#### [WaveActiveBallot](waveactiveballot-04a.md)
+#### [WaveActiveBallot](waveactiveballot-04a.html)
 
-#### [WaveActiveBitAnd\<T\>](waveactivebitand-04ad.md)
+#### [WaveActiveBitAnd\<T\>](waveactivebitand-04ad.html)
 
-#### [WaveActiveBitOr\<T\>](waveactivebitor-04ad.md)
+#### [WaveActiveBitOr\<T\>](waveactivebitor-04ad.html)
 
-#### [WaveActiveBitXor\<T\>](waveactivebitxor-04ad.md)
+#### [WaveActiveBitXor\<T\>](waveactivebitxor-04ad.html)
 
-#### [WaveActiveCountBits](waveactivecountbits-04af.md)
+#### [WaveActiveCountBits](waveactivecountbits-04af.html)
 
-#### [WaveActiveMax\<T\>](waveactivemax-04a.md)
+#### [WaveActiveMax\<T\>](waveactivemax-04a.html)
 
-#### [WaveActiveMin\<T\>](waveactivemin-04a.md)
+#### [WaveActiveMin\<T\>](waveactivemin-04a.html)
 
-#### [WaveActiveProduct\<T\>](waveactiveproduct-04a.md)
+#### [WaveActiveProduct\<T\>](waveactiveproduct-04a.html)
 
-#### [WaveActiveSum\<T\>](waveactivesum-04a.md)
+#### [WaveActiveSum\<T\>](waveactivesum-04a.html)
 
-#### [WaveBroadcastLaneAt\<T\>](wavebroadcastlaneat-04dh.md)
+#### [WaveBroadcastLaneAt\<T\>](wavebroadcastlaneat-04dh.html)
 
-#### [WaveGetActiveMulti](wavegetactivemulti-047d.md)
+#### [WaveGetActiveMulti](wavegetactivemulti-047d.html)
 
-#### [WaveGetConvergedMulti](wavegetconvergedmulti-047g.md)
+#### [WaveGetConvergedMulti](wavegetconvergedmulti-047g.html)
 
-#### [WaveGetLaneCount](wavegetlanecount-047b.md)
+#### [WaveGetLaneCount](wavegetlanecount-047b.html)
 
-#### [WaveGetLaneIndex](wavegetlaneindex-047b.md)
+#### [WaveGetLaneIndex](wavegetlaneindex-047b.html)
 
-#### [WaveIsFirstLane](waveisfirstlane-046b.md)
+#### [WaveIsFirstLane](waveisfirstlane-046b.html)
 
-#### [WaveMatch\<T\>](wavematch-04.md)
+#### [WaveMatch\<T\>](wavematch-04.html)
 
-#### [WaveMultiPrefixBitAnd\<T\>](wavemultiprefixbitand-049fi.md)
+#### [WaveMultiPrefixBitAnd\<T\>](wavemultiprefixbitand-049fi.html)
 
-#### [WaveMultiPrefixBitOr\<T\>](wavemultiprefixbitor-049fi.md)
+#### [WaveMultiPrefixBitOr\<T\>](wavemultiprefixbitor-049fi.html)
 
-#### [WaveMultiPrefixBitXor\<T\>](wavemultiprefixbitxor-049fi.md)
+#### [WaveMultiPrefixBitXor\<T\>](wavemultiprefixbitxor-049fi.html)
 
-#### [WaveMultiPrefixCountBits](wavemultiprefixcountbits-049fk.md)
+#### [WaveMultiPrefixCountBits](wavemultiprefixcountbits-049fk.html)
 
-#### [WaveMultiPrefixProduct\<T\>](wavemultiprefixproduct-049f.md)
+#### [WaveMultiPrefixProduct\<T\>](wavemultiprefixproduct-049f.html)
 
-#### [WaveMultiPrefixSum\<T\>](wavemultiprefixsum-049f.md)
+#### [WaveMultiPrefixSum\<T\>](wavemultiprefixsum-049f.html)
 
-#### [WavePrefixCountBits](waveprefixcountbits-04af.md)
+#### [WavePrefixCountBits](waveprefixcountbits-04af.html)
 
-#### [WavePrefixProduct\<T\>](waveprefixproduct-04a.md)
+#### [WavePrefixProduct\<T\>](waveprefixproduct-04a.html)
 
-#### [WavePrefixSum\<T\>](waveprefixsum-04a.md)
+#### [WavePrefixSum\<T\>](waveprefixsum-04a.html)
 
-#### [WaveReadLaneAt\<T\>](wavereadlaneat-048c.md)
+#### [WaveReadLaneAt\<T\>](wavereadlaneat-048c.html)
 
-#### [WaveReadLaneFirst\<T\>](wavereadlanefirst-048c.md)
+#### [WaveReadLaneFirst\<T\>](wavereadlanefirst-048c.html)
 
-#### [WaveShuffle\<T\>](waveshuffle-04.md)
+#### [WaveShuffle\<T\>](waveshuffle-04.html)
 
-#### [\_WaveCountBits](0wavecountbits-015a.md)
+#### [\_WaveCountBits](0wavecountbits-015a.html)
 
 
 ```{toctree}
@@ -119,20 +119,3 @@ WaveReadLaneFirst <wavereadlanefirst-048c>
 WaveShuffle <waveshuffle-04>
 _WaveCountBits <0wavecountbits-015a>
 ```
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

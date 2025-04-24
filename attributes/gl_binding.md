@@ -11,7 +11,7 @@ Declare the Vulkan binding location of a global shader variable.
 ## Signature
 
 <pre>
-[<a href="gl_binding.md">gl_binding</a>(<a href="gl_binding.md#decl-binding" class="code_param">binding</a> : <span class="code_keyword">int</span>, <a href="gl_binding.md#decl-set" class="code_keyword">set</a> : <span class="code_keyword">int</span>)]
+[<a href="gl_binding.html">gl_binding</a>(<a href="gl_binding.html#decl-binding" class="code_param">binding</a> : <span class="code_keyword">int</span>, <a href="gl_binding.html#decl-set" class="code_keyword">set</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters
@@ -23,20 +23,3 @@ The binding location.
 The descriptor set index of the binding.
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

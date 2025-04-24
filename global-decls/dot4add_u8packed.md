@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-Treats <span class='code'><a href="dot4add_u8packed.md#decl-x" class="code_param">x</a></span> and <span class='code'><a href="dot4add_u8packed.md#decl-y" class="code_param">y</a></span> as 4-component vectors of <span class='code'>UInt8</span> and computes <span class='code'><a href="dot.md">dot</a>(<a href="dot.md#decl-x" class="code_param">x</a>, <a href="dot.md#decl-y" class="code_param">y</a>)+acc</span>
+Treats <span class='code'><a href="dot4add_u8packed.html#decl-x" class="code_param">x</a></span> and <span class='code'><a href="dot4add_u8packed.html#decl-y" class="code_param">y</a></span> as 4-component vectors of <span class='code'>UInt8</span> and computes <span class='code'><a href="dot.html">dot</a>(<a href="dot.html#decl-x" class="code_param">x</a>, <a href="dot.html#decl-y" class="code_param">y</a>)+acc</span>
 
 
 
@@ -14,10 +14,10 @@ Treats <span class='code'><a href="dot4add_u8packed.md#decl-x" class="code_param
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="dot4add_u8packed.md">dot4add_u8packed</a>(
-    <span class="code_keyword">uint</span> <a href="dot4add_u8packed.md#decl-x" class="code_param">x</a>,
-    <span class="code_keyword">uint</span> <a href="dot4add_u8packed.md#decl-y" class="code_param">y</a>,
-    <span class="code_keyword">uint</span> <a href="dot4add_u8packed.md#decl-acc" class="code_param">acc</a>);
+<span class="code_keyword">uint</span> <a href="dot4add_u8packed.html">dot4add_u8packed</a>(
+    <span class="code_keyword">uint</span> <a href="dot4add_u8packed.html#decl-x" class="code_param">x</a>,
+    <span class="code_keyword">uint</span> <a href="dot4add_u8packed.html#decl-y" class="code_param">y</a>,
+    <span class="code_keyword">uint</span> <a href="dot4add_u8packed.html#decl-acc" class="code_param">acc</a>);
 
 </pre>
 
@@ -55,20 +55,3 @@ Available in all stages.
 Requires capabilities: `SPV_KHR_non_semantic_info`, `SPV_GOOGLE_user_type`, `spvDerivativeControl`, `spvImageQuery`, `spvImageGatherExtended`, `spvSparseResidency`, `spvMinLod`, `spvFragmentBarycentricKHR`, `spvFragmentFullyCoveredEXT`, `spvGroupNonUniformBallot`, `spvGroupNonUniformShuffle`, `spvGroupNonUniformArithmetic`, `spvGroupNonUniformQuad`, `spvGroupNonUniformVote`, `spvRayTracingPositionFetchKHR`, `spvShaderNonUniformEXT`.
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

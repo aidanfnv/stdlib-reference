@@ -13,14 +13,14 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="wavereadlanefirst-048c.md#typeparam-T" class="code_type">T</a> <a href="wavereadlanefirst-048c.md">WaveReadLaneFirst</a>&lt;<a href="wavereadlanefirst-048c.md#typeparam-T" class="code_type">T</a>&gt;(<a href="wavereadlanefirst-048c.md#typeparam-T" class="code_type">T</a> <a href="wavereadlanefirst-048c.md#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="wavereadlanefirst-048c.md#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="wavereadlanefirst-048c.html#typeparam-T" class="code_type">T</a> <a href="wavereadlanefirst-048c.html">WaveReadLaneFirst</a>&lt;<a href="wavereadlanefirst-048c.html#typeparam-T" class="code_type">T</a>&gt;(<a href="wavereadlanefirst-048c.html#typeparam-T" class="code_type">T</a> <a href="wavereadlanefirst-048c.html#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="wavereadlanefirst-048c.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<a href="wavereadlanefirst-048c.md#typeparam-T" class="code_type">T</a>, <a href="wavereadlanefirst-048c.md#decl-N" class="code_var">N</a>&gt; <a href="wavereadlanefirst-048c.md">WaveReadLaneFirst</a>&lt;<a href="wavereadlanefirst-048c.md#typeparam-T" class="code_type">T</a>, <a href="wavereadlanefirst-048c.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<a href="wavereadlanefirst-048c.md#typeparam-T" class="code_type">T</a>, <a href="wavereadlanefirst-048c.md#decl-N" class="code_var">N</a>&gt; <a href="wavereadlanefirst-048c.md#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="wavereadlanefirst-048c.md#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="wavereadlanefirst-048c.html#typeparam-T" class="code_type">T</a>, <a href="wavereadlanefirst-048c.html#decl-N" class="code_var">N</a>&gt; <a href="wavereadlanefirst-048c.html">WaveReadLaneFirst</a>&lt;<a href="wavereadlanefirst-048c.html#typeparam-T" class="code_type">T</a>, <a href="wavereadlanefirst-048c.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="wavereadlanefirst-048c.html#typeparam-T" class="code_type">T</a>, <a href="wavereadlanefirst-048c.html#decl-N" class="code_var">N</a>&gt; <a href="wavereadlanefirst-048c.html#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="wavereadlanefirst-048c.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="wavereadlanefirst-048c.md#typeparam-T" class="code_type">T</a>, <a href="wavereadlanefirst-048c.md#decl-N" class="code_var">N</a>, <a href="wavereadlanefirst-048c.md#decl-M" class="code_var">M</a>&gt; <a href="wavereadlanefirst-048c.md">WaveReadLaneFirst</a>&lt;<a href="wavereadlanefirst-048c.md#typeparam-T" class="code_type">T</a>, <a href="wavereadlanefirst-048c.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="wavereadlanefirst-048c.md#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="wavereadlanefirst-048c.md#typeparam-T" class="code_type">T</a>, <a href="wavereadlanefirst-048c.md#decl-N" class="code_var">N</a>, <a href="wavereadlanefirst-048c.md#decl-M" class="code_var">M</a>&gt; <a href="wavereadlanefirst-048c.md#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="wavereadlanefirst-048c.md#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="wavereadlanefirst-048c.html#typeparam-T" class="code_type">T</a>, <a href="wavereadlanefirst-048c.html#decl-N" class="code_var">N</a>, <a href="wavereadlanefirst-048c.html#decl-M" class="code_var">M</a>&gt; <a href="wavereadlanefirst-048c.html">WaveReadLaneFirst</a>&lt;<a href="wavereadlanefirst-048c.html#typeparam-T" class="code_type">T</a>, <a href="wavereadlanefirst-048c.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="wavereadlanefirst-048c.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="wavereadlanefirst-048c.html#typeparam-T" class="code_type">T</a>, <a href="wavereadlanefirst-048c.html#decl-N" class="code_var">N</a>, <a href="wavereadlanefirst-048c.html#decl-M" class="code_var">M</a>&gt; <a href="wavereadlanefirst-048c.html#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="wavereadlanefirst-048c.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>
 
@@ -32,9 +32,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-expr"></a>expr  : [T](wavereadlanefirst-048c.md#typeparam-T)
-####  <a id="decl-expr"></a>expr  : [vector](../types/vector/index.md)\<[T](../types/vector/index.md#typeparam-T), [N](../types/vector/index.md#decl-N)\>
-####  <a id="decl-expr"></a>expr  : [matrix](../types/matrix/index.md)\<[T](../types/matrix/t-0.md), [N](../types/matrix/index.md#decl-N), [M](../types/matrix/index.md#decl-M)\>
+####  <a id="decl-expr"></a>expr  : [T](wavereadlanefirst-048c.html#typeparam-T)
+####  <a id="decl-expr"></a>expr  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-expr"></a>expr  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 
 ## Availability and Requirements
 
@@ -61,20 +61,3 @@ Available in all stages.
 Requires capability: `spvGroupNonUniformBallot`.
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

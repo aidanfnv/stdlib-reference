@@ -5,29 +5,29 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [asdouble](asdouble.md)
+#### [asdouble](asdouble.html)
 
-#### [asfloat](asfloat.md)
+#### [asfloat](asfloat.html)
 
-#### [asfloat16](asfloat16.md)
+#### [asfloat16](asfloat16.html)
 
-#### [asint](asint.md)
+#### [asint](asint.html)
 
-#### [asint16](asint16.md)
+#### [asint16](asint16.html)
 
-#### [asuint](asuint.md)
+#### [asuint](asuint.html)
 
-#### [asuint16](asuint16.md)
+#### [asuint16](asuint16.html)
 
-#### [bit\_cast\<T, U\>](bit_cast.md)
+#### [bit\_cast\<T, U\>](bit_cast.html)
 
-#### [f16tof32](f16tof32.md)
+#### [f16tof32](f16tof32.html)
 
-#### [f32tof16](f32tof16.md)
+#### [f32tof16](f32tof16.html)
 
-#### [f32tof16\_](f32tof16_.md)
+#### [f32tof16\_](f32tof16_.html)
 
-#### [reinterpret\<T, U\>](reinterpret.md)
+#### [reinterpret\<T, U\>](reinterpret.html)
 
 
 ```{toctree}
@@ -47,20 +47,3 @@ f32tof16 <f32tof16>
 f32tof16_ <f32tof16_>
 reinterpret <reinterpret>
 ```
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

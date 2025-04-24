@@ -15,16 +15,16 @@ resulting hit information as a HitObject and does not trigger closesthit or miss
 ## Signature 
 
 <pre>
-<span class='code_keyword'>static</span> <a href="index.md" class="code_type">HitObject</a> <a href="index.md" class="code_type">HitObject</a>.<a href="tracemotionray-05b.md">TraceMotionRay</a>&lt;<a href="tracemotionray-05b.md#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
-    <a href="../raytracingaccelerationstructure-0am/index.md" class="code_type">RaytracingAccelerationStructure</a> <a href="tracemotionray-05b.md#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
-    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.md#decl-RayFlags" class="code_param">RayFlags</a>,
-    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.md#decl-InstanceInclusionMask" class="code_param">InstanceInclusionMask</a>,
-    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.md#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
-    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.md#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
-    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.md#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
-    <a href="../raydesc-03/index.md" class="code_type">RayDesc</a> <a href="tracemotionray-05b.md#decl-Ray" class="code_param">Ray</a>,
-    <span class="code_keyword">float</span> <a href="tracemotionray-05b.md#decl-CurrentTime" class="code_param">CurrentTime</a>,
-    <span class="code_keyword">inout</span> <a href="tracemotionray-05b.md#typeparam-payload_t" class="code_type">payload_t</a> <a href="tracemotionray-05b.md#decl-Payload" class="code_param">Payload</a>);
+<span class='code_keyword'>static</span> <a href="index.html" class="code_type">HitObject</a> <a href="index.html" class="code_type">HitObject</a>.<a href="tracemotionray-05b.html">TraceMotionRay</a>&lt;<a href="tracemotionray-05b.html#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
+    <a href="../raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="tracemotionray-05b.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-RayFlags" class="code_param">RayFlags</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-InstanceInclusionMask" class="code_param">InstanceInclusionMask</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
+    <a href="../raydesc-03/index.html" class="code_type">RayDesc</a> <a href="tracemotionray-05b.html#decl-Ray" class="code_param">Ray</a>,
+    <span class="code_keyword">float</span> <a href="tracemotionray-05b.html#decl-CurrentTime" class="code_param">CurrentTime</a>,
+    <span class="code_keyword">inout</span> <a href="tracemotionray-05b.html#typeparam-payload_t" class="code_type">payload_t</a> <a href="tracemotionray-05b.html#decl-Payload" class="code_param">Payload</a>);
 
 </pre>
 
@@ -34,15 +34,15 @@ resulting hit information as a HitObject and does not trigger closesthit or miss
 
 ## Parameters
 
-####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../raytracingaccelerationstructure-0am/index.md)
+####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../raytracingaccelerationstructure-0am/index.html)
 ####  <a id="decl-RayFlags"></a>RayFlags  : uint
 ####  <a id="decl-InstanceInclusionMask"></a>InstanceInclusionMask  : uint
 ####  <a id="decl-RayContributionToHitGroupIndex"></a>RayContributionToHitGroupIndex  : uint
 ####  <a id="decl-MultiplierForGeometryContributionToHitGroupIndex"></a>MultiplierForGeometryContributionToHitGroupIndex  : uint
 ####  <a id="decl-MissShaderIndex"></a>MissShaderIndex  : uint
-####  <a id="decl-Ray"></a>Ray  : [RayDesc](../raydesc-03/index.md)
+####  <a id="decl-Ray"></a>Ray  : [RayDesc](../raydesc-03/index.html)
 ####  <a id="decl-CurrentTime"></a>CurrentTime  : float
-####  <a id="decl-Payload"></a>Payload  : [payload\_t](tracemotionray-05b.md#typeparam-payload_t)
+####  <a id="decl-Payload"></a>Payload  : [payload\_t](tracemotionray-05b.html#typeparam-payload_t)
 
 ## Availability and Requirements
 
@@ -61,20 +61,3 @@ Available in stages: `raygen`, `closesthit`, `miss`.
 Requires capabilities: `spvRayTracingMotionBlurNV`, `spvRayTracingKHR`, `spvShaderInvocationReorderNV`.
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

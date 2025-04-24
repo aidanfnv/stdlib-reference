@@ -5,65 +5,48 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [InputPatch\<T, N:int\>](inputpatch-05/index.md)
+#### [InputPatch\<T, N:int\>](inputpatch-05/index.html)
 
-#### [LineStream\<T\>](linestream-04/index.md)
+#### [LineStream\<T\>](linestream-04/index.html)
 
-#### [OutputIndices\<T, MAX\_PRIMITIVES:uint\>](outputindices-06/index.md)
+#### [OutputIndices\<T, MAX\_PRIMITIVES:uint\>](outputindices-06/index.html)
 
-#### [OutputPatch\<T, N:int\>](outputpatch-06/index.md)
+#### [OutputPatch\<T, N:int\>](outputpatch-06/index.html)
 
-#### [OutputPrimitives\<T, MAX\_PRIMITIVES:uint\>](outputprimitives-06/index.md)
+#### [OutputPrimitives\<T, MAX\_PRIMITIVES:uint\>](outputprimitives-06/index.html)
 
-#### [OutputVertices\<T, MAX\_VERTS:uint\>](outputvertices-06/index.md)
+#### [OutputVertices\<T, MAX\_VERTS:uint\>](outputvertices-06/index.html)
 
-#### [PointStream\<T\>](pointstream-05/index.md)
+#### [PointStream\<T\>](pointstream-05/index.html)
 
-#### [SubpassInput\<T, isMS:int\>](subpassinput-07.md)
+#### [SubpassInput\<T, isMS:int\>](subpassinput-07.html)
 
-#### [SubpassInputMS\<T, isMS:int\>](subpassinputms-07cd.md)
+#### [SubpassInputMS\<T, isMS:int\>](subpassinputms-07cd.html)
 
-#### [TextureFootprint\<ND:int\>](texturefootprint-07/index.md)
+#### [TextureFootprint\<ND:int\>](texturefootprint-07/index.html)
 
-#### [TextureFootprint2D](texturefootprint2d-07h.md)
+#### [TextureFootprint2D](texturefootprint2d-07h.html)
 
-#### [TextureFootprint3D](texturefootprint3d-07h.md)
+#### [TextureFootprint3D](texturefootprint3d-07h.html)
 
-#### [TriangleStream\<T\>](trianglestream-08/index.md)
+#### [TriangleStream\<T\>](trianglestream-08/index.html)
 
 
 ```{toctree}
 :titlesonly:
 :hidden:
 
-InputPatch <../types/inputpatch-05/index>
-LineStream <../types/linestream-04/index>
-OutputIndices <../types/outputindices-06/index>
-OutputPatch <../types/outputpatch-06/index>
-OutputPrimitives <../types/outputprimitives-06/index>
-OutputVertices <../types/outputvertices-06/index>
-PointStream <../types/pointstream-05/index>
-SubpassInput <../types/subpassinput-07>
-SubpassInputMS <../types/subpassinputms-07cd>
-TextureFootprint <../types/texturefootprint-07/index>
-TextureFootprint2D <../types/texturefootprint2d-07h>
-TextureFootprint3D <../types/texturefootprint3d-07h>
-TriangleStream <../types/trianglestream-08/index>
+InputPatch <inputpatch-05/index>
+LineStream <linestream-04/index>
+OutputIndices <outputindices-06/index>
+OutputPatch <outputpatch-06/index>
+OutputPrimitives <outputprimitives-06/index>
+OutputVertices <outputvertices-06/index>
+PointStream <pointstream-05/index>
+SubpassInput <subpassinput-07>
+SubpassInputMS <subpassinputms-07cd>
+TextureFootprint <texturefootprint-07/index>
+TextureFootprint2D <texturefootprint2d-07h>
+TextureFootprint3D <texturefootprint3d-07h>
+TriangleStream <trianglestream-08/index>
 ```
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

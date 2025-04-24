@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IFloat
 
-*Inherits from:* [IArithmetic](../iarithmetic-01/index.md), [IDifferentiable](../idifferentiable-01/index.md)
+*Inherits from:* [IArithmetic](../iarithmetic-01/index.html), [IDifferentiable](../idifferentiable-01/index.html)
 
 ## Description
 
@@ -12,20 +12,20 @@ Represents a type that can be used for floating point arithmetic operations.
 
 Implemented by builtin scalar types: <span class='code'><span class="code_keyword">float</span></span>, <span class='code'><span class="code_keyword">half</span></span>, <span class='code'><span class="code_keyword">double</span></span>.
 
-Also implemented by <span class='code'><a href="../../types/vector/index.md" class="code_type">vector</a>&lt;T, N&gt;</span> where <span class='code'>T</span> is one of the above scalar types.
+Also implemented by <span class='code'><a href="../../types/vector/index.html" class="code_type">vector</a>&lt;T, N&gt;</span> where <span class='code'>T</span> is one of the above scalar types.
 
 
 ## Methods
 
-* [toFloat](tofloat-2.md)
-* [add](add.md)
-* [sub](sub.md)
-* [mul](mul.md)
-* [div](div.md)
-* [mod](mod.md)
-* [neg](neg.md)
-* [init](init.md)
-* [scale](scale.md)
+* [toFloat](tofloat-2.html)
+* [add](add.html)
+* [sub](sub.html)
+* [mul](mul.html)
+* [div](div.html)
+* [mod](mod.html)
+* [neg](neg.html)
+* [init](init.html)
+* [scale](scale.html)
 
 ## Remarks
 
@@ -63,30 +63,13 @@ void test()
 :titlesonly:
 :hidden:
 
-add <../interfaces/ifloat-01/add>
-div <../interfaces/ifloat-01/div>
-init <../interfaces/ifloat-01/init>
-mod <../interfaces/ifloat-01/mod>
-mul <../interfaces/ifloat-01/mul>
-neg <../interfaces/ifloat-01/neg>
-scale <../interfaces/ifloat-01/scale>
-sub <../interfaces/ifloat-01/sub>
-toFloat <../interfaces/ifloat-01/tofloat-2>
+add <add>
+div <div>
+init <init>
+mod <mod>
+mul <mul>
+neg <neg>
+scale <scale>
+sub <sub>
+toFloat <tofloat-2>
 ```
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

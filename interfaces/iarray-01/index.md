@@ -16,12 +16,12 @@ The element type returned by the subscript operator.
 
 ## Methods
 
-* [getCount](getcount-3.md)
-* [subscript](subscript.md)
+* [getCount](getcount-3.html)
+* [subscript](subscript.html)
 
 ## Remarks
 
-This interface is implemented by <span class='code'><a href="../../types/array-0/index.md" class="code_type">Array</a></span>, <span class='code'><a href="../../types/vector/index.md" class="code_type">vector</a></span>, <span class='code'><a href="../../types/matrix/index.md" class="code_type">matrix</a></span>, <span class='code'><a href="../../types/structuredbuffer-0a/index.md" class="code_type">StructuredBuffer</a></span> and <span class='code'><a href="../../types/rwstructuredbuffer-012c/index.md" class="code_type">RWStructuredBuffer</a></span> types.
+This interface is implemented by <span class='code'><a href="../../types/array-0/index.html" class="code_type">Array</a></span>, <span class='code'><a href="../../types/vector/index.html" class="code_type">vector</a></span>, <span class='code'><a href="../../types/matrix/index.html" class="code_type">matrix</a></span>, <span class='code'><a href="../../types/structuredbuffer-0a/index.html" class="code_type">StructuredBuffer</a></span> and <span class='code'><a href="../../types/rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a></span> types.
 
 ## Example
 
@@ -63,23 +63,6 @@ void computeMain(int3 dispatchThreadID : SV_DispatchThreadID)
 :titlesonly:
 :hidden:
 
-getCount <../interfaces/iarray-01/getcount-3>
-subscript <../interfaces/iarray-01/subscript>
+getCount <getcount-3>
+subscript <subscript>
 ```
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

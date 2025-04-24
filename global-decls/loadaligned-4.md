@@ -14,7 +14,7 @@ Aligned loads are more efficient than unaligned loads on some platforms.
 ## Signature 
 
 <pre>
-<a href="loadaligned-4.md#typeparam-T" class="code_type">T</a> <a href="loadaligned-4.md">loadAligned</a>&lt;<a href="loadaligned-4.md#decl-alignment" class="code_var">alignment</a>:<span class="code_keyword">int</span>, <a href="loadaligned-4.md#typeparam-T" class="code_type">T</a>&gt;(<a href="../types/ptr-0/index.md" class="code_type">Ptr</a>&lt;<a href="loadaligned-4.md#typeparam-T" class="code_type">T</a>&gt; <a href="loadaligned-4.md#decl-ptr" class="code_param">ptr</a>);
+<a href="loadaligned-4.html#typeparam-T" class="code_type">T</a> <a href="loadaligned-4.html">loadAligned</a>&lt;<a href="loadaligned-4.html#decl-alignment" class="code_var">alignment</a>:<span class="code_keyword">int</span>, <a href="loadaligned-4.html#typeparam-T" class="code_type">T</a>&gt;(<a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="loadaligned-4.html#typeparam-T" class="code_type">T</a>&gt; <a href="loadaligned-4.html#decl-ptr" class="code_param">ptr</a>);
 
 </pre>
 
@@ -27,7 +27,7 @@ The alignment of the load operation.
 
 ## Parameters
 
-####  <a id="decl-ptr"></a>ptr  : [Ptr](../types/ptr-0/index.md)\<[T](../types/ptr-0/index.md#typeparam-T)\>
+####  <a id="decl-ptr"></a>ptr  : [Ptr](../types/ptr-0/index.html)\<[T](../types/ptr-0/index.html#typeparam-T)\>
 The pointer to load from.
 
 
@@ -39,20 +39,3 @@ When targeting SPIRV, this function maps to an <span class='code'>OpLoad</span> 
 The functions maps to normal load operation on other targets.
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

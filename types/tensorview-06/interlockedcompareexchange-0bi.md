@@ -13,65 +13,65 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.md" class="code_type">TensorView</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.md">InterlockedCompareExchange</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.md#decl-index" class="code_param">index</a>,
-    <span class="code_keyword">int</span> <a href="interlockedcompareexchange-0bi.md#decl-compare" class="code_param">compare</a>,
-    <span class="code_keyword">int</span> <a href="interlockedcompareexchange-0bi.md#decl-val" class="code_param">val</a>)
-    <span class='code_keyword'>where</span> <a href="index.md#typeparam-T" class="code_type">T</a> == <span class="code_keyword">int</span>;
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.html">InterlockedCompareExchange</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.html#decl-index" class="code_param">index</a>,
+    <span class="code_keyword">int</span> <a href="interlockedcompareexchange-0bi.html#decl-compare" class="code_param">compare</a>,
+    <span class="code_keyword">int</span> <a href="interlockedcompareexchange-0bi.html#decl-val" class="code_param">val</a>)
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> == <span class="code_keyword">int</span>;
 
-<span class="code_keyword">void</span> <a href="index.md" class="code_type">TensorView</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.md">InterlockedCompareExchange</a>&lt;<a href="interlockedcompareexchange-0bi.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="interlockedcompareexchange-0bi.md#decl-N" class="code_var">N</a>&gt; <a href="interlockedcompareexchange-0bi.md#decl-index" class="code_param">index</a>,
-    <span class="code_keyword">int</span> <a href="interlockedcompareexchange-0bi.md#decl-compare" class="code_param">compare</a>,
-    <span class="code_keyword">int</span> <a href="interlockedcompareexchange-0bi.md#decl-val" class="code_param">val</a>)
-    <span class='code_keyword'>where</span> <a href="index.md#typeparam-T" class="code_type">T</a> == <span class="code_keyword">int</span>;
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.html">InterlockedCompareExchange</a>&lt;<a href="interlockedcompareexchange-0bi.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="interlockedcompareexchange-0bi.html#decl-N" class="code_var">N</a>&gt; <a href="interlockedcompareexchange-0bi.html#decl-index" class="code_param">index</a>,
+    <span class="code_keyword">int</span> <a href="interlockedcompareexchange-0bi.html#decl-compare" class="code_param">compare</a>,
+    <span class="code_keyword">int</span> <a href="interlockedcompareexchange-0bi.html#decl-val" class="code_param">val</a>)
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> == <span class="code_keyword">int</span>;
 
-<span class="code_keyword">void</span> <a href="index.md" class="code_type">TensorView</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.md">InterlockedCompareExchange</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.md#decl-index" class="code_param">index</a>,
-    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.md#decl-compare" class="code_param">compare</a>,
-    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.md#decl-val" class="code_param">val</a>)
-    <span class='code_keyword'>where</span> <a href="index.md#typeparam-T" class="code_type">T</a> == <span class="code_keyword">uint</span>;
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.html">InterlockedCompareExchange</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.html#decl-index" class="code_param">index</a>,
+    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.html#decl-compare" class="code_param">compare</a>,
+    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.html#decl-val" class="code_param">val</a>)
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> == <span class="code_keyword">uint</span>;
 
-<span class="code_keyword">void</span> <a href="index.md" class="code_type">TensorView</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.md">InterlockedCompareExchange</a>&lt;<a href="interlockedcompareexchange-0bi.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="interlockedcompareexchange-0bi.md#decl-N" class="code_var">N</a>&gt; <a href="interlockedcompareexchange-0bi.md#decl-index" class="code_param">index</a>,
-    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.md#decl-compare" class="code_param">compare</a>,
-    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.md#decl-val" class="code_param">val</a>)
-    <span class='code_keyword'>where</span> <a href="index.md#typeparam-T" class="code_type">T</a> == <span class="code_keyword">uint</span>;
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.html">InterlockedCompareExchange</a>&lt;<a href="interlockedcompareexchange-0bi.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="interlockedcompareexchange-0bi.html#decl-N" class="code_var">N</a>&gt; <a href="interlockedcompareexchange-0bi.html#decl-index" class="code_param">index</a>,
+    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.html#decl-compare" class="code_param">compare</a>,
+    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.html#decl-val" class="code_param">val</a>)
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> == <span class="code_keyword">uint</span>;
 
-<span class="code_keyword">void</span> <a href="index.md" class="code_type">TensorView</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.md">InterlockedCompareExchange</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.md#decl-index" class="code_param">index</a>,
-    uint64_t <a href="interlockedcompareexchange-0bi.md#decl-compare" class="code_param">compare</a>,
-    uint64_t <a href="interlockedcompareexchange-0bi.md#decl-val" class="code_param">val</a>)
-    <span class='code_keyword'>where</span> <a href="index.md#typeparam-T" class="code_type">T</a> == uint64_t;
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.html">InterlockedCompareExchange</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.html#decl-index" class="code_param">index</a>,
+    uint64_t <a href="interlockedcompareexchange-0bi.html#decl-compare" class="code_param">compare</a>,
+    uint64_t <a href="interlockedcompareexchange-0bi.html#decl-val" class="code_param">val</a>)
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> == uint64_t;
 
-<span class="code_keyword">void</span> <a href="index.md" class="code_type">TensorView</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.md">InterlockedCompareExchange</a>&lt;<a href="interlockedcompareexchange-0bi.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="interlockedcompareexchange-0bi.md#decl-N" class="code_var">N</a>&gt; <a href="interlockedcompareexchange-0bi.md#decl-index" class="code_param">index</a>,
-    uint64_t <a href="interlockedcompareexchange-0bi.md#decl-compare" class="code_param">compare</a>,
-    uint64_t <a href="interlockedcompareexchange-0bi.md#decl-val" class="code_param">val</a>)
-    <span class='code_keyword'>where</span> <a href="index.md#typeparam-T" class="code_type">T</a> == uint64_t;
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.html">InterlockedCompareExchange</a>&lt;<a href="interlockedcompareexchange-0bi.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="interlockedcompareexchange-0bi.html#decl-N" class="code_var">N</a>&gt; <a href="interlockedcompareexchange-0bi.html#decl-index" class="code_param">index</a>,
+    uint64_t <a href="interlockedcompareexchange-0bi.html#decl-compare" class="code_param">compare</a>,
+    uint64_t <a href="interlockedcompareexchange-0bi.html#decl-val" class="code_param">val</a>)
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> == uint64_t;
 
-<span class="code_keyword">void</span> <a href="index.md" class="code_type">TensorView</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.md">InterlockedCompareExchange</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.md#decl-index" class="code_param">index</a>,
-    int64_t <a href="interlockedcompareexchange-0bi.md#decl-compare" class="code_param">compare</a>,
-    int64_t <a href="interlockedcompareexchange-0bi.md#decl-val" class="code_param">val</a>)
-    <span class='code_keyword'>where</span> <a href="index.md#typeparam-T" class="code_type">T</a> == int64_t;
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.html">InterlockedCompareExchange</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.html#decl-index" class="code_param">index</a>,
+    int64_t <a href="interlockedcompareexchange-0bi.html#decl-compare" class="code_param">compare</a>,
+    int64_t <a href="interlockedcompareexchange-0bi.html#decl-val" class="code_param">val</a>)
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> == int64_t;
 
-<span class="code_keyword">void</span> <a href="index.md" class="code_type">TensorView</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.md">InterlockedCompareExchange</a>&lt;<a href="interlockedcompareexchange-0bi.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="interlockedcompareexchange-0bi.md#decl-N" class="code_var">N</a>&gt; <a href="interlockedcompareexchange-0bi.md#decl-index" class="code_param">index</a>,
-    int64_t <a href="interlockedcompareexchange-0bi.md#decl-compare" class="code_param">compare</a>,
-    int64_t <a href="interlockedcompareexchange-0bi.md#decl-val" class="code_param">val</a>)
-    <span class='code_keyword'>where</span> <a href="index.md#typeparam-T" class="code_type">T</a> == int64_t;
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.html">InterlockedCompareExchange</a>&lt;<a href="interlockedcompareexchange-0bi.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="interlockedcompareexchange-0bi.html#decl-N" class="code_var">N</a>&gt; <a href="interlockedcompareexchange-0bi.html#decl-index" class="code_param">index</a>,
+    int64_t <a href="interlockedcompareexchange-0bi.html#decl-compare" class="code_param">compare</a>,
+    int64_t <a href="interlockedcompareexchange-0bi.html#decl-val" class="code_param">val</a>)
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> == int64_t;
 
-<span class="code_keyword">void</span> <a href="index.md" class="code_type">TensorView</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.md">InterlockedCompareExchange</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.md#decl-index" class="code_param">index</a>,
-    <span class="code_keyword">float</span> <a href="interlockedcompareexchange-0bi.md#decl-compare" class="code_param">compare</a>,
-    <span class="code_keyword">float</span> <a href="interlockedcompareexchange-0bi.md#decl-val" class="code_param">val</a>)
-    <span class='code_keyword'>where</span> <a href="index.md#typeparam-T" class="code_type">T</a> == <span class="code_keyword">float</span>;
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.html">InterlockedCompareExchange</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedcompareexchange-0bi.html#decl-index" class="code_param">index</a>,
+    <span class="code_keyword">float</span> <a href="interlockedcompareexchange-0bi.html#decl-compare" class="code_param">compare</a>,
+    <span class="code_keyword">float</span> <a href="interlockedcompareexchange-0bi.html#decl-val" class="code_param">val</a>)
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> == <span class="code_keyword">float</span>;
 
-<span class="code_keyword">void</span> <a href="index.md" class="code_type">TensorView</a>&lt;<a href="index.md#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.md">InterlockedCompareExchange</a>&lt;<a href="interlockedcompareexchange-0bi.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="interlockedcompareexchange-0bi.md#decl-N" class="code_var">N</a>&gt; <a href="interlockedcompareexchange-0bi.md#decl-index" class="code_param">index</a>,
-    <span class="code_keyword">float</span> <a href="interlockedcompareexchange-0bi.md#decl-compare" class="code_param">compare</a>,
-    <span class="code_keyword">float</span> <a href="interlockedcompareexchange-0bi.md#decl-val" class="code_param">val</a>)
-    <span class='code_keyword'>where</span> <a href="index.md#typeparam-T" class="code_type">T</a> == <span class="code_keyword">float</span>;
+<span class="code_keyword">void</span> <a href="index.html" class="code_type">TensorView</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="interlockedcompareexchange-0bi.html">InterlockedCompareExchange</a>&lt;<a href="interlockedcompareexchange-0bi.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="interlockedcompareexchange-0bi.html#decl-N" class="code_var">N</a>&gt; <a href="interlockedcompareexchange-0bi.html#decl-index" class="code_param">index</a>,
+    <span class="code_keyword">float</span> <a href="interlockedcompareexchange-0bi.html#decl-compare" class="code_param">compare</a>,
+    <span class="code_keyword">float</span> <a href="interlockedcompareexchange-0bi.html#decl-val" class="code_param">val</a>)
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> == <span class="code_keyword">float</span>;
 
 </pre>
 
@@ -84,7 +84,7 @@ layout: stdlib-reference
 ####  <a id="decl-index"></a>index  : uint
 ####  <a id="decl-compare"></a>compare  : int
 ####  <a id="decl-val"></a>val  : int
-####  <a id="decl-index"></a>index  : [vector](../vector/index.md)\<uint, [N](../vector/index.md#decl-N)\>
+####  <a id="decl-index"></a>index  : [vector](../vector/index.html)\<uint, [N](../vector/index.html#decl-N)\>
 ####  <a id="decl-compare"></a>compare  : uint
 ####  <a id="decl-val"></a>val  : uint
 ####  <a id="decl-compare"></a>compare  : uint64\_t
@@ -103,20 +103,3 @@ Available in all stages.
 
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

@@ -13,11 +13,11 @@ Sampling state for filtered texture fetches that include a comparison operation 
 
 ## Fields
 
-####  <a id="decl-kind"></a>[kind](kind.md) : [DescriptorKind](../descriptorkind-0a/index.md) = [DescriptorKind](../descriptorkind-0a/index.md)\.[Sampler](../descriptorkind-0a/index.md#decl-Sampler)
+####  <a id="decl-kind"></a>[kind](kind.html) : [DescriptorKind](../descriptorkind-0a/index.html) = [DescriptorKind](../descriptorkind-0a/index.html)\.[Sampler](../descriptorkind-0a/index.html#decl-Sampler)
 
 ## Methods
 
-* [init](init.md)
+* [init](init.html)
 
 ## Conditional Conformances
 
@@ -28,24 +28,7 @@ Sampling state for filtered texture fetches that include a comparison operation 
 :titlesonly:
 :hidden:
 
-Handle <../types/samplercomparisonstate-07h/handle-0>
-init <../types/samplercomparisonstate-07h/init>
-kind <../types/samplercomparisonstate-07h/kind>
+Handle <handle-0>
+init <init>
+kind <kind>
 ```
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

@@ -16,23 +16,6 @@ Mark a function for export as a CUDA kernel function. Valid only on CUDA target.
 ## Signature
 
 <pre>
-[<a href="cudakernel-01234.md">CUDAKernel</a>]
+[<a href="cudakernel-01234.html">CUDAKernel</a>]
 </pre>
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

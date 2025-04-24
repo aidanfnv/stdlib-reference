@@ -11,7 +11,7 @@ Perform inlining of the function at the call site during Slang compilation.
 ## Signature
 
 <pre>
-[<a href="forceinline-05.md">ForceInline</a>]
+[<a href="forceinline-05.html">ForceInline</a>]
 </pre>
 
 ## Remarks
@@ -20,20 +20,3 @@ By default Slang does not inline user defined functions, and will preserve the f
 Use this attribute on a function to force the Slang compiler to inline the function before emitting target code.
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

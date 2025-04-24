@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct SAMPLER\_FEEDBACK\_MIN\_MIP
 
-*Conforms to:* \_\_BuiltinSamplerFeedbackType, [ITexelElement](../../interfaces/itexelelement-016/index.md)
+*Conforms to:* \_\_BuiltinSamplerFeedbackType, [ITexelElement](../../interfaces/itexelelement-016/index.html)
 
 ## Description
 
@@ -12,35 +12,18 @@ layout: stdlib-reference
 
 ## Fields
 
-####  <a id="decl-elementCount"></a>[elementCount](elementcount-7.md) : int = 1
+####  <a id="decl-elementCount"></a>[elementCount](elementcount-7.html) : int = 1
 
 ## Methods
 
-* [init](init.md)
+* [init](init.html)
 
 
 ```{toctree}
 :titlesonly:
 :hidden:
 
-Element <../types/sampler_feedback_min_mip-012345689abcdefhijlmn/element-0>
-elementCount <../types/sampler_feedback_min_mip-012345689abcdefhijlmn/elementcount-7>
-init <../types/sampler_feedback_min_mip-012345689abcdefhijlmn/init>
+Element <element-0>
+elementCount <elementcount-7>
+init <init>
 ```
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

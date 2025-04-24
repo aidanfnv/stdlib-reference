@@ -6,44 +6,44 @@ layout: stdlib-reference
 
 ## Description
 
-Take the coarse partial derivative of <span class='code'><a href="ddy_coarse.md#decl-p" class="code_param">p</a></span> with respect to y in screen space.
+Take the coarse partial derivative of <span class='code'><a href="ddy_coarse.html#decl-p" class="code_param">p</a></span> with respect to y in screen space.
 
 
 
 ## Signature 
 
 <pre>
-<a href="ddy_coarse.md#typeparam-T" class="code_type">T</a> <a href="ddy_coarse.md">ddy_coarse</a>&lt;<a href="ddy_coarse.md#typeparam-T" class="code_type">T</a>&gt;(<a href="ddy_coarse.md#typeparam-T" class="code_type">T</a> <a href="ddy_coarse.md#decl-p" class="code_param">p</a>)
-    <span class='code_keyword'>where</span> <a href="ddy_coarse.md#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.md" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="ddy_coarse.html#typeparam-T" class="code_type">T</a> <a href="ddy_coarse.html">ddy_coarse</a>&lt;<a href="ddy_coarse.html#typeparam-T" class="code_type">T</a>&gt;(<a href="ddy_coarse.html#typeparam-T" class="code_type">T</a> <a href="ddy_coarse.html#decl-p" class="code_param">p</a>)
+    <span class='code_keyword'>where</span> <a href="ddy_coarse.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<a href="ddy_coarse.md#typeparam-T" class="code_type">T</a>, <a href="ddy_coarse.md#decl-N" class="code_var">N</a>&gt; <a href="ddy_coarse.md">ddy_coarse</a>&lt;<a href="ddy_coarse.md#typeparam-T" class="code_type">T</a>, <a href="ddy_coarse.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<a href="ddy_coarse.md#typeparam-T" class="code_type">T</a>, <a href="ddy_coarse.md#decl-N" class="code_var">N</a>&gt; <a href="ddy_coarse.md#decl-p" class="code_param">p</a>)
-    <span class='code_keyword'>where</span> <a href="ddy_coarse.md#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.md" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="ddy_coarse.html#typeparam-T" class="code_type">T</a>, <a href="ddy_coarse.html#decl-N" class="code_var">N</a>&gt; <a href="ddy_coarse.html">ddy_coarse</a>&lt;<a href="ddy_coarse.html#typeparam-T" class="code_type">T</a>, <a href="ddy_coarse.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="ddy_coarse.html#typeparam-T" class="code_type">T</a>, <a href="ddy_coarse.html#decl-N" class="code_var">N</a>&gt; <a href="ddy_coarse.html#decl-p" class="code_param">p</a>)
+    <span class='code_keyword'>where</span> <a href="ddy_coarse.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="ddy_coarse.md#typeparam-T" class="code_type">T</a>, <a href="ddy_coarse.md#decl-N" class="code_var">N</a>, <a href="ddy_coarse.md#decl-M" class="code_var">M</a>&gt; <a href="ddy_coarse.md">ddy_coarse</a>&lt;<a href="ddy_coarse.md#typeparam-T" class="code_type">T</a>, <a href="ddy_coarse.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="ddy_coarse.md#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="ddy_coarse.md#typeparam-T" class="code_type">T</a>, <a href="ddy_coarse.md#decl-N" class="code_var">N</a>, <a href="ddy_coarse.md#decl-M" class="code_var">M</a>&gt; <a href="ddy_coarse.md#decl-p" class="code_param">p</a>)
-    <span class='code_keyword'>where</span> <a href="ddy_coarse.md#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.md" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="ddy_coarse.html#typeparam-T" class="code_type">T</a>, <a href="ddy_coarse.html#decl-N" class="code_var">N</a>, <a href="ddy_coarse.html#decl-M" class="code_var">M</a>&gt; <a href="ddy_coarse.html">ddy_coarse</a>&lt;<a href="ddy_coarse.html#typeparam-T" class="code_type">T</a>, <a href="ddy_coarse.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="ddy_coarse.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="ddy_coarse.html#typeparam-T" class="code_type">T</a>, <a href="ddy_coarse.html#decl-N" class="code_var">N</a>, <a href="ddy_coarse.html#decl-M" class="code_var">M</a>&gt; <a href="ddy_coarse.html#decl-p" class="code_param">p</a>)
+    <span class='code_keyword'>where</span> <a href="ddy_coarse.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.md)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
 
 ## Parameters
 
-####  <a id="decl-p"></a>p  : [T](ddy_coarse.md#typeparam-T)
+####  <a id="decl-p"></a>p  : [T](ddy_coarse.html#typeparam-T)
 The value to take partial derivative for.
 
-####  <a id="decl-p"></a>p  : [vector](../types/vector/index.md)\<[T](../types/vector/index.md#typeparam-T), [N](../types/vector/index.md#decl-N)\>
+####  <a id="decl-p"></a>p  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The value to take partial derivative for.
 
-####  <a id="decl-p"></a>p  : [matrix](../types/matrix/index.md)\<[T](../types/matrix/t-0.md), [N](../types/matrix/index.md#decl-N), [M](../types/matrix/index.md#decl-M)\>
+####  <a id="decl-p"></a>p  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 The value to take partial derivative for.
 
 
 ## Return value
-The partial derivative of <span class='code'><a href="ddy_coarse.md#decl-p" class="code_param">p</a></span>.
+The partial derivative of <span class='code'><a href="ddy_coarse.html#decl-p" class="code_param">p</a></span>.
 
 ## Remarks
 For SPIR-V, this function maps to <span class='code'>OpDPdyCoarse</span>.
@@ -65,20 +65,3 @@ Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `ca
 Requires capabilities: `SPV_KHR_compute_shader_derivatives`, `spvMeshShadingEXT`.
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

@@ -14,9 +14,9 @@ Aligned stores are more efficient than unaligned stores on some platforms.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="storealigned-5.md">storeAligned</a>&lt;<a href="storealigned-5.md#decl-alignment" class="code_var">alignment</a>:<span class="code_keyword">int</span>, <a href="storealigned-5.md#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="../types/ptr-0/index.md" class="code_type">Ptr</a>&lt;<a href="storealigned-5.md#typeparam-T" class="code_type">T</a>&gt; <a href="storealigned-5.md#decl-ptr" class="code_param">ptr</a>,
-    <a href="storealigned-5.md#typeparam-T" class="code_type">T</a> <a href="storealigned-5.md#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="storealigned-5.html">storeAligned</a>&lt;<a href="storealigned-5.html#decl-alignment" class="code_var">alignment</a>:<span class="code_keyword">int</span>, <a href="storealigned-5.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="storealigned-5.html#typeparam-T" class="code_type">T</a>&gt; <a href="storealigned-5.html#decl-ptr" class="code_param">ptr</a>,
+    <a href="storealigned-5.html#typeparam-T" class="code_type">T</a> <a href="storealigned-5.html#decl-value" class="code_param">value</a>);
 
 </pre>
 
@@ -29,10 +29,10 @@ The alignment of the store operation.
 
 ## Parameters
 
-####  <a id="decl-ptr"></a>ptr  : [Ptr](../types/ptr-0/index.md)\<[T](../types/ptr-0/index.md#typeparam-T)\>
+####  <a id="decl-ptr"></a>ptr  : [Ptr](../types/ptr-0/index.html)\<[T](../types/ptr-0/index.html#typeparam-T)\>
 The pointer to store value to.
 
-####  <a id="decl-value"></a>value  : [T](storealigned-5.md#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](storealigned-5.html#typeparam-T)
 The value to store.
 
 
@@ -41,20 +41,3 @@ When targeting SPIRV, this function maps to an <span class='code'>OpStore</span>
 The functions maps to normal store operation on other targets.
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>

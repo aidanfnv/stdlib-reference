@@ -13,41 +13,41 @@ Interpolates vertex attribute at the specified subpixel offset.
 ## Signature 
 
 <pre>
-<a href="evaluateattributesnapped-08h.md#typeparam-T" class="code_type">T</a> <a href="evaluateattributesnapped-08h.md">EvaluateAttributeSnapped</a>&lt;<a href="evaluateattributesnapped-08h.md#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="evaluateattributesnapped-08h.md#typeparam-T" class="code_type">T</a> <a href="evaluateattributesnapped-08h.md#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 2&gt; <a href="evaluateattributesnapped-08h.md#decl-offset" class="code_param">offset</a>)
-    <span class='code_keyword'>where</span> <a href="evaluateattributesnapped-08h.md#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.md" class="code_type">__BuiltinArithmeticType</a>;
+<a href="evaluateattributesnapped-08h.html#typeparam-T" class="code_type">T</a> <a href="evaluateattributesnapped-08h.html">EvaluateAttributeSnapped</a>&lt;<a href="evaluateattributesnapped-08h.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="evaluateattributesnapped-08h.html#typeparam-T" class="code_type">T</a> <a href="evaluateattributesnapped-08h.html#decl-x" class="code_param">x</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 2&gt; <a href="evaluateattributesnapped-08h.html#decl-offset" class="code_param">offset</a>)
+    <span class='code_keyword'>where</span> <a href="evaluateattributesnapped-08h.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-<a href="../types/vector/index.md" class="code_type">vector</a>&lt;<a href="evaluateattributesnapped-08h.md#typeparam-T" class="code_type">T</a>, <a href="evaluateattributesnapped-08h.md#decl-N" class="code_var">N</a>&gt; <a href="evaluateattributesnapped-08h.md">EvaluateAttributeSnapped</a>&lt;<a href="evaluateattributesnapped-08h.md#typeparam-T" class="code_type">T</a>, <a href="evaluateattributesnapped-08h.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index.md" class="code_type">vector</a>&lt;<a href="evaluateattributesnapped-08h.md#typeparam-T" class="code_type">T</a>, <a href="evaluateattributesnapped-08h.md#decl-N" class="code_var">N</a>&gt; <a href="evaluateattributesnapped-08h.md#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 2&gt; <a href="evaluateattributesnapped-08h.md#decl-offset" class="code_param">offset</a>)
-    <span class='code_keyword'>where</span> <a href="evaluateattributesnapped-08h.md#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.md" class="code_type">__BuiltinArithmeticType</a>;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="evaluateattributesnapped-08h.html#typeparam-T" class="code_type">T</a>, <a href="evaluateattributesnapped-08h.html#decl-N" class="code_var">N</a>&gt; <a href="evaluateattributesnapped-08h.html">EvaluateAttributeSnapped</a>&lt;<a href="evaluateattributesnapped-08h.html#typeparam-T" class="code_type">T</a>, <a href="evaluateattributesnapped-08h.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="evaluateattributesnapped-08h.html#typeparam-T" class="code_type">T</a>, <a href="evaluateattributesnapped-08h.html#decl-N" class="code_var">N</a>&gt; <a href="evaluateattributesnapped-08h.html#decl-x" class="code_param">x</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 2&gt; <a href="evaluateattributesnapped-08h.html#decl-offset" class="code_param">offset</a>)
+    <span class='code_keyword'>where</span> <a href="evaluateattributesnapped-08h.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
-<a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="evaluateattributesnapped-08h.md#typeparam-T" class="code_type">T</a>, <a href="evaluateattributesnapped-08h.md#decl-N" class="code_var">N</a>, <a href="evaluateattributesnapped-08h.md#decl-M" class="code_var">M</a>&gt; <a href="evaluateattributesnapped-08h.md">EvaluateAttributeSnapped</a>&lt;<a href="evaluateattributesnapped-08h.md#typeparam-T" class="code_type">T</a>, <a href="evaluateattributesnapped-08h.md#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="evaluateattributesnapped-08h.md#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/matrix/index.md" class="code_type">matrix</a>&lt;<a href="evaluateattributesnapped-08h.md#typeparam-T" class="code_type">T</a>, <a href="evaluateattributesnapped-08h.md#decl-N" class="code_var">N</a>, <a href="evaluateattributesnapped-08h.md#decl-M" class="code_var">M</a>&gt; <a href="evaluateattributesnapped-08h.md#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index.md" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 2&gt; <a href="evaluateattributesnapped-08h.md#decl-offset" class="code_param">offset</a>)
-    <span class='code_keyword'>where</span> <a href="evaluateattributesnapped-08h.md#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.md" class="code_type">__BuiltinArithmeticType</a>;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="evaluateattributesnapped-08h.html#typeparam-T" class="code_type">T</a>, <a href="evaluateattributesnapped-08h.html#decl-N" class="code_var">N</a>, <a href="evaluateattributesnapped-08h.html#decl-M" class="code_var">M</a>&gt; <a href="evaluateattributesnapped-08h.html">EvaluateAttributeSnapped</a>&lt;<a href="evaluateattributesnapped-08h.html#typeparam-T" class="code_type">T</a>, <a href="evaluateattributesnapped-08h.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="evaluateattributesnapped-08h.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="evaluateattributesnapped-08h.html#typeparam-T" class="code_type">T</a>, <a href="evaluateattributesnapped-08h.html#decl-N" class="code_var">N</a>, <a href="evaluateattributesnapped-08h.html#decl-M" class="code_var">M</a>&gt; <a href="evaluateattributesnapped-08h.html#decl-x" class="code_param">x</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 2&gt; <a href="evaluateattributesnapped-08h.html#decl-offset" class="code_param">offset</a>)
+    <span class='code_keyword'>where</span> <a href="evaluateattributesnapped-08h.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.md)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index.html)
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](evaluateattributesnapped-08h.md#typeparam-T)
+####  <a id="decl-x"></a>x  : [T](evaluateattributesnapped-08h.html#typeparam-T)
 The vertex attribute to interpolate.
 
-####  <a id="decl-offset"></a>offset  : [vector](../types/vector/index.md)\<int, 2\>
+####  <a id="decl-offset"></a>offset  : [vector](../types/vector/index.html)\<int, 2\>
 The subpixel offset. Each component is a 4-bit signed integer in range [-8, 7].
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index.md)\<[T](../types/vector/index.md#typeparam-T), [N](../types/vector/index.md#decl-N)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The vertex attribute to interpolate.
 
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index.md)\<[T](../types/matrix/t-0.md), [N](../types/matrix/index.md#decl-N), [M](../types/matrix/index.md#decl-M)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index.html)\<[T](../types/matrix/t-0.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 The vertex attribute to interpolate.
 
 
@@ -55,9 +55,9 @@ The vertex attribute to interpolate.
 The interpolated attribute value.
 
 ## Remarks
-<span class='code'><a href="evaluateattributesnapped-08h.md#decl-x" class="code_param">x</a></span> must be a direct reference to a fragment shader varying input.
+<span class='code'><a href="evaluateattributesnapped-08h.html#decl-x" class="code_param">x</a></span> must be a direct reference to a fragment shader varying input.
 
-The valid values of each component of <span class='code'><a href="evaluateattributesnapped-08h.md#decl-offset" class="code_param">offset</a></span> are:
+The valid values of each component of <span class='code'><a href="evaluateattributesnapped-08h.html#decl-offset" class="code_param">offset</a></span> are:
 
 - 1000 = -0.5f (-8 / 16)
 - 1001 = -0.4375f (-7 / 16)
@@ -93,20 +93,3 @@ Available in stages: `amplification`, `fragment`, `compute`, `mesh`, `miss`, `ca
 Requires capabilities: `SPV_KHR_compute_shader_derivatives`, `spvMeshShadingEXT`.
 
 
-
-<script>
-// Fix .md links to .html when on ReadTheDocs
-if (window.location.hostname.includes('readthedocs') || 
-    window.location.hostname.includes('rtfd.io')) {
-  document.addEventListener('DOMContentLoaded', function() {
-    const links = document.querySelectorAll('a');
-    links.forEach(link => {
-      const href = link.getAttribute('href');
-      if (href && href.includes('.md')) {
-        // This regex will handle .md links with or without fragment identifiers or query parameters
-        link.href = link.href.replace(/(.+)\.md(#[^?]*)?(\?.*)?$/, '$1.html$2$3');
-      }
-    });
-  });
-}
-</script>
