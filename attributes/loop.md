@@ -12,6 +12,6 @@ A hint to the downstream compiler to preserve a loop.
 ## Signature
 
 <pre>
-[<a href="loop.html">loop</a>]
+[<a href=".">loop</a>]
 </pre>
 

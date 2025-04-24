@@ -6,14 +6,14 @@ layout: stdlib-reference
 
 ## Methods
 
-* [LoadByteOffset](loadbyteoffset-048.html)
-* [GetBufferPointer](getbufferpointer-039.html)
+* [LoadByteOffset](../loadbyteoffset-048.md)
+* [GetBufferPointer](../getbufferpointer-039.md)
 
 
 ```{toctree}
 :titlesonly:
 :hidden:
 
-GetBufferPointer <getbufferpointer-039>
-LoadByteOffset <loadbyteoffset-048>
+GetBufferPointer <getbufferpointer-039.md>
+LoadByteOffset <loadbyteoffset-048.md>
 ```

@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="loadbyteoffset-048.html#typeparam-T" class="code_type">T</a> <a href="index.html" class="code_type">IPhysicalBuffer</a>.<a href="loadbyteoffset-048.html">LoadByteOffset</a>&lt;<a href="loadbyteoffset-048.html#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">int</span> <a href="loadbyteoffset-048.html#decl-offset" class="code_param">offset</a>);
+<a href=".#typeparam-T" class="code_type">T</a> <a href="../index.md" class="code_type">IPhysicalBuffer</a>.<a href=".">LoadByteOffset</a>&lt;<a href=".#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">int</span> <a href=".#decl-offset" class="code_param">offset</a>);
 
 </pre>
 

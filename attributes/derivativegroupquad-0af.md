@@ -11,7 +11,7 @@ Mark a compute shader entry point to allow it to use implicit derivatives.
 ## Signature
 
 <pre>
-[<a href="derivativegroupquad-0af.html">DerivativeGroupQuad</a>]
+[<a href=".">DerivativeGroupQuad</a>]
 </pre>
 
 ## Remarks

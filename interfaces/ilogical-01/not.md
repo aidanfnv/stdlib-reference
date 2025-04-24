@@ -14,7 +14,7 @@ Performs a logical NOT operation on this value, returning the logical negation.
 ## Signature 
 
 <pre>
-<a href="index.html" class="code_type">ILogical</a>.<span class="code_keyword">This</span> <a href="index.html" class="code_type">ILogical</a>.<a href="not.html">not</a>();
+<a href="../index.md" class="code_type">ILogical</a>.<span class="code_keyword">This</span> <a href="../index.md" class="code_type">ILogical</a>.<a href=".">not</a>();
 
 </pre>
 

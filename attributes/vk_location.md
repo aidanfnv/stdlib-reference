@@ -12,7 +12,7 @@ Declare the Vulkan location of a global variable.
 ## Signature
 
 <pre>
-[vk::<a href="vk_location.html#decl-location" class="code_param">location</a>(<a href="vk_location.html#decl-location" class="code_param">location</a> : <span class="code_keyword">int</span>)]
+[vk::<a href=".#decl-location" class="code_param">location</a>(<a href=".#decl-location" class="code_param">location</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters

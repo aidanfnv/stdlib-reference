@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface ILogical
 
-*Inherits from:* [IComparable](../icomparable-01/index.html)
+*Inherits from:* [IComparable](../../icomparable-01/index.md)
 
 ## Description
 
@@ -13,30 +13,30 @@ Represents types that provide logical operations.
 
 ## Methods
 
-* [shl](shl.html)
-* [shr](shr.html)
-* [bitAnd](bitand-3.html)
-* [bitOr](bitor-3.html)
-* [bitXor](bitxor-3.html)
-* [bitNot](bitnot-3.html)
-* [and](and.html)
-* [or](or.html)
-* [not](not.html)
-* [init](init.html)
+* [shl](../shl.md)
+* [shr](../shr.md)
+* [bitAnd](../bitand-3.md)
+* [bitOr](../bitor-3.md)
+* [bitXor](../bitxor-3.md)
+* [bitNot](../bitnot-3.md)
+* [and](../and.md)
+* [or](../or.md)
+* [not](../not.md)
+* [init](../init.md)
 
 
 ```{toctree}
 :titlesonly:
 :hidden:
 
-and <and>
-bitAnd <bitand-3>
-bitNot <bitnot-3>
-bitOr <bitor-3>
-bitXor <bitxor-3>
-init <init>
-not <not>
-or <or>
-shl <shl>
-shr <shr>
+and <and.md>
+bitAnd <bitand-3.md>
+bitNot <bitnot-3.md>
+bitOr <bitor-3.md>
+bitXor <bitxor-3.md>
+init <init.md>
+not <not.md>
+or <or.md>
+shl <shl.md>
+shr <shr.md>
 ```

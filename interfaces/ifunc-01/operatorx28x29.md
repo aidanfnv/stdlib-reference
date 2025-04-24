@@ -13,11 +13,11 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="index.html#typeparam-TR" class="code_type">TR</a> <a href="index.html" class="code_type">IFunc</a>&lt;<a href="index.html#typeparam-TR" class="code_type">TR</a>, <span class="code_keyword">each</span> <a href="index.html#typeparam-TP" class="code_type">TP</a>&gt;.operator()(<a href="index.html#typeparam-TP" class="code_type">TP</a> <a href="operatorx28x29.html#decl-p" class="code_param">p</a>);
+<a href="../index.md#typeparam-TR" class="code_type">TR</a> <a href="../index.md" class="code_type">IFunc</a>&lt;<a href="../index.md#typeparam-TR" class="code_type">TR</a>, <span class="code_keyword">each</span> <a href="../index.md#typeparam-TP" class="code_type">TP</a>&gt;.operator()(<a href="../index.md#typeparam-TP" class="code_type">TP</a> <a href=".#decl-p" class="code_param">p</a>);
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-p"></a>p  : [TP](index.html#typeparam-TP)
+####  <a id="decl-p"></a>p  : [TP](../index.md#typeparam-TP)
 

@@ -11,7 +11,7 @@ Used on an hull shader entrypoint to specify the patch type used by the hull sha
 ## Signature
 
 <pre>
-[<a href="domain.html">domain</a>(<a href="domain.html#decl-patchType" class="code_param">patchType</a>)]
+[<a href=".">domain</a>(<a href=".#decl-patchType" class="code_param">patchType</a>)]
 </pre>
 
 ## Parameters

@@ -11,7 +11,7 @@ Marks a function as a shader entry point.
 ## Signature
 
 <pre>
-[<a href="shader-0.html">Shader</a>(<a href="shader-0.html#decl-stage" class="code_param">stage</a>)]
+[<a href=".">Shader</a>(<a href=".#decl-stage" class="code_param">stage</a>)]
 </pre>
 
 ## Parameters

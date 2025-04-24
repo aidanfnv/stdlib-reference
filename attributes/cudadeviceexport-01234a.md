@@ -16,6 +16,6 @@ Mark a function for export as a CUDA device function. Valid only on CUDA target.
 ## Signature
 
 <pre>
-[<a href="cudadeviceexport-01234a.html">CUDADeviceExport</a>]
+[<a href=".">CUDADeviceExport</a>]
 </pre>
 

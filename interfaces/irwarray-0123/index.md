@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IRWArray\<T\>
 
-*Inherits from:* [IArray](../iarray-01/index.html)\<[T](../iarray-01/index.html#typeparam-T)\>
+*Inherits from:* [IArray](../../iarray-01/index.md)\<[T](../../iarray-01/index.md#typeparam-T)\>
 
 ## Description
 
@@ -18,15 +18,15 @@ The element type returned by the subscript operator.
 
 ## Methods
 
-* [subscript](subscript.html)
+* [subscript](../subscript.md)
 
 ## Remarks
 
-This interface is implemented by <span class='code'><a href="../../types/array-0/index.html" class="code_type">Array</a></span>, <span class='code'><a href="../../types/vector/index.html" class="code_type">vector</a></span>, <span class='code'><a href="../../types/matrix/index.html" class="code_type">matrix</a></span>, <span class='code'><a href="../../types/structuredbuffer-0a/index.html" class="code_type">StructuredBuffer</a></span> and <span class='code'><a href="../../types/rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a></span> types.
+This interface is implemented by <span class='code'><a href="../../../types/array-0/index.md" class="code_type">Array</a></span>, <span class='code'><a href="../../../types/vector/index.md" class="code_type">vector</a></span>, <span class='code'><a href="../../../types/matrix/index.md" class="code_type">matrix</a></span>, <span class='code'><a href="../../../types/structuredbuffer-0a/index.md" class="code_type">StructuredBuffer</a></span> and <span class='code'><a href="../../../types/rwstructuredbuffer-012c/index.md" class="code_type">RWStructuredBuffer</a></span> types.
 
 ## Example
 
-The follow example shows how to define a generic function uses the <span class='code'><a href="index.html" class="code_type">IRWArray</a></span> interface to mutate an array-like value.
+The follow example shows how to define a generic function uses the <span class='code'><a href="." class="code_type">IRWArray</a></span> interface to mutate an array-like value.
 ```csharp
 void writeToArray<U, T : IRWArray<U>>(inout T array, int index, U value) { array[index] = value; }
 void writeToBuffer<U, T : IRWArray<U>>(T array, int index, U value) { array[index] = value; }
@@ -67,5 +67,5 @@ void computeMain(int3 dispatchThreadID: SV_DispatchThreadID)
 :titlesonly:
 :hidden:
 
-subscript <subscript>
+subscript <subscript.md>
 ```
