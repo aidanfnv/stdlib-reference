@@ -12,7 +12,7 @@ This type can only be used on the CPU target.
 
 ## Properties
 
-####  <a id="decl-length"></a>[length](../length.html)
+####  <a id="decl-length"></a>[length](.html)
 Returns the length of the string.
 
 

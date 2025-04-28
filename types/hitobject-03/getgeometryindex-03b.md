@@ -14,7 +14,7 @@ Returns the geometry index of a hit. Valid if the hit object represents a hit.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="../index.html" class="code_type">HitObject</a>.<a href=".html">GetGeometryIndex</a>();
+<span class="code_keyword">uint</span> <a href="../types/hitobject-03/index.html" class="code_type">HitObject</a>.<a href="getgeometryindex-03b.html">GetGeometryIndex</a>();
 
 </pre>
 

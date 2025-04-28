@@ -14,7 +14,7 @@ of <span class='code'>uint4</span>, which is 16.
 ## Signature 
 
 <pre>
-<a href="../../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="../index.html" class="code_type">RWByteAddressBuffer</a>.<a href=".html">Load4Aligned</a>(<span class="code_keyword">int</span> <a href=".html#decl-location" class="code_param">location</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a>.<a href="load4aligned-05.html">Load4Aligned</a>(<span class="code_keyword">int</span> <a href="load4aligned-05.html#decl-location" class="code_param">location</a>);
 
 </pre>
 

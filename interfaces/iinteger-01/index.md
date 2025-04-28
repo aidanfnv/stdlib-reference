@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IInteger
 
-*Inherits from:* [IArithmetic](../../iarithmetic-01/index.html), [ILogical](../../ilogical-01/index.html)
+*Inherits from:* [IArithmetic](../interfaces/iarithmetic-01/index.html), [ILogical](../interfaces/ilogical-01/index.html)
 
 ## Description
 
@@ -12,7 +12,7 @@ Represents a type that can be used for integer arithmetic operations.
 
 Implemented by builtin scalar types: <span class='code'><span class="code_keyword">int</span></span>, <span class='code'><span class="code_keyword">uint</span></span>, <span class='code'>int64_t</span>, <span class='code'>uint64_t</span>, <span class='code'>int8_t</span>, <span class='code'>uint8_t</span>, <span class='code'>int16_t</span>, <span class='code'>uint16_t</span>.
 
-Also implemented by <span class='code'><a href="../../../types/vector/index.html" class="code_type">vector</a>&lt;T, N&gt;</span> where <span class='code'>T</span> is one of the above scalar types.
+Also implemented by <span class='code'><a href="../types/vector/index.html" class="code_type">vector</a>&lt;T, N&gt;</span> where <span class='code'>T</span> is one of the above scalar types.
 
 
 ## Methods

@@ -11,6 +11,6 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href=".html" class="code_type">float16_t</a> = <span class="code_keyword">half</span>;
+<span class='code_keyword'>typealias</span> <a href="float16_t.html" class="code_type">float16_t</a> = <span class="code_keyword">half</span>;
 </pre>
 

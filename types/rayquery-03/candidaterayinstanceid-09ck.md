@@ -13,7 +13,7 @@ Gets the instance ID of the candidate hit.
 ## Signature 
 
 <pre>
-<span class="code_keyword">int</span> <a href="../index.html" class="code_type">RayQuery</a>&lt;<a href="../index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href=".html">CandidateRayInstanceId</a>();
+<span class="code_keyword">int</span> <a href="../types/rayquery-03/index.html" class="code_type">RayQuery</a>&lt;<a href="../types/rayquery-03/index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="candidaterayinstanceid-09ck.html">CandidateRayInstanceId</a>();
 
 </pre>
 

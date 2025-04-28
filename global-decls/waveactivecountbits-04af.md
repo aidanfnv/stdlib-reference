@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href=".html">WaveActiveCountBits</a>(<span class="code_keyword">bool</span> <a href=".html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">uint</span> <a href="waveactivecountbits-04af.html">WaveActiveCountBits</a>(<span class="code_keyword">bool</span> <a href="waveactivecountbits-04af.html#decl-value" class="code_param">value</a>);
 
 </pre>
 

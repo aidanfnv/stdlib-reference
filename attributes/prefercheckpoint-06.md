@@ -13,6 +13,6 @@ during backward derivative propagation.
 ## Signature
 
 <pre>
-[<a href=".html">PreferCheckpoint</a>]
+[<a href="prefercheckpoint-06.html">PreferCheckpoint</a>]
 </pre>
 

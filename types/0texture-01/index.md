@@ -15,17 +15,17 @@ layout: stdlib-reference
 A parameterized type that represents all flavors of texture types supported by the Slang language.
 Please note that this type is not intended to be used directly in user code, and not all combinations
 of the generic arguments are valid.
-Instead, use the specific texture types such as <span class='code'><a href="../../texture1d-08.html" class="code_type">Texture1D</a></span>, <span class='code'><a href="../../texture2darray-089.html" class="code_type">Texture2DArray</a></span> and <span class='code'><a href="../../sampler2d-08.html" class="code_type">Sampler2D</a></span> etc.
+Instead, use the specific texture types such as <span class='code'><a href=".html" class="code_type">Texture1D</a></span>, <span class='code'><a href=".html" class="code_type">Texture2DArray</a></span> and <span class='code'><a href=".html" class="code_type">Sampler2D</a></span> etc.
 This documentation is provided for reference purposes only.
 
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [ITexelElement](../../../interfaces/itexelelement-016/index.html)
+####  <a id="typeparam-T"></a>T: [ITexelElement](../interfaces/itexelelement-016/index.html)
 The element type of the texture. Must be a scalar or vector type.
 
-####  <a id="typeparam-Shape"></a>Shape: [\_\_ITextureShape](../../../interfaces/0_itextureshape-023a/index.html)
-The shape of the texture. Must be one of <span class='code'><a href="../../0_shape1d-028/index.html" class="code_type">__Shape1D</a></span>, <span class='code'><a href="../../0_shape2d-028/index.html" class="code_type">__Shape2D</a></span>, <span class='code'><a href="../../0_shape3d-028/index.html" class="code_type">__Shape3D</a></span>, <span class='code'><a href="../../0_shapecube-027/index.html" class="code_type">__ShapeCube</a></span> or <span class='code'><a href="../../0_shapebuffer-027/index.html" class="code_type">__ShapeBuffer</a></span>.
+####  <a id="typeparam-Shape"></a>Shape: [\_\_ITextureShape](../interfaces/0_itextureshape-023a/index.html)
+The shape of the texture. Must be one of <span class='code'><a href="../types/0_shape1d-028/index.html" class="code_type">__Shape1D</a></span>, <span class='code'><a href="../types/0_shape2d-028/index.html" class="code_type">__Shape2D</a></span>, <span class='code'><a href="../types/0_shape3d-028/index.html" class="code_type">__Shape3D</a></span>, <span class='code'><a href="../types/0_shapecube-027/index.html" class="code_type">__ShapeCube</a></span> or <span class='code'><a href="../types/0_shapebuffer-027/index.html" class="code_type">__ShapeBuffer</a></span>.
 
 ####  <a id="decl-isArray"></a>isArray  : int
 Indicates whether the texture is an array texture.
@@ -46,12 +46,12 @@ Indicates whether the texture is a shadow texture (for combined texture-sampler 
 Indicates whether the texture is a combined texture-sampler.
 
 ####  <a id="decl-format"></a>format  : int
-The storage format of the texture. Users should specify the format using an <span class='code'>[<a href=".html#decl-format" class="code_var">format</a>(&quot;...&quot;)]</span> attribute instead.
+The storage format of the texture. Users should specify the format using an <span class='code'>[<a href="index.html#decl-format" class="code_var">format</a>(&quot;...&quot;)]</span> attribute instead.
 
 
 ## Fields
 
-####  <a id="decl-kind"></a>[kind](../kind.html) : [DescriptorKind](../../descriptorkind-0a/index.html) =\.\.\.
+####  <a id="decl-kind"></a>[kind](.html) : [DescriptorKind](../types/descriptorkind-0a/index.html) =\.\.\.
 
 ## Methods
 
@@ -105,17 +105,17 @@ The storage format of the texture. Users should specify the format using an <spa
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 `_Texture<T, Shape, isArray:int, isMS:int, sampleCount:int, access:int, isShadow:int, isCombined:int, format:int>` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>` when the following conditions are met:
 
-  * [T](.html#typeparam-T) : [ITexelElement](../../../interfaces/itexelelement-016/index.html)
-  * [Shape](.html#typeparam-Shape) : [\_\_ITextureShape](../../../interfaces/0_itextureshape-023a/index.html)
+  * [T](index.html#typeparam-T) : [ITexelElement](../interfaces/itexelelement-016/index.html)
+  * [Shape](index.html#typeparam-Shape) : [\_\_ITextureShape](../interfaces/0_itextureshape-023a/index.html)
 ## Remarks
 
 
-HLSL texture types are implemented as typealiases to the builtin <span class='code'><a href=".html" class="code_type">_Texture</a></span> type. Users
-are advised to use the HLSL-specific texture types instead of <span class='code'><a href=".html" class="code_type">_Texture</a></span> directly.
+HLSL texture types are implemented as typealiases to the builtin <span class='code'><a href="index.html" class="code_type">_Texture</a></span> type. Users
+are advised to use the HLSL-specific texture types instead of <span class='code'><a href="index.html" class="code_type">_Texture</a></span> directly.
 
-For read-write textures, Slang will automatically infer <span class='code'><a href=".html#decl-format" class="code_var">format</a></span> from <span class='code'><a href=".html#typeparam-T" class="code_type">T</a></span>.
+For read-write textures, Slang will automatically infer <span class='code'><a href="index.html#decl-format" class="code_var">format</a></span> from <span class='code'><a href="index.html#typeparam-T" class="code_type">T</a></span>.
 To explicitly specify texel storage formats for read-write textures,
-use the <span class='code'>[<a href=".html#decl-format" class="code_var">format</a>(&quot;formatString&quot;)]</span> attribute on the texture parameter declaration.
+use the <span class='code'>[<a href="index.html#decl-format" class="code_var">format</a>(&quot;formatString&quot;)]</span> attribute on the texture parameter declaration.
 Allowed <span class='code'>formatString</span> values are:
 
 |id | Format string        | Meaning           |
@@ -162,16 +162,16 @@ Allowed <span class='code'>formatString</span> values are:
 |40 |<span class='code'>&quot;r64ui&quot;</span>             | 1 channel 64-bit unsigned integer texture |
 |41 |<span class='code'>&quot;r64i&quot;</span>              | 1 channel 64-bit signed integer texture |
 
-When targeting Vulkan, a combined-texture-sampler type (<span class='code'><a href=".html#decl-isCombined" class="code_var">isCombined</a>==1</span>) translates to a <span class='code'>OpTypeSampledImage</span> type in SPIR-V.
-For other targets, the combined-texture-sampler type is translated to a pair of a <span class='code'>Texture</span> and <span class='code'><a href="../../samplerstate-07/index.html" class="code_type">SamplerState</a></span>.
-<span class='code'><a href=".html#decl-isShadow" class="code_var">isShadow</a></span> is only applicable to combined-texture-sampler types and must be <span class='code'>0</span> for non-combined texture types.
+When targeting Vulkan, a combined-texture-sampler type (<span class='code'><a href="index.html#decl-isCombined" class="code_var">isCombined</a>==1</span>) translates to a <span class='code'>OpTypeSampledImage</span> type in SPIR-V.
+For other targets, the combined-texture-sampler type is translated to a pair of a <span class='code'>Texture</span> and <span class='code'><a href="../types/samplerstate-07/index.html" class="code_type">SamplerState</a></span>.
+<span class='code'><a href="index.html#decl-isShadow" class="code_var">isShadow</a></span> is only applicable to combined-texture-sampler types and must be <span class='code'>0</span> for non-combined texture types.
 
 ## See also
 
-<span class='code'><a href="../../texture1d-08.html" class="code_type">Texture1D</a></span>, <span class='code'><a href="../../texture2d-08.html" class="code_type">Texture2D</a></span>, <span class='code'><a href="../../texture3d-08.html" class="code_type">Texture3D</a></span>, <span class='code'><a href="../../texturecube-07.html" class="code_type">TextureCube</a></span>, <span class='code'><a href="../../texture1darray-089.html" class="code_type">Texture1DArray</a></span>,
-<span class='code'><a href="../../texture2darray-089.html" class="code_type">Texture2DArray</a></span>, <span class='code'><a href="../../texturecubearray-07b.html" class="code_type">TextureCubeArray</a></span>, <span class='code'><a href="../../sampler1d-08.html" class="code_type">Sampler1D</a></span>, <span class='code'><a href="../../sampler2d-08.html" class="code_type">Sampler2D</a></span>, <span class='code'><a href="../../sampler3d-08.html" class="code_type">Sampler3D</a></span>, <span class='code'><a href="../../samplercube-07.html" class="code_type">SamplerCube</a></span>, <span class='code'><a href="../../sampler1darray-089.html" class="code_type">Sampler1DArray</a></span>, <span class='code'><a href="../../sampler2darray-089.html" class="code_type">Sampler2DArray</a></span>, <span class='code'><a href="../../samplercubearray-07b.html" class="code_type">SamplerCubeArray</a></span>,
-<span class='code'><a href="../../texture2dms-089a.html" class="code_type">Texture2DMS</a></span>, <span class='code'><a href="../../texture2dmsarray-089ab.html" class="code_type">Texture2DMSArray</a></span>, <span class='code'><a href="../../rwtexture1d-012a.html" class="code_type">RWTexture1D</a></span>, <span class='code'><a href="../../rwtexture2d-012a.html" class="code_type">RWTexture2D</a></span>, <span class='code'><a href="../../rwtexture3d-012a.html" class="code_type">RWTexture3D</a></span>, <span class='code'><a href="../../rwtexture1darray-012ab.html" class="code_type">RWTexture1DArray</a></span>, <span class='code'><a href="../../rwtexture2darray-012ab.html" class="code_type">RWTexture2DArray</a></span>,
-<span class='code'><a href="../../rwtexture2dms-012abc.html" class="code_type">RWTexture2DMS</a></span>, <span class='code'><a href="../../rwtexture2dmsarray-012abcd.html" class="code_type">RWTexture2DMSArray</a></span>, <span class='code'><a href="../../buffer-0.html" class="code_type">Buffer</a></span>, <span class='code'><a href="../../rwbuffer-012.html" class="code_type">RWBuffer</a></span>, <span class='code'><a href="../../feedbacktexture2d-08g.html" class="code_type">FeedbackTexture2D</a></span>, <span class='code'><a href="../../feedbacktexture2darray-08gh.html" class="code_type">FeedbackTexture2DArray</a></span>.
+<span class='code'><a href=".html" class="code_type">Texture1D</a></span>, <span class='code'><a href=".html" class="code_type">Texture2D</a></span>, <span class='code'><a href=".html" class="code_type">Texture3D</a></span>, <span class='code'><a href=".html" class="code_type">TextureCube</a></span>, <span class='code'><a href=".html" class="code_type">Texture1DArray</a></span>,
+<span class='code'><a href=".html" class="code_type">Texture2DArray</a></span>, <span class='code'><a href=".html" class="code_type">TextureCubeArray</a></span>, <span class='code'><a href=".html" class="code_type">Sampler1D</a></span>, <span class='code'><a href=".html" class="code_type">Sampler2D</a></span>, <span class='code'><a href=".html" class="code_type">Sampler3D</a></span>, <span class='code'><a href=".html" class="code_type">SamplerCube</a></span>, <span class='code'><a href=".html" class="code_type">Sampler1DArray</a></span>, <span class='code'><a href=".html" class="code_type">Sampler2DArray</a></span>, <span class='code'><a href=".html" class="code_type">SamplerCubeArray</a></span>,
+<span class='code'><a href=".html" class="code_type">Texture2DMS</a></span>, <span class='code'><a href=".html" class="code_type">Texture2DMSArray</a></span>, <span class='code'><a href=".html" class="code_type">RWTexture1D</a></span>, <span class='code'><a href=".html" class="code_type">RWTexture2D</a></span>, <span class='code'><a href=".html" class="code_type">RWTexture3D</a></span>, <span class='code'><a href=".html" class="code_type">RWTexture1DArray</a></span>, <span class='code'><a href=".html" class="code_type">RWTexture2DArray</a></span>,
+<span class='code'><a href=".html" class="code_type">RWTexture2DMS</a></span>, <span class='code'><a href=".html" class="code_type">RWTexture2DMSArray</a></span>, <span class='code'><a href=".html" class="code_type">Buffer</a></span>, <span class='code'><a href=".html" class="code_type">RWBuffer</a></span>, <span class='code'><a href=".html" class="code_type">FeedbackTexture2D</a></span>, <span class='code'><a href=".html" class="code_type">FeedbackTexture2DArray</a></span>.
 
 
 ```{toctree}

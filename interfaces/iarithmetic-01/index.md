@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IArithmetic
 
-*Inherits from:* [IComparable](../../icomparable-01/index.html)
+*Inherits from:* [IComparable](../interfaces/icomparable-01/index.html)
 
 ## Description
 

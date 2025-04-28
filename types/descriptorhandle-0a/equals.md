@@ -13,12 +13,12 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href="../index.html" class="code_type">DescriptorHandle</a>&lt;<a href="../index.html#typeparam-T" class="code_type">T</a>&gt;.<a href=".html">equals</a>(<a href="../index.html" class="code_type">DescriptorHandle</a>&lt;<a href="../index.html#typeparam-T" class="code_type">T</a>&gt; <a href=".html#decl-other" class="code_param">other</a>)
-    <span class='code_keyword'>where</span> <a href="../index.html#typeparam-T" class="code_type">T</a> : <a href="../../../interfaces/iopaquedescriptor-017/index.html" class="code_type">IOpaqueDescriptor</a>;
+<span class="code_keyword">bool</span> <a href="../types/descriptorhandle-0a/index.html" class="code_type">DescriptorHandle</a>&lt;<a href="../types/descriptorhandle-0a/index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="equals.html">equals</a>(<a href="../types/descriptorhandle-0a/index.html" class="code_type">DescriptorHandle</a>&lt;<a href="../types/descriptorhandle-0a/index.html#typeparam-T" class="code_type">T</a>&gt; <a href="equals.html#decl-other" class="code_param">other</a>)
+    <span class='code_keyword'>where</span> <a href="../types/descriptorhandle-0a/index.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/iopaquedescriptor-017/index.html" class="code_type">IOpaqueDescriptor</a>;
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [DescriptorHandle](../index.html)\<[T](../index.html#typeparam-T)\>
+####  <a id="decl-other"></a>other  : [DescriptorHandle](../types/descriptorhandle-0a/index.html)\<[T](../types/descriptorhandle-0a/index.html#typeparam-T)\>
 

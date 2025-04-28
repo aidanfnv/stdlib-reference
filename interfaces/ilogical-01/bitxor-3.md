@@ -14,11 +14,11 @@ Performs a bitwise XOR operation on this value with another value of the same ty
 ## Signature 
 
 <pre>
-<a href="../index.html" class="code_type">ILogical</a>.<span class="code_keyword">This</span> <a href="../index.html" class="code_type">ILogical</a>.<a href=".html">bitXor</a>(<a href="../index.html" class="code_type">ILogical</a>.<span class="code_keyword">This</span> <a href=".html#decl-other" class="code_param">other</a>);
+<a href="../interfaces/ilogical-01/index.html" class="code_type">ILogical</a>.<span class="code_keyword">This</span> <a href="../interfaces/ilogical-01/index.html" class="code_type">ILogical</a>.<a href="bitxor-3.html">bitXor</a>(<a href="../interfaces/ilogical-01/index.html" class="code_type">ILogical</a>.<span class="code_keyword">This</span> <a href="bitxor-3.html#decl-other" class="code_param">other</a>);
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-other"></a>other  : [ILogical](../index.html)\.This
+####  <a id="decl-other"></a>other  : [ILogical](../interfaces/ilogical-01/index.html)\.This
 

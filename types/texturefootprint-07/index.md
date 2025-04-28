@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct TextureFootprint\<ND:int\>
 
-*Conforms to:* \_\_TextureFootprintData\<[ND](.html#decl-ND)\>
+*Conforms to:* \_\_TextureFootprintData\<[ND](index.html#decl-ND)\>
 
 ## Description
 
@@ -16,11 +16,11 @@ layout: stdlib-reference
 
 ## Fields
 
-####  <a id="decl-_isSingleLevel"></a>[\_isSingleLevel](../0issinglelevel-039.html) : bool
+####  <a id="decl-_isSingleLevel"></a>[\_isSingleLevel](.html) : bool
 
 ## Properties
 
-####  <a id="decl-isSingleLevel"></a>[isSingleLevel](../issinglelevel-28.html)
+####  <a id="decl-isSingleLevel"></a>[isSingleLevel](.html)
 
 ## Methods
 

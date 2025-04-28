@@ -15,7 +15,7 @@ four 32-bit typeless address values.
 
 ## Fields
 
-####  <a id="decl-kind"></a>[kind](../kind.html) : [DescriptorKind](../../descriptorkind-0a/index.html) = [DescriptorKind](../../descriptorkind-0a/index.html)\.[Buffer](../../descriptorkind-0a/index.html#decl-Buffer)
+####  <a id="decl-kind"></a>[kind](.html) : [DescriptorKind](../types/descriptorkind-0a/index.html) = [DescriptorKind](../types/descriptorkind-0a/index.html)\.[Buffer](../types/descriptorkind-0a/index.html#decl-Buffer)
 
 ## Methods
 

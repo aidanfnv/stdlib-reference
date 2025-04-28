@@ -14,8 +14,8 @@ of <span class='code'>uint2</span>, which is 8.
 ## Signature 
 
 <pre>
-<a href="../../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="../index.html" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href=".html">Load2Aligned</a>(
-    <span class="code_keyword">int</span> <a href=".html#decl-location" class="code_param">location</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="../types/rasterizerorderedbyteaddressbuffer-0ahls/index.html" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="load2aligned-05.html">Load2Aligned</a>(
+    <span class="code_keyword">int</span> <a href="load2aligned-05.html#decl-location" class="code_param">location</a>);
 
 </pre>
 

@@ -13,7 +13,7 @@ Returns the status of the committed (closest) hit.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="../index.html" class="code_type">RayQuery</a>&lt;<a href="../index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href=".html">CommittedStatus</a>();
+<span class="code_keyword">uint</span> <a href="../types/rayquery-03/index.html" class="code_type">RayQuery</a>&lt;<a href="../types/rayquery-03/index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="committedstatus-09.html">CommittedStatus</a>();
 
 </pre>
 

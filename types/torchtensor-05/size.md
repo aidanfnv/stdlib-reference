@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="../index.html" class="code_type">TorchTensor</a>&lt;<a href="../index.html#typeparam-T" class="code_type">T</a>&gt;.<a href=".html">size</a>(<span class="code_keyword">uint</span> <a href=".html#decl-i" class="code_param">i</a>);
+<span class="code_keyword">uint</span> <a href="../types/torchtensor-05/index.html" class="code_type">TorchTensor</a>&lt;<a href="../types/torchtensor-05/index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="size.html">size</a>(<span class="code_keyword">uint</span> <a href="size.html#decl-i" class="code_param">i</a>);
 
 </pre>
 

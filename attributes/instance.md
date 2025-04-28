@@ -11,7 +11,7 @@ Used on a geometry shader entry point to specify the number of instances to exec
 ## Signature
 
 <pre>
-[<a href=".html">instance</a>(<a href=".html#decl-count" class="code_param">count</a> : <span class="code_keyword">int</span>)]
+[<a href="instance.html">instance</a>(<a href="instance.html#decl-count" class="code_param">count</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters

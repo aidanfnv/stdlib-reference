@@ -13,7 +13,7 @@ Get the number of bytes in the buffer.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="../index.html" class="code_type">RWByteAddressBuffer</a>.<a href=".html">GetDimensions</a>(<span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href=".html#decl-dim" class="code_param">dim</a>);
+<span class="code_keyword">void</span> <a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a>.<a href="getdimensions-03.html">GetDimensions</a>(<span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-dim" class="code_param">dim</a>);
 
 </pre>
 

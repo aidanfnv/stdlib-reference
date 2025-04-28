@@ -10,7 +10,7 @@ layout: stdlib-reference
 
 ## Properties
 
-####  <a id="decl-length"></a>[length](../length.html)
+####  <a id="decl-length"></a>[length](.html)
 
 ## Methods
 

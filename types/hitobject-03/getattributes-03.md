@@ -14,7 +14,7 @@ Returns the attributes of a hit. Valid if the hit object represents a hit or a m
 ## Signature 
 
 <pre>
-<a href=".html#typeparam-attr_t" class="code_type">attr_t</a> <a href="../index.html" class="code_type">HitObject</a>.<a href=".html">GetAttributes</a>&lt;<a href=".html#typeparam-attr_t" class="code_type">attr_t</a>&gt;();
+<a href="getattributes-03.html#typeparam-attr_t" class="code_type">attr_t</a> <a href="../types/hitobject-03/index.html" class="code_type">HitObject</a>.<a href="getattributes-03.html">GetAttributes</a>&lt;<a href="getattributes-03.html#typeparam-attr_t" class="code_type">attr_t</a>&gt;();
 
 </pre>
 

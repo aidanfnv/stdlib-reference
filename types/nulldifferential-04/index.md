@@ -4,11 +4,11 @@ layout: stdlib-reference
 
 # struct NullDifferential
 
-*Conforms to:* [IDifferentiable](../../../interfaces/idifferentiable-01/index.html)
+*Conforms to:* [IDifferentiable](../interfaces/idifferentiable-01/index.html)
 
 ## Fields
 
-####  <a id="decl-dummy"></a>[dummy](../dummy.html) : uint
+####  <a id="decl-dummy"></a>[dummy](.html) : uint
 
 ## Methods
 

@@ -22,7 +22,7 @@ The type of the value pointed to.
 
 ## Remarks
 
-<span class='code'><a href=".html#typeparam-T" class="code_type">T</a>*val</span> is equivalent to <span class='code'><a href=".html" class="code_type">Ptr</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>&gt;val</span>.
+<span class='code'><a href="index.html#typeparam-T" class="code_type">T</a>*val</span> is equivalent to <span class='code'><a href="index.html" class="code_type">Ptr</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;val</span>.
 
 
 

@@ -13,14 +13,14 @@ Extract sign of value.
 ## Signature 
 
 <pre>
-<span class="code_keyword">int</span> <a href=".html">sign</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>&gt;(<a href=".html#typeparam-T" class="code_type">T</a> <a href=".html#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href=".html#typeparam-T" class="code_type">T</a> : __BuiltinSignedArithmeticType;
+<span class="code_keyword">int</span> <a href="sign.html">sign</a>&lt;<a href="sign.html#typeparam-T" class="code_type">T</a>&gt;(<a href="sign.html#typeparam-T" class="code_type">T</a> <a href="sign.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="sign.html#typeparam-T" class="code_type">T</a> : __BuiltinSignedArithmeticType;
 
-<a href="../../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, <a href=".html#decl-N" class="code_var">N</a>&gt; <a href=".html">sign</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>, <a href=".html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../../types/vector/index.html" class="code_type">vector</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>, <a href=".html#decl-N" class="code_var">N</a>&gt; <a href=".html#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href=".html#typeparam-T" class="code_type">T</a> : __BuiltinSignedArithmeticType;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, <a href="sign.html#decl-N" class="code_var">N</a>&gt; <a href="sign.html">sign</a>&lt;<a href="sign.html#typeparam-T" class="code_type">T</a>, <a href="sign.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="sign.html#typeparam-T" class="code_type">T</a>, <a href="sign.html#decl-N" class="code_var">N</a>&gt; <a href="sign.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="sign.html#typeparam-T" class="code_type">T</a> : __BuiltinSignedArithmeticType;
 
-<a href="../../types/matrix/index.html" class="code_type">matrix</a>&lt;<span class="code_keyword">int</span>, <a href=".html#decl-N" class="code_var">N</a>, <a href=".html#decl-M" class="code_var">M</a>&gt; <a href=".html">sign</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>, <a href=".html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href=".html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>, <a href=".html#decl-N" class="code_var">N</a>, <a href=".html#decl-M" class="code_var">M</a>&gt; <a href=".html#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href=".html#typeparam-T" class="code_type">T</a> : __BuiltinSignedArithmeticType;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<span class="code_keyword">int</span>, <a href="sign.html#decl-N" class="code_var">N</a>, <a href="sign.html#decl-M" class="code_var">M</a>&gt; <a href="sign.html">sign</a>&lt;<a href="sign.html#typeparam-T" class="code_type">T</a>, <a href="sign.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="sign.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="sign.html#typeparam-T" class="code_type">T</a>, <a href="sign.html#decl-N" class="code_var">N</a>, <a href="sign.html#decl-M" class="code_var">M</a>&gt; <a href="sign.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="sign.html#typeparam-T" class="code_type">T</a> : __BuiltinSignedArithmeticType;
 
 </pre>
 
@@ -32,18 +32,18 @@ Extract sign of value.
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](.html#typeparam-T)
+####  <a id="decl-x"></a>x  : [T](sign.html#typeparam-T)
 The value to extract the sign of.
 
-####  <a id="decl-x"></a>x  : [vector](../../types/vector/index.html)\<[T](../../types/vector/index.html#typeparam-T), [N](../../types/vector/index.html#decl-N)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
 The value to extract the sign of.
 
-####  <a id="decl-x"></a>x  : [matrix](../../types/matrix/index.html)\<[T](../../types/matrix/t-0.html), [N](../../types/matrix/index.html#decl-N), [M](../../types/matrix/index.html#decl-M)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index.html)\<[T](.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 The value to extract the sign of.
 
 
 ## Return value
--1 if <span class='code'><a href=".html#decl-x" class="code_param">x</a></span> is negative, 0 if <span class='code'><a href=".html#decl-x" class="code_param">x</a></span> is zero, and 1 if <span class='code'><a href=".html#decl-x" class="code_param">x</a></span> is positive.
+-1 if <span class='code'><a href="sign.html#decl-x" class="code_param">x</a></span> is negative, 0 if <span class='code'><a href="sign.html#decl-x" class="code_param">x</a></span> is zero, and 1 if <span class='code'><a href="sign.html#decl-x" class="code_param">x</a></span> is positive.
 
 
 ## Availability and Requirements

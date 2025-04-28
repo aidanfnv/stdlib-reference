@@ -6,6 +6,6 @@ layout: stdlib-reference
 
 ## Signature
 <pre>
-<a href="../index.html#typeparam-A" class="code_type">A</a> <a href="../index.html" class="code_type">DiffTensorView</a>&lt;<a href="../index.html#typeparam-T" class="code_type">T</a>, <a href="../index.html#typeparam-A" class="code_type">A</a>&gt;.<a href=".html" class="code_var">diff</a>;
+<a href="../types/difftensorview-04a/index.html#typeparam-A" class="code_type">A</a> <a href="../types/difftensorview-04a/index.html" class="code_type">DiffTensorView</a>&lt;<a href="../types/difftensorview-04a/index.html#typeparam-T" class="code_type">T</a>, <a href="../types/difftensorview-04a/index.html#typeparam-A" class="code_type">A</a>&gt;.<a href="diff.html" class="code_var">diff</a>;
 </pre>
 

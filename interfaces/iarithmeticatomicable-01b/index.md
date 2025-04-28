@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IArithmeticAtomicable
 
-*Inherits from:* [IAtomicable](../../iatomicable-01/index.html), [IArithmetic](../../iarithmetic-01/index.html)
+*Inherits from:* [IAtomicable](../interfaces/iatomicable-01/index.html), [IArithmetic](../interfaces/iarithmetic-01/index.html)
 
 ## Description
 

@@ -6,21 +6,21 @@ layout: stdlib-reference
 
 ## Description
 
-Perform a 32-bit floating point atomic add operation at <span class='code'><a href=".html#decl-byteAddress" class="code_param">byteAddress</a></span>.
+Perform a 32-bit floating point atomic add operation at <span class='code'><a href="interlockedaddf32-0be.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="../index.html" class="code_type">RWByteAddressBuffer</a>.<a href=".html">InterlockedAddF32</a>(
-    <span class="code_keyword">uint</span> <a href=".html#decl-byteAddress" class="code_param">byteAddress</a>,
-    <span class="code_keyword">float</span> <a href=".html#decl-valueToAdd" class="code_param">valueToAdd</a>,
-    <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href=".html#decl-originalValue" class="code_param">originalValue</a>);
+<span class="code_keyword">void</span> <a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedaddf32-0be.html">InterlockedAddF32</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedaddf32-0be.html#decl-byteAddress" class="code_param">byteAddress</a>,
+    <span class="code_keyword">float</span> <a href="interlockedaddf32-0be.html#decl-valueToAdd" class="code_param">valueToAdd</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="interlockedaddf32-0be.html#decl-originalValue" class="code_param">originalValue</a>);
 
-<span class="code_keyword">void</span> <a href="../index.html" class="code_type">RWByteAddressBuffer</a>.<a href=".html">InterlockedAddF32</a>(
-    <span class="code_keyword">uint</span> <a href=".html#decl-byteAddress" class="code_param">byteAddress</a>,
-    <span class="code_keyword">float</span> <a href=".html#decl-valueToAdd" class="code_param">valueToAdd</a>);
+<span class="code_keyword">void</span> <a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedaddf32-0be.html">InterlockedAddF32</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedaddf32-0be.html#decl-byteAddress" class="code_param">byteAddress</a>,
+    <span class="code_keyword">float</span> <a href="interlockedaddf32-0be.html#decl-valueToAdd" class="code_param">valueToAdd</a>);
 
 </pre>
 
@@ -30,10 +30,10 @@ Perform a 32-bit floating point atomic add operation at <span class='code'><a hr
 The address at which to perform the atomic add operation.
 
 ####  <a id="decl-valueToAdd"></a>valueToAdd  : float
-The value to add to the value at <span class='code'><a href=".html#decl-byteAddress" class="code_param">byteAddress</a></span>.
+The value to add to the value at <span class='code'><a href="interlockedaddf32-0be.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 ####  <a id="decl-originalValue"></a>originalValue  : float
-The original value at <span class='code'><a href=".html#decl-byteAddress" class="code_param">byteAddress</a></span> before the add operation.
+The original value at <span class='code'><a href="interlockedaddf32-0be.html#decl-byteAddress" class="code_param">byteAddress</a></span> before the add operation.
 
 
 ## Remarks

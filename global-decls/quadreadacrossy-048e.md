@@ -13,14 +13,14 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href=".html#typeparam-T" class="code_type">T</a> <a href=".html">QuadReadAcrossY</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>&gt;(<a href=".html#typeparam-T" class="code_type">T</a> <a href=".html#decl-localValue" class="code_param">localValue</a>)
-    <span class='code_keyword'>where</span> <a href=".html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a> <a href="quadreadacrossy-048e.html">QuadReadAcrossY</a>&lt;<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a>&gt;(<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a> <a href="quadreadacrossy-048e.html#decl-localValue" class="code_param">localValue</a>)
+    <span class='code_keyword'>where</span> <a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../../types/vector/index.html" class="code_type">vector</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>, <a href=".html#decl-N" class="code_var">N</a>&gt; <a href=".html">QuadReadAcrossY</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>, <a href=".html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../../types/vector/index.html" class="code_type">vector</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>, <a href=".html#decl-N" class="code_var">N</a>&gt; <a href=".html#decl-localValue" class="code_param">localValue</a>)
-    <span class='code_keyword'>where</span> <a href=".html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.html#decl-N" class="code_var">N</a>&gt; <a href="quadreadacrossy-048e.html">QuadReadAcrossY</a>&lt;<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.html#decl-N" class="code_var">N</a>&gt; <a href="quadreadacrossy-048e.html#decl-localValue" class="code_param">localValue</a>)
+    <span class='code_keyword'>where</span> <a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>, <a href=".html#decl-N" class="code_var">N</a>, <a href=".html#decl-M" class="code_var">M</a>&gt; <a href=".html">QuadReadAcrossY</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>, <a href=".html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href=".html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>, <a href=".html#decl-N" class="code_var">N</a>, <a href=".html#decl-M" class="code_var">M</a>&gt; <a href=".html#decl-localValue" class="code_param">localValue</a>)
-    <span class='code_keyword'>where</span> <a href=".html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.html#decl-N" class="code_var">N</a>, <a href="quadreadacrossy-048e.html#decl-M" class="code_var">M</a>&gt; <a href="quadreadacrossy-048e.html">QuadReadAcrossY</a>&lt;<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="quadreadacrossy-048e.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossy-048e.html#decl-N" class="code_var">N</a>, <a href="quadreadacrossy-048e.html#decl-M" class="code_var">M</a>&gt; <a href="quadreadacrossy-048e.html#decl-localValue" class="code_param">localValue</a>)
+    <span class='code_keyword'>where</span> <a href="quadreadacrossy-048e.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>
 
@@ -32,9 +32,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-localValue"></a>localValue  : [T](.html#typeparam-T)
-####  <a id="decl-localValue"></a>localValue  : [vector](../../types/vector/index.html)\<[T](../../types/vector/index.html#typeparam-T), [N](../../types/vector/index.html#decl-N)\>
-####  <a id="decl-localValue"></a>localValue  : [matrix](../../types/matrix/index.html)\<[T](../../types/matrix/t-0.html), [N](../../types/matrix/index.html#decl-N), [M](../../types/matrix/index.html#decl-M)\>
+####  <a id="decl-localValue"></a>localValue  : [T](quadreadacrossy-048e.html#typeparam-T)
+####  <a id="decl-localValue"></a>localValue  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-localValue"></a>localValue  : [matrix](../types/matrix/index.html)\<[T](.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
 
 ## Availability and Requirements
 

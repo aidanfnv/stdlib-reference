@@ -16,6 +16,6 @@ Mark a function to be exported as a DLL symbol. Valid only on CPU host targets.
 ## Signature
 
 <pre>
-[<a href=".html">DllExport</a>]
+[<a href="dllexport-03.html">DllExport</a>]
 </pre>
 

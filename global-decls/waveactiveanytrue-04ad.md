@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href=".html">WaveActiveAnyTrue</a>(<span class="code_keyword">bool</span> <a href=".html#decl-condition" class="code_param">condition</a>);
+<span class="code_keyword">bool</span> <a href="waveactiveanytrue-04ad.html">WaveActiveAnyTrue</a>(<span class="code_keyword">bool</span> <a href="waveactiveanytrue-04ad.html#decl-condition" class="code_param">condition</a>);
 
 </pre>
 

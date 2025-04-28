@@ -14,7 +14,7 @@ Aligned loads are more efficient than unaligned loads on some platforms.
 ## Signature 
 
 <pre>
-<a href=".html#typeparam-T" class="code_type">T</a> <a href=".html">loadAligned</a>&lt;<a href=".html#decl-alignment" class="code_var">alignment</a>:<span class="code_keyword">int</span>, <a href=".html#typeparam-T" class="code_type">T</a>&gt;(<a href="../../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>&gt; <a href=".html#decl-ptr" class="code_param">ptr</a>);
+<a href="loadaligned-4.html#typeparam-T" class="code_type">T</a> <a href="loadaligned-4.html">loadAligned</a>&lt;<a href="loadaligned-4.html#decl-alignment" class="code_var">alignment</a>:<span class="code_keyword">int</span>, <a href="loadaligned-4.html#typeparam-T" class="code_type">T</a>&gt;(<a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="loadaligned-4.html#typeparam-T" class="code_type">T</a>&gt; <a href="loadaligned-4.html#decl-ptr" class="code_param">ptr</a>);
 
 </pre>
 
@@ -27,7 +27,7 @@ The alignment of the load operation.
 
 ## Parameters
 
-####  <a id="decl-ptr"></a>ptr  : [Ptr](../../types/ptr-0/index.html)\<[T](../../types/ptr-0/index.html#typeparam-T)\>
+####  <a id="decl-ptr"></a>ptr  : [Ptr](../types/ptr-0/index.html)\<[T](../types/ptr-0/index.html#typeparam-T)\>
 The pointer to load from.
 
 

@@ -6,22 +6,22 @@ layout: stdlib-reference
 
 ## Description
 
-Perform a 64-bit integer atomic add operation at <span class='code'><a href=".html#decl-byteAddress" class="code_param">byteAddress</a></span>.
+Perform a 64-bit integer atomic add operation at <span class='code'><a href="interlockedadd64-0b.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="../index.html" class="code_type">RWByteAddressBuffer</a>.<a href=".html">InterlockedAdd64</a>(
-    <span class="code_keyword">uint</span> <a href=".html#decl-byteAddress" class="code_param">byteAddress</a>,
-    int64_t <a href=".html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedadd64-0b.html">InterlockedAdd64</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedadd64-0b.html#decl-byteAddress" class="code_param">byteAddress</a>,
+    int64_t <a href="interlockedadd64-0b.html#decl-value" class="code_param">value</a>);
 
-<span class="code_keyword">void</span> <a href="../index.html" class="code_type">RWByteAddressBuffer</a>.<a href=".html">InterlockedAdd64</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">uint</span> <a href=".html#decl-byteAddress" class="code_param">byteAddress</a>,
-    <a href=".html#typeparam-T" class="code_type">T</a> <a href=".html#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">out</span> <a href=".html#typeparam-T" class="code_type">T</a> <a href=".html#decl-outOriginalValue" class="code_param">outOriginalValue</a>)
-    <span class='code_keyword'>where</span> <a href=".html#typeparam-T" class="code_type">T</a> : __BuiltinInt64Type;
+<span class="code_keyword">void</span> <a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedadd64-0b.html">InterlockedAdd64</a>&lt;<a href="interlockedadd64-0b.html#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">uint</span> <a href="interlockedadd64-0b.html#decl-byteAddress" class="code_param">byteAddress</a>,
+    <a href="interlockedadd64-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedadd64-0b.html#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <a href="interlockedadd64-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedadd64-0b.html#decl-outOriginalValue" class="code_param">outOriginalValue</a>)
+    <span class='code_keyword'>where</span> <a href="interlockedadd64-0b.html#typeparam-T" class="code_type">T</a> : __BuiltinInt64Type;
 
 </pre>
 
@@ -37,11 +37,11 @@ The address at which to perform the atomic add operation.
 ####  <a id="decl-value"></a>value  : int64\_t
 The operand for the add operation.
 
-####  <a id="decl-value"></a>value  : [T](.html#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](interlockedadd64-0b.html#typeparam-T)
 The operand for the add operation.
 
-####  <a id="decl-outOriginalValue"></a>outOriginalValue  : [T](.html#typeparam-T)
-The original value at <span class='code'><a href=".html#decl-byteAddress" class="code_param">byteAddress</a></span> before the add operation.
+####  <a id="decl-outOriginalValue"></a>outOriginalValue  : [T](interlockedadd64-0b.html#typeparam-T)
+The original value at <span class='code'><a href="interlockedadd64-0b.html#decl-byteAddress" class="code_param">byteAddress</a></span> before the add operation.
 
 
 ## Availability and Requirements

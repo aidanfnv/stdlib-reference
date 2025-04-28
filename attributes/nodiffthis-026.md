@@ -7,6 +7,6 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-[<a href=".html">NoDiffThis</a>]
+[<a href="nodiffthis-026.html">NoDiffThis</a>]
 </pre>
 

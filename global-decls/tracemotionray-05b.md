@@ -13,16 +13,16 @@ Traces a ray with motion blur support through the acceleration structure.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href=".html">TraceMotionRay</a>&lt;<a href=".html#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
-    <a href="../../types/raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href=".html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
-    <span class="code_keyword">uint</span> <a href=".html#decl-RayFlags" class="code_param">RayFlags</a>,
-    <span class="code_keyword">uint</span> <a href=".html#decl-InstanceInclusionMask" class="code_param">InstanceInclusionMask</a>,
-    <span class="code_keyword">uint</span> <a href=".html#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
-    <span class="code_keyword">uint</span> <a href=".html#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
-    <span class="code_keyword">uint</span> <a href=".html#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
-    <a href="../../types/raydesc-03/index.html" class="code_type">RayDesc</a> <a href=".html#decl-Ray" class="code_param">Ray</a>,
-    <span class="code_keyword">float</span> <a href=".html#decl-CurrentTime" class="code_param">CurrentTime</a>,
-    <span class="code_keyword">inout</span> <a href=".html#typeparam-payload_t" class="code_type">payload_t</a> <a href=".html#decl-Payload" class="code_param">Payload</a>);
+<span class="code_keyword">void</span> <a href="tracemotionray-05b.html">TraceMotionRay</a>&lt;<a href="tracemotionray-05b.html#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
+    <a href="../types/raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="tracemotionray-05b.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-RayFlags" class="code_param">RayFlags</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-InstanceInclusionMask" class="code_param">InstanceInclusionMask</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
+    <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
+    <a href="../types/raydesc-03/index.html" class="code_type">RayDesc</a> <a href="tracemotionray-05b.html#decl-Ray" class="code_param">Ray</a>,
+    <span class="code_keyword">float</span> <a href="tracemotionray-05b.html#decl-CurrentTime" class="code_param">CurrentTime</a>,
+    <span class="code_keyword">inout</span> <a href="tracemotionray-05b.html#typeparam-payload_t" class="code_type">payload_t</a> <a href="tracemotionray-05b.html#decl-Payload" class="code_param">Payload</a>);
 
 </pre>
 
@@ -32,7 +32,7 @@ Traces a ray with motion blur support through the acceleration structure.
 
 ## Parameters
 
-####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../../types/raytracingaccelerationstructure-0am/index.html)
+####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../types/raytracingaccelerationstructure-0am/index.html)
 The acceleration structure to traverse
 
 ####  <a id="decl-RayFlags"></a>RayFlags  : uint
@@ -50,13 +50,13 @@ Multiplier for geometry-based hit group indexing
 ####  <a id="decl-MissShaderIndex"></a>MissShaderIndex  : uint
 Index of the miss shader to execute if no hit is found
 
-####  <a id="decl-Ray"></a>Ray  : [RayDesc](../../types/raydesc-03/index.html)
+####  <a id="decl-Ray"></a>Ray  : [RayDesc](../types/raydesc-03/index.html)
 Description of the ray to trace
 
 ####  <a id="decl-CurrentTime"></a>CurrentTime  : float
 Time value for motion blur interpolation
 
-####  <a id="decl-Payload"></a>Payload  : [payload\_t](.html#typeparam-payload_t)
+####  <a id="decl-Payload"></a>Payload  : [payload\_t](tracemotionray-05b.html#typeparam-payload_t)
 Structure for passing data between shaders
 
 

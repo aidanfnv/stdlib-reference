@@ -4,12 +4,12 @@ layout: stdlib-reference
 
 # interface IFunc\<TR, each TP\>
 
-*Inherits from:* [IMutatingFunc](../../imutatingfunc-019/index.html)\<[TR](../../imutatingfunc-019/index.html#typeparam-TR), [TP](../../imutatingfunc-019/index.html#typeparam-TP)\>
+*Inherits from:* [IMutatingFunc](../interfaces/imutatingfunc-019/index.html)\<[TR](../interfaces/imutatingfunc-019/index.html#typeparam-TR), [TP](../interfaces/imutatingfunc-019/index.html#typeparam-TP)\>
 
 ## Description
 
 Represents an interface for a function that can take multiple parameters.
-This interface inherits from <span class='code'><a href="../../imutatingfunc-019/index.html" class="code_type">IMutatingFunc</a></span> but is used for non-mutating functions.
+This interface inherits from <span class='code'><a href="../interfaces/imutatingfunc-019/index.html" class="code_type">IMutatingFunc</a></span> but is used for non-mutating functions.
 
 
 ## Generic Parameters

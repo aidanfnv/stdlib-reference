@@ -14,7 +14,7 @@ Unpack 4 unsigned 8-bit values into a vector of 32 bit integers.
 ## Signature 
 
 <pre>
-<a href="../../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href=".html">unpackUint4x8ToUint32</a>(<span class="code_keyword">uint</span> <a href=".html#decl-packedValue" class="code_param">packedValue</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="unpackuint4x8touint32-6df.html">unpackUint4x8ToUint32</a>(<span class="code_keyword">uint</span> <a href="unpackuint4x8touint32-6df.html#decl-packedValue" class="code_param">packedValue</a>);
 
 </pre>
 

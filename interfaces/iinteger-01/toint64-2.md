@@ -13,7 +13,7 @@ Converts the value of the current instance to an <span class='code'>int64_t</spa
 ## Signature 
 
 <pre>
-int64_t <a href="../index.html" class="code_type">IInteger</a>.<a href=".html">toInt64</a>();
+int64_t <a href="../interfaces/iinteger-01/index.html" class="code_type">IInteger</a>.<a href="toint64-2.html">toInt64</a>();
 
 </pre>
 

@@ -6,16 +6,16 @@ layout: stdlib-reference
 
 ## Description
 
-Perform a 64-bit unsigned integer atomic max operation at <span class='code'><a href=".html#decl-byteAddress" class="code_param">byteAddress</a></span>.
+Perform a 64-bit unsigned integer atomic max operation at <span class='code'><a href="interlockedmaxu64-0be.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-uint64_t <a href="../index.html" class="code_type">RWByteAddressBuffer</a>.<a href=".html">InterlockedMaxU64</a>(
-    <span class="code_keyword">uint</span> <a href=".html#decl-byteAddress" class="code_param">byteAddress</a>,
-    uint64_t <a href=".html#decl-value" class="code_param">value</a>);
+uint64_t <a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedmaxu64-0be.html">InterlockedMaxU64</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedmaxu64-0be.html#decl-byteAddress" class="code_param">byteAddress</a>,
+    uint64_t <a href="interlockedmaxu64-0be.html#decl-value" class="code_param">value</a>);
 
 </pre>
 

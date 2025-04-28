@@ -7,6 +7,6 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-[<a href=".html">raypayload</a>]
+[<a href="raypayload.html">raypayload</a>]
 </pre>
 

@@ -14,7 +14,7 @@ Returns true if the HitObject encodes a miss, otherwise returns false.
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href="../index.html" class="code_type">HitObject</a>.<a href=".html">IsMiss</a>();
+<span class="code_keyword">bool</span> <a href="../types/hitobject-03/index.html" class="code_type">HitObject</a>.<a href="ismiss-02.html">IsMiss</a>();
 
 </pre>
 

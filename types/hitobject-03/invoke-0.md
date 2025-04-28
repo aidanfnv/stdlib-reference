@@ -15,10 +15,10 @@ shader is invoked.
 ## Signature 
 
 <pre>
-<span class='code_keyword'>static</span> <span class="code_keyword">void</span> <a href="../index.html" class="code_type">HitObject</a>.<a href=".html">Invoke</a>&lt;<a href=".html#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
-    <a href="../../raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href=".html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
-    <a href="../index.html" class="code_type">HitObject</a> <a href=".html#decl-HitOrMiss" class="code_param">HitOrMiss</a>,
-    <span class="code_keyword">inout</span> <a href=".html#typeparam-payload_t" class="code_type">payload_t</a> <a href=".html#decl-Payload" class="code_param">Payload</a>);
+<span class='code_keyword'>static</span> <span class="code_keyword">void</span> <a href="../types/hitobject-03/index.html" class="code_type">HitObject</a>.<a href="invoke-0.html">Invoke</a>&lt;<a href="invoke-0.html#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
+    <a href="../types/raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="invoke-0.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
+    <a href="../types/hitobject-03/index.html" class="code_type">HitObject</a> <a href="invoke-0.html#decl-HitOrMiss" class="code_param">HitOrMiss</a>,
+    <span class="code_keyword">inout</span> <a href="invoke-0.html#typeparam-payload_t" class="code_type">payload_t</a> <a href="invoke-0.html#decl-Payload" class="code_param">Payload</a>);
 
 </pre>
 
@@ -28,9 +28,9 @@ shader is invoked.
 
 ## Parameters
 
-####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../../raytracingaccelerationstructure-0am/index.html)
-####  <a id="decl-HitOrMiss"></a>HitOrMiss  : [HitObject](../index.html)
-####  <a id="decl-Payload"></a>Payload  : [payload\_t](.html#typeparam-payload_t)
+####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../types/raytracingaccelerationstructure-0am/index.html)
+####  <a id="decl-HitOrMiss"></a>HitOrMiss  : [HitObject](../types/hitobject-03/index.html)
+####  <a id="decl-Payload"></a>Payload  : [payload\_t](invoke-0.html#typeparam-payload_t)
 
 ## Availability and Requirements
 

@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-<span class='code'>[<a href=".html">PrimalSubstitute</a>(substFn)]</span> attribute denotes a substitute <span class='code'>substFn</span> that should be used for
+<span class='code'>[<a href="primalsubstitute-06.html">PrimalSubstitute</a>(substFn)]</span> attribute denotes a substitute <span class='code'>substFn</span> that should be used for
 differentiation instead of the original function. This serves as a sort of 'reference' implementation
 where the original function cannot be differentiated (for whatever reason).
 
@@ -16,7 +16,7 @@ See the auto-diff user guide for more: https://shader-slang.org/slang/user-guide
 ## Signature
 
 <pre>
-[<a href=".html">PrimalSubstitute</a>(<a href=".html#decl-function" class="code_param">function</a>)]
+[<a href="primalsubstitute-06.html">PrimalSubstitute</a>(<a href="primalsubstitute-06.html#decl-function" class="code_param">function</a>)]
 </pre>
 
 ## Parameters

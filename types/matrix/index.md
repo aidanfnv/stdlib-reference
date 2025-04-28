@@ -4,13 +4,13 @@ layout: stdlib-reference
 
 # struct matrix\<T, R:int, C:int, L:int\>
 
-*Conforms to:* [IRWArray](../../../interfaces/irwarray-0123/index.html)\<[vector](../../vector/index.html)\<[T](../../vector/index.html#typeparam-T), C \>\>
+*Conforms to:* [IRWArray](../interfaces/irwarray-0123/index.html)\<[vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), C \>\>
 
-*Conditionally conforms to:* [IFloat](../../../interfaces/ifloat-01/index.html), [IDifferentiable](../../../interfaces/idifferentiable-01/index.html)
+*Conditionally conforms to:* [IFloat](../interfaces/ifloat-01/index.html), [IDifferentiable](../interfaces/idifferentiable-01/index.html)
 
 ## Description
 
-A matrix with <span class='code'><a href=".html#decl-R" class="code_var">R</a></span> rows and <span class='code'><a href=".html#decl-C" class="code_var">C</a></span> columns, with elements of type <span class='code'><a href="../t-0.html" class="code_type">T</a></span>.
+A matrix with <span class='code'><a href="index.html#decl-R" class="code_var">R</a></span> rows and <span class='code'><a href="index.html#decl-C" class="code_var">C</a></span> columns, with elements of type <span class='code'><a href=".html" class="code_type">T</a></span>.
 
 
 ## Generic Parameters
@@ -44,11 +44,11 @@ A matrix with <span class='code'><a href=".html#decl-R" class="code_var">R</a></
 ### Conformance to IFloat
 `matrix<T, R:int, C:int, L:int>` additionally conforms to `IFloat` when the following conditions are met:
 
-  * [T](../t-0.html) : [\_\_BuiltinFloatingPointType](../../../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+  * [T](.html) : [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
 ### Conformance to IDifferentiable
 `matrix<T, R:int, C:int, L:int>` additionally conforms to `IDifferentiable` when the following conditions are met:
 
-  * [T](../t-0.html) : [IDifferentiable](../../../interfaces/idifferentiable-01/index.html)
+  * [T](.html) : [IDifferentiable](../interfaces/idifferentiable-01/index.html)
 
 ```{toctree}
 :titlesonly:

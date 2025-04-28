@@ -13,13 +13,13 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../index.html#typeparam-T" class="code_type">T</a> <a href="../index.html" class="code_type">DiffTensorView</a>&lt;<a href="../index.html#typeparam-T" class="code_type">T</a>, <a href="../index.html#typeparam-A" class="code_type">A</a>&gt;.<a href=".html">load</a>(<span class="code_keyword">uint</span> <a href=".html#decl-i" class="code_param">i</a>)
-    <span class='code_keyword'>where</span> <a href="../index.html#typeparam-T" class="code_type">T</a> : <a href="../../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>
-    <span class='code_keyword'>where</span> <a href="../index.html#typeparam-A" class="code_type">A</a> : <a href="../../../interfaces/idifftensorwrapper-015b/index.html" class="code_type">IDiffTensorWrapper</a>;
+<a href="../types/difftensorview-04a/index.html#typeparam-T" class="code_type">T</a> <a href="../types/difftensorview-04a/index.html" class="code_type">DiffTensorView</a>&lt;<a href="../types/difftensorview-04a/index.html#typeparam-T" class="code_type">T</a>, <a href="../types/difftensorview-04a/index.html#typeparam-A" class="code_type">A</a>&gt;.<a href="load.html">load</a>(<span class="code_keyword">uint</span> <a href="load.html#decl-i" class="code_param">i</a>)
+    <span class='code_keyword'>where</span> <a href="../types/difftensorview-04a/index.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>
+    <span class='code_keyword'>where</span> <a href="../types/difftensorview-04a/index.html#typeparam-A" class="code_type">A</a> : <a href="../interfaces/idifftensorwrapper-015b/index.html" class="code_type">IDiffTensorWrapper</a>;
 
-<a href="../index.html#typeparam-T" class="code_type">T</a> <a href="../index.html" class="code_type">DiffTensorView</a>&lt;<a href="../index.html#typeparam-T" class="code_type">T</a>, <a href="../index.html#typeparam-A" class="code_type">A</a>&gt;.<a href=".html">load</a>&lt;<a href=".html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href=".html#decl-N" class="code_var">N</a>&gt; <a href=".html#decl-i" class="code_param">i</a>)
-    <span class='code_keyword'>where</span> <a href="../index.html#typeparam-T" class="code_type">T</a> : <a href="../../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>
-    <span class='code_keyword'>where</span> <a href="../index.html#typeparam-A" class="code_type">A</a> : <a href="../../../interfaces/idifftensorwrapper-015b/index.html" class="code_type">IDiffTensorWrapper</a>;
+<a href="../types/difftensorview-04a/index.html#typeparam-T" class="code_type">T</a> <a href="../types/difftensorview-04a/index.html" class="code_type">DiffTensorView</a>&lt;<a href="../types/difftensorview-04a/index.html#typeparam-T" class="code_type">T</a>, <a href="../types/difftensorview-04a/index.html#typeparam-A" class="code_type">A</a>&gt;.<a href="load.html">load</a>&lt;<a href="load.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="load.html#decl-N" class="code_var">N</a>&gt; <a href="load.html#decl-i" class="code_param">i</a>)
+    <span class='code_keyword'>where</span> <a href="../types/difftensorview-04a/index.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>
+    <span class='code_keyword'>where</span> <a href="../types/difftensorview-04a/index.html#typeparam-A" class="code_type">A</a> : <a href="../interfaces/idifftensorwrapper-015b/index.html" class="code_type">IDiffTensorWrapper</a>;
 
 </pre>
 
@@ -30,5 +30,5 @@ layout: stdlib-reference
 ## Parameters
 
 ####  <a id="decl-i"></a>i  : uint
-####  <a id="decl-i"></a>i  : [vector](../../vector/index.html)\<uint, [N](../../vector/index.html#decl-N)\>
+####  <a id="decl-i"></a>i  : [vector](../types/vector/index.html)\<uint, [N](../types/vector/index.html#decl-N)\>
 

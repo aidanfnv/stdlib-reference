@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../index.html#typeparam-T" class="code_type">T</a> <a href="../index.html" class="code_type">IArray</a>&lt;<a href="../index.html#typeparam-T" class="code_type">T</a>&gt;.<a href=".html">subscript</a>(<span class="code_keyword">int</span> <a href=".html#decl-index" class="code_param">index</a>);
+<a href="../interfaces/iarray-01/index.html#typeparam-T" class="code_type">T</a> <a href="../interfaces/iarray-01/index.html" class="code_type">IArray</a>&lt;<a href="../interfaces/iarray-01/index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="subscript.html">subscript</a>(<span class="code_keyword">int</span> <a href="subscript.html#decl-index" class="code_param">index</a>);
 
 </pre>
 

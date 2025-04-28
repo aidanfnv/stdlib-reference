@@ -16,16 +16,16 @@ values to two 16-bit integer values, then pack these 16-bit values into a
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href=".html">packHalf2x16</a>(<a href="../../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href=".html#decl-unpackedValue" class="code_param">unpackedValue</a>);
+<span class="code_keyword">uint</span> <a href="packhalf2x16-4.html">packHalf2x16</a>(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="packhalf2x16-4.html#decl-unpackedValue" class="code_param">unpackedValue</a>);
 
-<span class="code_keyword">uint</span> <a href=".html">packHalf2x16</a>(<a href="../../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, 2&gt; <a href=".html#decl-unpackedValue" class="code_param">unpackedValue</a>);
+<span class="code_keyword">uint</span> <a href="packhalf2x16-4.html">packHalf2x16</a>(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, 2&gt; <a href="packhalf2x16-4.html#decl-unpackedValue" class="code_param">unpackedValue</a>);
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../../types/vector/index.html)\<float, 2\>
-####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../../types/vector/index.html)\<half, 2\>
+####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.html)\<float, 2\>
+####  <a id="decl-unpackedValue"></a>unpackedValue  : [vector](../types/vector/index.html)\<half, 2\>
 
 ## Availability and Requirements
 

@@ -14,7 +14,7 @@ Unpack 4 signed 8-bit values into a vector of 16 bit integers.
 ## Signature 
 
 <pre>
-<a href="../../types/vector/index.html" class="code_type">vector</a>&lt;int16_t, 4&gt; <a href=".html">unpackInt4x8ToInt16</a>(<span class="code_keyword">uint</span> <a href=".html#decl-packedValue" class="code_param">packedValue</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;int16_t, 4&gt; <a href="unpackint4x8toint16-6ce.html">unpackInt4x8ToInt16</a>(<span class="code_keyword">uint</span> <a href="unpackint4x8toint16-6ce.html#decl-packedValue" class="code_param">packedValue</a>);
 
 </pre>
 

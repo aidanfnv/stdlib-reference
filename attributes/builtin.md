@@ -16,6 +16,6 @@ Marks a declaration as a builtin declaration.
 ## Signature
 
 <pre>
-[<a href=".html">builtin</a>]
+[<a href="builtin.html">builtin</a>]
 </pre>
 

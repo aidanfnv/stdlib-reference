@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href=".html#typeparam-T" class="code_type">T</a> <a href="../index.html" class="code_type">RWByteAddressBuffer</a>.<a href=".html">LoadByteOffset</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">int</span> <a href=".html#decl-offset" class="code_param">offset</a>);
+<a href="loadbyteoffset-048.html#typeparam-T" class="code_type">T</a> <a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a>.<a href="loadbyteoffset-048.html">LoadByteOffset</a>&lt;<a href="loadbyteoffset-048.html#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">int</span> <a href="loadbyteoffset-048.html#decl-offset" class="code_param">offset</a>);
 
 </pre>
 

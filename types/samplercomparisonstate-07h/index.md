@@ -13,7 +13,7 @@ Sampling state for filtered texture fetches that include a comparison operation 
 
 ## Fields
 
-####  <a id="decl-kind"></a>[kind](../kind.html) : [DescriptorKind](../../descriptorkind-0a/index.html) = [DescriptorKind](../../descriptorkind-0a/index.html)\.[Sampler](../../descriptorkind-0a/index.html#decl-Sampler)
+####  <a id="decl-kind"></a>[kind](.html) : [DescriptorKind](../types/descriptorkind-0a/index.html) = [DescriptorKind](../types/descriptorkind-0a/index.html)\.[Sampler](../types/descriptorkind-0a/index.html#decl-Sampler)
 
 ## Methods
 

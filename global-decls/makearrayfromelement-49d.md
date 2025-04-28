@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href=".html#typeparam-T" class="code_type">T</a>[<a href=".html#decl-N" class="code_var">N</a>] <a href=".html">makeArrayFromElement</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>, <a href=".html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href=".html#typeparam-T" class="code_type">T</a> <a href=".html#decl-element" class="code_param">element</a>);
+<a href="makearrayfromelement-49d.html#typeparam-T" class="code_type">T</a>[<a href="makearrayfromelement-49d.html#decl-N" class="code_var">N</a>] <a href="makearrayfromelement-49d.html">makeArrayFromElement</a>&lt;<a href="makearrayfromelement-49d.html#typeparam-T" class="code_type">T</a>, <a href="makearrayfromelement-49d.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="makearrayfromelement-49d.html#typeparam-T" class="code_type">T</a> <a href="makearrayfromelement-49d.html#decl-element" class="code_param">element</a>);
 
 </pre>
 
@@ -24,5 +24,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-element"></a>element  : [T](.html#typeparam-T)
+####  <a id="decl-element"></a>element  : [T](makearrayfromelement-49d.html#typeparam-T)
 

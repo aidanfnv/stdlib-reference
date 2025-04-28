@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../index.html" class="code_type">IDefaultInitializable</a>.<a href=".html">init</a>();
+<a href="../interfaces/idefaultinitializable-018/index.html" class="code_type">IDefaultInitializable</a>.<a href="init.html">init</a>();
 
 </pre>
 
