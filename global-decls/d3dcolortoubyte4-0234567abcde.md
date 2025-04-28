@@ -13,13 +13,13 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 4&gt; <a href="d3dcolortoubyte4-0234567abcde.html">D3DCOLORtoUBYTE4</a>(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 4&gt; <a href="d3dcolortoubyte4-0234567abcde.html#decl-color" class="code_param">color</a>);
+<a href="../../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 4&gt; <a href=".html">D3DCOLORtoUBYTE4</a>(<a href="../../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 4&gt; <a href=".html#decl-color" class="code_param">color</a>);
 
 </pre>
 
 ## Parameters
 
-####  <a id="decl-color"></a>color  : [vector](../types/vector/index.html)\<float, 4\>
+####  <a id="decl-color"></a>color  : [vector](../../types/vector/index.html)\<float, 4\>
 
 ## Availability and Requirements
 

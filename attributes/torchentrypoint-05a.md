@@ -16,6 +16,6 @@ Mark a function as a pytorch kernel entrypoint.
 ## Signature
 
 <pre>
-[<a href=".">TorchEntryPoint</a>]
+[<a href=".html">TorchEntryPoint</a>]
 </pre>
 

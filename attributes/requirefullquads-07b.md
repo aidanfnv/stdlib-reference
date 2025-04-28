@@ -13,6 +13,6 @@ This attribute has no effect on other targets.
 ## Signature
 
 <pre>
-[<a href=".">RequireFullQuads</a>]
+[<a href=".html">RequireFullQuads</a>]
 </pre>
 

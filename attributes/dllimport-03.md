@@ -16,10 +16,10 @@ Mark a function as imported from a DLL. Valid only on CPU host targets.
 ## Signature
 
 <pre>
-[<a href=".">DllImport</a>(<a href=".#decl-modulePath" class="code_param">modulePath</a> : <a href="../../types/string-0/index.md" class="code_type">String</a>)]
+[<a href=".html">DllImport</a>(<a href=".html#decl-modulePath" class="code_param">modulePath</a> : <a href="../../types/string-0/index.html" class="code_type">String</a>)]
 </pre>
 
 ## Parameters
 
-####  <a id="decl-modulePath"></a>modulePath  : [String](../../types/string-0/index.md)
+####  <a id="decl-modulePath"></a>modulePath  : [String](../../types/string-0/index.html)
 

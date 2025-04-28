@@ -5,27 +5,27 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [InterlockedAdd\<T\>](interlockedadd-0b.html)
+#### [InterlockedAdd\<T\>](../interlockedadd-0b.html)
 
-#### [InterlockedAnd\<T\>](interlockedand-0b.html)
+#### [InterlockedAnd\<T\>](../interlockedand-0b.html)
 
-#### [InterlockedCompareExchange\<T\>](interlockedcompareexchange-0bi.html)
+#### [InterlockedCompareExchange\<T\>](../interlockedcompareexchange-0bi.html)
 
-#### [InterlockedCompareExchangeFloatBitwise](interlockedcompareexchangefloatbitwise-0biqv.html)
+#### [InterlockedCompareExchangeFloatBitwise](../interlockedcompareexchangefloatbitwise-0biqv.html)
 
-#### [InterlockedCompareStore\<T\>](interlockedcomparestore-0bi.html)
+#### [InterlockedCompareStore\<T\>](../interlockedcomparestore-0bi.html)
 
-#### [InterlockedCompareStoreFloatBitwise\<T\>](interlockedcomparestorefloatbitwise-0bins.html)
+#### [InterlockedCompareStoreFloatBitwise\<T\>](../interlockedcomparestorefloatbitwise-0bins.html)
 
-#### [InterlockedExchange\<T\>](interlockedexchange-0b.html)
+#### [InterlockedExchange\<T\>](../interlockedexchange-0b.html)
 
-#### [InterlockedMax\<T\>](interlockedmax-0b.html)
+#### [InterlockedMax\<T\>](../interlockedmax-0b.html)
 
-#### [InterlockedMin\<T\>](interlockedmin-0b.html)
+#### [InterlockedMin\<T\>](../interlockedmin-0b.html)
 
-#### [InterlockedOr\<T\>](interlockedor-0b.html)
+#### [InterlockedOr\<T\>](../interlockedor-0b.html)
 
-#### [InterlockedXor\<T\>](interlockedxor-0b.html)
+#### [InterlockedXor\<T\>](../interlockedxor-0b.html)
 
 
 ```{toctree}

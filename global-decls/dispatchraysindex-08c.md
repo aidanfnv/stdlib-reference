@@ -13,7 +13,7 @@ Returns the current ray dispatch coordinates.
 ## Signature 
 
 <pre>
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="dispatchraysindex-08c.html">DispatchRaysIndex</a>();
+<a href="../../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href=".html">DispatchRaysIndex</a>();
 
 </pre>
 

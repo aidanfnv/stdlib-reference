@@ -13,7 +13,7 @@ Gets the instance ID of the committed hit.
 ## Signature 
 
 <pre>
-<span class="code_keyword">int</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="committedrayinstanceid-09ck.html">CommittedRayInstanceId</a>();
+<span class="code_keyword">int</span> <a href="../index.html" class="code_type">RayQuery</a>&lt;<a href="../index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href=".html">CommittedRayInstanceId</a>();
 
 </pre>
 

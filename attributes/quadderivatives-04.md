@@ -13,6 +13,6 @@ This attribute has no effect on other targets.
 ## Signature
 
 <pre>
-[<a href=".">QuadDerivatives</a>]
+[<a href=".html">QuadDerivatives</a>]
 </pre>
 

@@ -16,6 +16,6 @@ Mark an interface type for specialization only. Such interface types cannot be u
 ## Signature
 
 <pre>
-[<a href=".">Specialize</a>]
+[<a href=".html">Specialize</a>]
 </pre>
 

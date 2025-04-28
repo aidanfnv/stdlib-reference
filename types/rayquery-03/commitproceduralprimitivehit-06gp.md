@@ -13,8 +13,8 @@ Commit a procedural primitive hit at the specified distance.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="commitproceduralprimitivehit-06gp.html">CommitProceduralPrimitiveHit</a>(
-    <span class="code_keyword">float</span> <a href="commitproceduralprimitivehit-06gp.html#decl-t" class="code_param">t</a>);
+<span class="code_keyword">void</span> <a href="../index.html" class="code_type">RayQuery</a>&lt;<a href="../index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href=".html">CommitProceduralPrimitiveHit</a>(
+    <span class="code_keyword">float</span> <a href=".html#decl-t" class="code_param">t</a>);
 
 </pre>
 

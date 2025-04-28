@@ -11,7 +11,7 @@ Used on an hull shader entrypoint to declare the upperbound of the tessellation 
 ## Signature
 
 <pre>
-[<a href=".">maxtessfactor</a>(<a href=".#decl-factor" class="code_param">factor</a> : <span class="code_keyword">float</span>)]
+[<a href=".html">maxtessfactor</a>(<a href=".html#decl-factor" class="code_param">factor</a> : <span class="code_keyword">float</span>)]
 </pre>
 
 ## Parameters

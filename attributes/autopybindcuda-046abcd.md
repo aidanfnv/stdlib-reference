@@ -16,6 +16,6 @@ Mark a function for automatic pytorch binding.
 ## Signature
 
 <pre>
-[<a href=".">AutoPyBindCUDA</a>]
+[<a href=".html">AutoPyBindCUDA</a>]
 </pre>
 

@@ -14,7 +14,7 @@ https://github.com/KhronosGroup/GLSL/blob/master/extensions/ext/GLSL_EXT_ray_tra
 ## Signature 
 
 <pre>
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href="hittrianglevertexposition-03bh.html">HitTriangleVertexPosition</a>(<span class="code_keyword">uint</span> <a href="hittrianglevertexposition-03bh.html#decl-index" class="code_param">index</a>);
+<a href="../../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 3&gt; <a href=".html">HitTriangleVertexPosition</a>(<span class="code_keyword">uint</span> <a href=".html#decl-index" class="code_param">index</a>);
 
 </pre>
 

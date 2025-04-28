@@ -12,6 +12,6 @@ Marks a enum type as a bit flag enum. Bit flag enums will have their enum cases 
 ## Signature
 
 <pre>
-[<a href=".">Flags</a>]
+[<a href=".html">Flags</a>]
 </pre>
 

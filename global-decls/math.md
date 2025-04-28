@@ -5,179 +5,179 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [abs\<T\>](abs.html)
+#### [abs\<T\>](../abs.html)
 
-#### [acos\<T\>](acos.html)
+#### [acos\<T\>](../acos.html)
 
-#### [acosh\<T\>](acosh.html)
+#### [acosh\<T\>](../acosh.html)
 
-#### [asin\<T\>](asin.html)
+#### [asin\<T\>](../asin.html)
 
-#### [asinh\<T\>](asinh.html)
+#### [asinh\<T\>](../asinh.html)
 
-#### [atan\<T\>](atan.html)
+#### [atan\<T\>](../atan.html)
 
-#### [atan2\<T\>](atan2.html)
+#### [atan2\<T\>](../atan2.html)
 
-#### [atanh\<T\>](atanh.html)
+#### [atanh\<T\>](../atanh.html)
 
-#### [ceil\<T\>](ceil.html)
+#### [ceil\<T\>](../ceil.html)
 
-#### [clamp\<T\>](clamp.html)
+#### [clamp\<T\>](../clamp.html)
 
-#### [copysign\<T, N:int\>](copysign.html)
+#### [copysign\<T, N:int\>](../copysign.html)
 
-#### [copysign\_double\<N:int\>](copysign_double.html)
+#### [copysign\_double\<N:int\>](../copysign_double.html)
 
-#### [copysign\_float\<N:int\>](copysign_float.html)
+#### [copysign\_float\<N:int\>](../copysign_float.html)
 
-#### [copysign\_half\<N:int\>](copysign_half.html)
+#### [copysign\_half\<N:int\>](../copysign_half.html)
 
-#### [cos\<T\>](cos.html)
+#### [cos\<T\>](../cos.html)
 
-#### [cosh\<T\>](cosh.html)
+#### [cosh\<T\>](../cosh.html)
 
-#### [cospi\<T\>](cospi.html)
+#### [cospi\<T\>](../cospi.html)
 
-#### [cross\<T\>](cross.html)
+#### [cross\<T\>](../cross.html)
 
-#### [degrees\<T\>](degrees.html)
+#### [degrees\<T\>](../degrees.html)
 
-#### [determinant\<T, N:int\>](determinant.html)
+#### [determinant\<T, N:int\>](../determinant.html)
 
-#### [distance\<T, N:int\>](distance.html)
+#### [distance\<T, N:int\>](../distance.html)
 
-#### [divide\<T\>](divide.html)
+#### [divide\<T\>](../divide.html)
 
-#### [dot\<T\>](dot.html)
+#### [dot\<T\>](../dot.html)
 
-#### [dot2add](dot2add.html)
+#### [dot2add](../dot2add.html)
 
-#### [dot4add\_i8packed](dot4add_i8packed.html)
+#### [dot4add\_i8packed](../dot4add_i8packed.html)
 
-#### [dot4add\_u8packed](dot4add_u8packed.html)
+#### [dot4add\_u8packed](../dot4add_u8packed.html)
 
-#### [dst\<T\>](dst.html)
+#### [dst\<T\>](../dst.html)
 
-#### [exp\<T\>](exp.html)
+#### [exp\<T\>](../exp.html)
 
-#### [exp10\<T\>](exp10.html)
+#### [exp10\<T\>](../exp10.html)
 
-#### [exp2\<T\>](exp2.html)
+#### [exp2\<T\>](../exp2.html)
 
-#### [fabs\<T\>](fabs.html)
+#### [fabs\<T\>](../fabs.html)
 
-#### [faceforward\<T, N:int\>](faceforward.html)
+#### [faceforward\<T, N:int\>](../faceforward.html)
 
-#### [fdim\<T\>](fdim.html)
+#### [fdim\<T\>](../fdim.html)
 
-#### [floor\<T\>](floor.html)
+#### [floor\<T\>](../floor.html)
 
-#### [fma\<T\>](fma.html)
+#### [fma\<T\>](../fma.html)
 
-#### [fmax\<T\>](fmax.html)
+#### [fmax\<T\>](../fmax.html)
 
-#### [fmax3\<T\>](fmax3.html)
+#### [fmax3\<T\>](../fmax3.html)
 
-#### [fmedian3\<T\>](fmedian3.html)
+#### [fmedian3\<T\>](../fmedian3.html)
 
-#### [fmin\<T\>](fmin.html)
+#### [fmin\<T\>](../fmin.html)
 
-#### [fmin3\<T\>](fmin3.html)
+#### [fmin3\<T\>](../fmin3.html)
 
-#### [fmod\<T\>](fmod.html)
+#### [fmod\<T\>](../fmod.html)
 
-#### [frac\<T\>](frac.html)
+#### [frac\<T\>](../frac.html)
 
-#### [fract\<T\>](fract.html)
+#### [fract\<T\>](../fract.html)
 
-#### [frexp\<T\>](frexp.html)
+#### [frexp\<T\>](../frexp.html)
 
-#### [isfinite\<T\>](isfinite.html)
+#### [isfinite\<T\>](../isfinite.html)
 
-#### [isinf\<T\>](isinf.html)
+#### [isinf\<T\>](../isinf.html)
 
-#### [isnan\<T\>](isnan.html)
+#### [isnan\<T\>](../isnan.html)
 
-#### [ldexp\<T\>](ldexp.html)
+#### [ldexp\<T\>](../ldexp.html)
 
-#### [length\<T, N:int\>](length.html)
+#### [length\<T, N:int\>](../length.html)
 
-#### [lerp\<T\>](lerp.html)
+#### [lerp\<T\>](../lerp.html)
 
-#### [lit](lit.html)
+#### [lit](../lit.html)
 
-#### [log\<T\>](log.html)
+#### [log\<T\>](../log.html)
 
-#### [log10\<T\>](log10.html)
+#### [log10\<T\>](../log10.html)
 
-#### [log2\<T\>](log2.html)
+#### [log2\<T\>](../log2.html)
 
-#### [mad\<T\>](mad.html)
+#### [mad\<T\>](../mad.html)
 
-#### [max\<T\>](max.html)
+#### [max\<T\>](../max.html)
 
-#### [max3\<T\>](max3.html)
+#### [max3\<T\>](../max3.html)
 
-#### [median3\<T\>](median3.html)
+#### [median3\<T\>](../median3.html)
 
-#### [min\<T\>](min.html)
+#### [min\<T\>](../min.html)
 
-#### [min3\<T\>](min3.html)
+#### [min3\<T\>](../min3.html)
 
-#### [modf\<T\>](modf.html)
+#### [modf\<T\>](../modf.html)
 
-#### [msad4](msad4.html)
+#### [msad4](../msad4.html)
 
-#### [mul\<T\>](mul.html)
+#### [mul\<T\>](../mul.html)
 
-#### [normalize\<T, N:int\>](normalize.html)
+#### [normalize\<T, N:int\>](../normalize.html)
 
-#### [pow\<T\>](pow.html)
+#### [pow\<T\>](../pow.html)
 
-#### [powr\<T\>](powr.html)
+#### [powr\<T\>](../powr.html)
 
-#### [radians\<T\>](radians.html)
+#### [radians\<T\>](../radians.html)
 
-#### [rcp\<T\>](rcp.html)
+#### [rcp\<T\>](../rcp.html)
 
-#### [reflect\<T\>](reflect.html)
+#### [reflect\<T\>](../reflect.html)
 
-#### [refract\<T, N:int\>](refract.html)
+#### [refract\<T, N:int\>](../refract.html)
 
-#### [rint\<T\>](rint.html)
+#### [rint\<T\>](../rint.html)
 
-#### [round\<T\>](round.html)
+#### [round\<T\>](../round.html)
 
-#### [rsqrt\<T\>](rsqrt.html)
+#### [rsqrt\<T\>](../rsqrt.html)
 
-#### [saturate\<T\>](saturate.html)
+#### [saturate\<T\>](../saturate.html)
 
-#### [sign\<T\>](sign.html)
+#### [sign\<T\>](../sign.html)
 
-#### [sin\<T\>](sin.html)
+#### [sin\<T\>](../sin.html)
 
-#### [sincos\<T\>](sincos.html)
+#### [sincos\<T\>](../sincos.html)
 
-#### [sinh\<T\>](sinh.html)
+#### [sinh\<T\>](../sinh.html)
 
-#### [sinpi\<T\>](sinpi.html)
+#### [sinpi\<T\>](../sinpi.html)
 
-#### [smoothstep\<T\>](smoothstep.html)
+#### [smoothstep\<T\>](../smoothstep.html)
 
-#### [sqrt\<T\>](sqrt.html)
+#### [sqrt\<T\>](../sqrt.html)
 
-#### [step\<T\>](step.html)
+#### [step\<T\>](../step.html)
 
-#### [tan\<T\>](tan.html)
+#### [tan\<T\>](../tan.html)
 
-#### [tanh\<T\>](tanh.html)
+#### [tanh\<T\>](../tanh.html)
 
-#### [tanpi\<T\>](tanpi.html)
+#### [tanpi\<T\>](../tanpi.html)
 
-#### [transpose\<T, N:int, M:int\>](transpose.html)
+#### [transpose\<T, N:int, M:int\>](../transpose.html)
 
-#### [trunc\<T\>](trunc.html)
+#### [trunc\<T\>](../trunc.html)
 
 
 ```{toctree}

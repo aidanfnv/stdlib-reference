@@ -5,9 +5,9 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [matrix\<T, R:int, C:int, L:int\>](matrix/index.html)
+#### [matrix\<T, R:int, C:int, L:int\>](../matrix/index.html)
 
-#### [vector\<T, N:int\>](vector/index.html)
+#### [vector\<T, N:int\>](../vector/index.html)
 
 
 ```{toctree}

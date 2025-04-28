@@ -14,14 +14,14 @@ location of the byte address buffer.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedand-0b.html">InterlockedAnd</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedand-0b.html#decl-dest" class="code_param">dest</a>,
-    <span class="code_keyword">uint</span> <a href="interlockedand-0b.html#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="interlockedand-0b.html#decl-original_value" class="code_param">original_value</a>);
+<span class="code_keyword">void</span> <a href="../index.html" class="code_type">RWByteAddressBuffer</a>.<a href=".html">InterlockedAnd</a>(
+    <span class="code_keyword">uint</span> <a href=".html#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href=".html#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href=".html#decl-original_value" class="code_param">original_value</a>);
 
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedand-0b.html">InterlockedAnd</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedand-0b.html#decl-dest" class="code_param">dest</a>,
-    <span class="code_keyword">uint</span> <a href="interlockedand-0b.html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="../index.html" class="code_type">RWByteAddressBuffer</a>.<a href=".html">InterlockedAnd</a>(
+    <span class="code_keyword">uint</span> <a href=".html#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href=".html#decl-value" class="code_param">value</a>);
 
 </pre>
 
@@ -34,7 +34,7 @@ The byte address at which to perform the atomic and operation.
 The operand of the atomic operation.
 
 ####  <a id="decl-original_value"></a>original\_value  : uint
-The original value at <span class='code'><a href="interlockedand-0b.html#decl-dest" class="code_param">dest</a></span> before the and operation.
+The original value at <span class='code'><a href=".html#decl-dest" class="code_param">dest</a></span> before the and operation.
 
 
 ## Availability and Requirements

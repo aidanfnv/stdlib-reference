@@ -12,7 +12,7 @@ emiting targett code.
 ## Signature
 
 <pre>
-[<a href=".">ForceUnroll</a>(<a href=".#decl-count" class="code_param">count</a> : <span class="code_keyword">int</span>)]
+[<a href=".html">ForceUnroll</a>(<a href=".html#decl-count" class="code_param">count</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters

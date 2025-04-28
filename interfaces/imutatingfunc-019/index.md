@@ -17,12 +17,12 @@ The function allows to modify the state of the object it belongs to.
 
 ## Methods
 
-* [operator\(\)](../operatorx28x29.md)
+* [operator\(\)](../operatorx28x29.html)
 
 
 ```{toctree}
 :titlesonly:
 :hidden:
 
-operator() <operatorx28x29.md>
+operator() <operatorx28x29>
 ```

@@ -14,7 +14,7 @@ Returns the length of the string.
 ## Signature 
 
 <pre>
-int64_t <a href="index.html" class="code_type">String</a>.<a href="getlength-3.html">getLength</a>();
+int64_t <a href="../index.html" class="code_type">String</a>.<a href=".html">getLength</a>();
 
 </pre>
 

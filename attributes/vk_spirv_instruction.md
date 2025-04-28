@@ -16,11 +16,11 @@ Use <span class='code'>spirv_asm</span> instead for inline SPIR-V assembly.
 ## Signature
 
 <pre>
-[vk::spirv_instruction(<a href=".#decl-op" class="code_param">op</a> : <span class="code_keyword">int</span>, <a href=".#decl-set" class="code_keyword">set</a> : <a href="../../types/string-0/index.md" class="code_type">String</a>)]
+[vk::spirv_instruction(<a href=".html#decl-op" class="code_param">op</a> : <span class="code_keyword">int</span>, <a href=".html#decl-set" class="code_keyword">set</a> : <a href="../../types/string-0/index.html" class="code_type">String</a>)]
 </pre>
 
 ## Parameters
 
 ####  <a id="decl-op"></a>op  : int
-####  <a id="decl-set"></a>set  : [String](../../types/string-0/index.md) = ""
+####  <a id="decl-set"></a>set  : [String](../../types/string-0/index.html) = ""
 

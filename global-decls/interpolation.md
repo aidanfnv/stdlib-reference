@@ -5,11 +5,11 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [EvaluateAttributeAtCentroid\<T\>](evaluateattributeatcentroid-08hj.html)
+#### [EvaluateAttributeAtCentroid\<T\>](../evaluateattributeatcentroid-08hj.html)
 
-#### [EvaluateAttributeAtSample\<T\>](evaluateattributeatsample-08hj.html)
+#### [EvaluateAttributeAtSample\<T\>](../evaluateattributeatsample-08hj.html)
 
-#### [EvaluateAttributeSnapped\<T\>](evaluateattributesnapped-08h.html)
+#### [EvaluateAttributeSnapped\<T\>](../evaluateattributesnapped-08h.html)
 
 
 ```{toctree}

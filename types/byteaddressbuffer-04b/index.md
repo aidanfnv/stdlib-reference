@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct ByteAddressBuffer
 
-*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>, [IPhysicalBuffer](../../interfaces/iphysicalbuffer-019/index.html)
+*Conditionally conforms to:* \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>, [IPhysicalBuffer](../../../interfaces/iphysicalbuffer-019/index.html)
 
 ## Description
 
@@ -15,22 +15,22 @@ four 32-bit typeless address values.
 
 ## Fields
 
-####  <a id="decl-kind"></a>[kind](kind.html) : [DescriptorKind](../descriptorkind-0a/index.html) = [DescriptorKind](../descriptorkind-0a/index.html)\.[Buffer](../descriptorkind-0a/index.html#decl-Buffer)
+####  <a id="decl-kind"></a>[kind](../kind.html) : [DescriptorKind](../../descriptorkind-0a/index.html) = [DescriptorKind](../../descriptorkind-0a/index.html)\.[Buffer](../../descriptorkind-0a/index.html#decl-Buffer)
 
 ## Methods
 
-* [GetDimensions](getdimensions-03.html)
-* [Load2](load2-0.html)
-* [Load2Aligned](load2aligned-05.html)
-* [Load3](load3-0.html)
-* [Load3Aligned](load3aligned-05.html)
-* [Load4](load4-0.html)
-* [Load4Aligned](load4aligned-05.html)
-* [Load](load-0.html)
-* [LoadAligned](loadaligned-04.html)
-* [init](init.html)
-* [GetBufferPointer](getbufferpointer-039.html)
-* [LoadByteOffset](loadbyteoffset-048.html)
+* [GetDimensions](../getdimensions-03.html)
+* [Load2](../load2-0.html)
+* [Load2Aligned](../load2aligned-05.html)
+* [Load3](../load3-0.html)
+* [Load3Aligned](../load3aligned-05.html)
+* [Load4](../load4-0.html)
+* [Load4Aligned](../load4aligned-05.html)
+* [Load](../load-0.html)
+* [LoadAligned](../loadaligned-04.html)
+* [init](../init.html)
+* [GetBufferPointer](../getbufferpointer-039.html)
+* [LoadByteOffset](../loadbyteoffset-048.html)
 
 ## Conditional Conformances
 

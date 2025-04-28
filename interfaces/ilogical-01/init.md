@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../index.md" class="code_type">ILogical</a>.<a href=".">init</a>(<span class="code_keyword">int</span> <a href=".#decl-val" class="code_param">val</a>);
+<a href="../index.html" class="code_type">ILogical</a>.<a href=".html">init</a>(<span class="code_keyword">int</span> <a href=".html#decl-val" class="code_param">val</a>);
 
 </pre>
 

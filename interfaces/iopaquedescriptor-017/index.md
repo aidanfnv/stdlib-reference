@@ -12,7 +12,7 @@ whose size may be undefined and can't be directly accessed as ordinary data.
 
 ## Fields
 
-####  <a id="decl-kind"></a>[kind](../kind.md) : [DescriptorKind](../../../types/descriptorkind-0a/index.md)
+####  <a id="decl-kind"></a>[kind](../kind.html) : [DescriptorKind](../../../types/descriptorkind-0a/index.html)
 The kind of the descriptor.
 
 
@@ -21,5 +21,5 @@ The kind of the descriptor.
 :titlesonly:
 :hidden:
 
-kind <kind.md>
+kind <kind>
 ```

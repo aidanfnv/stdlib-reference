@@ -12,6 +12,6 @@ Inform the downstream compiler to not inline the function.
 ## Signature
 
 <pre>
-[<a href=".">noinline</a>]
+[<a href=".html">noinline</a>]
 </pre>
 

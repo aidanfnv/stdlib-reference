@@ -12,16 +12,16 @@ Implemented by all builtin integer and floating point scalar or vector types.
 
 ## Methods
 
-* [equals](../equals.md)
-* [lessThan](../lessthan-4.md)
-* [lessThanOrEquals](../lessthanorequals-48a.md)
+* [equals](../equals.html)
+* [lessThan](../lessthan-4.html)
+* [lessThanOrEquals](../lessthanorequals-48a.html)
 
 
 ```{toctree}
 :titlesonly:
 :hidden:
 
-equals <equals.md>
-lessThan <lessthan-4.md>
-lessThanOrEquals <lessthanorequals-48a.md>
+equals <equals>
+lessThan <lessthan-4>
+lessThanOrEquals <lessthanorequals-48a>
 ```

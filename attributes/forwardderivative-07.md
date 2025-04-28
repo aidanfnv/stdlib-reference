@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-<span class='code'>[<a href=".">ForwardDerivative</a>(fwdFn)]</span> attribute can be used to provide a forward-mode
+<span class='code'>[<a href=".html">ForwardDerivative</a>(fwdFn)]</span> attribute can be used to provide a forward-mode
 derivative implementation.
 Invoking <span class='code'>fwd_diff(decoratedFn)</span> will place a call to <span class='code'>fwdFn</span> instead of synthesizing
 a derivative implementation.
@@ -17,7 +17,7 @@ The same behavior holds if <span class='code'>decoratedFn</span> is used in a di
 ## Signature
 
 <pre>
-[<a href=".">ForwardDerivative</a>(<a href=".#decl-function" class="code_param">function</a>)]
+[<a href=".html">ForwardDerivative</a>(<a href=".html#decl-function" class="code_param">function</a>)]
 </pre>
 
 ## Parameters
@@ -34,9 +34,9 @@ The same behavior holds if <span class='code'>decoratedFn</span> is used in a di
 - This attribute can be used on generic functions, member functions and accessors.
 - For generic functions, the generic signatures (parameters + constraints) of both functions must match exactly.
 
-- The decorated function will be considered forward-differentiable. There is no need for a <span class='code'>[<a href="../differentiable-0.md">Differentiable</a>]</span> tag.
-If the <span class='code'>[<a href="../differentiable-0.md">Differentiable</a>]</span> tag is present,
-and no custom backward derivative is specified with <span class='code'>[<a href="../backwardderivative-08.md">BackwardDerivative</a>]</span>, then the
+- The decorated function will be considered forward-differentiable. There is no need for a <span class='code'>[<a href="../differentiable-0.html">Differentiable</a>]</span> tag.
+If the <span class='code'>[<a href="../differentiable-0.html">Differentiable</a>]</span> tag is present,
+and no custom backward derivative is specified with <span class='code'>[<a href="../backwardderivative-08.html">BackwardDerivative</a>]</span>, then the
 Slang will use auto-diff to generate the backward=mode derivative, but will use the provided
 derivative for forward-mode.
 

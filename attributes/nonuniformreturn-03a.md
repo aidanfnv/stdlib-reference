@@ -12,6 +12,6 @@ Mark a function's return value as non-uniform.
 ## Signature
 
 <pre>
-[<a href=".">NonUniformReturn</a>]
+[<a href=".html">NonUniformReturn</a>]
 </pre>
 

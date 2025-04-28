@@ -17,7 +17,7 @@ of the interface can have.
 ## Signature
 
 <pre>
-[<a href=".">anyValueSize</a>(<a href=".#decl-size" class="code_param">size</a> : <span class="code_keyword">int</span>)]
+[<a href=".html">anyValueSize</a>(<a href=".html#decl-size" class="code_param">size</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters

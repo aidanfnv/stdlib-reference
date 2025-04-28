@@ -22,17 +22,17 @@ Constraints:
 
 ## Fields
 
-####  <a id="decl-elementCount"></a>[elementCount](../elementcount-7.md) : int
+####  <a id="decl-elementCount"></a>[elementCount](../elementcount-7.html) : int
 
 ## Methods
 
-* [init](../init.md)
+* [init](../init.html)
 
 
 ```{toctree}
 :titlesonly:
 :hidden:
 
-elementCount <elementcount-7.md>
-init <init.md>
+elementCount <elementcount-7>
+init <init>
 ```

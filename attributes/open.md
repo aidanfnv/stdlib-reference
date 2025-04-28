@@ -16,11 +16,11 @@ This is the default behavior.
 ## Signature
 
 <pre>
-[<a href=".">open</a>]
+[<a href=".html">open</a>]
 </pre>
 
 ## See also
 
-<span class='code'>[<a href="../sealed.md">sealed</a>]</span>.
+<span class='code'>[<a href="../sealed.html">sealed</a>]</span>.
 
 

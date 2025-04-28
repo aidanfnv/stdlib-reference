@@ -13,10 +13,10 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedaddf64-0be.html">InterlockedAddF64</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedaddf64-0be.html#decl-byteAddress" class="code_param">byteAddress</a>,
-    <span class="code_keyword">double</span> <a href="interlockedaddf64-0be.html#decl-valueToAdd" class="code_param">valueToAdd</a>,
-    <span class="code_keyword">out</span> <span class="code_keyword">double</span> <a href="interlockedaddf64-0be.html#decl-originalValue" class="code_param">originalValue</a>);
+<span class="code_keyword">void</span> <a href="../index.html" class="code_type">RWByteAddressBuffer</a>.<a href=".html">InterlockedAddF64</a>(
+    <span class="code_keyword">uint</span> <a href=".html#decl-byteAddress" class="code_param">byteAddress</a>,
+    <span class="code_keyword">double</span> <a href=".html#decl-valueToAdd" class="code_param">valueToAdd</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">double</span> <a href=".html#decl-originalValue" class="code_param">originalValue</a>);
 
 </pre>
 

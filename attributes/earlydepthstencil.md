@@ -12,6 +12,6 @@ Used on a fragment shader entry point to specify that early depth stencil testin
 ## Signature
 
 <pre>
-[<a href=".">earlydepthstencil</a>]
+[<a href=".html">earlydepthstencil</a>]
 </pre>
 

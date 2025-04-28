@@ -7,6 +7,6 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-[<a href=".">TreatAsDifferentiable</a>]
+[<a href=".html">TreatAsDifferentiable</a>]
 </pre>
 

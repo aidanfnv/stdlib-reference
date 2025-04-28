@@ -13,6 +13,6 @@ This attribute has no effect on other targets.
 ## Signature
 
 <pre>
-[<a href=".">MaximallyReconverges</a>]
+[<a href=".html">MaximallyReconverges</a>]
 </pre>
 

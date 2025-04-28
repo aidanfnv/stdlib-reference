@@ -11,7 +11,7 @@ Used on an hull shader entrypoint to specify the patch type used by the hull sha
 ## Signature
 
 <pre>
-[<a href=".">partitioning</a>(<a href=".#decl-mode" class="code_param">mode</a>)]
+[<a href=".html">partitioning</a>(<a href=".html#decl-mode" class="code_param">mode</a>)]
 </pre>
 
 ## Parameters

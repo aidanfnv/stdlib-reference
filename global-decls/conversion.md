@@ -5,29 +5,29 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [asdouble](asdouble.html)
+#### [asdouble](../asdouble.html)
 
-#### [asfloat](asfloat.html)
+#### [asfloat](../asfloat.html)
 
-#### [asfloat16](asfloat16.html)
+#### [asfloat16](../asfloat16.html)
 
-#### [asint](asint.html)
+#### [asint](../asint.html)
 
-#### [asint16](asint16.html)
+#### [asint16](../asint16.html)
 
-#### [asuint](asuint.html)
+#### [asuint](../asuint.html)
 
-#### [asuint16](asuint16.html)
+#### [asuint16](../asuint16.html)
 
-#### [bit\_cast\<T, U\>](bit_cast.html)
+#### [bit\_cast\<T, U\>](../bit_cast.html)
 
-#### [f16tof32](f16tof32.html)
+#### [f16tof32](../f16tof32.html)
 
-#### [f32tof16](f32tof16.html)
+#### [f32tof16](../f32tof16.html)
 
-#### [f32tof16\_](f32tof16_.html)
+#### [f32tof16\_](../f32tof16_.html)
 
-#### [reinterpret\<T, U\>](reinterpret.html)
+#### [reinterpret\<T, U\>](../reinterpret.html)
 
 
 ```{toctree}

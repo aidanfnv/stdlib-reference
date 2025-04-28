@@ -19,26 +19,26 @@ BuiltInTriangleIntersectionAttributes, or another HitObject to copy the attribut
 ## Signature 
 
 <pre>
-<span class='code_keyword'>static</span> <a href="index.html" class="code_type">HitObject</a> <a href="index.html" class="code_type">HitObject</a>.<a href="makehit-04.html">MakeHit</a>&lt;<a href="makehit-04.html#typeparam-attr_t" class="code_type">attr_t</a>&gt;(
-    <a href="../raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="makehit-04.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
-    <span class="code_keyword">uint</span> <a href="makehit-04.html#decl-InstanceIndex" class="code_param">InstanceIndex</a>,
-    <span class="code_keyword">uint</span> <a href="makehit-04.html#decl-GeometryIndex" class="code_param">GeometryIndex</a>,
-    <span class="code_keyword">uint</span> <a href="makehit-04.html#decl-PrimitiveIndex" class="code_param">PrimitiveIndex</a>,
-    <span class="code_keyword">uint</span> <a href="makehit-04.html#decl-HitKind" class="code_param">HitKind</a>,
-    <span class="code_keyword">uint</span> <a href="makehit-04.html#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
-    <span class="code_keyword">uint</span> <a href="makehit-04.html#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
-    <a href="../raydesc-03/index.html" class="code_type">RayDesc</a> <a href="makehit-04.html#decl-Ray" class="code_param">Ray</a>,
-    <a href="makehit-04.html#typeparam-attr_t" class="code_type">attr_t</a> <a href="makehit-04.html#decl-attributes" class="code_param">attributes</a>);
+<span class='code_keyword'>static</span> <a href="../index.html" class="code_type">HitObject</a> <a href="../index.html" class="code_type">HitObject</a>.<a href=".html">MakeHit</a>&lt;<a href=".html#typeparam-attr_t" class="code_type">attr_t</a>&gt;(
+    <a href="../../raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href=".html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
+    <span class="code_keyword">uint</span> <a href=".html#decl-InstanceIndex" class="code_param">InstanceIndex</a>,
+    <span class="code_keyword">uint</span> <a href=".html#decl-GeometryIndex" class="code_param">GeometryIndex</a>,
+    <span class="code_keyword">uint</span> <a href=".html#decl-PrimitiveIndex" class="code_param">PrimitiveIndex</a>,
+    <span class="code_keyword">uint</span> <a href=".html#decl-HitKind" class="code_param">HitKind</a>,
+    <span class="code_keyword">uint</span> <a href=".html#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
+    <span class="code_keyword">uint</span> <a href=".html#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
+    <a href="../../raydesc-03/index.html" class="code_type">RayDesc</a> <a href=".html#decl-Ray" class="code_param">Ray</a>,
+    <a href=".html#typeparam-attr_t" class="code_type">attr_t</a> <a href=".html#decl-attributes" class="code_param">attributes</a>);
 
-<span class='code_keyword'>static</span> <a href="index.html" class="code_type">HitObject</a> <a href="index.html" class="code_type">HitObject</a>.<a href="makehit-04.html">MakeHit</a>&lt;<a href="makehit-04.html#typeparam-attr_t" class="code_type">attr_t</a>&gt;(
-    <span class="code_keyword">uint</span> <a href="makehit-04.html#decl-HitGroupRecordIndex" class="code_param">HitGroupRecordIndex</a>,
-    <a href="../raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="makehit-04.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
-    <span class="code_keyword">uint</span> <a href="makehit-04.html#decl-InstanceIndex" class="code_param">InstanceIndex</a>,
-    <span class="code_keyword">uint</span> <a href="makehit-04.html#decl-GeometryIndex" class="code_param">GeometryIndex</a>,
-    <span class="code_keyword">uint</span> <a href="makehit-04.html#decl-PrimitiveIndex" class="code_param">PrimitiveIndex</a>,
-    <span class="code_keyword">uint</span> <a href="makehit-04.html#decl-HitKind" class="code_param">HitKind</a>,
-    <a href="../raydesc-03/index.html" class="code_type">RayDesc</a> <a href="makehit-04.html#decl-Ray" class="code_param">Ray</a>,
-    <a href="makehit-04.html#typeparam-attr_t" class="code_type">attr_t</a> <a href="makehit-04.html#decl-attributes" class="code_param">attributes</a>);
+<span class='code_keyword'>static</span> <a href="../index.html" class="code_type">HitObject</a> <a href="../index.html" class="code_type">HitObject</a>.<a href=".html">MakeHit</a>&lt;<a href=".html#typeparam-attr_t" class="code_type">attr_t</a>&gt;(
+    <span class="code_keyword">uint</span> <a href=".html#decl-HitGroupRecordIndex" class="code_param">HitGroupRecordIndex</a>,
+    <a href="../../raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href=".html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
+    <span class="code_keyword">uint</span> <a href=".html#decl-InstanceIndex" class="code_param">InstanceIndex</a>,
+    <span class="code_keyword">uint</span> <a href=".html#decl-GeometryIndex" class="code_param">GeometryIndex</a>,
+    <span class="code_keyword">uint</span> <a href=".html#decl-PrimitiveIndex" class="code_param">PrimitiveIndex</a>,
+    <span class="code_keyword">uint</span> <a href=".html#decl-HitKind" class="code_param">HitKind</a>,
+    <a href="../../raydesc-03/index.html" class="code_type">RayDesc</a> <a href=".html#decl-Ray" class="code_param">Ray</a>,
+    <a href=".html#typeparam-attr_t" class="code_type">attr_t</a> <a href=".html#decl-attributes" class="code_param">attributes</a>);
 
 </pre>
 
@@ -48,15 +48,15 @@ BuiltInTriangleIntersectionAttributes, or another HitObject to copy the attribut
 
 ## Parameters
 
-####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../raytracingaccelerationstructure-0am/index.html)
+####  <a id="decl-AccelerationStructure"></a>AccelerationStructure  : [RaytracingAccelerationStructure](../../raytracingaccelerationstructure-0am/index.html)
 ####  <a id="decl-InstanceIndex"></a>InstanceIndex  : uint
 ####  <a id="decl-GeometryIndex"></a>GeometryIndex  : uint
 ####  <a id="decl-PrimitiveIndex"></a>PrimitiveIndex  : uint
 ####  <a id="decl-HitKind"></a>HitKind  : uint
 ####  <a id="decl-RayContributionToHitGroupIndex"></a>RayContributionToHitGroupIndex  : uint
 ####  <a id="decl-MultiplierForGeometryContributionToHitGroupIndex"></a>MultiplierForGeometryContributionToHitGroupIndex  : uint
-####  <a id="decl-Ray"></a>Ray  : [RayDesc](../raydesc-03/index.html)
-####  <a id="decl-attributes"></a>attributes  : [attr\_t](makehit-04.html#typeparam-attr_t)
+####  <a id="decl-Ray"></a>Ray  : [RayDesc](../../raydesc-03/index.html)
+####  <a id="decl-attributes"></a>attributes  : [attr\_t](.html#typeparam-attr_t)
 ####  <a id="decl-HitGroupRecordIndex"></a>HitGroupRecordIndex  : uint
 
 ## Availability and Requirements

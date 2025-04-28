@@ -6,22 +6,22 @@ layout: stdlib-reference
 
 ## Description
 
-Perform a 64-bit integer atomic xor operation at <span class='code'><a href="interlockedxor64-0b.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
+Perform a 64-bit integer atomic xor operation at <span class='code'><a href=".html#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedxor64-0b.html">InterlockedXor64</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedxor64-0b.html#decl-byteAddress" class="code_param">byteAddress</a>,
-    int64_t <a href="interlockedxor64-0b.html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="../index.html" class="code_type">RWByteAddressBuffer</a>.<a href=".html">InterlockedXor64</a>(
+    <span class="code_keyword">uint</span> <a href=".html#decl-byteAddress" class="code_param">byteAddress</a>,
+    int64_t <a href=".html#decl-value" class="code_param">value</a>);
 
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedxor64-0b.html">InterlockedXor64</a>&lt;<a href="interlockedxor64-0b.html#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">uint</span> <a href="interlockedxor64-0b.html#decl-byteAddress" class="code_param">byteAddress</a>,
-    <a href="interlockedxor64-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedxor64-0b.html#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">out</span> <a href="interlockedxor64-0b.html#typeparam-T" class="code_type">T</a> <a href="interlockedxor64-0b.html#decl-outOriginalValue" class="code_param">outOriginalValue</a>)
-    <span class='code_keyword'>where</span> <a href="interlockedxor64-0b.html#typeparam-T" class="code_type">T</a> : __BuiltinInt64Type;
+<span class="code_keyword">void</span> <a href="../index.html" class="code_type">RWByteAddressBuffer</a>.<a href=".html">InterlockedXor64</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">uint</span> <a href=".html#decl-byteAddress" class="code_param">byteAddress</a>,
+    <a href=".html#typeparam-T" class="code_type">T</a> <a href=".html#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <a href=".html#typeparam-T" class="code_type">T</a> <a href=".html#decl-outOriginalValue" class="code_param">outOriginalValue</a>)
+    <span class='code_keyword'>where</span> <a href=".html#typeparam-T" class="code_type">T</a> : __BuiltinInt64Type;
 
 </pre>
 
@@ -37,11 +37,11 @@ The address at which to perform the atomic xor operation.
 ####  <a id="decl-value"></a>value  : int64\_t
 The operand for the xor operation.
 
-####  <a id="decl-value"></a>value  : [T](interlockedxor64-0b.html#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](.html#typeparam-T)
 The operand for the xor operation.
 
-####  <a id="decl-outOriginalValue"></a>outOriginalValue  : [T](interlockedxor64-0b.html#typeparam-T)
-The original value at <span class='code'><a href="interlockedxor64-0b.html#decl-byteAddress" class="code_param">byteAddress</a></span> before the xor operation.
+####  <a id="decl-outOriginalValue"></a>outOriginalValue  : [T](.html#typeparam-T)
+The original value at <span class='code'><a href=".html#decl-byteAddress" class="code_param">byteAddress</a></span> before the xor operation.
 
 
 ## Availability and Requirements

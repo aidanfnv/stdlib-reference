@@ -13,7 +13,7 @@ Converts the value of the current instance to an <span class='code'><span class=
 ## Signature 
 
 <pre>
-<span class="code_keyword">int</span> <a href="../index.md" class="code_type">IInteger</a>.<a href=".">toInt</a>();
+<span class="code_keyword">int</span> <a href="../index.html" class="code_type">IInteger</a>.<a href=".html">toInt</a>();
 
 </pre>
 

@@ -14,9 +14,9 @@ to the alignment of  <span class='code'>uint2</span>, which is 8.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="index.html" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="store2aligned-06.html">Store2Aligned</a>(
-    <span class="code_keyword">uint</span> <a href="store2aligned-06.html#decl-address" class="code_param">address</a>,
-    <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="store2aligned-06.html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="../index.html" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href=".html">Store2Aligned</a>(
+    <span class="code_keyword">uint</span> <a href=".html#decl-address" class="code_param">address</a>,
+    <a href="../../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href=".html#decl-value" class="code_param">value</a>);
 
 </pre>
 
@@ -25,7 +25,7 @@ to the alignment of  <span class='code'>uint2</span>, which is 8.
 ####  <a id="decl-address"></a>address  : uint
 The input address in bytes, which must be a multiple of 8.
 
-####  <a id="decl-value"></a>value  : [vector](../vector/index.html)\<uint, 2\>
+####  <a id="decl-value"></a>value  : [vector](../../vector/index.html)\<uint, 2\>
 Two input values.
 
 

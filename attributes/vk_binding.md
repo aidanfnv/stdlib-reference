@@ -11,7 +11,7 @@ Declare the Vulkan binding location of a global shader variable.
 ## Signature
 
 <pre>
-[vk::<a href=".#decl-binding" class="code_param">binding</a>(<a href=".#decl-binding" class="code_param">binding</a> : <span class="code_keyword">int</span>, <a href=".#decl-set" class="code_keyword">set</a> : <span class="code_keyword">int</span>)]
+[vk::<a href=".html#decl-binding" class="code_param">binding</a>(<a href=".html#decl-binding" class="code_param">binding</a> : <span class="code_keyword">int</span>, <a href=".html#decl-set" class="code_keyword">set</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters

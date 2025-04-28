@@ -15,6 +15,6 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-[<a href=".">disable_array_flattening</a>]
+[<a href=".html">disable_array_flattening</a>]
 </pre>
 

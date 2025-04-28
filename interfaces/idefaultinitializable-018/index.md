@@ -11,12 +11,12 @@ Represents types that can be initialized with a default constructor.
 
 ## Methods
 
-* [init](../init.md)
+* [init](../init.html)
 
 
 ```{toctree}
 :titlesonly:
 :hidden:
 
-init <init.md>
+init <init>
 ```

@@ -13,11 +13,11 @@ Opaque type representing a ray-tracing acceleration structure.
 
 ## Fields
 
-####  <a id="decl-kind"></a>[kind](kind.html) : [DescriptorKind](../descriptorkind-0a/index.html) = [DescriptorKind](../descriptorkind-0a/index.html)\.[AccelerationStructure](../descriptorkind-0a/index.html#decl-AccelerationStructure)
+####  <a id="decl-kind"></a>[kind](../kind.html) : [DescriptorKind](../../descriptorkind-0a/index.html) = [DescriptorKind](../../descriptorkind-0a/index.html)\.[AccelerationStructure](../../descriptorkind-0a/index.html#decl-AccelerationStructure)
 
 ## Methods
 
-* [init](init.html)
+* [init](../init.html)
 
 ## Conditional Conformances
 

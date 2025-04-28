@@ -12,6 +12,6 @@ A hint to the downstream compiler to preserve the branching behavior of an if st
 ## Signature
 
 <pre>
-[<a href=".">branch</a>]
+[<a href=".html">branch</a>]
 </pre>
 

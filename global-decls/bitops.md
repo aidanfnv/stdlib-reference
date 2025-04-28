@@ -5,13 +5,13 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [countbits\<T\>](countbits.html)
+#### [countbits\<T\>](../countbits.html)
 
-#### [firstbithigh](firstbithigh.html)
+#### [firstbithigh](../firstbithigh.html)
 
-#### [firstbitlow](firstbitlow.html)
+#### [firstbitlow](../firstbitlow.html)
 
-#### [reversebits](reversebits.html)
+#### [reversebits](../reversebits.html)
 
 
 ```{toctree}

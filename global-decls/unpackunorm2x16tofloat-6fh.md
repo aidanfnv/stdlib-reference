@@ -16,7 +16,7 @@ floating-point value to generate a 2-component vector.
 ## Signature 
 
 <pre>
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="unpackunorm2x16tofloat-6fh.html">unpackUnorm2x16ToFloat</a>(<span class="code_keyword">uint</span> <a href="unpackunorm2x16tofloat-6fh.html#decl-packedValue" class="code_param">packedValue</a>);
+<a href="../../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href=".html">unpackUnorm2x16ToFloat</a>(<span class="code_keyword">uint</span> <a href=".html#decl-packedValue" class="code_param">packedValue</a>);
 
 </pre>
 

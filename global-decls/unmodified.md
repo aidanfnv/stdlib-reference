@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="unmodified.html">unmodified</a>&lt;<a href="unmodified.html#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">out</span> <a href="unmodified.html#typeparam-T" class="code_type">T</a> <a href="unmodified.html#decl-SLANG_anonymous_6" class="code_param">SLANG_anonymous_6</a>);
+<span class="code_keyword">void</span> <a href=".html">unmodified</a>&lt;<a href=".html#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">out</span> <a href=".html#typeparam-T" class="code_type">T</a> <a href=".html#decl-SLANG_anonymous_6" class="code_param">SLANG_anonymous_6</a>);
 
 </pre>
 
@@ -23,5 +23,5 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-SLANG_anonymous_6"></a>SLANG\_anonymous\_6  : [T](unmodified.html#typeparam-T)
+####  <a id="decl-SLANG_anonymous_6"></a>SLANG\_anonymous\_6  : [T](.html#typeparam-T)
 

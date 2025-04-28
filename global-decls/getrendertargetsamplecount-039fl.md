@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="getrendertargetsamplecount-039fl.html">GetRenderTargetSampleCount</a>();
+<span class="code_keyword">uint</span> <a href=".html">GetRenderTargetSampleCount</a>();
 
 </pre>
 

@@ -5,31 +5,31 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [DefaultDataLayout](defaultdatalayout-07b/index.html)
+#### [DefaultDataLayout](../defaultdatalayout-07b/index.html)
 
-#### [MemoryOrder](memoryorder-06/index.html)
+#### [MemoryOrder](../memoryorder-06/index.html)
 
-#### [NativeString](nativestring-06/index.html)
+#### [NativeString](../nativestring-06/index.html)
 
-#### [ScalarDataLayout](scalardatalayout-06a/index.html)
+#### [ScalarDataLayout](../scalardatalayout-06a/index.html)
 
-#### [SideEffectBehavior](sideeffectbehavior-04a/index.html)
+#### [SideEffectBehavior](../sideeffectbehavior-04a/index.html)
 
-#### [Std140DataLayout](std140datalayout-06a/index.html)
+#### [Std140DataLayout](../std140datalayout-06a/index.html)
 
-#### [Std430DataLayout](std430datalayout-06a/index.html)
+#### [Std430DataLayout](../std430datalayout-06a/index.html)
 
-#### [\_\_Shape1D](0_shape1d-028/index.html)
+#### [\_\_Shape1D](../0_shape1d-028/index.html)
 
-#### [\_\_Shape2D](0_shape2d-028/index.html)
+#### [\_\_Shape2D](../0_shape2d-028/index.html)
 
-#### [\_\_Shape3D](0_shape3d-028/index.html)
+#### [\_\_Shape3D](../0_shape3d-028/index.html)
 
-#### [\_\_ShapeBuffer](0_shapebuffer-027/index.html)
+#### [\_\_ShapeBuffer](../0_shapebuffer-027/index.html)
 
-#### [\_\_ShapeCube](0_shapecube-027/index.html)
+#### [\_\_ShapeCube](../0_shapecube-027/index.html)
 
-#### [string](string.html)
+#### [string](../string.html)
 
 
 ```{toctree}

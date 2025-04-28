@@ -13,6 +13,6 @@ This attribute has no effect on targets other than HLSL.
 ## Signature
 
 <pre>
-[<a href=".">call</a>]
+[<a href=".html">call</a>]
 </pre>
 

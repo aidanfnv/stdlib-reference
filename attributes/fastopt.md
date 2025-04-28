@@ -14,6 +14,6 @@ This attribute has no effect on targets other than HLSL.
 ## Signature
 
 <pre>
-[<a href=".">fastopt</a>]
+[<a href=".html">fastopt</a>]
 </pre>
 

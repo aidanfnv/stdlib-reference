@@ -11,7 +11,7 @@ Used on an hull shader entrypoint to declare the output primitive type of the te
 ## Signature
 
 <pre>
-[<a href=".">outputtopology</a>(<a href=".#decl-topology" class="code_param">topology</a>)]
+[<a href=".html">outputtopology</a>(<a href=".html#decl-topology" class="code_param">topology</a>)]
 </pre>
 
 ## Parameters

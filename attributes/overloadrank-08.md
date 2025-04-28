@@ -16,6 +16,6 @@ Specify the overload rank of a function for overload resolution.
 ## Signature
 
 <pre>
-[<a href=".">OverloadRank</a>]
+[<a href=".html">OverloadRank</a>]
 </pre>
 

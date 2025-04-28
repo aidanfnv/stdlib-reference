@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-[<a href=".">MaxIters</a>(<a href=".#decl-count" class="code_param">count</a>)]
+[<a href=".html">MaxIters</a>(<a href=".html#decl-count" class="code_param">count</a>)]
 </pre>
 
 ## Parameters

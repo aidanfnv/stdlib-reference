@@ -18,7 +18,7 @@ miss.
 ## Signature 
 
 <pre>
-<span class='code_keyword'>static</span> <a href="index.html" class="code_type">HitObject</a> <a href="index.html" class="code_type">HitObject</a>.<a href="makenop-04.html">MakeNop</a>();
+<span class='code_keyword'>static</span> <a href="../index.html" class="code_type">HitObject</a> <a href="../index.html" class="code_type">HitObject</a>.<a href=".html">MakeNop</a>();
 
 </pre>
 

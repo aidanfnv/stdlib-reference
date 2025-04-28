@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="candidatetrianglefrontface-09hm.html">CandidateTriangleFrontFace</a>();
+<span class="code_keyword">bool</span> <a href="../index.html" class="code_type">RayQuery</a>&lt;<a href="../index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href=".html">CandidateTriangleFrontFace</a>();
 
 </pre>
 

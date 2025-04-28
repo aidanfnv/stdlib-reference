@@ -11,7 +11,7 @@ Used on a geometry shader entry point to specify the maximum number of vertices 
 ## Signature
 
 <pre>
-[<a href=".">maxvertexcount</a>(<a href=".#decl-count" class="code_param">count</a> : <span class="code_keyword">int</span>)]
+[<a href=".html">maxvertexcount</a>(<a href=".html#decl-count" class="code_param">count</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters

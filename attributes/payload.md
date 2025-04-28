@@ -7,6 +7,6 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-[<a href=".">payload</a>]
+[<a href=".html">payload</a>]
 </pre>
 

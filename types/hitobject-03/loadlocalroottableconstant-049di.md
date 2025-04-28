@@ -15,7 +15,7 @@ represents a hit or a miss. RootConstantOffsetInBytes must be a multiple of 4.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="index.html" class="code_type">HitObject</a>.<a href="loadlocalroottableconstant-049di.html">LoadLocalRootTableConstant</a>(<span class="code_keyword">uint</span> <a href="loadlocalroottableconstant-049di.html#decl-RootConstantOffsetInBytes" class="code_param">RootConstantOffsetInBytes</a>);
+<span class="code_keyword">uint</span> <a href="../index.html" class="code_type">HitObject</a>.<a href=".html">LoadLocalRootTableConstant</a>(<span class="code_keyword">uint</span> <a href=".html#decl-RootConstantOffsetInBytes" class="code_param">RootConstantOffsetInBytes</a>);
 
 </pre>
 

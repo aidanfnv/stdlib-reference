@@ -14,7 +14,7 @@ Queries ray properties from HitObject. Valid if the hit object represents a hit 
 ## Signature 
 
 <pre>
-<a href="../raydesc-03/index.html" class="code_type">RayDesc</a> <a href="index.html" class="code_type">HitObject</a>.<a href="getraydesc-036.html">GetRayDesc</a>();
+<a href="../../raydesc-03/index.html" class="code_type">RayDesc</a> <a href="../index.html" class="code_type">HitObject</a>.<a href=".html">GetRayDesc</a>();
 
 </pre>
 
