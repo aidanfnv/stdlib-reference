@@ -14,7 +14,7 @@ layout: stdlib-reference
 
 <span class='code'><a href="index.html" class="code_type">DifferentialPtrPair</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;</span> is a built-in type that carries both the original and differential of a
 pointer-like object.
-<span class='code'><a href="index.html#typeparam-T" class="code_type">T</a></span> must conform to <span class='code'><a href="index.html" class="code_type">IDifferentiablePtrType</a></span>
+<span class='code'><a href="index.html#typeparam-T" class="code_type">T</a></span> must conform to <span class='code'><a href="../../interfaces/idifferentiableptrtype-01fi/index.html" class="code_type">IDifferentiablePtrType</a></span>
 
 It is defined as follows:
 ```csharp

@@ -21,7 +21,7 @@ struct DifferentialPair<T : IDifferentiable> : IDifferentiable
 }
 ```
 
-Differential pairs can be created via constructor or through the <span class='code'><a href="diffpair-4.html">diffPair</a>()</span> operation
+Differential pairs can be created via constructor or through the <span class='code'><a href="../../global-decls/diffpair-4.html">diffPair</a>()</span> operation
 ```csharp
 DifferentialPair<float> dpa = DifferentialPair<float>(1.0f, 2.0f);
 DifferentialPair<float> dpa = diffPair(1.0f, 2.0f);

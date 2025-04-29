@@ -6,8 +6,8 @@ layout: stdlib-reference
 
 ## Description
 
-Type of candidate hit that a <span class='code'><a href="index.html" class="code_type">RayQuery</a></span> is pausing at.
-A <span class='code'><a href="index.html" class="code_type">RayQuery</a></span> can automatically commit hits with opaque triangles,
+Type of candidate hit that a <span class='code'><a href="rayquery-03/index.html" class="code_type">RayQuery</a></span> is pausing at.
+A <span class='code'><a href="rayquery-03/index.html" class="code_type">RayQuery</a></span> can automatically commit hits with opaque triangles,
 but yields to user code for other hits to allow them to be
 dismissed or committed.
 

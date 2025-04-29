@@ -21,7 +21,7 @@ interface IDifferentiablePtrType
 }
 ```
 
-Types that conform to this interface can be used with <span class='code'><a href="index.html" class="code_type">DifferentialPtrPair</a>&lt;T&gt;</span>
+Types that conform to this interface can be used with <span class='code'><a href="../../types/differentialptrpair-0cf/index.html" class="code_type">DifferentialPtrPair</a>&lt;T&gt;</span>
 to pass the derivative components to calls to <span class='code'>fwd_diff(fn)</span> or <span class='code'>bwd_diff(fn)</span>
 
 See the auto-diff user guide for more details (https://shader-slang.org/slang/user-guide/autodiff.html#differentiable-ptr-types)

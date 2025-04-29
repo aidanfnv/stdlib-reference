@@ -20,7 +20,7 @@ state, and (because the API does not support cloning of queries),
 
 The main place where this arises as a consideration is when
 passing a <span class='code'><a href="index.html" class="code_type">RayQuery</a></span> down into a function that will perform
-mutating operations on it (e.g., <span class='code'><a href="traceray-05.html">TraceRay</a></span> or <span class='code'><a href="proceed-0.html">Proceed</a></span>):
+mutating operations on it (e.g., <span class='code'><a href="../../global-decls/traceray-05.html">TraceRay</a></span> or <span class='code'><a href="proceed-0.html">Proceed</a></span>):
 ```
      void myFunc( inout RayQuery<FLAGS> q )
      {

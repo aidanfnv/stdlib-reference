@@ -16,8 +16,8 @@ layout: stdlib-reference
 /// Requires Capability Set 1:
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="getdimensions-03.html">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape1D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape1d-028/index.html" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -26,16 +26,16 @@ layout: stdlib-reference
     <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-mipLevel" class="code_param">mipLevel</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape1D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape1d-028/index.html" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="getdimensions-03.html">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape1D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape1d-028/index.html" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -44,16 +44,16 @@ layout: stdlib-reference
     <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-mipLevel" class="code_param">mipLevel</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape1D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape1d-028/index.html" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 1:
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="getdimensions-03.html">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape1D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape1d-028/index.html" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -62,8 +62,8 @@ layout: stdlib-reference
     <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-mipLevel" class="code_param">mipLevel</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape1D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape1d-028/index.html" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -71,8 +71,8 @@ layout: stdlib-reference
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="getdimensions-03.html">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape1D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape1d-028/index.html" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -82,8 +82,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape1D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape1d-028/index.html" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -91,8 +91,8 @@ layout: stdlib-reference
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="getdimensions-03.html">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape1D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape1d-028/index.html" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -102,8 +102,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape1D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape1d-028/index.html" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -111,8 +111,8 @@ layout: stdlib-reference
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="getdimensions-03.html">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape1D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape1d-028/index.html" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -122,8 +122,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape1D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape1d-028/index.html" class="code_type">__Shape1D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -131,8 +131,8 @@ layout: stdlib-reference
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="getdimensions-03.html">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -142,8 +142,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -151,8 +151,8 @@ layout: stdlib-reference
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="getdimensions-03.html">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -162,8 +162,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -171,8 +171,8 @@ layout: stdlib-reference
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="getdimensions-03.html">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -182,8 +182,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -192,8 +192,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-sampleCount" class="code_param">sampleCount</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 1;
 
@@ -202,8 +202,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-sampleCount" class="code_param">sampleCount</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 1;
 
@@ -212,8 +212,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-sampleCount" class="code_param">sampleCount</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 1;
 
@@ -222,8 +222,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -234,8 +234,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -244,8 +244,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -256,8 +256,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -266,8 +266,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -278,8 +278,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -289,8 +289,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-sampleCount" class="code_param">sampleCount</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 1;
 
@@ -300,8 +300,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-sampleCount" class="code_param">sampleCount</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 1;
 
@@ -311,8 +311,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-sampleCount" class="code_param">sampleCount</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape2D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape2d-028/index.html" class="code_type">__Shape2D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 1;
 
@@ -321,8 +321,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-depth" class="code_param">depth</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape3D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape3d-028/index.html" class="code_type">__Shape3D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -333,8 +333,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-depth" class="code_param">depth</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape3D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape3d-028/index.html" class="code_type">__Shape3D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -343,8 +343,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-depth" class="code_param">depth</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape3D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape3d-028/index.html" class="code_type">__Shape3D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -355,8 +355,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-depth" class="code_param">depth</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape3D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape3d-028/index.html" class="code_type">__Shape3D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -365,8 +365,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-depth" class="code_param">depth</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape3D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape3d-028/index.html" class="code_type">__Shape3D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -377,8 +377,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-depth" class="code_param">depth</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__Shape3D</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shape3d-028/index.html" class="code_type">__Shape3D</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -386,8 +386,8 @@ layout: stdlib-reference
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="getdimensions-03.html">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__ShapeCube</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shapecube-027/index.html" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -397,8 +397,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__ShapeCube</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shapecube-027/index.html" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -406,8 +406,8 @@ layout: stdlib-reference
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="getdimensions-03.html">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__ShapeCube</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shapecube-027/index.html" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -417,8 +417,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__ShapeCube</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shapecube-027/index.html" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -426,8 +426,8 @@ layout: stdlib-reference
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="getdimensions-03.html">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__ShapeCube</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shapecube-027/index.html" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -437,8 +437,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__ShapeCube</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shapecube-027/index.html" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -447,8 +447,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__ShapeCube</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shapecube-027/index.html" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -459,8 +459,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">float</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__ShapeCube</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shapecube-027/index.html" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -469,8 +469,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__ShapeCube</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shapecube-027/index.html" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -481,8 +481,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">int</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__ShapeCube</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shapecube-027/index.html" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -491,8 +491,8 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-width" class="code_param">width</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__ShapeCube</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shapecube-027/index.html" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
@@ -503,16 +503,16 @@ layout: stdlib-reference
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-height" class="code_param">height</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-elements" class="code_param">elements</a>,
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-numberOfLevels" class="code_param">numberOfLevels</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__ShapeCube</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shapecube-027/index.html" class="code_type">__ShapeCube</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0;
 
 /// Requires Capability Set 2:
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="getdimensions-03.html">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-dim" class="code_param">dim</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__ShapeBuffer</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shapebuffer-027/index.html" class="code_type">__ShapeBuffer</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0
     <span class='code_keyword'>where</span> <a href="getdimensions-03.html#decl-sampleCount" class="code_param">sampleCount</a> == 0
@@ -523,8 +523,8 @@ layout: stdlib-reference
 /// Requires Capability Set 2:
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="getdimensions-03.html">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-dim" class="code_param">dim</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__ShapeBuffer</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shapebuffer-027/index.html" class="code_type">__ShapeBuffer</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0
     <span class='code_keyword'>where</span> <a href="getdimensions-03.html#decl-sampleCount" class="code_param">sampleCount</a> == 0
@@ -535,8 +535,8 @@ layout: stdlib-reference
 /// Requires Capability Set 2:
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">_Texture</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#typeparam-Shape" class="code_type">Shape</a>, <a href="index.html#decl-isArray" class="code_var">isArray</a>, <a href="index.html#decl-isMS" class="code_var">isMS</a>, <a href="index.html#decl-sampleCount" class="code_var">sampleCount</a>, <a href="index.html#decl-access" class="code_var">access</a>, <a href="index.html#decl-isShadow" class="code_var">isShadow</a>, <a href="index.html#decl-isCombined" class="code_var">isCombined</a>, <a href="index.html#decl-format" class="code_var">format</a>&gt;.<a href="getdimensions-03.html">GetDimensions</a>(
     <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="getdimensions-03.html#decl-dim" class="code_param">dim</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">ITexelElement</a>
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="index.html" class="code_type">__ShapeBuffer</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/itexelelement-016/index.html" class="code_type">ITexelElement</a>
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-Shape" class="code_type">Shape</a> == <a href="../0_shapebuffer-027/index.html" class="code_type">__ShapeBuffer</a>
     <span class='code_keyword'>where</span> <a href="index.html#decl-isArray" class="code_var">isArray</a> == 0
     <span class='code_keyword'>where</span> <a href="index.html#decl-isMS" class="code_var">isMS</a> == 0
     <span class='code_keyword'>where</span> <a href="getdimensions-03.html#decl-sampleCount" class="code_param">sampleCount</a> == 0

@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="0wavecountbits-015a.html">_WaveCountBits</a>(<a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="0wavecountbits-015a.html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">uint</span> <a href="0wavecountbits-015a.html">_WaveCountBits</a>(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="0wavecountbits-015a.html#decl-value" class="code_param">value</a>);
 
 </pre>
 

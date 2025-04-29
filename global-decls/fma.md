@@ -18,28 +18,28 @@ Fused multiply-add.
     <a href="fma.html#typeparam-T" class="code_type">T</a> <a href="fma.html#decl-a" class="code_param">a</a>,
     <a href="fma.html#typeparam-T" class="code_type">T</a> <a href="fma.html#decl-b" class="code_param">b</a>,
     <a href="fma.html#typeparam-T" class="code_type">T</a> <a href="fma.html#decl-c" class="code_param">c</a>)
-    <span class='code_keyword'>where</span> <a href="fma.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="fma.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 1:
-<a href="index.html" class="code_type">vector</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>&gt; <a href="fma.html">fma</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>&gt; <a href="fma.html#decl-a" class="code_param">a</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>&gt; <a href="fma.html#decl-b" class="code_param">b</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>&gt; <a href="fma.html#decl-c" class="code_param">c</a>)
-    <span class='code_keyword'>where</span> <a href="fma.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>&gt; <a href="fma.html">fma</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>&gt; <a href="fma.html#decl-a" class="code_param">a</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>&gt; <a href="fma.html#decl-b" class="code_param">b</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>&gt; <a href="fma.html#decl-c" class="code_param">c</a>)
+    <span class='code_keyword'>where</span> <a href="fma.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 1:
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>, <a href="fma.html#decl-M" class="code_var">M</a>&gt; <a href="fma.html">fma</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="fma.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="index.html" class="code_type">matrix</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>, <a href="fma.html#decl-M" class="code_var">M</a>&gt; <a href="fma.html#decl-a" class="code_param">a</a>,
-    <a href="index.html" class="code_type">matrix</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>, <a href="fma.html#decl-M" class="code_var">M</a>&gt; <a href="fma.html#decl-b" class="code_param">b</a>,
-    <a href="index.html" class="code_type">matrix</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>, <a href="fma.html#decl-M" class="code_var">M</a>&gt; <a href="fma.html#decl-c" class="code_param">c</a>)
-    <span class='code_keyword'>where</span> <a href="fma.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>, <a href="fma.html#decl-M" class="code_var">M</a>&gt; <a href="fma.html">fma</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="fma.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>, <a href="fma.html#decl-M" class="code_var">M</a>&gt; <a href="fma.html#decl-a" class="code_param">a</a>,
+    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>, <a href="fma.html#decl-M" class="code_var">M</a>&gt; <a href="fma.html#decl-b" class="code_param">b</a>,
+    <a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>, <a href="fma.html#decl-M" class="code_var">M</a>&gt; <a href="fma.html#decl-c" class="code_param">c</a>)
+    <span class='code_keyword'>where</span> <a href="fma.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 2:
-<a href="index.html" class="code_type">CoopVec</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>&gt; <a href="fma.html">fma</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>&gt; <a href="fma.html#decl-a" class="code_param">a</a>,
-    <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>&gt; <a href="fma.html#decl-b" class="code_param">b</a>,
-    <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>&gt; <a href="fma.html#decl-c" class="code_param">c</a>)
-    <span class='code_keyword'>where</span> <a href="fma.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>&gt; <a href="fma.html">fma</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>&gt; <a href="fma.html#decl-a" class="code_param">a</a>,
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>&gt; <a href="fma.html#decl-b" class="code_param">b</a>,
+    <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="fma.html#typeparam-T" class="code_type">T</a>, <a href="fma.html#decl-N" class="code_var">N</a>&gt; <a href="fma.html#decl-c" class="code_param">c</a>)
+    <span class='code_keyword'>where</span> <a href="fma.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 

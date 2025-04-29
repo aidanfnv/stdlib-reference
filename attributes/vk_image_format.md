@@ -12,7 +12,7 @@ This is an alias of the <span class='code'>[<a href="vk_image_format.html#decl-f
 ## Signature
 
 <pre>
-[vk::image_format(<a href="vk_image_format.html#decl-format" class="code_param">format</a> : <a href="index.html" class="code_type">String</a>)]
+[vk::image_format(<a href="vk_image_format.html#decl-format" class="code_param">format</a> : <a href="../types/string-0/index.html" class="code_type">String</a>)]
 </pre>
 
 ## Parameters
@@ -23,6 +23,6 @@ The storage format of the texture.
 
 ## See also
 
-Please refer to <span class='code'><a href="index.html" class="code_type">_Texture</a></span> for a complete list of allowed format strings.
+Please refer to <span class='code'><a href="../types/0texture-01/index.html" class="code_type">_Texture</a></span> for a complete list of allowed format strings.
 
 

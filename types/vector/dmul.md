@@ -17,7 +17,7 @@ layout: stdlib-reference
     <a href="dmul.html#typeparam-U" class="code_type">U</a> <a href="dmul.html#decl-a" class="code_param">a</a>,
     <a href="index.html" class="code_type">vector</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt; <a href="dmul.html#decl-b" class="code_param">b</a>)
     <span class='code_keyword'>where</span> <a href="dmul.html#typeparam-U" class="code_type">U</a> : __BuiltinRealType
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">IDifferentiable</a>;
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/idifferentiable-01/index.html" class="code_type">IDifferentiable</a>;
 
 </pre>
 

@@ -15,7 +15,7 @@ Aligned stores are more efficient than unaligned stores on some platforms.
 
 <pre>
 <span class="code_keyword">void</span> <a href="storealigned-5.html">storeAligned</a>&lt;<a href="storealigned-5.html#decl-alignment" class="code_var">alignment</a>:<span class="code_keyword">int</span>, <a href="storealigned-5.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="index.html" class="code_type">Ptr</a>&lt;<a href="storealigned-5.html#typeparam-T" class="code_type">T</a>&gt; <a href="storealigned-5.html#decl-ptr" class="code_param">ptr</a>,
+    <a href="../types/ptr-0/index.html" class="code_type">Ptr</a>&lt;<a href="storealigned-5.html#typeparam-T" class="code_type">T</a>&gt; <a href="storealigned-5.html#decl-ptr" class="code_param">ptr</a>,
     <a href="storealigned-5.html#typeparam-T" class="code_type">T</a> <a href="storealigned-5.html#decl-value" class="code_param">value</a>);
 
 </pre>

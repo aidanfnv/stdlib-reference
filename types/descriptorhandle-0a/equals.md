@@ -14,7 +14,7 @@ layout: stdlib-reference
 
 <pre>
 <span class="code_keyword">bool</span> <a href="index.html" class="code_type">DescriptorHandle</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="equals.html">equals</a>(<a href="index.html" class="code_type">DescriptorHandle</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt; <a href="equals.html#decl-other" class="code_param">other</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">IOpaqueDescriptor</a>;
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/iopaquedescriptor-017/index.html" class="code_type">IOpaqueDescriptor</a>;
 
 </pre>
 

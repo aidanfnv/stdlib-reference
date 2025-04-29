@@ -17,26 +17,26 @@ Currently only supported on VK
 <pre>
 /// Requires Capability Set 1:
 <span class='code_keyword'>static</span> <a href="index.html" class="code_type">HitObject</a> <a href="index.html" class="code_type">HitObject</a>.<a href="makemotionhit-04a.html">MakeMotionHit</a>&lt;<a href="makemotionhit-04a.html#typeparam-attr_t" class="code_type">attr_t</a>&gt;(
-    <a href="index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="makemotionhit-04a.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
+    <a href="../raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="makemotionhit-04a.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
     <span class="code_keyword">uint</span> <a href="makemotionhit-04a.html#decl-InstanceIndex" class="code_param">InstanceIndex</a>,
     <span class="code_keyword">uint</span> <a href="makemotionhit-04a.html#decl-GeometryIndex" class="code_param">GeometryIndex</a>,
     <span class="code_keyword">uint</span> <a href="makemotionhit-04a.html#decl-PrimitiveIndex" class="code_param">PrimitiveIndex</a>,
     <span class="code_keyword">uint</span> <a href="makemotionhit-04a.html#decl-HitKind" class="code_param">HitKind</a>,
     <span class="code_keyword">uint</span> <a href="makemotionhit-04a.html#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
     <span class="code_keyword">uint</span> <a href="makemotionhit-04a.html#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
-    <a href="index.html" class="code_type">RayDesc</a> <a href="makemotionhit-04a.html#decl-Ray" class="code_param">Ray</a>,
+    <a href="../raydesc-03/index.html" class="code_type">RayDesc</a> <a href="makemotionhit-04a.html#decl-Ray" class="code_param">Ray</a>,
     <span class="code_keyword">float</span> <a href="makemotionhit-04a.html#decl-CurrentTime" class="code_param">CurrentTime</a>,
     <a href="makemotionhit-04a.html#typeparam-attr_t" class="code_type">attr_t</a> <a href="makemotionhit-04a.html#decl-attributes" class="code_param">attributes</a>);
 
 /// Requires Capability Set 2:
 <span class='code_keyword'>static</span> <a href="index.html" class="code_type">HitObject</a> <a href="index.html" class="code_type">HitObject</a>.<a href="makemotionhit-04a.html">MakeMotionHit</a>&lt;<a href="makemotionhit-04a.html#typeparam-attr_t" class="code_type">attr_t</a>&gt;(
     <span class="code_keyword">uint</span> <a href="makemotionhit-04a.html#decl-HitGroupRecordIndex" class="code_param">HitGroupRecordIndex</a>,
-    <a href="index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="makemotionhit-04a.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
+    <a href="../raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="makemotionhit-04a.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
     <span class="code_keyword">uint</span> <a href="makemotionhit-04a.html#decl-InstanceIndex" class="code_param">InstanceIndex</a>,
     <span class="code_keyword">uint</span> <a href="makemotionhit-04a.html#decl-GeometryIndex" class="code_param">GeometryIndex</a>,
     <span class="code_keyword">uint</span> <a href="makemotionhit-04a.html#decl-PrimitiveIndex" class="code_param">PrimitiveIndex</a>,
     <span class="code_keyword">uint</span> <a href="makemotionhit-04a.html#decl-HitKind" class="code_param">HitKind</a>,
-    <a href="index.html" class="code_type">RayDesc</a> <a href="makemotionhit-04a.html#decl-Ray" class="code_param">Ray</a>,
+    <a href="../raydesc-03/index.html" class="code_type">RayDesc</a> <a href="makemotionhit-04a.html#decl-Ray" class="code_param">Ray</a>,
     <span class="code_keyword">float</span> <a href="makemotionhit-04a.html#decl-CurrentTime" class="code_param">CurrentTime</a>,
     <a href="makemotionhit-04a.html#typeparam-attr_t" class="code_type">attr_t</a> <a href="makemotionhit-04a.html#decl-attributes" class="code_param">attributes</a>);
 

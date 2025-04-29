@@ -18,7 +18,7 @@ table.
 <pre>
 <span class='code_keyword'>static</span> <a href="index.html" class="code_type">HitObject</a> <a href="index.html" class="code_type">HitObject</a>.<a href="makemiss-04.html">MakeMiss</a>(
     <span class="code_keyword">uint</span> <a href="makemiss-04.html#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
-    <a href="index.html" class="code_type">RayDesc</a> <a href="makemiss-04.html#decl-Ray" class="code_param">Ray</a>);
+    <a href="../raydesc-03/index.html" class="code_type">RayDesc</a> <a href="makemiss-04.html#decl-Ray" class="code_param">Ray</a>);
 
 </pre>
 

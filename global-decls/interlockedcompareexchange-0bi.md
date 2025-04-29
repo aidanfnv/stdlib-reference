@@ -18,7 +18,7 @@ Perform an atomic compare and exchange operation on <span class='code'><a href="
     <a href="interlockedcompareexchange-0bi.html#typeparam-T" class="code_type">T</a> <a href="interlockedcompareexchange-0bi.html#decl-compare_value" class="code_param">compare_value</a>,
     <a href="interlockedcompareexchange-0bi.html#typeparam-T" class="code_type">T</a> <a href="interlockedcompareexchange-0bi.html#decl-value" class="code_param">value</a>,
     <span class="code_keyword">out</span> <a href="interlockedcompareexchange-0bi.html#typeparam-T" class="code_type">T</a> <a href="interlockedcompareexchange-0bi.html#decl-original_value" class="code_param">original_value</a>)
-    <span class='code_keyword'>where</span> <a href="interlockedcompareexchange-0bi.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">IAtomicable</a>;
+    <span class='code_keyword'>where</span> <a href="interlockedcompareexchange-0bi.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/iatomicable-01/index.html" class="code_type">IAtomicable</a>;
 
 </pre>
 

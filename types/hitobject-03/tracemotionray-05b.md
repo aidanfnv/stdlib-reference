@@ -16,13 +16,13 @@ resulting hit information as a HitObject and does not trigger closesthit or miss
 
 <pre>
 <span class='code_keyword'>static</span> <a href="index.html" class="code_type">HitObject</a> <a href="index.html" class="code_type">HitObject</a>.<a href="tracemotionray-05b.html">TraceMotionRay</a>&lt;<a href="tracemotionray-05b.html#typeparam-payload_t" class="code_type">payload_t</a>&gt;(
-    <a href="index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="tracemotionray-05b.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
+    <a href="../raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="tracemotionray-05b.html#decl-AccelerationStructure" class="code_param">AccelerationStructure</a>,
     <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-RayFlags" class="code_param">RayFlags</a>,
     <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-InstanceInclusionMask" class="code_param">InstanceInclusionMask</a>,
     <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-RayContributionToHitGroupIndex" class="code_param">RayContributionToHitGroupIndex</a>,
     <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-MultiplierForGeometryContributionToHitGroupIndex" class="code_param">MultiplierForGeometryContributionToHitGroupIndex</a>,
     <span class="code_keyword">uint</span> <a href="tracemotionray-05b.html#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
-    <a href="index.html" class="code_type">RayDesc</a> <a href="tracemotionray-05b.html#decl-Ray" class="code_param">Ray</a>,
+    <a href="../raydesc-03/index.html" class="code_type">RayDesc</a> <a href="tracemotionray-05b.html#decl-Ray" class="code_param">Ray</a>,
     <span class="code_keyword">float</span> <a href="tracemotionray-05b.html#decl-CurrentTime" class="code_param">CurrentTime</a>,
     <span class="code_keyword">inout</span> <a href="tracemotionray-05b.html#typeparam-payload_t" class="code_type">payload_t</a> <a href="tracemotionray-05b.html#decl-Payload" class="code_param">Payload</a>);
 

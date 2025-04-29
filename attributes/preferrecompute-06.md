@@ -13,7 +13,7 @@ during backward derivative propagation.
 ## Signature
 
 <pre>
-[<a href="preferrecompute-06.html">PreferRecompute</a>(<a href="preferrecompute-06.html#decl-behavior" class="code_param">behavior</a> : <a href="index.html" class="code_type">SideEffectBehavior</a>)]
+[<a href="preferrecompute-06.html">PreferRecompute</a>(<a href="preferrecompute-06.html#decl-behavior" class="code_param">behavior</a> : <a href="../types/sideeffectbehavior-04a/index.html" class="code_type">SideEffectBehavior</a>)]
 </pre>
 
 ## Parameters

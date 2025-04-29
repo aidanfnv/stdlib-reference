@@ -16,7 +16,7 @@ to the alignment of <span class='code'>uint4</span>, which is 16.
 <pre>
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="store4aligned-06.html">Store4Aligned</a>(
     <span class="code_keyword">uint</span> <a href="store4aligned-06.html#decl-address" class="code_param">address</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="store4aligned-06.html#decl-value" class="code_param">value</a>);
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="store4aligned-06.html#decl-value" class="code_param">value</a>);
 
 </pre>
 

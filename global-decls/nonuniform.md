@@ -13,8 +13,8 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="index.html" class="code_type">DescriptorHandle</a>&lt;<a href="nonuniform.html#typeparam-T" class="code_type">T</a>&gt; <a href="nonuniform.html">nonuniform</a>&lt;<a href="nonuniform.html#typeparam-T" class="code_type">T</a>&gt;(<a href="index.html" class="code_type">DescriptorHandle</a>&lt;<a href="nonuniform.html#typeparam-T" class="code_type">T</a>&gt; <a href="nonuniform.html#decl-ptr" class="code_param">ptr</a>)
-    <span class='code_keyword'>where</span> <a href="nonuniform.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">IOpaqueDescriptor</a>;
+<a href="../types/descriptorhandle-0a/index.html" class="code_type">DescriptorHandle</a>&lt;<a href="nonuniform.html#typeparam-T" class="code_type">T</a>&gt; <a href="nonuniform.html">nonuniform</a>&lt;<a href="nonuniform.html#typeparam-T" class="code_type">T</a>&gt;(<a href="../types/descriptorhandle-0a/index.html" class="code_type">DescriptorHandle</a>&lt;<a href="nonuniform.html#typeparam-T" class="code_type">T</a>&gt; <a href="nonuniform.html#decl-ptr" class="code_param">ptr</a>)
+    <span class='code_keyword'>where</span> <a href="nonuniform.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/iopaquedescriptor-017/index.html" class="code_type">IOpaqueDescriptor</a>;
 
 </pre>
 

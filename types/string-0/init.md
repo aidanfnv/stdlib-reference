@@ -25,7 +25,7 @@ layout: stdlib-reference
 
 <a href="index.html" class="code_type">String</a>.<a href="init.html">init</a>(<span class="code_keyword">double</span> <a href="init.html#decl-val" class="code_param">val</a>);
 
-<a href="index.html" class="code_type">String</a>.<a href="init.html">init</a>(<a href="index.html" class="code_type">NativeString</a> <a href="init.html#decl-value" class="code_param">value</a>);
+<a href="index.html" class="code_type">String</a>.<a href="init.html">init</a>(<a href="../nativestring-06/index.html" class="code_type">NativeString</a> <a href="init.html#decl-value" class="code_param">value</a>);
 
 </pre>
 

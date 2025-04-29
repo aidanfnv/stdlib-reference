@@ -16,8 +16,8 @@ May not produce infinities or NaNs for intermediate results that overflow the ra
 
 <pre>
 <span class="code_keyword">float</span> <a href="dot2add.html">dot2add</a>(
-    <a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, 2&gt; <a href="dot2add.html#decl-x" class="code_param">x</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, 2&gt; <a href="dot2add.html#decl-y" class="code_param">y</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, 2&gt; <a href="dot2add.html#decl-x" class="code_param">x</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, 2&gt; <a href="dot2add.html#decl-y" class="code_param">y</a>,
     <span class="code_keyword">float</span> <a href="dot2add.html#decl-acc" class="code_param">acc</a>);
 
 </pre>

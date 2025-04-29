@@ -8,7 +8,7 @@ layout: stdlib-reference
 
 ## Description
 
-When used as the <span class='code'>Shape</span> parameter of the <span class='code'><a href="index.html" class="code_type">_Texture</a></span> type, specifies a 3D texture.
+When used as the <span class='code'>Shape</span> parameter of the <span class='code'><a href="../0texture-01/index.html" class="code_type">_Texture</a></span> type, specifies a 3D texture.
 
 
 ## Fields

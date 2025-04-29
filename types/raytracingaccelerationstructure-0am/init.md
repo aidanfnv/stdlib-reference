@@ -17,7 +17,7 @@ layout: stdlib-reference
 
 <a href="index.html" class="code_type">RaytracingAccelerationStructure</a>.<a href="init.html">init</a>(__DynamicResource&lt;__DynamicResourceKind.General&gt; <a href="init.html#decl-res" class="code_param">res</a>);
 
-<a href="index.html" class="code_type">RaytracingAccelerationStructure</a>.<a href="init.html">init</a>(<a href="index.html" class="code_type">DescriptorHandle</a>&lt;<a href="index.html" class="code_type">RaytracingAccelerationStructure</a>&gt; <a href="init.html#decl-bindless" class="code_param">bindless</a>);
+<a href="index.html" class="code_type">RaytracingAccelerationStructure</a>.<a href="init.html">init</a>(<a href="../descriptorhandle-0a/index.html" class="code_type">DescriptorHandle</a>&lt;<a href="index.html" class="code_type">RaytracingAccelerationStructure</a>&gt; <a href="init.html#decl-bindless" class="code_param">bindless</a>);
 
 </pre>
 

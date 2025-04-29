@@ -14,19 +14,19 @@ Store all elements of this CoopVec into a buffer at a specified offset.
 
 <pre>
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="store.html">store</a>(
-    <a href="index.html" class="code_type">RWByteAddressBuffer</a> <a href="store.html#decl-buffer" class="code_param">buffer</a>,
+    <a href="../rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a> <a href="store.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">int</span> <a href="store.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinArithmeticType</a>;
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="store.html">store</a>(
-    <a href="index.html" class="code_type">RWStructuredBuffer</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="store.html#decl-buffer" class="code_param">buffer</a>,
+    <a href="../rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="../defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="store.html#decl-buffer" class="code_param">buffer</a>,
     <span class="code_keyword">int</span> <a href="store.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinArithmeticType</a>;
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="store.html">store</a>&lt;<a href="store.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
     <a href="index.html#typeparam-T" class="code_type">T</a>[M] <a href="store.html#decl-data" class="code_param">data</a>,
     <span class="code_keyword">int</span> <a href="store.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
-    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinArithmeticType</a>;
+    <span class='code_keyword'>where</span> <a href="index.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 </pre>
 

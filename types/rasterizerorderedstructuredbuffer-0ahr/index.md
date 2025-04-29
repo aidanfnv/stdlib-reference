@@ -49,13 +49,13 @@ The memory layout of the buffer.
 
 The <span class='code'><a href="index.html#typeparam-L" class="code_type">L</a></span> generic parameter is used to specify the memory layout of the buffer when
 generating SPIRV.
-<span class='code'><a href="index.html#typeparam-L" class="code_type">L</a></span> must be one of <span class='code'><a href="index.html" class="code_type">DefaultDataLayout</a></span>, <span class='code'><a href="index.html" class="code_type">Std140DataLayout</a></span>, <span class='code'><a href="index.html" class="code_type">Std430DataLayout</a></span> or <span class='code'><a href="index.html" class="code_type">ScalarDataLayout</a></span>.
-The default value is <span class='code'><a href="index.html" class="code_type">DefaultDataLayout</a></span>.
+<span class='code'><a href="index.html#typeparam-L" class="code_type">L</a></span> must be one of <span class='code'><a href="../defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a></span>, <span class='code'><a href="../std140datalayout-06a/index.html" class="code_type">Std140DataLayout</a></span>, <span class='code'><a href="../std430datalayout-06a/index.html" class="code_type">Std430DataLayout</a></span> or <span class='code'><a href="../scalardatalayout-06a/index.html" class="code_type">ScalarDataLayout</a></span>.
+The default value is <span class='code'><a href="../defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a></span>.
 When generating code for other targets, this parameter is ignored and has no effect on the generated code.
 
 ## See also
 
-<span class='code'><a href="index.html" class="code_type">StructuredBuffer</a></span>, <span class='code'><a href="index.html" class="code_type">AppendStructuredBuffer</a></span>, <span class='code'><a href="index.html" class="code_type">ConsumeStructuredBuffer</a></span>
+<span class='code'><a href="../structuredbuffer-0a/index.html" class="code_type">StructuredBuffer</a></span>, <span class='code'><a href="../appendstructuredbuffer-06g/index.html" class="code_type">AppendStructuredBuffer</a></span>, <span class='code'><a href="../consumestructuredbuffer-07h/index.html" class="code_type">ConsumeStructuredBuffer</a></span>
 *
 
 

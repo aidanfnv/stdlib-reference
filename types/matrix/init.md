@@ -19,15 +19,15 @@ Initialize a vector from a value of the same type
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>:<span class="code_keyword">int</span>, <a href="index.html#decl-C" class="code_var">C</a>:<span class="code_keyword">int</span>, <a href="index.html#decl-L" class="code_var">L</a>:<span class="code_keyword">int</span>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>);
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<span class="code_keyword">int</span> <a href="init.html#decl-v" class="code_param">v</a>)
-    <span class='code_keyword'>where</span> <a href="t-0.html" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="t-0.html" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<span class="code_keyword">float</span> <a href="init.html#decl-v" class="code_param">v</a>)
-    <span class='code_keyword'>where</span> <a href="t-0.html" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="t-0.html" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<span class="code_keyword">int</span> <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="t-0.html" class="code_type">T</a> == int16_t;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
@@ -35,7 +35,7 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row0" class="code_param">row0</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row0" class="code_param">row0</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
@@ -105,7 +105,7 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row0" class="code_param">row0</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row0" class="code_param">row0</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
@@ -160,7 +160,7 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row0" class="code_param">row0</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row0" class="code_param">row0</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
@@ -200,7 +200,7 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
-<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row0" class="code_param">row0</a>)
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(<a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row0" class="code_param">row0</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 1
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
@@ -223,8 +223,8 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row1" class="code_param">row1</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row1" class="code_param">row1</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
@@ -281,8 +281,8 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row1" class="code_param">row1</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row1" class="code_param">row1</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
@@ -329,8 +329,8 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row1" class="code_param">row1</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row1" class="code_param">row1</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
@@ -367,8 +367,8 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row1" class="code_param">row1</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row1" class="code_param">row1</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 2
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
@@ -388,9 +388,9 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
@@ -424,7 +424,7 @@ Initialize a vector from a value of the same type
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
     <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 1&gt; <a href="init.html#decl-m" class="code_param">m</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
@@ -439,9 +439,9 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
@@ -467,7 +467,7 @@ Initialize a vector from a value of the same type
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
     <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 2&gt; <a href="init.html#decl-m" class="code_param">m</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
@@ -485,9 +485,9 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
@@ -505,7 +505,7 @@ Initialize a vector from a value of the same type
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
     <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 3&gt; <a href="init.html#decl-m" class="code_param">m</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
@@ -526,9 +526,9 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
@@ -538,7 +538,7 @@ Initialize a vector from a value of the same type
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
     <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2, 4&gt; <a href="init.html#decl-m" class="code_param">m</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row2" class="code_param">row2</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 3
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
@@ -551,10 +551,10 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row2" class="code_param">row2</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row2" class="code_param">row2</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
@@ -572,7 +572,7 @@ Initialize a vector from a value of the same type
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
     <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 1&gt; <a href="init.html#decl-m" class="code_param">m</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 1&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 1;
 
@@ -589,10 +589,10 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row2" class="code_param">row2</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row2" class="code_param">row2</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
@@ -606,7 +606,7 @@ Initialize a vector from a value of the same type
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
     <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 2&gt; <a href="init.html#decl-m" class="code_param">m</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 2&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 2;
 
@@ -627,10 +627,10 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row2" class="code_param">row2</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row2" class="code_param">row2</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
@@ -640,7 +640,7 @@ Initialize a vector from a value of the same type
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
     <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 3&gt; <a href="init.html#decl-m" class="code_param">m</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 3;
 
@@ -665,16 +665,16 @@ Initialize a vector from a value of the same type
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row2" class="code_param">row2</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row0" class="code_param">row0</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row1" class="code_param">row1</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row2" class="code_param">row2</a>,
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 
 <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, <a href="index.html#decl-R" class="code_var">R</a>, <a href="index.html#decl-C" class="code_var">C</a>&gt;.<a href="init.html">init</a>(
     <a href="index.html" class="code_type">matrix</a>&lt;<a href="t-0.html" class="code_type">T</a>, 3, 4&gt; <a href="init.html#decl-m" class="code_param">m</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
+    <a href="../vector/index.html" class="code_type">vector</a>&lt;<a href="t-0.html" class="code_type">T</a>, 4&gt; <a href="init.html#decl-row3" class="code_param">row3</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-R" class="code_var">R</a> == 4
     <span class='code_keyword'>where</span> <a href="index.html#decl-C" class="code_var">C</a> == 4;
 

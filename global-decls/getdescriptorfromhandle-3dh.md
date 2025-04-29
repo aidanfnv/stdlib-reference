@@ -15,8 +15,8 @@ how a descriptor handle is converted into a actual descriptor.
 ## Signature 
 
 <pre>
-<a href="getdescriptorfromhandle-3dh.html#typeparam-T" class="code_type">T</a> <a href="getdescriptorfromhandle-3dh.html">getDescriptorFromHandle</a>&lt;<a href="getdescriptorfromhandle-3dh.html#typeparam-T" class="code_type">T</a>&gt;(<a href="index.html" class="code_type">DescriptorHandle</a>&lt;<a href="getdescriptorfromhandle-3dh.html#typeparam-T" class="code_type">T</a>&gt; <a href="getdescriptorfromhandle-3dh.html#decl-handleValue" class="code_param">handleValue</a>)
-    <span class='code_keyword'>where</span> <a href="getdescriptorfromhandle-3dh.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">IOpaqueDescriptor</a>;
+<a href="getdescriptorfromhandle-3dh.html#typeparam-T" class="code_type">T</a> <a href="getdescriptorfromhandle-3dh.html">getDescriptorFromHandle</a>&lt;<a href="getdescriptorfromhandle-3dh.html#typeparam-T" class="code_type">T</a>&gt;(<a href="../types/descriptorhandle-0a/index.html" class="code_type">DescriptorHandle</a>&lt;<a href="getdescriptorfromhandle-3dh.html#typeparam-T" class="code_type">T</a>&gt; <a href="getdescriptorfromhandle-3dh.html#decl-handleValue" class="code_param">handleValue</a>)
+    <span class='code_keyword'>where</span> <a href="getdescriptorfromhandle-3dh.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/iopaquedescriptor-017/index.html" class="code_type">IOpaqueDescriptor</a>;
 
 </pre>
 

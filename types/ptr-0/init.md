@@ -19,7 +19,7 @@ layout: stdlib-reference
 
 <a href="index.html" class="code_type">Ptr</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="init.html#decl-addrSpace" class="code_var">addrSpace</a>:uint64_t&gt;.<a href="init.html">init</a>(int64_t <a href="init.html#decl-val" class="code_param">val</a>);
 
-Addr&lt;<a href="init.html#typeparam-T" class="code_type">T</a>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">NativeString</a> <a href="init.html#decl-nativeStr" class="code_param">nativeStr</a>)
+Addr&lt;<a href="init.html#typeparam-T" class="code_type">T</a>&gt;.<a href="init.html">init</a>(<a href="../nativestring-06/index.html" class="code_type">NativeString</a> <a href="init.html#decl-nativeStr" class="code_param">nativeStr</a>)
     <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> == <span class="code_keyword">void</span>
     <span class='code_keyword'>where</span> <a href="init.html#decl-addrSpace" class="code_var">addrSpace</a> == 4294967297;
 

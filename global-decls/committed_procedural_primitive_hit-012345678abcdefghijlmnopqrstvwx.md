@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Description
 
 Closest hit is a procedural primitive.
-A procedural hit primitive is committed using <span class='code'><a href="index.html" class="code_type">RayQuery</a>.<a href="commitproceduralprimitivehit-06gp.html">CommitProceduralPrimitiveHit</a></span>.
+A procedural hit primitive is committed using <span class='code'><a href="../types/rayquery-03/index.html" class="code_type">RayQuery</a>.<a href="../types/rayquery-03/commitproceduralprimitivehit-06gp.html">CommitProceduralPrimitiveHit</a></span>.
 
 
 ## Signature

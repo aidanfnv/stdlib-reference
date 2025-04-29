@@ -25,10 +25,10 @@ must obey any API-imposed restrictions.
 
 <pre>
 <span class="code_keyword">void</span> <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="tracerayinline-058.html">TraceRayInline</a>(
-    <a href="index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="tracerayinline-058.html#decl-accelerationStructure" class="code_param">accelerationStructure</a>,
+    <a href="../raytracingaccelerationstructure-0am/index.html" class="code_type">RaytracingAccelerationStructure</a> <a href="tracerayinline-058.html#decl-accelerationStructure" class="code_param">accelerationStructure</a>,
     <span class="code_keyword">uint</span> <a href="tracerayinline-058.html#decl-rayFlags" class="code_param">rayFlags</a>,
     <span class="code_keyword">uint</span> <a href="tracerayinline-058.html#decl-instanceInclusionMask" class="code_param">instanceInclusionMask</a>,
-    <a href="index.html" class="code_type">RayDesc</a> <a href="tracerayinline-058.html#decl-ray" class="code_param">ray</a>);
+    <a href="../raydesc-03/index.html" class="code_type">RayDesc</a> <a href="tracerayinline-058.html#decl-ray" class="code_param">ray</a>);
 
 </pre>
 

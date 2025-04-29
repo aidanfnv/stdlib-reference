@@ -17,7 +17,7 @@ Currently only supported on VK
 <pre>
 <span class='code_keyword'>static</span> <a href="index.html" class="code_type">HitObject</a> <a href="index.html" class="code_type">HitObject</a>.<a href="makemotionmiss-04a.html">MakeMotionMiss</a>(
     <span class="code_keyword">uint</span> <a href="makemotionmiss-04a.html#decl-MissShaderIndex" class="code_param">MissShaderIndex</a>,
-    <a href="index.html" class="code_type">RayDesc</a> <a href="makemotionmiss-04a.html#decl-Ray" class="code_param">Ray</a>,
+    <a href="../raydesc-03/index.html" class="code_type">RayDesc</a> <a href="makemotionmiss-04a.html#decl-Ray" class="code_param">Ray</a>,
     <span class="code_keyword">float</span> <a href="makemotionmiss-04a.html#decl-CurrentTime" class="code_param">CurrentTime</a>);
 
 </pre>

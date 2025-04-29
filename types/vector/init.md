@@ -19,34 +19,34 @@ Initialize a vector where all elements have the same scalar <span class='code'><
 <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="init.html">init</a>(<a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt; <a href="init.html#decl-value" class="code_param">value</a>);
 
 <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>(<span class="code_keyword">int</span> <a href="init.html#decl-v" class="code_param">v</a>)
-    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
+    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>(int64_t <a href="init.html#decl-v" class="code_param">v</a>)
-    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
+    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>&lt;<a href="init.html#typeparam-U" class="code_type">U</a>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-U" class="code_type">U</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt; <a href="init.html#decl-other" class="code_param">other</a>)
-    <span class='code_keyword'>where</span> <a href="init.html#typeparam-U" class="code_type">U</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>
-    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
+    <span class='code_keyword'>where</span> <a href="init.html#typeparam-U" class="code_type">U</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>
+    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>&lt;<a href="init.html#typeparam-U" class="code_type">U</a>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-U" class="code_type">U</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt; <a href="init.html#decl-other" class="code_param">other</a>)
-    <span class='code_keyword'>where</span> <a href="init.html#typeparam-U" class="code_type">U</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>
-    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
+    <span class='code_keyword'>where</span> <a href="init.html#typeparam-U" class="code_type">U</a> : <a href="../../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>
+    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>&lt;<a href="init.html#typeparam-U" class="code_type">U</a>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-U" class="code_type">U</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt; <a href="init.html#decl-other" class="code_param">other</a>)
-    <span class='code_keyword'>where</span> <a href="init.html#typeparam-U" class="code_type">U</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>
-    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="init.html#typeparam-U" class="code_type">U</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>
+    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>&lt;<a href="init.html#typeparam-U" class="code_type">U</a>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-U" class="code_type">U</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt; <a href="init.html#decl-other" class="code_param">other</a>)
-    <span class='code_keyword'>where</span> <a href="init.html#typeparam-U" class="code_type">U</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>
-    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="init.html#typeparam-U" class="code_type">U</a> : <a href="../../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>
+    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>(<span class="code_keyword">int</span> <a href="init.html#decl-v" class="code_param">v</a>)
-    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>(<span class="code_keyword">float</span> <a href="init.html#decl-v" class="code_param">v</a>)
-    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
+    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>&lt;<a href="init.html#decl-L" class="code_var">L</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">matrix</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, 2, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
+<a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>&lt;<a href="init.html#decl-L" class="code_var">L</a>:<span class="code_keyword">int</span>&gt;(<a href="../matrix/index.html" class="code_type">matrix</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, 2, 2&gt; <a href="init.html#decl-value" class="code_param">value</a>)
     <span class='code_keyword'>where</span> <a href="index.html#decl-N" class="code_var">N</a> == 4;
 
 <a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>(
@@ -146,8 +146,8 @@ Initialize a vector where all elements have the same scalar <span class='code'><
     <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> == int64_t
     <span class='code_keyword'>where</span> <a href="index.html#decl-N" class="code_var">N</a> == 2;
 
-<a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>&gt;(<a href="index.html" class="code_type">DescriptorHandle</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>&gt; <a href="init.html#decl-bindless" class="code_param">bindless</a>)
-    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">IOpaqueDescriptor</a>
+<a href="index.html" class="code_type">vector</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>, <a href="index.html#decl-N" class="code_var">N</a>&gt;.<a href="init.html">init</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>&gt;(<a href="../descriptorhandle-0a/index.html" class="code_type">DescriptorHandle</a>&lt;<a href="init.html#typeparam-T" class="code_type">T</a>&gt; <a href="init.html#decl-bindless" class="code_param">bindless</a>)
+    <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> : <a href="../../interfaces/iopaquedescriptor-017/index.html" class="code_type">IOpaqueDescriptor</a>
     <span class='code_keyword'>where</span> <a href="init.html#typeparam-T" class="code_type">T</a> == <span class="code_keyword">uint</span>
     <span class='code_keyword'>where</span> <a href="index.html#decl-N" class="code_var">N</a> == 2;
 

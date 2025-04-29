@@ -12,7 +12,7 @@ Represents a type that can be used for floating point arithmetic operations.
 
 Implemented by builtin scalar types: <span class='code'><span class="code_keyword">float</span></span>, <span class='code'><span class="code_keyword">half</span></span>, <span class='code'><span class="code_keyword">double</span></span>.
 
-Also implemented by <span class='code'><a href="index.html" class="code_type">vector</a>&lt;T, N&gt;</span> where <span class='code'>T</span> is one of the above scalar types.
+Also implemented by <span class='code'><a href="../../types/vector/index.html" class="code_type">vector</a>&lt;T, N&gt;</span> where <span class='code'>T</span> is one of the above scalar types.
 
 
 ## Methods

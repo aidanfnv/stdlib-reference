@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Description
 
 Perform a 32-bit integer atomic compare-and-exchange operation at
-the specified byte address within the <span class='code'><a href="index.html" class="code_type">RWByteAddressBuffer</a></span>.
+the specified byte address within the <span class='code'><a href="../rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a></span>.
 
 
 

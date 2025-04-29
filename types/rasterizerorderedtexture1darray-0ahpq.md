@@ -12,7 +12,7 @@ Represents a handle to a rasterizer-ordered 1D texture array.
 
 <pre>
 <span class='code_keyword'>typealias</span> <a href="rasterizerorderedtexture1darray-0ahpq.html" class="code_type">RasterizerOrderedTexture1DArray</a>&lt;T, sampleCount:<span class="code_keyword">int</span>, format:<span class="code_keyword">int</span>&gt; = 
-    <a href="index.html" class="code_type">_Texture</a>&lt;T, <a href="index.html" class="code_type">__Shape1D</a>, 1, 0, sampleCount, 3, 0, 0, format&gt;;
+    <a href="0texture-01/index.html" class="code_type">_Texture</a>&lt;T, <a href="0_shape1d-028/index.html" class="code_type">__Shape1D</a>, 1, 0, sampleCount, 3, 0, 0, format&gt;;
 </pre>
 
 ## Generic Parameters
@@ -29,6 +29,6 @@ The storage format of the texture.
 
 ## See also
 
-Please refer to <span class='code'><a href="index.html" class="code_type">_Texture</a></span> for more information about texture types.
+Please refer to <span class='code'><a href="0texture-01/index.html" class="code_type">_Texture</a></span> for more information about texture types.
 
 

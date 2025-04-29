@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="getrendertargetsampleposition-039fl.html">GetRenderTargetSamplePosition</a>(<span class="code_keyword">int</span> <a href="getrendertargetsampleposition-039fl.html#decl-Index" class="code_param">Index</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="getrendertargetsampleposition-039fl.html">GetRenderTargetSamplePosition</a>(<span class="code_keyword">int</span> <a href="getrendertargetsampleposition-039fl.html#decl-Index" class="code_param">Index</a>);
 
 </pre>
 

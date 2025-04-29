@@ -14,7 +14,7 @@ Legacy lighting function (obsolete).
 ## Signature 
 
 <pre>
-<a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 4&gt; <a href="lit.html">lit</a>(
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 4&gt; <a href="lit.html">lit</a>(
     <span class="code_keyword">float</span> <a href="lit.html#decl-n_dot_l" class="code_param">n_dot_l</a>,
     <span class="code_keyword">float</span> <a href="lit.html#decl-n_dot_h" class="code_param">n_dot_h</a>,
     <span class="code_keyword">float</span> <a href="lit.html#decl-m" class="code_param">m</a>);

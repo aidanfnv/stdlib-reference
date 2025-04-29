@@ -17,7 +17,7 @@ Reports a hit optimized for OptiX.
     <span class="code_keyword">float</span> <a href="reporthitoptix-069.html#decl-tHit" class="code_param">tHit</a>,
     <span class="code_keyword">uint</span> <a href="reporthitoptix-069.html#decl-hitKind" class="code_param">hitKind</a>,
     <a href="reporthitoptix-069.html#typeparam-T" class="code_type">T</a> <a href="reporthitoptix-069.html#decl-attribs" class="code_param">attribs</a>)
-    <span class='code_keyword'>where</span> <a href="reporthitoptix-069.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
+    <span class='code_keyword'>where</span> <a href="reporthitoptix-069.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 

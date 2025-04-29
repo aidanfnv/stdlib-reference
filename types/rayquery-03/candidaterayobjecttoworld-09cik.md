@@ -13,7 +13,7 @@ Gets the object-to-world transform matrix for the candidate hit instance.
 ## Signature 
 
 <pre>
-<a href="index.html" class="code_type">matrix</a>&lt;<span class="code_keyword">float</span>, 4, 3&gt; <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="candidaterayobjecttoworld-09cik.html">CandidateRayObjectToWorld</a>();
+<a href="../matrix/index.html" class="code_type">matrix</a>&lt;<span class="code_keyword">float</span>, 4, 3&gt; <a href="index.html" class="code_type">RayQuery</a>&lt;<a href="index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="candidaterayobjecttoworld-09cik.html">CandidateRayObjectToWorld</a>();
 
 </pre>
 

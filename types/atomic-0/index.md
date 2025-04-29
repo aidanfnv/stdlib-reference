@@ -6,11 +6,11 @@ layout: stdlib-reference
 
 ## Description
 
-A wrapper for <span class='code'><a href="index.html" class="code_type">IAtomicable</a></span> types to introduce atomic load and store
+A wrapper for <span class='code'><a href="../../interfaces/iatomicable-01/index.html" class="code_type">IAtomicable</a></span> types to introduce atomic load and store
 operations. Values of this type are to be stored in buffers or groupshared
 memory.
 
-All operations take a <span class='code'><a href="index.html" class="code_type">MemoryOrder</a></span> parameter which influenced the
+All operations take a <span class='code'><a href="../memoryorder-06/index.html" class="code_type">MemoryOrder</a></span> parameter which influenced the
 semantics of the performed operation
 
 All operations take place at the device scope.

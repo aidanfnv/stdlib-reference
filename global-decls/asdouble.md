@@ -18,9 +18,9 @@ Reinterpret bits as a double.
     <span class="code_keyword">uint</span> <a href="asdouble.html#decl-lowbits" class="code_param">lowbits</a>,
     <span class="code_keyword">uint</span> <a href="asdouble.html#decl-highbits" class="code_param">highbits</a>);
 
-<a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">double</span>, 2&gt; <a href="asdouble.html">asdouble</a>(
-    <a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="asdouble.html#decl-lowbits" class="code_param">lowbits</a>,
-    <a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="asdouble.html#decl-highbits" class="code_param">highbits</a>);
+<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">double</span>, 2&gt; <a href="asdouble.html">asdouble</a>(
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="asdouble.html#decl-lowbits" class="code_param">lowbits</a>,
+    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="asdouble.html#decl-highbits" class="code_param">highbits</a>);
 
 </pre>
 
