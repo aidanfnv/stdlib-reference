@@ -16,11 +16,11 @@ layout: stdlib-reference
 
 ## Fields
 
-####  <a id="decl-_isSingleLevel"></a>[\_isSingleLevel]() : bool
+####  <a id="decl-_isSingleLevel"></a>[\_isSingleLevel](0issinglelevel-039) : bool
 
-## Properties
+## m_currentPage->path
 
-####  <a id="decl-isSingleLevel"></a>[isSingleLevel]()
+####  <a id="decl-isSingleLevel"></a>[isSingleLevel](issinglelevel-28)
 
 ## Methods
 

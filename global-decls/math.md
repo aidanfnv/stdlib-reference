@@ -5,179 +5,179 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [abs\<T\>](../abs)
+#### [abs\<T\>](abs)
 
-#### [acos\<T\>](../acos)
+#### [acos\<T\>](acos)
 
-#### [acosh\<T\>](../acosh)
+#### [acosh\<T\>](acosh)
 
-#### [asin\<T\>](../asin)
+#### [asin\<T\>](asin)
 
-#### [asinh\<T\>](../asinh)
+#### [asinh\<T\>](asinh)
 
-#### [atan\<T\>](../atan)
+#### [atan\<T\>](atan)
 
-#### [atan2\<T\>](../atan2)
+#### [atan2\<T\>](atan2)
 
-#### [atanh\<T\>](../atanh)
+#### [atanh\<T\>](atanh)
 
-#### [ceil\<T\>](../ceil)
+#### [ceil\<T\>](ceil)
 
-#### [clamp\<T\>](../clamp)
+#### [clamp\<T\>](clamp)
 
-#### [copysign\<T, N:int\>](../copysign)
+#### [copysign\<T, N:int\>](copysign)
 
-#### [copysign\_double\<N:int\>](../copysign_double)
+#### [copysign\_double\<N:int\>](copysign_double)
 
-#### [copysign\_float\<N:int\>](../copysign_float)
+#### [copysign\_float\<N:int\>](copysign_float)
 
-#### [copysign\_half\<N:int\>](../copysign_half)
+#### [copysign\_half\<N:int\>](copysign_half)
 
-#### [cos\<T\>](../cos)
+#### [cos\<T\>](cos)
 
-#### [cosh\<T\>](../cosh)
+#### [cosh\<T\>](cosh)
 
-#### [cospi\<T\>](../cospi)
+#### [cospi\<T\>](cospi)
 
-#### [cross\<T\>](../cross)
+#### [cross\<T\>](cross)
 
-#### [degrees\<T\>](../degrees)
+#### [degrees\<T\>](degrees)
 
-#### [determinant\<T, N:int\>](../determinant)
+#### [determinant\<T, N:int\>](determinant)
 
-#### [distance\<T, N:int\>](../distance)
+#### [distance\<T, N:int\>](distance)
 
-#### [divide\<T\>](../divide)
+#### [divide\<T\>](divide)
 
-#### [dot\<T\>](../dot)
+#### [dot\<T\>](dot)
 
-#### [dot2add](../dot2add)
+#### [dot2add](dot2add)
 
-#### [dot4add\_i8packed](../dot4add_i8packed)
+#### [dot4add\_i8packed](dot4add_i8packed)
 
-#### [dot4add\_u8packed](../dot4add_u8packed)
+#### [dot4add\_u8packed](dot4add_u8packed)
 
-#### [dst\<T\>](../dst)
+#### [dst\<T\>](dst)
 
-#### [exp\<T\>](../exp)
+#### [exp\<T\>](exp)
 
-#### [exp10\<T\>](../exp10)
+#### [exp10\<T\>](exp10)
 
-#### [exp2\<T\>](../exp2)
+#### [exp2\<T\>](exp2)
 
-#### [fabs\<T\>](../fabs)
+#### [fabs\<T\>](fabs)
 
-#### [faceforward\<T, N:int\>](../faceforward)
+#### [faceforward\<T, N:int\>](faceforward)
 
-#### [fdim\<T\>](../fdim)
+#### [fdim\<T\>](fdim)
 
-#### [floor\<T\>](../floor)
+#### [floor\<T\>](floor)
 
-#### [fma\<T\>](../fma)
+#### [fma\<T\>](fma)
 
-#### [fmax\<T\>](../fmax)
+#### [fmax\<T\>](fmax)
 
-#### [fmax3\<T\>](../fmax3)
+#### [fmax3\<T\>](fmax3)
 
-#### [fmedian3\<T\>](../fmedian3)
+#### [fmedian3\<T\>](fmedian3)
 
-#### [fmin\<T\>](../fmin)
+#### [fmin\<T\>](fmin)
 
-#### [fmin3\<T\>](../fmin3)
+#### [fmin3\<T\>](fmin3)
 
-#### [fmod\<T\>](../fmod)
+#### [fmod\<T\>](fmod)
 
-#### [frac\<T\>](../frac)
+#### [frac\<T\>](frac)
 
-#### [fract\<T\>](../fract)
+#### [fract\<T\>](fract)
 
-#### [frexp\<T\>](../frexp)
+#### [frexp\<T\>](frexp)
 
-#### [isfinite\<T\>](../isfinite)
+#### [isfinite\<T\>](isfinite)
 
-#### [isinf\<T\>](../isinf)
+#### [isinf\<T\>](isinf)
 
-#### [isnan\<T\>](../isnan)
+#### [isnan\<T\>](isnan)
 
-#### [ldexp\<T\>](../ldexp)
+#### [ldexp\<T\>](ldexp)
 
-#### [length\<T, N:int\>](../length)
+#### [length\<T, N:int\>](length)
 
-#### [lerp\<T\>](../lerp)
+#### [lerp\<T\>](lerp)
 
-#### [lit](../lit)
+#### [lit](lit)
 
-#### [log\<T\>](../log)
+#### [log\<T\>](log)
 
-#### [log10\<T\>](../log10)
+#### [log10\<T\>](log10)
 
-#### [log2\<T\>](../log2)
+#### [log2\<T\>](log2)
 
-#### [mad\<T\>](../mad)
+#### [mad\<T\>](mad)
 
-#### [max\<T\>](../max)
+#### [max\<T\>](max)
 
-#### [max3\<T\>](../max3)
+#### [max3\<T\>](max3)
 
-#### [median3\<T\>](../median3)
+#### [median3\<T\>](median3)
 
-#### [min\<T\>](../min)
+#### [min\<T\>](min)
 
-#### [min3\<T\>](../min3)
+#### [min3\<T\>](min3)
 
-#### [modf\<T\>](../modf)
+#### [modf\<T\>](modf)
 
-#### [msad4](../msad4)
+#### [msad4](msad4)
 
-#### [mul\<T\>](../mul)
+#### [mul\<T\>](mul)
 
-#### [normalize\<T, N:int\>](../normalize)
+#### [normalize\<T, N:int\>](normalize)
 
-#### [pow\<T\>](../pow)
+#### [pow\<T\>](pow)
 
-#### [powr\<T\>](../powr)
+#### [powr\<T\>](powr)
 
-#### [radians\<T\>](../radians)
+#### [radians\<T\>](radians)
 
-#### [rcp\<T\>](../rcp)
+#### [rcp\<T\>](rcp)
 
-#### [reflect\<T\>](../reflect)
+#### [reflect\<T\>](reflect)
 
-#### [refract\<T, N:int\>](../refract)
+#### [refract\<T, N:int\>](refract)
 
-#### [rint\<T\>](../rint)
+#### [rint\<T\>](rint)
 
-#### [round\<T\>](../round)
+#### [round\<T\>](round)
 
-#### [rsqrt\<T\>](../rsqrt)
+#### [rsqrt\<T\>](rsqrt)
 
-#### [saturate\<T\>](../saturate)
+#### [saturate\<T\>](saturate)
 
-#### [sign\<T\>](../sign)
+#### [sign\<T\>](sign)
 
-#### [sin\<T\>](../sin)
+#### [sin\<T\>](sin)
 
-#### [sincos\<T\>](../sincos)
+#### [sincos\<T\>](sincos)
 
-#### [sinh\<T\>](../sinh)
+#### [sinh\<T\>](sinh)
 
-#### [sinpi\<T\>](../sinpi)
+#### [sinpi\<T\>](sinpi)
 
-#### [smoothstep\<T\>](../smoothstep)
+#### [smoothstep\<T\>](smoothstep)
 
-#### [sqrt\<T\>](../sqrt)
+#### [sqrt\<T\>](sqrt)
 
-#### [step\<T\>](../step)
+#### [step\<T\>](step)
 
-#### [tan\<T\>](../tan)
+#### [tan\<T\>](tan)
 
-#### [tanh\<T\>](../tanh)
+#### [tanh\<T\>](tanh)
 
-#### [tanpi\<T\>](../tanpi)
+#### [tanpi\<T\>](tanpi)
 
-#### [transpose\<T, N:int, M:int\>](../transpose)
+#### [transpose\<T, N:int, M:int\>](transpose)
 
-#### [trunc\<T\>](../trunc)
+#### [trunc\<T\>](trunc)
 
 
 ```{toctree}

@@ -13,20 +13,20 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="quadreadlaneat-048c#typeparam-T" class="code_type">T</a> <a href="quadreadlaneat-048c">QuadReadLaneAt</a>&lt;<a href="quadreadlaneat-048c#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="quadreadlaneat-048c#typeparam-T" class="code_type">T</a> <a href="quadreadlaneat-048c#decl-sourceValue" class="code_param">sourceValue</a>,
-    <span class="code_keyword">uint</span> <a href="quadreadlaneat-048c#decl-quadLaneID" class="code_param">quadLaneID</a>)
-    <span class='code_keyword'>where</span> <a href="quadreadlaneat-048c#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a> <a href="quadreadlaneat-048c.html">QuadReadLaneAt</a>&lt;<a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a> <a href="quadreadlaneat-048c.html#decl-sourceValue" class="code_param">sourceValue</a>,
+    <span class="code_keyword">uint</span> <a href="quadreadlaneat-048c.html#decl-quadLaneID" class="code_param">quadLaneID</a>)
+    <span class='code_keyword'>where</span> <a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="quadreadlaneat-048c#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c#decl-N" class="code_var">N</a>&gt; <a href="quadreadlaneat-048c">QuadReadLaneAt</a>&lt;<a href="quadreadlaneat-048c#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="quadreadlaneat-048c#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c#decl-N" class="code_var">N</a>&gt; <a href="quadreadlaneat-048c#decl-sourceValue" class="code_param">sourceValue</a>,
-    <span class="code_keyword">uint</span> <a href="quadreadlaneat-048c#decl-quadLaneID" class="code_param">quadLaneID</a>)
-    <span class='code_keyword'>where</span> <a href="quadreadlaneat-048c#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.html#decl-N" class="code_var">N</a>&gt; <a href="quadreadlaneat-048c.html">QuadReadLaneAt</a>&lt;<a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.html#decl-N" class="code_var">N</a>&gt; <a href="quadreadlaneat-048c.html#decl-sourceValue" class="code_param">sourceValue</a>,
+    <span class="code_keyword">uint</span> <a href="quadreadlaneat-048c.html#decl-quadLaneID" class="code_param">quadLaneID</a>)
+    <span class='code_keyword'>where</span> <a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="quadreadlaneat-048c#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c#decl-N" class="code_var">N</a>, <a href="quadreadlaneat-048c#decl-M" class="code_var">M</a>&gt; <a href="quadreadlaneat-048c">QuadReadLaneAt</a>&lt;<a href="quadreadlaneat-048c#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="quadreadlaneat-048c#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="quadreadlaneat-048c#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c#decl-N" class="code_var">N</a>, <a href="quadreadlaneat-048c#decl-M" class="code_var">M</a>&gt; <a href="quadreadlaneat-048c#decl-sourceValue" class="code_param">sourceValue</a>,
-    <span class="code_keyword">uint</span> <a href="quadreadlaneat-048c#decl-quadLaneID" class="code_param">quadLaneID</a>)
-    <span class='code_keyword'>where</span> <a href="quadreadlaneat-048c#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.html#decl-N" class="code_var">N</a>, <a href="quadreadlaneat-048c.html#decl-M" class="code_var">M</a>&gt; <a href="quadreadlaneat-048c.html">QuadReadLaneAt</a>&lt;<a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="quadreadlaneat-048c.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">matrix</a>&lt;<a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a>, <a href="quadreadlaneat-048c.html#decl-N" class="code_var">N</a>, <a href="quadreadlaneat-048c.html#decl-M" class="code_var">M</a>&gt; <a href="quadreadlaneat-048c.html#decl-sourceValue" class="code_param">sourceValue</a>,
+    <span class="code_keyword">uint</span> <a href="quadreadlaneat-048c.html#decl-quadLaneID" class="code_param">quadLaneID</a>)
+    <span class='code_keyword'>where</span> <a href="quadreadlaneat-048c.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>
 
@@ -41,7 +41,7 @@ layout: stdlib-reference
 ####  <a id="decl-sourceValue"></a>sourceValue  : [T](quadreadlaneat-048c#typeparam-T)
 ####  <a id="decl-quadLaneID"></a>quadLaneID  : uint
 ####  <a id="decl-sourceValue"></a>sourceValue  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
-####  <a id="decl-sourceValue"></a>sourceValue  : [matrix](../types/matrix/index)\<[T](), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-sourceValue"></a>sourceValue  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 
 ## Availability and Requirements
 

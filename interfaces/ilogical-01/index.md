@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface ILogical
 
-*Inherits from:* [IComparable](../interfaces/icomparable-01/index)
+*Inherits from:* [IComparable](../icomparable-01/index)
 
 ## Description
 
@@ -13,16 +13,16 @@ Represents types that provide logical operations.
 
 ## Methods
 
-* [shl](../shl)
-* [shr](../shr)
-* [bitAnd](../bitand-3)
-* [bitOr](../bitor-3)
-* [bitXor](../bitxor-3)
-* [bitNot](../bitnot-3)
-* [and](../and)
-* [or](../or)
-* [not](../not)
-* [init](../init)
+* [shl](shl)
+* [shr](shr)
+* [bitAnd](bitand-3)
+* [bitOr](bitor-3)
+* [bitXor](bitxor-3)
+* [bitNot](bitnot-3)
+* [and](and)
+* [or](or)
+* [not](not)
+* [init](init)
 
 
 ```{toctree}

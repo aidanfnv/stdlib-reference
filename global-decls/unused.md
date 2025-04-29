@@ -15,7 +15,7 @@ This can be used to silence the warning about returning before initializing an o
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="unused">unused</a>&lt;<a href="unused#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">inout</span> <a href="unused#typeparam-T" class="code_type">T</a> <a href="unused#decl-SLANG_anonymous_5" class="code_param">SLANG_anonymous_5</a>);
+<span class="code_keyword">void</span> <a href="unused.html">unused</a>&lt;<a href="unused.html#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">inout</span> <a href="unused.html#typeparam-T" class="code_type">T</a> <a href="unused.html#decl-SLANG_anonymous_5" class="code_param">SLANG_anonymous_5</a>);
 
 </pre>
 

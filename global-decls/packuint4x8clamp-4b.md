@@ -15,9 +15,9 @@ clamping each value to the range [0, 255] to ensure it fits within 8 bits.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="packuint4x8clamp-4b">packUint4x8Clamp</a>(<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 4&gt; <a href="packuint4x8clamp-4b#decl-unpackedValue" class="code_param">unpackedValue</a>);
+<span class="code_keyword">uint</span> <a href="packuint4x8clamp-4b.html">packUint4x8Clamp</a>(<a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 4&gt; <a href="packuint4x8clamp-4b.html#decl-unpackedValue" class="code_param">unpackedValue</a>);
 
-<span class="code_keyword">uint</span> <a href="packuint4x8clamp-4b">packUint4x8Clamp</a>(<a href="../types/vector/index" class="code_type">vector</a>&lt;int16_t, 4&gt; <a href="packuint4x8clamp-4b#decl-unpackedValue" class="code_param">unpackedValue</a>);
+<span class="code_keyword">uint</span> <a href="packuint4x8clamp-4b.html">packUint4x8Clamp</a>(<a href="index.html" class="code_type">vector</a>&lt;int16_t, 4&gt; <a href="packuint4x8clamp-4b.html#decl-unpackedValue" class="code_param">unpackedValue</a>);
 
 </pre>
 

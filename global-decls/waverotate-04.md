@@ -13,15 +13,15 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="waverotate-04#typeparam-T" class="code_type">T</a> <a href="waverotate-04">WaveRotate</a>&lt;<a href="waverotate-04#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="waverotate-04#typeparam-T" class="code_type">T</a> <a href="waverotate-04#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">uint</span> <a href="waverotate-04#decl-delta" class="code_param">delta</a>)
-    <span class='code_keyword'>where</span> <a href="waverotate-04#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="waverotate-04.html#typeparam-T" class="code_type">T</a> <a href="waverotate-04.html">WaveRotate</a>&lt;<a href="waverotate-04.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="waverotate-04.html#typeparam-T" class="code_type">T</a> <a href="waverotate-04.html#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">uint</span> <a href="waverotate-04.html#decl-delta" class="code_param">delta</a>)
+    <span class='code_keyword'>where</span> <a href="waverotate-04.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="waverotate-04#typeparam-T" class="code_type">T</a>, <a href="waverotate-04#decl-N" class="code_var">N</a>&gt; <a href="waverotate-04">WaveRotate</a>&lt;<a href="waverotate-04#typeparam-T" class="code_type">T</a>, <a href="waverotate-04#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="waverotate-04#typeparam-T" class="code_type">T</a>, <a href="waverotate-04#decl-N" class="code_var">N</a>&gt; <a href="waverotate-04#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">uint</span> <a href="waverotate-04#decl-delta" class="code_param">delta</a>)
-    <span class='code_keyword'>where</span> <a href="waverotate-04#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="waverotate-04.html#typeparam-T" class="code_type">T</a>, <a href="waverotate-04.html#decl-N" class="code_var">N</a>&gt; <a href="waverotate-04.html">WaveRotate</a>&lt;<a href="waverotate-04.html#typeparam-T" class="code_type">T</a>, <a href="waverotate-04.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="waverotate-04.html#typeparam-T" class="code_type">T</a>, <a href="waverotate-04.html#decl-N" class="code_var">N</a>&gt; <a href="waverotate-04.html#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">uint</span> <a href="waverotate-04.html#decl-delta" class="code_param">delta</a>)
+    <span class='code_keyword'>where</span> <a href="waverotate-04.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>
 

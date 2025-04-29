@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="unmodified">unmodified</a>&lt;<a href="unmodified#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">out</span> <a href="unmodified#typeparam-T" class="code_type">T</a> <a href="unmodified#decl-SLANG_anonymous_6" class="code_param">SLANG_anonymous_6</a>);
+<span class="code_keyword">void</span> <a href="unmodified.html">unmodified</a>&lt;<a href="unmodified.html#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">out</span> <a href="unmodified.html#typeparam-T" class="code_type">T</a> <a href="unmodified.html#decl-SLANG_anonymous_6" class="code_param">SLANG_anonymous_6</a>);
 
 </pre>
 

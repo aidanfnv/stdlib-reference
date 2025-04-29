@@ -14,9 +14,9 @@ Perform a compile-time condition check and emit a compile-time error if the cond
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="static_assert">static_assert</a>(
-    <span class="code_keyword">bool</span> <a href="static_assert#decl-condition" class="code_param">condition</a>,
-    <a href="../types/nativestring-06/index" class="code_type">NativeString</a> <a href="static_assert#decl-errorMessage" class="code_param">errorMessage</a>);
+<span class="code_keyword">void</span> <a href="static_assert.html">static_assert</a>(
+    <span class="code_keyword">bool</span> <a href="static_assert.html#decl-condition" class="code_param">condition</a>,
+    <a href="index.html" class="code_type">NativeString</a> <a href="static_assert.html#decl-errorMessage" class="code_param">errorMessage</a>);
 
 </pre>
 

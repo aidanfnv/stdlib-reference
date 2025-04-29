@@ -12,7 +12,7 @@ whose size may be undefined and can't be directly accessed as ordinary data.
 
 ## Fields
 
-####  <a id="decl-kind"></a>[kind]() : [DescriptorKind](../types/descriptorkind-0a/index)
+####  <a id="decl-kind"></a>[kind](kind) : [DescriptorKind](../../types/descriptorkind-0a/index)
 The kind of the descriptor.
 
 

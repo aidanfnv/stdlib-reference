@@ -4,11 +4,11 @@ layout: stdlib-reference
 
 # struct DifferentialPair\<T\>
 
-*Conforms to:* [IDifferentiable](../interfaces/idifferentiable-01/index)
+*Conforms to:* [IDifferentiable](../../interfaces/idifferentiable-01/index)
 
 ## Description
 
-<span class='code'><a href="index" class="code_type">DifferentialPair</a>&lt;<a href="index#typeparam-T" class="code_type">T</a>&gt;</span> is a built-in type that carries both the original and derivative value of a term.
+<span class='code'><a href="index.html" class="code_type">DifferentialPair</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;</span> is a built-in type that carries both the original and derivative value of a term.
 It is defined as follows:
 ```csharp
 struct DifferentialPair<T : IDifferentiable> : IDifferentiable
@@ -21,7 +21,7 @@ struct DifferentialPair<T : IDifferentiable> : IDifferentiable
 }
 ```
 
-Differential pairs can be created via constructor or through the <span class='code'><a href="">diffPair</a>()</span> operation
+Differential pairs can be created via constructor or through the <span class='code'><a href="diffpair-4.html">diffPair</a>()</span> operation
 ```csharp
 DifferentialPair<float> dpa = DifferentialPair<float>(1.0f, 2.0f);
 DifferentialPair<float> dpa = diffPair(1.0f, 2.0f);
@@ -32,22 +32,22 @@ See documentation on <span class='code'>fwd_diff</span> and <span class='code'>b
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IDifferentiable](../interfaces/idifferentiable-01/index)
+####  <a id="typeparam-T"></a>T: [IDifferentiable](../../interfaces/idifferentiable-01/index)
 
-## Properties
+## m_currentPage->path
 
-####  <a id="decl-d"></a>[d]()
-####  <a id="decl-p"></a>[p]()
-####  <a id="decl-v"></a>[v]()
+####  <a id="decl-d"></a>[d](d)
+####  <a id="decl-p"></a>[p](p)
+####  <a id="decl-v"></a>[v](v)
 
 ## Methods
 
-* [init](../init)
-* [getDifferential](../getdifferential-3)
-* [getPrimal](../getprimal-3)
-* [dzero](../dzero)
-* [dadd](../dadd)
-* [dmul](../dmul)
+* [init](init)
+* [getDifferential](getdifferential-3)
+* [getPrimal](getprimal-3)
+* [dzero](dzero)
+* [dadd](dadd)
+* [dmul](dmul)
 
 
 ```{toctree}

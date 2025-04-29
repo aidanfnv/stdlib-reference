@@ -13,9 +13,9 @@ Executes a callable shader with the specified payload.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="callshader-04">CallShader</a>&lt;<a href="callshader-04#typeparam-Payload" class="code_type">Payload</a>&gt;(
-    <span class="code_keyword">uint</span> <a href="callshader-04#decl-shaderIndex" class="code_param">shaderIndex</a>,
-    <span class="code_keyword">inout</span> <a href="callshader-04#typeparam-Payload" class="code_type">Payload</a> <a href="callshader-04#decl-payload" class="code_param">payload</a>);
+<span class="code_keyword">void</span> <a href="callshader-04.html">CallShader</a>&lt;<a href="callshader-04.html#typeparam-Payload" class="code_type">Payload</a>&gt;(
+    <span class="code_keyword">uint</span> <a href="callshader-04.html#decl-shaderIndex" class="code_param">shaderIndex</a>,
+    <span class="code_keyword">inout</span> <a href="callshader-04.html#typeparam-Payload" class="code_type">Payload</a> <a href="callshader-04.html#decl-payload" class="code_param">payload</a>);
 
 </pre>
 

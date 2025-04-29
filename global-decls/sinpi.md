@@ -6,18 +6,18 @@ layout: stdlib-reference
 
 ## Description
 
-Compute the sine of <span class='code'><a href="sinpi#decl-x" class="code_param">x</a>*pi</span>.
+Compute the sine of <span class='code'><a href="sinpi.html#decl-x" class="code_param">x</a>*pi</span>.
 
 
 
 ## Signature 
 
 <pre>
-<a href="sinpi#typeparam-T" class="code_type">T</a> <a href="sinpi">sinpi</a>&lt;<a href="sinpi#typeparam-T" class="code_type">T</a>&gt;(<a href="sinpi#typeparam-T" class="code_type">T</a> <a href="sinpi#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="sinpi#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="sinpi.html#typeparam-T" class="code_type">T</a> <a href="sinpi.html">sinpi</a>&lt;<a href="sinpi.html#typeparam-T" class="code_type">T</a>&gt;(<a href="sinpi.html#typeparam-T" class="code_type">T</a> <a href="sinpi.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="sinpi.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="sinpi#typeparam-T" class="code_type">T</a>, <a href="sinpi#decl-N" class="code_var">N</a>&gt; <a href="sinpi">sinpi</a>&lt;<a href="sinpi#typeparam-T" class="code_type">T</a>, <a href="sinpi#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="sinpi#typeparam-T" class="code_type">T</a>, <a href="sinpi#decl-N" class="code_var">N</a>&gt; <a href="sinpi#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="sinpi#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="sinpi.html#typeparam-T" class="code_type">T</a>, <a href="sinpi.html#decl-N" class="code_var">N</a>&gt; <a href="sinpi.html">sinpi</a>&lt;<a href="sinpi.html#typeparam-T" class="code_type">T</a>, <a href="sinpi.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="sinpi.html#typeparam-T" class="code_type">T</a>, <a href="sinpi.html#decl-N" class="code_var">N</a>&gt; <a href="sinpi.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="sinpi.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
@@ -36,7 +36,7 @@ The value to compute the sine of.
 
 
 ## Return value
-The sine of <span class='code'><a href="sinpi#decl-x" class="code_param">x</a>*pi</span>.
+The sine of <span class='code'><a href="sinpi.html#decl-x" class="code_param">x</a>*pi</span>.
 
 
 ## Availability and Requirements

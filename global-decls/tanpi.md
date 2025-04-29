@@ -6,18 +6,18 @@ layout: stdlib-reference
 
 ## Description
 
-Compute the tangent of <span class='code'><a href="tanpi#decl-x" class="code_param">x</a>*pi</span>.
+Compute the tangent of <span class='code'><a href="tanpi.html#decl-x" class="code_param">x</a>*pi</span>.
 
 
 
 ## Signature 
 
 <pre>
-<a href="tanpi#typeparam-T" class="code_type">T</a> <a href="tanpi">tanpi</a>&lt;<a href="tanpi#typeparam-T" class="code_type">T</a>&gt;(<a href="tanpi#typeparam-T" class="code_type">T</a> <a href="tanpi#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="tanpi#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="tanpi.html#typeparam-T" class="code_type">T</a> <a href="tanpi.html">tanpi</a>&lt;<a href="tanpi.html#typeparam-T" class="code_type">T</a>&gt;(<a href="tanpi.html#typeparam-T" class="code_type">T</a> <a href="tanpi.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="tanpi.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="tanpi#typeparam-T" class="code_type">T</a>, <a href="tanpi#decl-N" class="code_var">N</a>&gt; <a href="tanpi">tanpi</a>&lt;<a href="tanpi#typeparam-T" class="code_type">T</a>, <a href="tanpi#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="tanpi#typeparam-T" class="code_type">T</a>, <a href="tanpi#decl-N" class="code_var">N</a>&gt; <a href="tanpi#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="tanpi#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="tanpi.html#typeparam-T" class="code_type">T</a>, <a href="tanpi.html#decl-N" class="code_var">N</a>&gt; <a href="tanpi.html">tanpi</a>&lt;<a href="tanpi.html#typeparam-T" class="code_type">T</a>, <a href="tanpi.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="tanpi.html#typeparam-T" class="code_type">T</a>, <a href="tanpi.html#decl-N" class="code_var">N</a>&gt; <a href="tanpi.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="tanpi.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
@@ -36,7 +36,7 @@ The value to compute the tangent of.
 
 
 ## Return value
-The tangent of <span class='code'><a href="tanpi#decl-x" class="code_param">x</a>*pi</span>.
+The tangent of <span class='code'><a href="tanpi.html#decl-x" class="code_param">x</a>*pi</span>.
 
 
 ## Availability and Requirements

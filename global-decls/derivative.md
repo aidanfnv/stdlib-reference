@@ -5,19 +5,19 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [ddx\<T\>](../ddx)
+#### [ddx\<T\>](ddx)
 
-#### [ddx\_coarse\<T\>](../ddx_coarse)
+#### [ddx\_coarse\<T\>](ddx_coarse)
 
-#### [ddx\_fine\<T\>](../ddx_fine)
+#### [ddx\_fine\<T\>](ddx_fine)
 
-#### [ddy\<T\>](../ddy)
+#### [ddy\<T\>](ddy)
 
-#### [ddy\_coarse\<T\>](../ddy_coarse)
+#### [ddy\_coarse\<T\>](ddy_coarse)
 
-#### [ddy\_fine\<T\>](../ddy_fine)
+#### [ddy\_fine\<T\>](ddy_fine)
 
-#### [fwidth\<T\>](../fwidth)
+#### [fwidth\<T\>](fwidth)
 
 
 ```{toctree}

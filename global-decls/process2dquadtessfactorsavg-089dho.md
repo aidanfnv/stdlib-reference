@@ -13,12 +13,12 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="process2dquadtessfactorsavg-089dho">Process2DQuadTessFactorsAvg</a>(
-    <span class="code_keyword">in</span> <a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 4&gt; <a href="process2dquadtessfactorsavg-089dho#decl-RawEdgeFactors" class="code_param">RawEdgeFactors</a>,
-    <span class="code_keyword">in</span> <a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="process2dquadtessfactorsavg-089dho#decl-InsideScale" class="code_param">InsideScale</a>,
-    <span class="code_keyword">out</span> <a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 4&gt; <a href="process2dquadtessfactorsavg-089dho#decl-RoundedEdgeTessFactors" class="code_param">RoundedEdgeTessFactors</a>,
-    <span class="code_keyword">out</span> <a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="process2dquadtessfactorsavg-089dho#decl-RoundedInsideTessFactors" class="code_param">RoundedInsideTessFactors</a>,
-    <span class="code_keyword">out</span> <a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="process2dquadtessfactorsavg-089dho#decl-UnroundedInsideTessFactors" class="code_param">UnroundedInsideTessFactors</a>);
+<span class="code_keyword">void</span> <a href="process2dquadtessfactorsavg-089dho.html">Process2DQuadTessFactorsAvg</a>(
+    <span class="code_keyword">in</span> <a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 4&gt; <a href="process2dquadtessfactorsavg-089dho.html#decl-RawEdgeFactors" class="code_param">RawEdgeFactors</a>,
+    <span class="code_keyword">in</span> <a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="process2dquadtessfactorsavg-089dho.html#decl-InsideScale" class="code_param">InsideScale</a>,
+    <span class="code_keyword">out</span> <a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 4&gt; <a href="process2dquadtessfactorsavg-089dho.html#decl-RoundedEdgeTessFactors" class="code_param">RoundedEdgeTessFactors</a>,
+    <span class="code_keyword">out</span> <a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="process2dquadtessfactorsavg-089dho.html#decl-RoundedInsideTessFactors" class="code_param">RoundedInsideTessFactors</a>,
+    <span class="code_keyword">out</span> <a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="process2dquadtessfactorsavg-089dho.html#decl-UnroundedInsideTessFactors" class="code_param">UnroundedInsideTessFactors</a>);
 
 </pre>
 

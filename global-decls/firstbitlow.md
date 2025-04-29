@@ -13,13 +13,13 @@ Find first set bit starting at low bit and working up.
 ## Signature 
 
 <pre>
-<span class="code_keyword">int</span> <a href="firstbitlow">firstbitlow</a>(<span class="code_keyword">int</span> <a href="firstbitlow#decl-value" class="code_param">value</a>);
+<span class="code_keyword">int</span> <a href="firstbitlow.html">firstbitlow</a>(<span class="code_keyword">int</span> <a href="firstbitlow.html#decl-value" class="code_param">value</a>);
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, <a href="firstbitlow#decl-N" class="code_var">N</a>&gt; <a href="firstbitlow">firstbitlow</a>&lt;<a href="firstbitlow#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, <a href="firstbitlow#decl-N" class="code_var">N</a>&gt; <a href="firstbitlow#decl-value" class="code_param">value</a>);
+<a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, <a href="firstbitlow.html#decl-N" class="code_var">N</a>&gt; <a href="firstbitlow.html">firstbitlow</a>&lt;<a href="firstbitlow.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, <a href="firstbitlow.html#decl-N" class="code_var">N</a>&gt; <a href="firstbitlow.html#decl-value" class="code_param">value</a>);
 
-<span class="code_keyword">uint</span> <a href="firstbitlow">firstbitlow</a>(<span class="code_keyword">uint</span> <a href="firstbitlow#decl-value" class="code_param">value</a>);
+<span class="code_keyword">uint</span> <a href="firstbitlow.html">firstbitlow</a>(<span class="code_keyword">uint</span> <a href="firstbitlow.html#decl-value" class="code_param">value</a>);
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="firstbitlow#decl-N" class="code_var">N</a>&gt; <a href="firstbitlow">firstbitlow</a>&lt;<a href="firstbitlow#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="firstbitlow#decl-N" class="code_var">N</a>&gt; <a href="firstbitlow#decl-value" class="code_param">value</a>);
+<a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="firstbitlow.html#decl-N" class="code_var">N</a>&gt; <a href="firstbitlow.html">firstbitlow</a>&lt;<a href="firstbitlow.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="firstbitlow.html#decl-N" class="code_var">N</a>&gt; <a href="firstbitlow.html#decl-value" class="code_param">value</a>);
 
 </pre>
 
@@ -44,7 +44,7 @@ The value to find set bits in.
 
 ## Return value
 The bit index number of the least significant set bit,
-or all ones (-1 when interpretted as signed) if <span class='code'><a href="firstbitlow#decl-value" class="code_param">value</a></span> is 0.
+or all ones (-1 when interpretted as signed) if <span class='code'><a href="firstbitlow.html#decl-value" class="code_param">value</a></span> is 0.
 
 ## Remarks
 For SPIR-V, this function maps to GLSL extended instruction <span class='code'>FindILsb</span>.

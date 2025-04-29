@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IArithmetic
 
-*Inherits from:* [IComparable](../interfaces/icomparable-01/index)
+*Inherits from:* [IComparable](../icomparable-01/index)
 
 ## Description
 
@@ -13,13 +13,13 @@ Represents types that provide arithmetic operations.
 
 ## Methods
 
-* [add](../add)
-* [sub](../sub)
-* [mul](../mul)
-* [div](../div)
-* [mod](../mod)
-* [neg](../neg)
-* [init](../init)
+* [add](add)
+* [sub](sub)
+* [mul](mul)
+* [div](div)
+* [mod](mod)
+* [neg](neg)
+* [init](init)
 
 
 ```{toctree}

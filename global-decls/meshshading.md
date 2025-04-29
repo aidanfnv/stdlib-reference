@@ -5,9 +5,9 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [DispatchMesh\<P\>](../dispatchmesh-08)
+#### [DispatchMesh\<P\>](dispatchmesh-08)
 
-#### [SetMeshOutputCounts](../setmeshoutputcounts-037d)
+#### [SetMeshOutputCounts](setmeshoutputcounts-037d)
 
 
 ```{toctree}

@@ -14,11 +14,11 @@ Counts the number of set bits in the binary representation of a value.
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="countbits">countbits</a>&lt;<a href="countbits#typeparam-T" class="code_type">T</a>&gt;(<a href="countbits#typeparam-T" class="code_type">T</a> <a href="countbits#decl-value" class="code_param">value</a>)
-    <span class='code_keyword'>where</span> <a href="countbits#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<span class="code_keyword">uint</span> <a href="countbits.html">countbits</a>&lt;<a href="countbits.html#typeparam-T" class="code_type">T</a>&gt;(<a href="countbits.html#typeparam-T" class="code_type">T</a> <a href="countbits.html#decl-value" class="code_param">value</a>)
+    <span class='code_keyword'>where</span> <a href="countbits.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="countbits#decl-N" class="code_var">N</a>&gt; <a href="countbits">countbits</a>&lt;<a href="countbits#typeparam-T" class="code_type">T</a>, <a href="countbits#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="countbits#typeparam-T" class="code_type">T</a>, <a href="countbits#decl-N" class="code_var">N</a>&gt; <a href="countbits#decl-value" class="code_param">value</a>)
-    <span class='code_keyword'>where</span> <a href="countbits#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="countbits.html#decl-N" class="code_var">N</a>&gt; <a href="countbits.html">countbits</a>&lt;<a href="countbits.html#typeparam-T" class="code_type">T</a>, <a href="countbits.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="countbits.html#typeparam-T" class="code_type">T</a>, <a href="countbits.html#decl-N" class="code_var">N</a>&gt; <a href="countbits.html#decl-value" class="code_param">value</a>)
+    <span class='code_keyword'>where</span> <a href="countbits.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
@@ -37,7 +37,7 @@ The value to count bits in.
 
 
 ## Return value
-The number of bits in the binary representation of <span class='code'><a href="countbits#decl-value" class="code_param">value</a></span> that are set to one.
+The number of bits in the binary representation of <span class='code'><a href="countbits.html#decl-value" class="code_param">value</a></span> that are set to one.
 
 ## Remarks
 For SPIR-V, this function maps to <span class='code'>OpBitCount</span>.

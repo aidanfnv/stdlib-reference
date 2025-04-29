@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="waveactiveballot-04a">WaveActiveBallot</a>(<span class="code_keyword">bool</span> <a href="waveactiveballot-04a#decl-condition" class="code_param">condition</a>);
+<a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="waveactiveballot-04a.html">WaveActiveBallot</a>(<span class="code_keyword">bool</span> <a href="waveactiveballot-04a.html#decl-condition" class="code_param">condition</a>);
 
 </pre>
 

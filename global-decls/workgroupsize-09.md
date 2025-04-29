@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 3&gt; <a href="workgroupsize-09">WorkgroupSize</a>();
+<a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">int</span>, 3&gt; <a href="workgroupsize-09.html">WorkgroupSize</a>();
 
 </pre>
 

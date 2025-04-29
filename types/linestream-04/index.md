@@ -14,8 +14,8 @@ layout: stdlib-reference
 
 ## Methods
 
-* [Append](../append-0)
-* [RestartStrip](../restartstrip-07)
+* [Append](append-0)
+* [RestartStrip](restartstrip-07)
 
 
 ```{toctree}

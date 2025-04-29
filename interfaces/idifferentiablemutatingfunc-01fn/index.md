@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # interface IDifferentiableMutatingFunc\<TR, each TP\>
 
-*Inherits from:* [IMutatingFunc](../interfaces/imutatingfunc-019/index)\<[TR](../interfaces/imutatingfunc-019/index#typeparam-TR), [TP](../interfaces/imutatingfunc-019/index#typeparam-TP)\>
+*Inherits from:* [IMutatingFunc](../imutatingfunc-019/index)\<[TR](../imutatingfunc-019/index#typeparam-TR), [TP](../imutatingfunc-019/index#typeparam-TP)\>
 
 ## Description
 
@@ -14,12 +14,12 @@ The function allows to modify the state of the object it belongs to and supports
 
 ## Generic Parameters
 
-####  <a id="typeparam-TR"></a>TR: [IDifferentiable](../interfaces/idifferentiable-01/index)
-####  <a id="typeparam-TP"></a>TP: [IDifferentiable](../interfaces/idifferentiable-01/index)
+####  <a id="typeparam-TR"></a>TR: [IDifferentiable](../idifferentiable-01/index)
+####  <a id="typeparam-TP"></a>TP: [IDifferentiable](../idifferentiable-01/index)
 
 ## Methods
 
-* [operator\(\)](../operatorx28x29)
+* [operator\(\)](operatorx28x29)
 
 
 ```{toctree}

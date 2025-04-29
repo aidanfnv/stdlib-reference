@@ -14,16 +14,16 @@ layout: stdlib-reference
 
 <pre>
 /// Requires Capability Set 1:
-<a href="waveprefixproduct-04a#typeparam-T" class="code_type">T</a> <a href="waveprefixproduct-04a">WavePrefixProduct</a>&lt;<a href="waveprefixproduct-04a#typeparam-T" class="code_type">T</a>&gt;(<a href="waveprefixproduct-04a#typeparam-T" class="code_type">T</a> <a href="waveprefixproduct-04a#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="waveprefixproduct-04a#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
+<a href="waveprefixproduct-04a.html#typeparam-T" class="code_type">T</a> <a href="waveprefixproduct-04a.html">WavePrefixProduct</a>&lt;<a href="waveprefixproduct-04a.html#typeparam-T" class="code_type">T</a>&gt;(<a href="waveprefixproduct-04a.html#typeparam-T" class="code_type">T</a> <a href="waveprefixproduct-04a.html#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="waveprefixproduct-04a.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 /// Requires Capability Set 1:
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="waveprefixproduct-04a#typeparam-T" class="code_type">T</a>, <a href="waveprefixproduct-04a#decl-N" class="code_var">N</a>&gt; <a href="waveprefixproduct-04a">WavePrefixProduct</a>&lt;<a href="waveprefixproduct-04a#typeparam-T" class="code_type">T</a>, <a href="waveprefixproduct-04a#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="waveprefixproduct-04a#typeparam-T" class="code_type">T</a>, <a href="waveprefixproduct-04a#decl-N" class="code_var">N</a>&gt; <a href="waveprefixproduct-04a#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="waveprefixproduct-04a#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="waveprefixproduct-04a.html#typeparam-T" class="code_type">T</a>, <a href="waveprefixproduct-04a.html#decl-N" class="code_var">N</a>&gt; <a href="waveprefixproduct-04a.html">WavePrefixProduct</a>&lt;<a href="waveprefixproduct-04a.html#typeparam-T" class="code_type">T</a>, <a href="waveprefixproduct-04a.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="waveprefixproduct-04a.html#typeparam-T" class="code_type">T</a>, <a href="waveprefixproduct-04a.html#decl-N" class="code_var">N</a>&gt; <a href="waveprefixproduct-04a.html#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="waveprefixproduct-04a.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 /// Requires Capability Set 2:
-<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="waveprefixproduct-04a#typeparam-T" class="code_type">T</a>, <a href="waveprefixproduct-04a#decl-N" class="code_var">N</a>, <a href="waveprefixproduct-04a#decl-M" class="code_var">M</a>&gt; <a href="waveprefixproduct-04a">WavePrefixProduct</a>&lt;<a href="waveprefixproduct-04a#typeparam-T" class="code_type">T</a>, <a href="waveprefixproduct-04a#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="waveprefixproduct-04a#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="waveprefixproduct-04a#typeparam-T" class="code_type">T</a>, <a href="waveprefixproduct-04a#decl-N" class="code_var">N</a>, <a href="waveprefixproduct-04a#decl-M" class="code_var">M</a>&gt; <a href="waveprefixproduct-04a#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="waveprefixproduct-04a#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="waveprefixproduct-04a.html#typeparam-T" class="code_type">T</a>, <a href="waveprefixproduct-04a.html#decl-N" class="code_var">N</a>, <a href="waveprefixproduct-04a.html#decl-M" class="code_var">M</a>&gt; <a href="waveprefixproduct-04a.html">WavePrefixProduct</a>&lt;<a href="waveprefixproduct-04a.html#typeparam-T" class="code_type">T</a>, <a href="waveprefixproduct-04a.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="waveprefixproduct-04a.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">matrix</a>&lt;<a href="waveprefixproduct-04a.html#typeparam-T" class="code_type">T</a>, <a href="waveprefixproduct-04a.html#decl-N" class="code_var">N</a>, <a href="waveprefixproduct-04a.html#decl-M" class="code_var">M</a>&gt; <a href="waveprefixproduct-04a.html#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="waveprefixproduct-04a.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinArithmeticType</a>;
 
 </pre>
 
@@ -37,7 +37,7 @@ layout: stdlib-reference
 
 ####  <a id="decl-expr"></a>expr  : [T](waveprefixproduct-04a#typeparam-T)
 ####  <a id="decl-expr"></a>expr  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
-####  <a id="decl-expr"></a>expr  : [matrix](../types/matrix/index)\<[T](), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-expr"></a>expr  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 
 ## Availability and Requirements
 

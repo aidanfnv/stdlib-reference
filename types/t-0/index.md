@@ -4,21 +4,21 @@ layout: stdlib-reference
 
 # extension T : ITexelElement
 
-*Conforms to:* [ITexelElement](../interfaces/itexelelement-016/index)
+*Conforms to:* [ITexelElement](../../interfaces/itexelelement-016/index)
 
-*Conditionally conforms to:* [ITexelElement](../interfaces/itexelelement-016/index)
+*Conditionally conforms to:* [ITexelElement](../../interfaces/itexelelement-016/index)
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../interfaces/0_builtinarithmetictype-029j/index)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinArithmeticType](../../interfaces/0_builtinarithmetictype-029j/index)
 
 ## Fields
 
-####  <a id="decl-elementCount"></a>[elementCount]() : int = 1
+####  <a id="decl-elementCount"></a>[elementCount](elementcount-7) : int = 1
 
 ## Methods
 
-* [init](../init)
+* [init](init)
 
 ## Conditional Conformances
 

@@ -14,52 +14,52 @@ Minimum.
 
 <pre>
 /// Requires Capability Set 1:
-<a href="min#typeparam-T" class="code_type">T</a> <a href="min">min</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="min#typeparam-T" class="code_type">T</a> <a href="min#decl-x" class="code_param">x</a>,
-    <a href="min#typeparam-T" class="code_type">T</a> <a href="min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="min#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
 
 /// Requires Capability Set 1:
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>&gt; <a href="min">min</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>&gt; <a href="min#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>&gt; <a href="min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="min#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
 
 /// Requires Capability Set 1:
-<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>, <a href="min#decl-M" class="code_var">M</a>&gt; <a href="min">min</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="min#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>, <a href="min#decl-M" class="code_var">M</a>&gt; <a href="min#decl-x" class="code_param">x</a>,
-    <a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>, <a href="min#decl-M" class="code_var">M</a>&gt; <a href="min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="min#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>, <a href="min.html#decl-M" class="code_var">M</a>&gt; <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="min.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">matrix</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>, <a href="min.html#decl-M" class="code_var">M</a>&gt; <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">matrix</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>, <a href="min.html#decl-M" class="code_var">M</a>&gt; <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
 
 /// Requires Capability Set 1:
-<a href="min#typeparam-T" class="code_type">T</a> <a href="min">min</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="min#typeparam-T" class="code_type">T</a> <a href="min#decl-x" class="code_param">x</a>,
-    <a href="min#typeparam-T" class="code_type">T</a> <a href="min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="min#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="min.html#typeparam-T" class="code_type">T</a> <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 1:
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>&gt; <a href="min">min</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>&gt; <a href="min#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>&gt; <a href="min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="min#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 1:
-<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>, <a href="min#decl-M" class="code_var">M</a>&gt; <a href="min">min</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="min#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>, <a href="min#decl-M" class="code_var">M</a>&gt; <a href="min#decl-x" class="code_param">x</a>,
-    <a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>, <a href="min#decl-M" class="code_var">M</a>&gt; <a href="min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="min#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>, <a href="min.html#decl-M" class="code_var">M</a>&gt; <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="min.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">matrix</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>, <a href="min.html#decl-M" class="code_var">M</a>&gt; <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">matrix</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>, <a href="min.html#decl-M" class="code_var">M</a>&gt; <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 2:
-<a href="../types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>&gt; <a href="min">min</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>&gt; <a href="min#decl-x" class="code_param">x</a>,
-    <a href="../types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>&gt; <a href="min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="min#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">CoopVec</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 2:
-<a href="../types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>&gt; <a href="min">min</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>&gt; <a href="min#decl-x" class="code_param">x</a>,
-    <a href="../types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="min#typeparam-T" class="code_type">T</a>, <a href="min#decl-N" class="code_var">N</a>&gt; <a href="min#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="min#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="index.html" class="code_type">CoopVec</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html">min</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="min.html#typeparam-T" class="code_type">T</a>, <a href="min.html#decl-N" class="code_var">N</a>&gt; <a href="min.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="min.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
@@ -84,10 +84,10 @@ The first value to compare.
 ####  <a id="decl-y"></a>y  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 The second value to compare.
 
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 The first value to compare.
 
-####  <a id="decl-y"></a>y  : [matrix](../types/matrix/index)\<[T](), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-y"></a>y  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 The second value to compare.
 
 ####  <a id="decl-x"></a>x  : [CoopVec](../types/coopvec-04/index)\<[T](../types/coopvec-04/index#typeparam-T), [N](../types/coopvec-04/index#decl-N)\>

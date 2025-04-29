@@ -6,14 +6,14 @@ layout: stdlib-reference
 
 ## Methods
 
-* [load\_forward](../load_forward)
-* [load\_backward](../load_backward)
-* [store\_forward](../store_forward)
-* [store\_backward](../store_backward)
-* [loadOnce\_forward](../loadonce_forward-4)
-* [loadOnce\_backward](../loadonce_backward-4)
-* [storeOnce\_forward](../storeonce_forward-5)
-* [storeOnce\_backward](../storeonce_backward-5)
+* [load\_forward](load_forward)
+* [load\_backward](load_backward)
+* [store\_forward](store_forward)
+* [store\_backward](store_backward)
+* [loadOnce\_forward](loadonce_forward-4)
+* [loadOnce\_backward](loadonce_backward-4)
+* [storeOnce\_forward](storeonce_forward-5)
+* [storeOnce\_backward](storeonce_backward-5)
 
 
 ```{toctree}

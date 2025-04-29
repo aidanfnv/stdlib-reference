@@ -11,16 +11,16 @@ Describes a ray for traversal through an acceleration structure.
 
 ## Fields
 
-####  <a id="decl-Direction"></a>[Direction]() : [vector](../types/vector/index)\<float, 3\>
+####  <a id="decl-Direction"></a>[Direction](direction-0) : [vector](../vector/index)\<float, 3\>
 Normalized direction vector of the ray in world space.
 
-####  <a id="decl-Origin"></a>[Origin]() : [vector](../types/vector/index)\<float, 3\>
+####  <a id="decl-Origin"></a>[Origin](origin-0) : [vector](../vector/index)\<float, 3\>
 Starting point of the ray in world space.
 
-####  <a id="decl-TMax"></a>[TMax]() : float
+####  <a id="decl-TMax"></a>[TMax](tmax-01) : float
 Maximum distance along the ray to consider intersections.
 
-####  <a id="decl-TMin"></a>[TMin]() : float
+####  <a id="decl-TMin"></a>[TMin](tmin-01) : float
 Minimum distance along the ray to consider intersections.
 
 

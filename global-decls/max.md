@@ -14,52 +14,52 @@ Maximum.
 
 <pre>
 /// Requires Capability Set 1:
-<a href="max#typeparam-T" class="code_type">T</a> <a href="max">max</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="max#typeparam-T" class="code_type">T</a> <a href="max#decl-x" class="code_param">x</a>,
-    <a href="max#typeparam-T" class="code_type">T</a> <a href="max#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="max#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html#decl-x" class="code_param">x</a>,
+    <a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
 
 /// Requires Capability Set 1:
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>&gt; <a href="max">max</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>&gt; <a href="max#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>&gt; <a href="max#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="max#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
 
 /// Requires Capability Set 1:
-<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>, <a href="max#decl-M" class="code_var">M</a>&gt; <a href="max">max</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="max#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>, <a href="max#decl-M" class="code_var">M</a>&gt; <a href="max#decl-x" class="code_param">x</a>,
-    <a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>, <a href="max#decl-M" class="code_var">M</a>&gt; <a href="max#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="max#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="max.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
 
 /// Requires Capability Set 1:
-<a href="max#typeparam-T" class="code_type">T</a> <a href="max">max</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="max#typeparam-T" class="code_type">T</a> <a href="max#decl-x" class="code_param">x</a>,
-    <a href="max#typeparam-T" class="code_type">T</a> <a href="max#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="max#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html#decl-x" class="code_param">x</a>,
+    <a href="max.html#typeparam-T" class="code_type">T</a> <a href="max.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 1:
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>&gt; <a href="max">max</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>&gt; <a href="max#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>&gt; <a href="max#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="max#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 1:
-<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>, <a href="max#decl-M" class="code_var">M</a>&gt; <a href="max">max</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="max#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>, <a href="max#decl-M" class="code_var">M</a>&gt; <a href="max#decl-x" class="code_param">x</a>,
-    <a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>, <a href="max#decl-M" class="code_var">M</a>&gt; <a href="max#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="max#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="max.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">matrix</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>, <a href="max.html#decl-M" class="code_var">M</a>&gt; <a href="max.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 2:
-<a href="../types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>&gt; <a href="max">max</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>&gt; <a href="max#decl-x" class="code_param">x</a>,
-    <a href="../types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>&gt; <a href="max#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="max#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">CoopVec</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 /// Requires Capability Set 2:
-<a href="../types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>&gt; <a href="max">max</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>&gt; <a href="max#decl-x" class="code_param">x</a>,
-    <a href="../types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="max#typeparam-T" class="code_type">T</a>, <a href="max#decl-N" class="code_var">N</a>&gt; <a href="max#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="max#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="index.html" class="code_type">CoopVec</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html">max</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">CoopVec</a>&lt;<a href="max.html#typeparam-T" class="code_type">T</a>, <a href="max.html#decl-N" class="code_var">N</a>&gt; <a href="max.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="max.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
@@ -84,10 +84,10 @@ The first value.
 ####  <a id="decl-y"></a>y  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 The second value.
 
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 The first value.
 
-####  <a id="decl-y"></a>y  : [matrix](../types/matrix/index)\<[T](), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-y"></a>y  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 The second value.
 
 ####  <a id="decl-x"></a>x  : [CoopVec](../types/coopvec-04/index)\<[T](../types/coopvec-04/index#typeparam-T), [N](../types/coopvec-04/index#decl-N)\>
@@ -98,7 +98,7 @@ The second value.
 
 
 ## Return value
-The maximum of <span class='code'><a href="max#decl-x" class="code_param">x</a></span> and <span class='code'><a href="max#decl-y" class="code_param">y</a></span>.
+The maximum of <span class='code'><a href="max.html#decl-x" class="code_param">x</a></span> and <span class='code'><a href="max.html#decl-y" class="code_param">y</a></span>.
 
 
 ## Availability and Requirements

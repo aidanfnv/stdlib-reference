@@ -13,9 +13,9 @@ Copy-sign. Returns a value whose magnitude is from one operand and whose sign is
 ## Signature 
 
 <pre>
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, <a href="copysign_half#decl-N" class="code_var">N</a>&gt; <a href="copysign_half">copysign_half</a>&lt;<a href="copysign_half#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, <a href="copysign_half#decl-N" class="code_var">N</a>&gt; <a href="copysign_half#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, <a href="copysign_half#decl-N" class="code_var">N</a>&gt; <a href="copysign_half#decl-y" class="code_param">y</a>);
+<a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, <a href="copysign_half.html#decl-N" class="code_var">N</a>&gt; <a href="copysign_half.html">copysign_half</a>&lt;<a href="copysign_half.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, <a href="copysign_half.html#decl-N" class="code_var">N</a>&gt; <a href="copysign_half.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, <a href="copysign_half.html#decl-N" class="code_var">N</a>&gt; <a href="copysign_half.html#decl-y" class="code_param">y</a>);
 
 </pre>
 
@@ -33,7 +33,7 @@ The value to use as the sign.
 
 
 ## Return value
-A value whose magnitude is from <span class='code'><a href="copysign_half#decl-x" class="code_param">x</a></span> and whose sign is from <span class='code'><a href="copysign_half#decl-y" class="code_param">y</a></span>.
+A value whose magnitude is from <span class='code'><a href="copysign_half.html#decl-x" class="code_param">x</a></span> and whose sign is from <span class='code'><a href="copysign_half.html#decl-y" class="code_param">y</a></span>.
 
 
 ## Availability and Requirements

@@ -11,8 +11,8 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="rasterizerorderedbuffer-0ah" class="code_type">RasterizerOrderedBuffer</a>&lt;T, format:<span class="code_keyword">int</span>&gt; = 
-    <a href="../types/0texture-01/index" class="code_type">_Texture</a>&lt;T, <a href="../types/0_shapebuffer-027/index" class="code_type">__ShapeBuffer</a>, 0, 0, 0, 2, 0, 0, format&gt;;
+<span class='code_keyword'>typealias</span> <a href="rasterizerorderedbuffer-0ah.html" class="code_type">RasterizerOrderedBuffer</a>&lt;T, format:<span class="code_keyword">int</span>&gt; = 
+    <a href="index.html" class="code_type">_Texture</a>&lt;T, <a href="index.html" class="code_type">__ShapeBuffer</a>, 0, 0, 0, 2, 0, 0, format&gt;;
 </pre>
 
 ## Generic Parameters

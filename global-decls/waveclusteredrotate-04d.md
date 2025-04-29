@@ -13,17 +13,17 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="waveclusteredrotate-04d#typeparam-T" class="code_type">T</a> <a href="waveclusteredrotate-04d">WaveClusteredRotate</a>&lt;<a href="waveclusteredrotate-04d#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="waveclusteredrotate-04d#typeparam-T" class="code_type">T</a> <a href="waveclusteredrotate-04d#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">uint</span> <a href="waveclusteredrotate-04d#decl-delta" class="code_param">delta</a>,
-    <span class="code_keyword">uint</span> <a href="waveclusteredrotate-04d#decl-clusterSize" class="code_param">clusterSize</a>)
-    <span class='code_keyword'>where</span> <a href="waveclusteredrotate-04d#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="waveclusteredrotate-04d.html#typeparam-T" class="code_type">T</a> <a href="waveclusteredrotate-04d.html">WaveClusteredRotate</a>&lt;<a href="waveclusteredrotate-04d.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="waveclusteredrotate-04d.html#typeparam-T" class="code_type">T</a> <a href="waveclusteredrotate-04d.html#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">uint</span> <a href="waveclusteredrotate-04d.html#decl-delta" class="code_param">delta</a>,
+    <span class="code_keyword">uint</span> <a href="waveclusteredrotate-04d.html#decl-clusterSize" class="code_param">clusterSize</a>)
+    <span class='code_keyword'>where</span> <a href="waveclusteredrotate-04d.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="waveclusteredrotate-04d#typeparam-T" class="code_type">T</a>, <a href="waveclusteredrotate-04d#decl-N" class="code_var">N</a>&gt; <a href="waveclusteredrotate-04d">WaveClusteredRotate</a>&lt;<a href="waveclusteredrotate-04d#typeparam-T" class="code_type">T</a>, <a href="waveclusteredrotate-04d#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="waveclusteredrotate-04d#typeparam-T" class="code_type">T</a>, <a href="waveclusteredrotate-04d#decl-N" class="code_var">N</a>&gt; <a href="waveclusteredrotate-04d#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">uint</span> <a href="waveclusteredrotate-04d#decl-delta" class="code_param">delta</a>,
-    <span class="code_keyword">uint</span> <a href="waveclusteredrotate-04d#decl-clusterSize" class="code_param">clusterSize</a>)
-    <span class='code_keyword'>where</span> <a href="waveclusteredrotate-04d#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="waveclusteredrotate-04d.html#typeparam-T" class="code_type">T</a>, <a href="waveclusteredrotate-04d.html#decl-N" class="code_var">N</a>&gt; <a href="waveclusteredrotate-04d.html">WaveClusteredRotate</a>&lt;<a href="waveclusteredrotate-04d.html#typeparam-T" class="code_type">T</a>, <a href="waveclusteredrotate-04d.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="waveclusteredrotate-04d.html#typeparam-T" class="code_type">T</a>, <a href="waveclusteredrotate-04d.html#decl-N" class="code_var">N</a>&gt; <a href="waveclusteredrotate-04d.html#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">uint</span> <a href="waveclusteredrotate-04d.html#decl-delta" class="code_param">delta</a>,
+    <span class="code_keyword">uint</span> <a href="waveclusteredrotate-04d.html#decl-clusterSize" class="code_param">clusterSize</a>)
+    <span class='code_keyword'>where</span> <a href="waveclusteredrotate-04d.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>
 

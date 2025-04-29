@@ -14,10 +14,10 @@ This function computes the absolute differences of the byte alignments of the re
 ## Signature 
 
 <pre>
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="msad4">msad4</a>(
-    <span class="code_keyword">uint</span> <a href="msad4#decl-reference" class="code_param">reference</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="msad4#decl-source" class="code_param">source</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="msad4#decl-accum" class="code_param">accum</a>);
+<a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="msad4.html">msad4</a>(
+    <span class="code_keyword">uint</span> <a href="msad4.html#decl-reference" class="code_param">reference</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="msad4.html#decl-source" class="code_param">source</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="msad4.html#decl-accum" class="code_param">accum</a>);
 
 </pre>
 

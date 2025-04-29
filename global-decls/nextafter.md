@@ -13,15 +13,15 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="nextafter#typeparam-T" class="code_type">T</a> <a href="nextafter">nextafter</a>&lt;<a href="nextafter#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="nextafter#typeparam-T" class="code_type">T</a> <a href="nextafter#decl-x" class="code_param">x</a>,
-    <a href="nextafter#typeparam-T" class="code_type">T</a> <a href="nextafter#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="nextafter#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="nextafter.html#typeparam-T" class="code_type">T</a> <a href="nextafter.html">nextafter</a>&lt;<a href="nextafter.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="nextafter.html#typeparam-T" class="code_type">T</a> <a href="nextafter.html#decl-x" class="code_param">x</a>,
+    <a href="nextafter.html#typeparam-T" class="code_type">T</a> <a href="nextafter.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="nextafter.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="nextafter#typeparam-T" class="code_type">T</a>, <a href="nextafter#decl-N" class="code_var">N</a>&gt; <a href="nextafter">nextafter</a>&lt;<a href="nextafter#typeparam-T" class="code_type">T</a>, <a href="nextafter#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="nextafter#typeparam-T" class="code_type">T</a>, <a href="nextafter#decl-N" class="code_var">N</a>&gt; <a href="nextafter#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="nextafter#typeparam-T" class="code_type">T</a>, <a href="nextafter#decl-N" class="code_var">N</a>&gt; <a href="nextafter#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="nextafter#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="nextafter.html#typeparam-T" class="code_type">T</a>, <a href="nextafter.html#decl-N" class="code_var">N</a>&gt; <a href="nextafter.html">nextafter</a>&lt;<a href="nextafter.html#typeparam-T" class="code_type">T</a>, <a href="nextafter.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="nextafter.html#typeparam-T" class="code_type">T</a>, <a href="nextafter.html#decl-N" class="code_var">N</a>&gt; <a href="nextafter.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="nextafter.html#typeparam-T" class="code_type">T</a>, <a href="nextafter.html#decl-N" class="code_var">N</a>&gt; <a href="nextafter.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="nextafter.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 

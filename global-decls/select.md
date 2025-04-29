@@ -13,25 +13,25 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="select#typeparam-T" class="code_type">T</a> <a href="select">select</a>&lt;<a href="select#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">bool</span> <a href="select#decl-condition" class="code_param">condition</a>,
-    <a href="select#typeparam-T" class="code_type">T</a> <a href="select#decl-ifTrue" class="code_param">ifTrue</a>,
-    <a href="select#typeparam-T" class="code_type">T</a> <a href="select#decl-ifFalse" class="code_param">ifFalse</a>);
+<a href="select.html#typeparam-T" class="code_type">T</a> <a href="select.html">select</a>&lt;<a href="select.html#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">bool</span> <a href="select.html#decl-condition" class="code_param">condition</a>,
+    <a href="select.html#typeparam-T" class="code_type">T</a> <a href="select.html#decl-ifTrue" class="code_param">ifTrue</a>,
+    <a href="select.html#typeparam-T" class="code_type">T</a> <a href="select.html#decl-ifFalse" class="code_param">ifFalse</a>);
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="select#typeparam-T" class="code_type">T</a>, <a href="select#decl-N" class="code_var">N</a>&gt; <a href="select">select</a>&lt;<a href="select#typeparam-T" class="code_type">T</a>, <a href="select#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">bool</span>, <a href="select#decl-N" class="code_var">N</a>&gt; <a href="select#decl-condition" class="code_param">condition</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="select#typeparam-T" class="code_type">T</a>, <a href="select#decl-N" class="code_var">N</a>&gt; <a href="select#decl-ifTrue" class="code_param">ifTrue</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="select#typeparam-T" class="code_type">T</a>, <a href="select#decl-N" class="code_var">N</a>&gt; <a href="select#decl-ifFalse" class="code_param">ifFalse</a>);
+<a href="index.html" class="code_type">vector</a>&lt;<a href="select.html#typeparam-T" class="code_type">T</a>, <a href="select.html#decl-N" class="code_var">N</a>&gt; <a href="select.html">select</a>&lt;<a href="select.html#typeparam-T" class="code_type">T</a>, <a href="select.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">bool</span>, <a href="select.html#decl-N" class="code_var">N</a>&gt; <a href="select.html#decl-condition" class="code_param">condition</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="select.html#typeparam-T" class="code_type">T</a>, <a href="select.html#decl-N" class="code_var">N</a>&gt; <a href="select.html#decl-ifTrue" class="code_param">ifTrue</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="select.html#typeparam-T" class="code_type">T</a>, <a href="select.html#decl-N" class="code_var">N</a>&gt; <a href="select.html#decl-ifFalse" class="code_param">ifFalse</a>);
 
-<a href="../types/optional-0/index" class="code_type">Optional</a>&lt;<a href="select#typeparam-T" class="code_type">T</a>&gt; <a href="select">select</a>&lt;<a href="select#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">bool</span> <a href="select#decl-condition" class="code_param">condition</a>,
-    __none_t <a href="select#decl-ifTrue" class="code_param">ifTrue</a>,
-    <a href="select#typeparam-T" class="code_type">T</a> <a href="select#decl-ifFalse" class="code_param">ifFalse</a>);
+<a href="index.html" class="code_type">Optional</a>&lt;<a href="select.html#typeparam-T" class="code_type">T</a>&gt; <a href="select.html">select</a>&lt;<a href="select.html#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">bool</span> <a href="select.html#decl-condition" class="code_param">condition</a>,
+    __none_t <a href="select.html#decl-ifTrue" class="code_param">ifTrue</a>,
+    <a href="select.html#typeparam-T" class="code_type">T</a> <a href="select.html#decl-ifFalse" class="code_param">ifFalse</a>);
 
-<a href="../types/optional-0/index" class="code_type">Optional</a>&lt;<a href="select#typeparam-T" class="code_type">T</a>&gt; <a href="select">select</a>&lt;<a href="select#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">bool</span> <a href="select#decl-condition" class="code_param">condition</a>,
-    <a href="select#typeparam-T" class="code_type">T</a> <a href="select#decl-ifTrue" class="code_param">ifTrue</a>,
-    __none_t <a href="select#decl-ifFalse" class="code_param">ifFalse</a>);
+<a href="index.html" class="code_type">Optional</a>&lt;<a href="select.html#typeparam-T" class="code_type">T</a>&gt; <a href="select.html">select</a>&lt;<a href="select.html#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">bool</span> <a href="select.html#decl-condition" class="code_param">condition</a>,
+    <a href="select.html#typeparam-T" class="code_type">T</a> <a href="select.html#decl-ifTrue" class="code_param">ifTrue</a>,
+    __none_t <a href="select.html#decl-ifFalse" class="code_param">ifFalse</a>);
 
 </pre>
 

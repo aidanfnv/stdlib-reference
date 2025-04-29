@@ -5,29 +5,29 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [asdouble](../asdouble)
+#### [asdouble](asdouble)
 
-#### [asfloat](../asfloat)
+#### [asfloat](asfloat)
 
-#### [asfloat16](../asfloat16)
+#### [asfloat16](asfloat16)
 
-#### [asint](../asint)
+#### [asint](asint)
 
-#### [asint16](../asint16)
+#### [asint16](asint16)
 
-#### [asuint](../asuint)
+#### [asuint](asuint)
 
-#### [asuint16](../asuint16)
+#### [asuint16](asuint16)
 
-#### [bit\_cast\<T, U\>](../bit_cast)
+#### [bit\_cast\<T, U\>](bit_cast)
 
-#### [f16tof32](../f16tof32)
+#### [f16tof32](f16tof32)
 
-#### [f32tof16](../f32tof16)
+#### [f32tof16](f32tof16)
 
-#### [f32tof16\_](../f32tof16_)
+#### [f32tof16\_](f32tof16_)
 
-#### [reinterpret\<T, U\>](../reinterpret)
+#### [reinterpret\<T, U\>](reinterpret)
 
 
 ```{toctree}

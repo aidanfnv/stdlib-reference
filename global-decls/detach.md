@@ -14,8 +14,8 @@ Detach and set derivatives to zero.
 ## Signature 
 
 <pre>
-<a href="detach#typeparam-T" class="code_type">T</a> <a href="detach">detach</a>&lt;<a href="detach#typeparam-T" class="code_type">T</a>&gt;(<a href="detach#typeparam-T" class="code_type">T</a> <a href="detach#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="detach#typeparam-T" class="code_type">T</a> : <a href="../interfaces/idifferentiable-01/index" class="code_type">IDifferentiable</a>;
+<a href="detach.html#typeparam-T" class="code_type">T</a> <a href="detach.html">detach</a>&lt;<a href="detach.html#typeparam-T" class="code_type">T</a>&gt;(<a href="detach.html#typeparam-T" class="code_type">T</a> <a href="detach.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="detach.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">IDifferentiable</a>;
 
 </pre>
 

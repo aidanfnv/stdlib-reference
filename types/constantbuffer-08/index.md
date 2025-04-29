@@ -9,22 +9,22 @@ layout: stdlib-reference
 ## Generic Parameters
 
 ####  <a id="typeparam-T"></a>T
-####  <a id="typeparam-L"></a>L: [IBufferDataLayout](../interfaces/ibufferdatalayout-017b/index) = [DefaultDataLayout](../types/defaultdatalayout-07b/index)
+####  <a id="typeparam-L"></a>L: [IBufferDataLayout](../../interfaces/ibufferdatalayout-017b/index) = [DefaultDataLayout](../defaultdatalayout-07b/index)
 
 ## Fields
 
-####  <a id="decl-kind"></a>[kind]() : [DescriptorKind](../types/descriptorkind-0a/index) = [DescriptorKind](../types/descriptorkind-0a/index)\.[Buffer](../types/descriptorkind-0a/index#decl-Buffer)
+####  <a id="decl-kind"></a>[kind](kind) : [DescriptorKind](../descriptorkind-0a/index) = [DescriptorKind](../descriptorkind-0a/index)\.[Buffer](../descriptorkind-0a/index#decl-Buffer)
 
 ## Methods
 
-* [init](../init)
+* [init](init)
 
 ## Conditional Conformances
 
 ### Conformance to \_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>
 `ConstantBuffer<T, L>` additionally conforms to `\_\_IDynamicResourceCastable\<\_\_DynamicResourceKind\.General\>` when the following conditions are met:
 
-  * [L](index#typeparam-L) : [IBufferDataLayout](../interfaces/ibufferdatalayout-017b/index)
+  * [L](index#typeparam-L) : [IBufferDataLayout](../../interfaces/ibufferdatalayout-017b/index)
 
 ```{toctree}
 :titlesonly:

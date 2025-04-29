@@ -8,15 +8,15 @@ layout: stdlib-reference
 
 
 
-## Properties
+## m_currentPage->path
 
-####  <a id="decl-length"></a>[length]()
+####  <a id="decl-length"></a>[length](length)
 
 ## Methods
 
-* [getLength](../getlength-3)
-* [getBuffer](../getbuffer-3)
-* [init](../init)
+* [getLength](getlength-3)
+* [getBuffer](getbuffer-3)
+* [init](init)
 
 
 ```{toctree}

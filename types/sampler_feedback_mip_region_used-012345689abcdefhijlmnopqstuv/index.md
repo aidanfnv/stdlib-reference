@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct SAMPLER\_FEEDBACK\_MIP\_REGION\_USED
 
-*Conforms to:* \_\_BuiltinSamplerFeedbackType, [ITexelElement](../interfaces/itexelelement-016/index)
+*Conforms to:* \_\_BuiltinSamplerFeedbackType, [ITexelElement](../../interfaces/itexelelement-016/index)
 
 ## Description
 
@@ -12,11 +12,11 @@ layout: stdlib-reference
 
 ## Fields
 
-####  <a id="decl-elementCount"></a>[elementCount]() : int = 1
+####  <a id="decl-elementCount"></a>[elementCount](elementcount-7) : int = 1
 
 ## Methods
 
-* [init](../init)
+* [init](init)
 
 
 ```{toctree}

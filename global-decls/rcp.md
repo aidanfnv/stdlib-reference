@@ -6,21 +6,21 @@ layout: stdlib-reference
 
 ## Description
 
-Compute approximate reciprocal of <span class='code'><a href="rcp#decl-x" class="code_param">x</a></span>.
+Compute approximate reciprocal of <span class='code'><a href="rcp.html#decl-x" class="code_param">x</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-<a href="rcp#typeparam-T" class="code_type">T</a> <a href="rcp">rcp</a>&lt;<a href="rcp#typeparam-T" class="code_type">T</a>&gt;(<a href="rcp#typeparam-T" class="code_type">T</a> <a href="rcp#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="rcp#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="rcp.html#typeparam-T" class="code_type">T</a> <a href="rcp.html">rcp</a>&lt;<a href="rcp.html#typeparam-T" class="code_type">T</a>&gt;(<a href="rcp.html#typeparam-T" class="code_type">T</a> <a href="rcp.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="rcp.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="rcp#typeparam-T" class="code_type">T</a>, <a href="rcp#decl-N" class="code_var">N</a>&gt; <a href="rcp">rcp</a>&lt;<a href="rcp#typeparam-T" class="code_type">T</a>, <a href="rcp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="rcp#typeparam-T" class="code_type">T</a>, <a href="rcp#decl-N" class="code_var">N</a>&gt; <a href="rcp#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="rcp#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="rcp.html#typeparam-T" class="code_type">T</a>, <a href="rcp.html#decl-N" class="code_var">N</a>&gt; <a href="rcp.html">rcp</a>&lt;<a href="rcp.html#typeparam-T" class="code_type">T</a>, <a href="rcp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="rcp.html#typeparam-T" class="code_type">T</a>, <a href="rcp.html#decl-N" class="code_var">N</a>&gt; <a href="rcp.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="rcp.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="rcp#typeparam-T" class="code_type">T</a>, <a href="rcp#decl-N" class="code_var">N</a>, <a href="rcp#decl-M" class="code_var">M</a>&gt; <a href="rcp">rcp</a>&lt;<a href="rcp#typeparam-T" class="code_type">T</a>, <a href="rcp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="rcp#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="rcp#typeparam-T" class="code_type">T</a>, <a href="rcp#decl-N" class="code_var">N</a>, <a href="rcp#decl-M" class="code_var">M</a>&gt; <a href="rcp#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="rcp#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="rcp.html#typeparam-T" class="code_type">T</a>, <a href="rcp.html#decl-N" class="code_var">N</a>, <a href="rcp.html#decl-M" class="code_var">M</a>&gt; <a href="rcp.html">rcp</a>&lt;<a href="rcp.html#typeparam-T" class="code_type">T</a>, <a href="rcp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="rcp.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">matrix</a>&lt;<a href="rcp.html#typeparam-T" class="code_type">T</a>, <a href="rcp.html#decl-N" class="code_var">N</a>, <a href="rcp.html#decl-M" class="code_var">M</a>&gt; <a href="rcp.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="rcp.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
@@ -38,12 +38,12 @@ The value to compute the reciprocal of.
 ####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 The value to compute the reciprocal of.
 
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 The value to compute the reciprocal of.
 
 
 ## Return value
-The approximate reciprocal of <span class='code'><a href="rcp#decl-x" class="code_param">x</a></span>.
+The approximate reciprocal of <span class='code'><a href="rcp.html#decl-x" class="code_param">x</a></span>.
 
 
 ## Availability and Requirements

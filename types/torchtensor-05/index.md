@@ -15,16 +15,16 @@ Represents the handle of a Torch tensor object.
 
 ## Methods
 
-* [getView](../getview-3)
-* [dims](../dims)
-* [size](../size)
-* [stride](../stride)
-* [data\_ptr](../data_ptr)
-* [alloc](../alloc)
-* [emptyLike](../emptylike-5)
-* [fillZero](../fillzero-4)
-* [fillValue](../fillvalue-4)
-* [zerosLike](../zeroslike-5)
+* [getView](getview-3)
+* [dims](dims)
+* [size](size)
+* [stride](stride)
+* [data\_ptr](data_ptr)
+* [alloc](alloc)
+* [emptyLike](emptylike-5)
+* [fillZero](fillzero-4)
+* [fillValue](fillvalue-4)
+* [zerosLike](zeroslike-5)
 
 
 ```{toctree}

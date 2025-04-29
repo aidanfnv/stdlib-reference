@@ -14,16 +14,16 @@ layout: stdlib-reference
 
 <pre>
 /// Requires Capability Set 1:
-<span class="code_keyword">bool</span> <a href="waveactiveallequal-04ad">WaveActiveAllEqual</a>&lt;<a href="waveactiveallequal-04ad#typeparam-T" class="code_type">T</a>&gt;(<a href="waveactiveallequal-04ad#typeparam-T" class="code_type">T</a> <a href="waveactiveallequal-04ad#decl-value" class="code_param">value</a>)
-    <span class='code_keyword'>where</span> <a href="waveactiveallequal-04ad#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<span class="code_keyword">bool</span> <a href="waveactiveallequal-04ad.html">WaveActiveAllEqual</a>&lt;<a href="waveactiveallequal-04ad.html#typeparam-T" class="code_type">T</a>&gt;(<a href="waveactiveallequal-04ad.html#typeparam-T" class="code_type">T</a> <a href="waveactiveallequal-04ad.html#decl-value" class="code_param">value</a>)
+    <span class='code_keyword'>where</span> <a href="waveactiveallequal-04ad.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 /// Requires Capability Set 1:
-<span class="code_keyword">bool</span> <a href="waveactiveallequal-04ad">WaveActiveAllEqual</a>&lt;<a href="waveactiveallequal-04ad#typeparam-T" class="code_type">T</a>, <a href="waveactiveallequal-04ad#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="waveactiveallequal-04ad#typeparam-T" class="code_type">T</a>, <a href="waveactiveallequal-04ad#decl-N" class="code_var">N</a>&gt; <a href="waveactiveallequal-04ad#decl-value" class="code_param">value</a>)
-    <span class='code_keyword'>where</span> <a href="waveactiveallequal-04ad#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<span class="code_keyword">bool</span> <a href="waveactiveallequal-04ad.html">WaveActiveAllEqual</a>&lt;<a href="waveactiveallequal-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactiveallequal-04ad.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="waveactiveallequal-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactiveallequal-04ad.html#decl-N" class="code_var">N</a>&gt; <a href="waveactiveallequal-04ad.html#decl-value" class="code_param">value</a>)
+    <span class='code_keyword'>where</span> <a href="waveactiveallequal-04ad.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 /// Requires Capability Set 2:
-<span class="code_keyword">bool</span> <a href="waveactiveallequal-04ad">WaveActiveAllEqual</a>&lt;<a href="waveactiveallequal-04ad#typeparam-T" class="code_type">T</a>, <a href="waveactiveallequal-04ad#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="waveactiveallequal-04ad#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="waveactiveallequal-04ad#typeparam-T" class="code_type">T</a>, <a href="waveactiveallequal-04ad#decl-N" class="code_var">N</a>, <a href="waveactiveallequal-04ad#decl-M" class="code_var">M</a>&gt; <a href="waveactiveallequal-04ad#decl-value" class="code_param">value</a>)
-    <span class='code_keyword'>where</span> <a href="waveactiveallequal-04ad#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<span class="code_keyword">bool</span> <a href="waveactiveallequal-04ad.html">WaveActiveAllEqual</a>&lt;<a href="waveactiveallequal-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactiveallequal-04ad.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="waveactiveallequal-04ad.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">matrix</a>&lt;<a href="waveactiveallequal-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactiveallequal-04ad.html#decl-N" class="code_var">N</a>, <a href="waveactiveallequal-04ad.html#decl-M" class="code_var">M</a>&gt; <a href="waveactiveallequal-04ad.html#decl-value" class="code_param">value</a>)
+    <span class='code_keyword'>where</span> <a href="waveactiveallequal-04ad.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>
 
@@ -37,7 +37,7 @@ layout: stdlib-reference
 
 ####  <a id="decl-value"></a>value  : [T](waveactiveallequal-04ad#typeparam-T)
 ####  <a id="decl-value"></a>value  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
-####  <a id="decl-value"></a>value  : [matrix](../types/matrix/index)\<[T](), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-value"></a>value  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 
 ## Availability and Requirements
 

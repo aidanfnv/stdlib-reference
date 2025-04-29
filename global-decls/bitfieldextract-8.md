@@ -6,7 +6,7 @@ layout: stdlib-reference
 
 ## Description
 
-<span class='code'><a href="bitfieldextract-8">bitfieldExtract</a></span> extracts a subset of the bits of <span class='code'><a href="bitfieldextract-8#decl-value" class="code_param">value</a></span> and
+<span class='code'><a href="bitfieldextract-8.html">bitfieldExtract</a></span> extracts a subset of the bits of <span class='code'><a href="bitfieldextract-8.html#decl-value" class="code_param">value</a></span> and
 returns it in the least significant bits of the result. The range of bits extracted is [offset, offset + bits - 1].
 
 
@@ -15,10 +15,10 @@ returns it in the least significant bits of the result. The range of bits extrac
 ## Signature 
 
 <pre>
-<a href="bitfieldextract-8#typeparam-T" class="code_type">T</a> <a href="bitfieldextract-8">bitfieldExtract</a>&lt;<a href="bitfieldextract-8#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="bitfieldextract-8#typeparam-T" class="code_type">T</a> <a href="bitfieldextract-8#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">uint</span> <a href="bitfieldextract-8#decl-offset" class="code_param">offset</a>,
-    <span class="code_keyword">uint</span> <a href="bitfieldextract-8#decl-bits" class="code_param">bits</a>);
+<a href="bitfieldextract-8.html#typeparam-T" class="code_type">T</a> <a href="bitfieldextract-8.html">bitfieldExtract</a>&lt;<a href="bitfieldextract-8.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="bitfieldextract-8.html#typeparam-T" class="code_type">T</a> <a href="bitfieldextract-8.html#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">uint</span> <a href="bitfieldextract-8.html#decl-offset" class="code_param">offset</a>,
+    <span class="code_keyword">uint</span> <a href="bitfieldextract-8.html#decl-bits" class="code_param">bits</a>);
 
 </pre>
 

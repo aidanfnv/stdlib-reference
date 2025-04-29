@@ -13,11 +13,11 @@ Compute the cosine of pi times the input.
 ## Signature 
 
 <pre>
-<a href="cospi#typeparam-T" class="code_type">T</a> <a href="cospi">cospi</a>&lt;<a href="cospi#typeparam-T" class="code_type">T</a>&gt;(<a href="cospi#typeparam-T" class="code_type">T</a> <a href="cospi#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="cospi#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="cospi.html#typeparam-T" class="code_type">T</a> <a href="cospi.html">cospi</a>&lt;<a href="cospi.html#typeparam-T" class="code_type">T</a>&gt;(<a href="cospi.html#typeparam-T" class="code_type">T</a> <a href="cospi.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="cospi.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="cospi#typeparam-T" class="code_type">T</a>, <a href="cospi#decl-N" class="code_var">N</a>&gt; <a href="cospi">cospi</a>&lt;<a href="cospi#typeparam-T" class="code_type">T</a>, <a href="cospi#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="cospi#typeparam-T" class="code_type">T</a>, <a href="cospi#decl-N" class="code_var">N</a>&gt; <a href="cospi#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="cospi#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="cospi.html#typeparam-T" class="code_type">T</a>, <a href="cospi.html#decl-N" class="code_var">N</a>&gt; <a href="cospi.html">cospi</a>&lt;<a href="cospi.html#typeparam-T" class="code_type">T</a>, <a href="cospi.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="cospi.html#typeparam-T" class="code_type">T</a>, <a href="cospi.html#decl-N" class="code_var">N</a>&gt; <a href="cospi.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="cospi.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
@@ -39,7 +39,7 @@ The input value.
 The cosine of pi times the input.
 
 ## Remarks
-This function is equivalent to <span class='code'><a href="">cos</a>(PI*<a href="#decl-x" class="code_param">x</a>)</span>. On Metal, this function is implemented using the <span class='code'><a href="cospi">cospi</a></span> intrinsic.
+This function is equivalent to <span class='code'><a href="cos.html">cos</a>(PI*<a href="cos.html#decl-x" class="code_param">x</a>)</span>. On Metal, this function is implemented using the <span class='code'><a href="cospi.html">cospi</a></span> intrinsic.
 
 
 ## Availability and Requirements

@@ -6,21 +6,21 @@ layout: stdlib-reference
 
 ## Description
 
-Compute the square root of <span class='code'><a href="sqrt#decl-x" class="code_param">x</a></span>.
+Compute the square root of <span class='code'><a href="sqrt.html#decl-x" class="code_param">x</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-<a href="sqrt#typeparam-T" class="code_type">T</a> <a href="sqrt">sqrt</a>&lt;<a href="sqrt#typeparam-T" class="code_type">T</a>&gt;(<a href="sqrt#typeparam-T" class="code_type">T</a> <a href="sqrt#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="sqrt#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="sqrt.html#typeparam-T" class="code_type">T</a> <a href="sqrt.html">sqrt</a>&lt;<a href="sqrt.html#typeparam-T" class="code_type">T</a>&gt;(<a href="sqrt.html#typeparam-T" class="code_type">T</a> <a href="sqrt.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="sqrt.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="sqrt#typeparam-T" class="code_type">T</a>, <a href="sqrt#decl-N" class="code_var">N</a>&gt; <a href="sqrt">sqrt</a>&lt;<a href="sqrt#typeparam-T" class="code_type">T</a>, <a href="sqrt#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="sqrt#typeparam-T" class="code_type">T</a>, <a href="sqrt#decl-N" class="code_var">N</a>&gt; <a href="sqrt#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="sqrt#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="sqrt.html#typeparam-T" class="code_type">T</a>, <a href="sqrt.html#decl-N" class="code_var">N</a>&gt; <a href="sqrt.html">sqrt</a>&lt;<a href="sqrt.html#typeparam-T" class="code_type">T</a>, <a href="sqrt.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="sqrt.html#typeparam-T" class="code_type">T</a>, <a href="sqrt.html#decl-N" class="code_var">N</a>&gt; <a href="sqrt.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="sqrt.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="sqrt#typeparam-T" class="code_type">T</a>, <a href="sqrt#decl-N" class="code_var">N</a>, <a href="sqrt#decl-M" class="code_var">M</a>&gt; <a href="sqrt">sqrt</a>&lt;<a href="sqrt#typeparam-T" class="code_type">T</a>, <a href="sqrt#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="sqrt#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="sqrt#typeparam-T" class="code_type">T</a>, <a href="sqrt#decl-N" class="code_var">N</a>, <a href="sqrt#decl-M" class="code_var">M</a>&gt; <a href="sqrt#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="sqrt#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="sqrt.html#typeparam-T" class="code_type">T</a>, <a href="sqrt.html#decl-N" class="code_var">N</a>, <a href="sqrt.html#decl-M" class="code_var">M</a>&gt; <a href="sqrt.html">sqrt</a>&lt;<a href="sqrt.html#typeparam-T" class="code_type">T</a>, <a href="sqrt.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="sqrt.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">matrix</a>&lt;<a href="sqrt.html#typeparam-T" class="code_type">T</a>, <a href="sqrt.html#decl-N" class="code_var">N</a>, <a href="sqrt.html#decl-M" class="code_var">M</a>&gt; <a href="sqrt.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="sqrt.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
@@ -38,12 +38,12 @@ The value to compute the square root of.
 ####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 The value to compute the square root of.
 
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 The value to compute the square root of.
 
 
 ## Return value
-The square root of <span class='code'><a href="sqrt#decl-x" class="code_param">x</a></span>.
+The square root of <span class='code'><a href="sqrt.html#decl-x" class="code_param">x</a></span>.
 
 
 ## Availability and Requirements

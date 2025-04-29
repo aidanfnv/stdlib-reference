@@ -4,18 +4,18 @@ layout: stdlib-reference
 
 # struct NullDifferential
 
-*Conforms to:* [IDifferentiable](../interfaces/idifferentiable-01/index)
+*Conforms to:* [IDifferentiable](../../interfaces/idifferentiable-01/index)
 
 ## Fields
 
-####  <a id="decl-dummy"></a>[dummy]() : uint
+####  <a id="decl-dummy"></a>[dummy](dummy) : uint
 
 ## Methods
 
 * init
-* [dzero](../dzero)
-* [dadd](../dadd)
-* [dmul](../dmul)
+* [dzero](dzero)
+* [dadd](dadd)
+* [dmul](dmul)
 
 
 ```{toctree}

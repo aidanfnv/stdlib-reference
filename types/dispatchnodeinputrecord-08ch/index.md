@@ -15,7 +15,7 @@ read-only input to Broadcasting launch node.
 
 ## Methods
 
-* [Get](../get-0)
+* [Get](get-0)
 
 
 ```{toctree}

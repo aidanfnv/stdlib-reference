@@ -13,17 +13,17 @@ Floating-point median.
 ## Signature 
 
 <pre>
-<a href="fmedian3#typeparam-T" class="code_type">T</a> <a href="fmedian3">fmedian3</a>&lt;<a href="fmedian3#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="fmedian3#typeparam-T" class="code_type">T</a> <a href="fmedian3#decl-x" class="code_param">x</a>,
-    <a href="fmedian3#typeparam-T" class="code_type">T</a> <a href="fmedian3#decl-y" class="code_param">y</a>,
-    <a href="fmedian3#typeparam-T" class="code_type">T</a> <a href="fmedian3#decl-z" class="code_param">z</a>)
-    <span class='code_keyword'>where</span> <a href="fmedian3#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="fmedian3.html#typeparam-T" class="code_type">T</a> <a href="fmedian3.html">fmedian3</a>&lt;<a href="fmedian3.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="fmedian3.html#typeparam-T" class="code_type">T</a> <a href="fmedian3.html#decl-x" class="code_param">x</a>,
+    <a href="fmedian3.html#typeparam-T" class="code_type">T</a> <a href="fmedian3.html#decl-y" class="code_param">y</a>,
+    <a href="fmedian3.html#typeparam-T" class="code_type">T</a> <a href="fmedian3.html#decl-z" class="code_param">z</a>)
+    <span class='code_keyword'>where</span> <a href="fmedian3.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="fmedian3#typeparam-T" class="code_type">T</a>, <a href="fmedian3#decl-N" class="code_var">N</a>&gt; <a href="fmedian3">fmedian3</a>&lt;<a href="fmedian3#typeparam-T" class="code_type">T</a>, <a href="fmedian3#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="fmedian3#typeparam-T" class="code_type">T</a>, <a href="fmedian3#decl-N" class="code_var">N</a>&gt; <a href="fmedian3#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="fmedian3#typeparam-T" class="code_type">T</a>, <a href="fmedian3#decl-N" class="code_var">N</a>&gt; <a href="fmedian3#decl-y" class="code_param">y</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="fmedian3#typeparam-T" class="code_type">T</a>, <a href="fmedian3#decl-N" class="code_var">N</a>&gt; <a href="fmedian3#decl-z" class="code_param">z</a>)
-    <span class='code_keyword'>where</span> <a href="fmedian3#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="fmedian3.html#typeparam-T" class="code_type">T</a>, <a href="fmedian3.html#decl-N" class="code_var">N</a>&gt; <a href="fmedian3.html">fmedian3</a>&lt;<a href="fmedian3.html#typeparam-T" class="code_type">T</a>, <a href="fmedian3.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="fmedian3.html#typeparam-T" class="code_type">T</a>, <a href="fmedian3.html#decl-N" class="code_var">N</a>&gt; <a href="fmedian3.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="fmedian3.html#typeparam-T" class="code_type">T</a>, <a href="fmedian3.html#decl-N" class="code_var">N</a>&gt; <a href="fmedian3.html#decl-y" class="code_param">y</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="fmedian3.html#typeparam-T" class="code_type">T</a>, <a href="fmedian3.html#decl-N" class="code_var">N</a>&gt; <a href="fmedian3.html#decl-z" class="code_param">z</a>)
+    <span class='code_keyword'>where</span> <a href="fmedian3.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 

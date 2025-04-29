@@ -11,7 +11,7 @@ Used on an hull shader entrypoint to declare the number of control points the hu
 ## Signature
 
 <pre>
-[<a href="outputcontrolpoints">outputcontrolpoints</a>(<a href="outputcontrolpoints#decl-count" class="code_param">count</a> : <span class="code_keyword">int</span>)]
+[<a href="outputcontrolpoints.html">outputcontrolpoints</a>(<a href="outputcontrolpoints.html#decl-count" class="code_param">count</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters

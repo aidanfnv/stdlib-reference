@@ -7,7 +7,7 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="nodepayloadptr-04b" class="code_type">NodePayloadPtr</a>&lt;T&gt; = <a href="../types/ptr-0/index" class="code_type">Ptr</a>&lt;T&gt;;
+<span class='code_keyword'>typealias</span> <a href="nodepayloadptr-04b.html" class="code_type">NodePayloadPtr</a>&lt;T&gt; = <a href="index.html" class="code_type">Ptr</a>&lt;T&gt;;
 </pre>
 
 ## Generic Parameters

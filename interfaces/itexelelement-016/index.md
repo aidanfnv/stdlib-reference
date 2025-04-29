@@ -22,11 +22,11 @@ Constraints:
 
 ## Fields
 
-####  <a id="decl-elementCount"></a>[elementCount]() : int
+####  <a id="decl-elementCount"></a>[elementCount](elementcount-7) : int
 
 ## Methods
 
-* [init](../init)
+* [init](init)
 
 
 ```{toctree}

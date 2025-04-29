@@ -11,7 +11,7 @@ layout: stdlib-reference
 ## Signature
 
 <pre>
-<span class='code_keyword'>typealias</span> <a href="buffer-0" class="code_type">Buffer</a>&lt;T, format:<span class="code_keyword">int</span>&gt; = <a href="buffer-0" class="code_type">Buffer</a>&lt;T&gt;;
+<span class='code_keyword'>typealias</span> <a href="buffer-0.html" class="code_type">Buffer</a>&lt;T, format:<span class="code_keyword">int</span>&gt; = <a href="buffer-0.html" class="code_type">Buffer</a>&lt;T&gt;;
 </pre>
 
 ## Generic Parameters

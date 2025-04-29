@@ -13,10 +13,10 @@ Reports a hit from an intersection shader.
 ## Signature 
 
 <pre>
-<span class="code_keyword">bool</span> <a href="reporthit-06">ReportHit</a>&lt;<a href="reporthit-06#typeparam-A" class="code_type">A</a>&gt;(
-    <span class="code_keyword">float</span> <a href="reporthit-06#decl-tHit" class="code_param">tHit</a>,
-    <span class="code_keyword">uint</span> <a href="reporthit-06#decl-hitKind" class="code_param">hitKind</a>,
-    <a href="reporthit-06#typeparam-A" class="code_type">A</a> <a href="reporthit-06#decl-attributes" class="code_param">attributes</a>);
+<span class="code_keyword">bool</span> <a href="reporthit-06.html">ReportHit</a>&lt;<a href="reporthit-06.html#typeparam-A" class="code_type">A</a>&gt;(
+    <span class="code_keyword">float</span> <a href="reporthit-06.html#decl-tHit" class="code_param">tHit</a>,
+    <span class="code_keyword">uint</span> <a href="reporthit-06.html#decl-hitKind" class="code_param">hitKind</a>,
+    <a href="reporthit-06.html#typeparam-A" class="code_type">A</a> <a href="reporthit-06.html#decl-attributes" class="code_param">attributes</a>);
 
 </pre>
 

@@ -13,6 +13,6 @@ referenced directly without the enum type name.
 ## Signature
 
 <pre>
-[<a href="unscopedenum-08">UnscopedEnum</a>]
+[<a href="unscopedenum-08.html">UnscopedEnum</a>]
 </pre>
 

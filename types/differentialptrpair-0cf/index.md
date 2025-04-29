@@ -4,7 +4,7 @@ layout: stdlib-reference
 
 # struct DifferentialPtrPair\<T\>
 
-*Conforms to:* [IDifferentiablePtrType](../interfaces/idifferentiableptrtype-01fi/index)
+*Conforms to:* [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index)
 
 > #### Experimental Feature
 > The feature described in this page is marked as experimental, and may be subject to change in future releases.
@@ -12,9 +12,9 @@ layout: stdlib-reference
 
 ## Description
 
-<span class='code'><a href="index" class="code_type">DifferentialPtrPair</a>&lt;<a href="index#typeparam-T" class="code_type">T</a>&gt;</span> is a built-in type that carries both the original and differential of a
+<span class='code'><a href="index.html" class="code_type">DifferentialPtrPair</a>&lt;<a href="index.html#typeparam-T" class="code_type">T</a>&gt;</span> is a built-in type that carries both the original and differential of a
 pointer-like object.
-<span class='code'><a href="index#typeparam-T" class="code_type">T</a></span> must conform to <span class='code'><a href="../interfaces/idifferentiableptrtype-01fi/index" class="code_type">IDifferentiablePtrType</a></span>
+<span class='code'><a href="index.html#typeparam-T" class="code_type">T</a></span> must conform to <span class='code'><a href="index.html" class="code_type">IDifferentiablePtrType</a></span>
 
 It is defined as follows:
 ```csharp
@@ -28,17 +28,17 @@ struct DifferentialPtrPair<T : IDifferentiablePtrType> : IDifferentiablePtrType
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [IDifferentiablePtrType](../interfaces/idifferentiableptrtype-01fi/index)
+####  <a id="typeparam-T"></a>T: [IDifferentiablePtrType](../../interfaces/idifferentiableptrtype-01fi/index)
 
-## Properties
+## m_currentPage->path
 
-####  <a id="decl-d"></a>[d]()
-####  <a id="decl-p"></a>[p]()
-####  <a id="decl-v"></a>[v]()
+####  <a id="decl-d"></a>[d](d)
+####  <a id="decl-p"></a>[p](p)
+####  <a id="decl-v"></a>[v](v)
 
 ## Methods
 
-* [init](../init)
+* [init](init)
 
 ## Remarks
 

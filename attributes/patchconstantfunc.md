@@ -11,7 +11,7 @@ Used on a hull shader entrypoint to specify the associated function that compute
 ## Signature
 
 <pre>
-[<a href="patchconstantfunc">patchconstantfunc</a>(<a href="patchconstantfunc#decl-name" class="code_param">name</a>)]
+[<a href="patchconstantfunc.html">patchconstantfunc</a>(<a href="patchconstantfunc.html#decl-name" class="code_param">name</a>)]
 </pre>
 
 ## Parameters

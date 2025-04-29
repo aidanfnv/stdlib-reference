@@ -15,9 +15,9 @@ layout: stdlib-reference
 
 ## Methods
 
-* [\_metalSetVertex](../0metalsetvertex-069)
-* [\_setVertex](../0setvertex-04)
-* [subscript](../subscript)
+* [\_metalSetVertex](0metalsetvertex-069)
+* [\_setVertex](0setvertex-04)
+* [subscript](subscript)
 
 
 ```{toctree}

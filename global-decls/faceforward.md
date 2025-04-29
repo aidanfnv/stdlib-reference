@@ -13,11 +13,11 @@ Flip vector to face forward, if needed.
 ## Signature 
 
 <pre>
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="faceforward#typeparam-T" class="code_type">T</a>, <a href="faceforward#decl-N" class="code_var">N</a>&gt; <a href="faceforward">faceforward</a>&lt;<a href="faceforward#typeparam-T" class="code_type">T</a>, <a href="faceforward#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="faceforward#typeparam-T" class="code_type">T</a>, <a href="faceforward#decl-N" class="code_var">N</a>&gt; <a href="faceforward#decl-n" class="code_param">n</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="faceforward#typeparam-T" class="code_type">T</a>, <a href="faceforward#decl-N" class="code_var">N</a>&gt; <a href="faceforward#decl-i" class="code_param">i</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="faceforward#typeparam-T" class="code_type">T</a>, <a href="faceforward#decl-N" class="code_var">N</a>&gt; <a href="faceforward#decl-ng" class="code_param">ng</a>)
-    <span class='code_keyword'>where</span> <a href="faceforward#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="faceforward.html#typeparam-T" class="code_type">T</a>, <a href="faceforward.html#decl-N" class="code_var">N</a>&gt; <a href="faceforward.html">faceforward</a>&lt;<a href="faceforward.html#typeparam-T" class="code_type">T</a>, <a href="faceforward.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="faceforward.html#typeparam-T" class="code_type">T</a>, <a href="faceforward.html#decl-N" class="code_var">N</a>&gt; <a href="faceforward.html#decl-n" class="code_param">n</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="faceforward.html#typeparam-T" class="code_type">T</a>, <a href="faceforward.html#decl-N" class="code_var">N</a>&gt; <a href="faceforward.html#decl-i" class="code_param">i</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="faceforward.html#typeparam-T" class="code_type">T</a>, <a href="faceforward.html#decl-N" class="code_var">N</a>&gt; <a href="faceforward.html#decl-ng" class="code_param">ng</a>)
+    <span class='code_keyword'>where</span> <a href="faceforward.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
@@ -39,7 +39,7 @@ The geometric normal vector.
 
 
 ## Return value
-<span class='code'><a href="faceforward#decl-n" class="code_param">n</a></span> if the dot product of <span class='code'><a href="faceforward#decl-ng" class="code_param">ng</a></span> and <span class='code'><a href="faceforward#decl-i" class="code_param">i</a></span> is less than 0, otherwise <span class='code'>-<a href="faceforward#decl-n" class="code_param">n</a></span>.
+<span class='code'><a href="faceforward.html#decl-n" class="code_param">n</a></span> if the dot product of <span class='code'><a href="faceforward.html#decl-ng" class="code_param">ng</a></span> and <span class='code'><a href="faceforward.html#decl-i" class="code_param">i</a></span> is less than 0, otherwise <span class='code'>-<a href="faceforward.html#decl-n" class="code_param">n</a></span>.
 
 
 ## Availability and Requirements

@@ -12,9 +12,9 @@ Implemented by all builtin integer and floating point scalar or vector types.
 
 ## Methods
 
-* [equals](../equals)
-* [lessThan](../lessthan-4)
-* [lessThanOrEquals](../lessthanorequals-48a)
+* [equals](equals)
+* [lessThan](lessthan-4)
+* [lessThanOrEquals](lessthanorequals-48a)
 
 
 ```{toctree}

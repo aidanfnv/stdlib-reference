@@ -13,11 +13,11 @@ Normalize a vector.
 ## Signature 
 
 <pre>
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="normalize#typeparam-T" class="code_type">T</a>, <a href="normalize#decl-N" class="code_var">N</a>&gt; <a href="normalize">normalize</a>&lt;<a href="normalize#typeparam-T" class="code_type">T</a>, <a href="normalize#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="normalize#typeparam-T" class="code_type">T</a>, <a href="normalize#decl-N" class="code_var">N</a>&gt; <a href="normalize#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="normalize#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="normalize.html#typeparam-T" class="code_type">T</a>, <a href="normalize.html#decl-N" class="code_var">N</a>&gt; <a href="normalize.html">normalize</a>&lt;<a href="normalize.html#typeparam-T" class="code_type">T</a>, <a href="normalize.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="normalize.html#typeparam-T" class="code_type">T</a>, <a href="normalize.html#decl-N" class="code_var">N</a>&gt; <a href="normalize.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="normalize.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="normalize#typeparam-T" class="code_type">T</a> <a href="normalize">normalize</a>&lt;<a href="normalize#typeparam-T" class="code_type">T</a>&gt;(<a href="normalize#typeparam-T" class="code_type">T</a> <a href="normalize#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="normalize#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="normalize.html#typeparam-T" class="code_type">T</a> <a href="normalize.html">normalize</a>&lt;<a href="normalize.html#typeparam-T" class="code_type">T</a>&gt;(<a href="normalize.html#typeparam-T" class="code_type">T</a> <a href="normalize.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="normalize.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
@@ -36,7 +36,7 @@ The vector to normalize.
 
 
 ## Return value
-The normalized vector, <span class='code'><a href="normalize#decl-x" class="code_param">x</a></span>/<span class='code'><a href="">length</a>(<a href="#decl-x" class="code_param">x</a>)</span>.
+The normalized vector, <span class='code'><a href="normalize.html#decl-x" class="code_param">x</a></span>/<span class='code'><a href="length.html">length</a>(<a href="length.html#decl-x" class="code_param">x</a>)</span>.
 
 
 ## Availability and Requirements

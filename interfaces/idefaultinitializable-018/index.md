@@ -11,7 +11,7 @@ Represents types that can be initialized with a default constructor.
 
 ## Methods
 
-* [init](../init)
+* [init](init)
 
 
 ```{toctree}

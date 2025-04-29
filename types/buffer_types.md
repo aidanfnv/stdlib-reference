@@ -5,21 +5,21 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [AppendStructuredBuffer\<T, L\>](../appendstructuredbuffer-06g/index)
+#### [AppendStructuredBuffer\<T, L\>](appendstructuredbuffer-06g/index)
 
-#### [ByteAddressBuffer](../byteaddressbuffer-04b/index)
+#### [ByteAddressBuffer](byteaddressbuffer-04b/index)
 
-#### [ConsumeStructuredBuffer\<T, L\>](../consumestructuredbuffer-07h/index)
+#### [ConsumeStructuredBuffer\<T, L\>](consumestructuredbuffer-07h/index)
 
-#### [RWByteAddressBuffer](../rwbyteaddressbuffer-0126d/index)
+#### [RWByteAddressBuffer](rwbyteaddressbuffer-0126d/index)
 
-#### [RWStructuredBuffer\<T, L\>](../rwstructuredbuffer-012c/index)
+#### [RWStructuredBuffer\<T, L\>](rwstructuredbuffer-012c/index)
 
-#### [RasterizerOrderedByteAddressBuffer](../rasterizerorderedbyteaddressbuffer-0ahls/index)
+#### [RasterizerOrderedByteAddressBuffer](rasterizerorderedbyteaddressbuffer-0ahls/index)
 
-#### [RasterizerOrderedStructuredBuffer\<T, L\>](../rasterizerorderedstructuredbuffer-0ahr/index)
+#### [RasterizerOrderedStructuredBuffer\<T, L\>](rasterizerorderedstructuredbuffer-0ahr/index)
 
-#### [StructuredBuffer\<T, L\>](../structuredbuffer-0a/index)
+#### [StructuredBuffer\<T, L\>](structuredbuffer-0a/index)
 
 
 ```{toctree}

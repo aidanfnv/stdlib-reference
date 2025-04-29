@@ -13,11 +13,11 @@ Sampling state for filtered texture fetches that include a comparison operation 
 
 ## Fields
 
-####  <a id="decl-kind"></a>[kind]() : [DescriptorKind](../types/descriptorkind-0a/index) = [DescriptorKind](../types/descriptorkind-0a/index)\.[Sampler](../types/descriptorkind-0a/index#decl-Sampler)
+####  <a id="decl-kind"></a>[kind](kind) : [DescriptorKind](../descriptorkind-0a/index) = [DescriptorKind](../descriptorkind-0a/index)\.[Sampler](../descriptorkind-0a/index#decl-Sampler)
 
 ## Methods
 
-* [init](../init)
+* [init](init)
 
 ## Conditional Conformances
 

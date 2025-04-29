@@ -13,15 +13,15 @@ Floating-point minimum.
 ## Signature 
 
 <pre>
-<a href="fmin#typeparam-T" class="code_type">T</a> <a href="fmin">fmin</a>&lt;<a href="fmin#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="fmin#typeparam-T" class="code_type">T</a> <a href="fmin#decl-x" class="code_param">x</a>,
-    <a href="fmin#typeparam-T" class="code_type">T</a> <a href="fmin#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="fmin#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="fmin.html#typeparam-T" class="code_type">T</a> <a href="fmin.html">fmin</a>&lt;<a href="fmin.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="fmin.html#typeparam-T" class="code_type">T</a> <a href="fmin.html#decl-x" class="code_param">x</a>,
+    <a href="fmin.html#typeparam-T" class="code_type">T</a> <a href="fmin.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="fmin.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="fmin#typeparam-T" class="code_type">T</a>, <a href="fmin#decl-N" class="code_var">N</a>&gt; <a href="fmin">fmin</a>&lt;<a href="fmin#typeparam-T" class="code_type">T</a>, <a href="fmin#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="fmin#typeparam-T" class="code_type">T</a>, <a href="fmin#decl-N" class="code_var">N</a>&gt; <a href="fmin#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="fmin#typeparam-T" class="code_type">T</a>, <a href="fmin#decl-N" class="code_var">N</a>&gt; <a href="fmin#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="fmin#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="fmin.html#typeparam-T" class="code_type">T</a>, <a href="fmin.html#decl-N" class="code_var">N</a>&gt; <a href="fmin.html">fmin</a>&lt;<a href="fmin.html#typeparam-T" class="code_type">T</a>, <a href="fmin.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="fmin.html#typeparam-T" class="code_type">T</a>, <a href="fmin.html#decl-N" class="code_var">N</a>&gt; <a href="fmin.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="fmin.html#typeparam-T" class="code_type">T</a>, <a href="fmin.html#decl-N" class="code_var">N</a>&gt; <a href="fmin.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="fmin.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
@@ -49,7 +49,7 @@ The second value to compare.
 The smaller of the two values, element-wise if vector typed.
 
 ## Remarks
-Result is <span class='code'><a href="fmin#decl-x" class="code_param">x</a></span> if <span class='code'><a href="fmin#decl-x" class="code_param">x</a></span> < <span class='code'><a href="fmin#decl-y" class="code_param">y</a></span>, either <span class='code'><a href="fmin#decl-x" class="code_param">x</a></span> or <span class='code'><a href="fmin#decl-y" class="code_param">y</a></span> if both <span class='code'><a href="fmin#decl-x" class="code_param">x</a></span> and <span class='code'><a href="fmin#decl-y" class="code_param">y</a></span> are zeros, otherwise <span class='code'><a href="fmin#decl-y" class="code_param">y</a></span>. Which operand is the result is undefined if one of the operands is a NaN.
+Result is <span class='code'><a href="fmin.html#decl-x" class="code_param">x</a></span> if <span class='code'><a href="fmin.html#decl-x" class="code_param">x</a></span> < <span class='code'><a href="fmin.html#decl-y" class="code_param">y</a></span>, either <span class='code'><a href="fmin.html#decl-x" class="code_param">x</a></span> or <span class='code'><a href="fmin.html#decl-y" class="code_param">y</a></span> if both <span class='code'><a href="fmin.html#decl-x" class="code_param">x</a></span> and <span class='code'><a href="fmin.html#decl-y" class="code_param">y</a></span> are zeros, otherwise <span class='code'><a href="fmin.html#decl-y" class="code_param">y</a></span>. Which operand is the result is undefined if one of the operands is a NaN.
 
 
 ## Availability and Requirements

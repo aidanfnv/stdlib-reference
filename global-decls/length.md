@@ -13,11 +13,11 @@ Compute the length of a vector.
 ## Signature 
 
 <pre>
-<a href="length#typeparam-T" class="code_type">T</a> <a href="length">length</a>&lt;<a href="length#typeparam-T" class="code_type">T</a>, <a href="length#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="length#typeparam-T" class="code_type">T</a>, <a href="length#decl-N" class="code_var">N</a>&gt; <a href="length#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="length#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="length.html#typeparam-T" class="code_type">T</a> <a href="length.html">length</a>&lt;<a href="length.html#typeparam-T" class="code_type">T</a>, <a href="length.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="length.html#typeparam-T" class="code_type">T</a>, <a href="length.html#decl-N" class="code_var">N</a>&gt; <a href="length.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="length.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="length#typeparam-T" class="code_type">T</a> <a href="length">length</a>&lt;<a href="length#typeparam-T" class="code_type">T</a>&gt;(<a href="length#typeparam-T" class="code_type">T</a> <a href="length#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="length#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="length.html#typeparam-T" class="code_type">T</a> <a href="length.html">length</a>&lt;<a href="length.html#typeparam-T" class="code_type">T</a>&gt;(<a href="length.html#typeparam-T" class="code_type">T</a> <a href="length.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="length.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
@@ -36,7 +36,7 @@ The input vector.
 
 
 ## Return value
-The length of <span class='code'><a href="length#decl-x" class="code_param">x</a></span>.
+The length of <span class='code'><a href="length.html#decl-x" class="code_param">x</a></span>.
 
 
 ## Availability and Requirements

@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="cudablockidx-49">cudaBlockIdx</a>();
+<a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="cudablockidx-49.html">cudaBlockIdx</a>();
 
 </pre>
 

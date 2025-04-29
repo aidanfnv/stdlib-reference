@@ -13,20 +13,20 @@ Vector dot product. Returns the dot product of two vectors.
 ## Signature 
 
 <pre>
-<a href="dot#typeparam-T" class="code_type">T</a> <a href="dot">dot</a>&lt;<a href="dot#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="dot#typeparam-T" class="code_type">T</a> <a href="dot#decl-x" class="code_param">x</a>,
-    <a href="dot#typeparam-T" class="code_type">T</a> <a href="dot#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="dot#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="dot.html#typeparam-T" class="code_type">T</a> <a href="dot.html">dot</a>&lt;<a href="dot.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="dot.html#typeparam-T" class="code_type">T</a> <a href="dot.html#decl-x" class="code_param">x</a>,
+    <a href="dot.html#typeparam-T" class="code_type">T</a> <a href="dot.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="dot.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="dot#typeparam-T" class="code_type">T</a> <a href="dot">dot</a>&lt;<a href="dot#typeparam-T" class="code_type">T</a>, <a href="dot#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="dot#typeparam-T" class="code_type">T</a>, <a href="dot#decl-N" class="code_var">N</a>&gt; <a href="dot#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="dot#typeparam-T" class="code_type">T</a>, <a href="dot#decl-N" class="code_var">N</a>&gt; <a href="dot#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="dot#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="dot.html#typeparam-T" class="code_type">T</a> <a href="dot.html">dot</a>&lt;<a href="dot.html#typeparam-T" class="code_type">T</a>, <a href="dot.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="dot.html#typeparam-T" class="code_type">T</a>, <a href="dot.html#decl-N" class="code_var">N</a>&gt; <a href="dot.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="dot.html#typeparam-T" class="code_type">T</a>, <a href="dot.html#decl-N" class="code_var">N</a>&gt; <a href="dot.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="dot.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="dot#typeparam-T" class="code_type">T</a> <a href="dot">dot</a>&lt;<a href="dot#typeparam-T" class="code_type">T</a>, <a href="dot#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="dot#typeparam-T" class="code_type">T</a>, <a href="dot#decl-N" class="code_var">N</a>&gt; <a href="dot#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="dot#typeparam-T" class="code_type">T</a>, <a href="dot#decl-N" class="code_var">N</a>&gt; <a href="dot#decl-y" class="code_param">y</a>)
-    <span class='code_keyword'>where</span> <a href="dot#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="dot.html#typeparam-T" class="code_type">T</a> <a href="dot.html">dot</a>&lt;<a href="dot.html#typeparam-T" class="code_type">T</a>, <a href="dot.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="dot.html#typeparam-T" class="code_type">T</a>, <a href="dot.html#decl-N" class="code_var">N</a>&gt; <a href="dot.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="dot.html#typeparam-T" class="code_type">T</a>, <a href="dot.html#decl-N" class="code_var">N</a>&gt; <a href="dot.html#decl-y" class="code_param">y</a>)
+    <span class='code_keyword'>where</span> <a href="dot.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
@@ -52,10 +52,10 @@ The second vector.
 
 
 ## Return value
-The dot product of <span class='code'><a href="dot#decl-x" class="code_param">x</a></span> and <span class='code'><a href="dot#decl-y" class="code_param">y</a></span>.
+The dot product of <span class='code'><a href="dot.html#decl-x" class="code_param">x</a></span> and <span class='code'><a href="dot.html#decl-y" class="code_param">y</a></span>.
 
 ## Remarks
-When <span class='code'><a href="dot#decl-x" class="code_param">x</a></span> and <span class='code'><a href="dot#decl-y" class="code_param">y</a></span> are scalars, this function is equivalent to <span class='code'><a href="dot#decl-x" class="code_param">x</a>*<a href="dot#decl-y" class="code_param">y</a></span>.
+When <span class='code'><a href="dot.html#decl-x" class="code_param">x</a></span> and <span class='code'><a href="dot.html#decl-y" class="code_param">y</a></span> are scalars, this function is equivalent to <span class='code'><a href="dot.html#decl-x" class="code_param">x</a>*<a href="dot.html#decl-y" class="code_param">y</a></span>.
 
 
 ## Availability and Requirements

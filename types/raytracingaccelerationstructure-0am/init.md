@@ -13,11 +13,11 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a>.<a href="init">init</a>(uint64_t <a href="init#decl-address" class="code_param">address</a>);
+<a href="index.html" class="code_type">RaytracingAccelerationStructure</a>.<a href="init.html">init</a>(uint64_t <a href="init.html#decl-address" class="code_param">address</a>);
 
-<a href="../types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a>.<a href="init">init</a>(__DynamicResource&lt;__DynamicResourceKind.General&gt; <a href="init#decl-res" class="code_param">res</a>);
+<a href="index.html" class="code_type">RaytracingAccelerationStructure</a>.<a href="init.html">init</a>(__DynamicResource&lt;__DynamicResourceKind.General&gt; <a href="init.html#decl-res" class="code_param">res</a>);
 
-<a href="../types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a>.<a href="init">init</a>(<a href="../types/descriptorhandle-0a/index" class="code_type">DescriptorHandle</a>&lt;<a href="../types/raytracingaccelerationstructure-0am/index" class="code_type">RaytracingAccelerationStructure</a>&gt; <a href="init#decl-bindless" class="code_param">bindless</a>);
+<a href="index.html" class="code_type">RaytracingAccelerationStructure</a>.<a href="init.html">init</a>(<a href="index.html" class="code_type">DescriptorHandle</a>&lt;<a href="index.html" class="code_type">RaytracingAccelerationStructure</a>&gt; <a href="init.html#decl-bindless" class="code_param">bindless</a>);
 
 </pre>
 
@@ -25,7 +25,7 @@ layout: stdlib-reference
 
 ####  <a id="decl-address"></a>address  : uint64\_t
 ####  <a id="decl-res"></a>res  : \_\_DynamicResource\<\_\_DynamicResourceKind\.General\>
-####  <a id="decl-bindless"></a>bindless  : [DescriptorHandle](../types/descriptorhandle-0a/index)\<[RaytracingAccelerationStructure](../types/raytracingaccelerationstructure-0am/index)\>
+####  <a id="decl-bindless"></a>bindless  : [DescriptorHandle](../descriptorhandle-0a/index)\<[RaytracingAccelerationStructure](index)\>
 
 ## Availability and Requirements
 

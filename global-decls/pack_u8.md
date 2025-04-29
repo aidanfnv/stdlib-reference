@@ -14,9 +14,9 @@ Pack a vector of 4 unsigned 32/16 bit integers into a packed value of 4 8-bit in
 ## Signature 
 
 <pre>
-<span class="code_keyword">uint</span> <a href="pack_u8">pack_u8</a>(<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="pack_u8#decl-unpackedValue" class="code_param">unpackedValue</a>);
+<span class="code_keyword">uint</span> <a href="pack_u8.html">pack_u8</a>(<a href="index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 4&gt; <a href="pack_u8.html#decl-unpackedValue" class="code_param">unpackedValue</a>);
 
-<span class="code_keyword">uint</span> <a href="pack_u8">pack_u8</a>(<a href="../types/vector/index" class="code_type">vector</a>&lt;uint16_t, 4&gt; <a href="pack_u8#decl-unpackedValue" class="code_param">unpackedValue</a>);
+<span class="code_keyword">uint</span> <a href="pack_u8.html">pack_u8</a>(<a href="index.html" class="code_type">vector</a>&lt;uint16_t, 4&gt; <a href="pack_u8.html#decl-unpackedValue" class="code_param">unpackedValue</a>);
 
 </pre>
 

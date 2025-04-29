@@ -13,32 +13,32 @@ Construct float from mantissa and exponent.
 ## Signature 
 
 <pre>
-<a href="ldexp#typeparam-T" class="code_type">T</a> <a href="ldexp">ldexp</a>&lt;<a href="ldexp#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="ldexp#typeparam-T" class="code_type">T</a> <a href="ldexp#decl-x" class="code_param">x</a>,
-    <a href="ldexp#typeparam-T" class="code_type">T</a> <a href="ldexp#decl-exp" class="code_param">exp</a>)
-    <span class='code_keyword'>where</span> <a href="ldexp#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="ldexp.html#typeparam-T" class="code_type">T</a> <a href="ldexp.html">ldexp</a>&lt;<a href="ldexp.html#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="ldexp.html#typeparam-T" class="code_type">T</a> <a href="ldexp.html#decl-x" class="code_param">x</a>,
+    <a href="ldexp.html#typeparam-T" class="code_type">T</a> <a href="ldexp.html#decl-exp" class="code_param">exp</a>)
+    <span class='code_keyword'>where</span> <a href="ldexp.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="ldexp#typeparam-T" class="code_type">T</a>, <a href="ldexp#decl-N" class="code_var">N</a>&gt; <a href="ldexp">ldexp</a>&lt;<a href="ldexp#typeparam-T" class="code_type">T</a>, <a href="ldexp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="ldexp#typeparam-T" class="code_type">T</a>, <a href="ldexp#decl-N" class="code_var">N</a>&gt; <a href="ldexp#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="ldexp#typeparam-T" class="code_type">T</a>, <a href="ldexp#decl-N" class="code_var">N</a>&gt; <a href="ldexp#decl-exp" class="code_param">exp</a>)
-    <span class='code_keyword'>where</span> <a href="ldexp#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="ldexp.html#typeparam-T" class="code_type">T</a>, <a href="ldexp.html#decl-N" class="code_var">N</a>&gt; <a href="ldexp.html">ldexp</a>&lt;<a href="ldexp.html#typeparam-T" class="code_type">T</a>, <a href="ldexp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="ldexp.html#typeparam-T" class="code_type">T</a>, <a href="ldexp.html#decl-N" class="code_var">N</a>&gt; <a href="ldexp.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="ldexp.html#typeparam-T" class="code_type">T</a>, <a href="ldexp.html#decl-N" class="code_var">N</a>&gt; <a href="ldexp.html#decl-exp" class="code_param">exp</a>)
+    <span class='code_keyword'>where</span> <a href="ldexp.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="ldexp#typeparam-T" class="code_type">T</a>, <a href="ldexp#decl-N" class="code_var">N</a>, <a href="ldexp#decl-M" class="code_var">M</a>&gt; <a href="ldexp">ldexp</a>&lt;<a href="ldexp#typeparam-T" class="code_type">T</a>, <a href="ldexp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="ldexp#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="ldexp#typeparam-T" class="code_type">T</a>, <a href="ldexp#decl-N" class="code_var">N</a>, <a href="ldexp#decl-M" class="code_var">M</a>&gt; <a href="ldexp#decl-x" class="code_param">x</a>,
-    <a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="ldexp#typeparam-T" class="code_type">T</a>, <a href="ldexp#decl-N" class="code_var">N</a>, <a href="ldexp#decl-M" class="code_var">M</a>&gt; <a href="ldexp#decl-exp" class="code_param">exp</a>)
-    <span class='code_keyword'>where</span> <a href="ldexp#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">matrix</a>&lt;<a href="ldexp.html#typeparam-T" class="code_type">T</a>, <a href="ldexp.html#decl-N" class="code_var">N</a>, <a href="ldexp.html#decl-M" class="code_var">M</a>&gt; <a href="ldexp.html">ldexp</a>&lt;<a href="ldexp.html#typeparam-T" class="code_type">T</a>, <a href="ldexp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="ldexp.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">matrix</a>&lt;<a href="ldexp.html#typeparam-T" class="code_type">T</a>, <a href="ldexp.html#decl-N" class="code_var">N</a>, <a href="ldexp.html#decl-M" class="code_var">M</a>&gt; <a href="ldexp.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">matrix</a>&lt;<a href="ldexp.html#typeparam-T" class="code_type">T</a>, <a href="ldexp.html#decl-N" class="code_var">N</a>, <a href="ldexp.html#decl-M" class="code_var">M</a>&gt; <a href="ldexp.html#decl-exp" class="code_param">exp</a>)
+    <span class='code_keyword'>where</span> <a href="ldexp.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="ldexp#typeparam-T" class="code_type">T</a> <a href="ldexp">ldexp</a>&lt;<a href="ldexp#typeparam-T" class="code_type">T</a>, <a href="ldexp#typeparam-E" class="code_type">E</a>&gt;(
-    <a href="ldexp#typeparam-T" class="code_type">T</a> <a href="ldexp#decl-x" class="code_param">x</a>,
-    <a href="ldexp#typeparam-E" class="code_type">E</a> <a href="ldexp#decl-exp" class="code_param">exp</a>)
-    <span class='code_keyword'>where</span> <a href="ldexp#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>
-    <span class='code_keyword'>where</span> <a href="ldexp#typeparam-E" class="code_type">E</a> : <a href="../interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="ldexp.html#typeparam-T" class="code_type">T</a> <a href="ldexp.html">ldexp</a>&lt;<a href="ldexp.html#typeparam-T" class="code_type">T</a>, <a href="ldexp.html#typeparam-E" class="code_type">E</a>&gt;(
+    <a href="ldexp.html#typeparam-T" class="code_type">T</a> <a href="ldexp.html#decl-x" class="code_param">x</a>,
+    <a href="ldexp.html#typeparam-E" class="code_type">E</a> <a href="ldexp.html#decl-exp" class="code_param">exp</a>)
+    <span class='code_keyword'>where</span> <a href="ldexp.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>
+    <span class='code_keyword'>where</span> <a href="ldexp.html#typeparam-E" class="code_type">E</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="ldexp#typeparam-T" class="code_type">T</a>, <a href="ldexp#decl-N" class="code_var">N</a>&gt; <a href="ldexp">ldexp</a>&lt;<a href="ldexp#typeparam-T" class="code_type">T</a>, <a href="ldexp#typeparam-E" class="code_type">E</a>, <a href="ldexp#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="ldexp#typeparam-T" class="code_type">T</a>, <a href="ldexp#decl-N" class="code_var">N</a>&gt; <a href="ldexp#decl-x" class="code_param">x</a>,
-    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="ldexp#typeparam-E" class="code_type">E</a>, <a href="ldexp#decl-N" class="code_var">N</a>&gt; <a href="ldexp#decl-exp" class="code_param">exp</a>)
-    <span class='code_keyword'>where</span> <a href="ldexp#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>
-    <span class='code_keyword'>where</span> <a href="ldexp#typeparam-E" class="code_type">E</a> : <a href="../interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="ldexp.html#typeparam-T" class="code_type">T</a>, <a href="ldexp.html#decl-N" class="code_var">N</a>&gt; <a href="ldexp.html">ldexp</a>&lt;<a href="ldexp.html#typeparam-T" class="code_type">T</a>, <a href="ldexp.html#typeparam-E" class="code_type">E</a>, <a href="ldexp.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="ldexp.html#typeparam-T" class="code_type">T</a>, <a href="ldexp.html#decl-N" class="code_var">N</a>&gt; <a href="ldexp.html#decl-x" class="code_param">x</a>,
+    <a href="index.html" class="code_type">vector</a>&lt;<a href="ldexp.html#typeparam-E" class="code_type">E</a>, <a href="ldexp.html#decl-N" class="code_var">N</a>&gt; <a href="ldexp.html#decl-exp" class="code_param">exp</a>)
+    <span class='code_keyword'>where</span> <a href="ldexp.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>
+    <span class='code_keyword'>where</span> <a href="ldexp.html#typeparam-E" class="code_type">E</a> : <a href="index.html" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
@@ -63,10 +63,10 @@ The significand.
 ####  <a id="decl-exp"></a>exp  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 The exponent.
 
-####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-x"></a>x  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 The significand.
 
-####  <a id="decl-exp"></a>exp  : [matrix](../types/matrix/index)\<[T](), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
+####  <a id="decl-exp"></a>exp  : [matrix](../types/matrix/index)\<[T](../types/matrix/t-0), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 The exponent.
 
 ####  <a id="decl-exp"></a>exp  : [E](ldexp#typeparam-E)
@@ -77,7 +77,7 @@ The exponent.
 
 
 ## Return value
-The floating-point number constructed from <span class='code'><a href="ldexp#decl-x" class="code_param">x</a></span> and <span class='code'><a href="ldexp#decl-exp" class="code_param">exp</a></span>.
+The floating-point number constructed from <span class='code'><a href="ldexp.html#decl-x" class="code_param">x</a></span> and <span class='code'><a href="ldexp.html#decl-exp" class="code_param">exp</a></span>.
 
 
 ## Availability and Requirements

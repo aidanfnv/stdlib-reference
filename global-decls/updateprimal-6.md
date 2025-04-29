@@ -13,10 +13,10 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="updateprimal-6">updatePrimal</a>&lt;<a href="updateprimal-6#typeparam-T" class="code_type">T</a>&gt;(
-    <span class="code_keyword">inout</span> <a href="../types/differentialpair-0c/index" class="code_type">DifferentialPair</a>&lt;<a href="updateprimal-6#typeparam-T" class="code_type">T</a>&gt; <a href="updateprimal-6#decl-p" class="code_param">p</a>,
-    <a href="updateprimal-6#typeparam-T" class="code_type">T</a> <a href="updateprimal-6#decl-newPrimal" class="code_param">newPrimal</a>)
-    <span class='code_keyword'>where</span> <a href="updateprimal-6#typeparam-T" class="code_type">T</a> : <a href="../interfaces/idifferentiable-01/index" class="code_type">IDifferentiable</a>;
+<span class="code_keyword">void</span> <a href="updateprimal-6.html">updatePrimal</a>&lt;<a href="updateprimal-6.html#typeparam-T" class="code_type">T</a>&gt;(
+    <span class="code_keyword">inout</span> <a href="index.html" class="code_type">DifferentialPair</a>&lt;<a href="updateprimal-6.html#typeparam-T" class="code_type">T</a>&gt; <a href="updateprimal-6.html#decl-p" class="code_param">p</a>,
+    <a href="updateprimal-6.html#typeparam-T" class="code_type">T</a> <a href="updateprimal-6.html#decl-newPrimal" class="code_param">newPrimal</a>)
+    <span class='code_keyword'>where</span> <a href="updateprimal-6.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">IDifferentiable</a>;
 
 </pre>
 

@@ -13,11 +13,11 @@ Extract the fractional part of a floating-point number.
 ## Signature 
 
 <pre>
-<a href="fract#typeparam-T" class="code_type">T</a> <a href="fract">fract</a>&lt;<a href="fract#typeparam-T" class="code_type">T</a>&gt;(<a href="fract#typeparam-T" class="code_type">T</a> <a href="fract#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="fract#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="fract.html#typeparam-T" class="code_type">T</a> <a href="fract.html">fract</a>&lt;<a href="fract.html#typeparam-T" class="code_type">T</a>&gt;(<a href="fract.html#typeparam-T" class="code_type">T</a> <a href="fract.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="fract.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="fract#typeparam-T" class="code_type">T</a>, <a href="fract#decl-N" class="code_var">N</a>&gt; <a href="fract">fract</a>&lt;<a href="fract#typeparam-T" class="code_type">T</a>, <a href="fract#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="fract#typeparam-T" class="code_type">T</a>, <a href="fract#decl-N" class="code_var">N</a>&gt; <a href="fract#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="fract#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="index.html" class="code_type">vector</a>&lt;<a href="fract.html#typeparam-T" class="code_type">T</a>, <a href="fract.html#decl-N" class="code_var">N</a>&gt; <a href="fract.html">fract</a>&lt;<a href="fract.html#typeparam-T" class="code_type">T</a>, <a href="fract.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="index.html" class="code_type">vector</a>&lt;<a href="fract.html#typeparam-T" class="code_type">T</a>, <a href="fract.html#decl-N" class="code_var">N</a>&gt; <a href="fract.html#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="fract.html#typeparam-T" class="code_type">T</a> : <a href="index.html" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
@@ -36,7 +36,7 @@ The input value.
 
 
 ## Return value
-The fractional part of <span class='code'><a href="fract#decl-x" class="code_param">x</a></span>.
+The fractional part of <span class='code'><a href="fract.html#decl-x" class="code_param">x</a></span>.
 
 
 ## Availability and Requirements

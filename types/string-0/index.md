@@ -10,16 +10,16 @@ Represents a string.
 This type can only be used on the CPU target.
 
 
-## Properties
+## m_currentPage->path
 
-####  <a id="decl-length"></a>[length]()
+####  <a id="decl-length"></a>[length](length)
 Returns the length of the string.
 
 
 ## Methods
 
-* [init](../init)
-* [getLength](../getlength-3)
+* [init](init)
+* [getLength](getlength-3)
 
 
 ```{toctree}

@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../types/hitobject-03/index" class="code_type">HitObject</a>.<a href="init">init</a>();
+<a href="index.html" class="code_type">HitObject</a>.<a href="init.html">init</a>();
 
 </pre>
 

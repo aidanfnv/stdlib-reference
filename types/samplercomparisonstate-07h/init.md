@@ -13,14 +13,14 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../types/samplercomparisonstate-07h/index" class="code_type">SamplerComparisonState</a>.<a href="init">init</a>(__DynamicResource&lt;__DynamicResourceKind.General&gt; <a href="init#decl-res" class="code_param">res</a>);
+<a href="index.html" class="code_type">SamplerComparisonState</a>.<a href="init.html">init</a>(__DynamicResource&lt;__DynamicResourceKind.General&gt; <a href="init.html#decl-res" class="code_param">res</a>);
 
-<a href="../types/samplercomparisonstate-07h/index" class="code_type">SamplerComparisonState</a>.<a href="init">init</a>(<a href="../types/descriptorhandle-0a/index" class="code_type">DescriptorHandle</a>&lt;<a href="../types/samplercomparisonstate-07h/index" class="code_type">SamplerComparisonState</a>&gt; <a href="init#decl-bindless" class="code_param">bindless</a>);
+<a href="index.html" class="code_type">SamplerComparisonState</a>.<a href="init.html">init</a>(<a href="index.html" class="code_type">DescriptorHandle</a>&lt;<a href="index.html" class="code_type">SamplerComparisonState</a>&gt; <a href="init.html#decl-bindless" class="code_param">bindless</a>);
 
 </pre>
 
 ## Parameters
 
 ####  <a id="decl-res"></a>res  : \_\_DynamicResource\<\_\_DynamicResourceKind\.General\>
-####  <a id="decl-bindless"></a>bindless  : [DescriptorHandle](../types/descriptorhandle-0a/index)\<[SamplerComparisonState](../types/samplercomparisonstate-07h/index)\>
+####  <a id="decl-bindless"></a>bindless  : [DescriptorHandle](../descriptorhandle-0a/index)\<[SamplerComparisonState](index)\>
 
