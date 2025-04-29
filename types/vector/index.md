@@ -4,13 +4,13 @@ layout: stdlib-reference
 
 # struct vector\<T, N:int\>
 
-*Conforms to:* [IRWArray](../interfaces/irwarray-0123/index.html)\<[T](../interfaces/irwarray-0123/index.html#typeparam-T)\>
+*Conforms to:* [IRWArray](../interfaces/irwarray-0123/index)\<[T](../interfaces/irwarray-0123/index#typeparam-T)\>
 
-*Conditionally conforms to:* [IInteger](../interfaces/iinteger-01/index.html), [IFloat](../interfaces/ifloat-01/index.html), [IDifferentiable](../interfaces/idifferentiable-01/index.html), [ITexelElement](../interfaces/itexelelement-016/index.html)
+*Conditionally conforms to:* [IInteger](../interfaces/iinteger-01/index), [IFloat](../interfaces/ifloat-01/index), [IDifferentiable](../interfaces/idifferentiable-01/index), [ITexelElement](../interfaces/itexelelement-016/index)
 
 ## Description
 
-An <span class='code'><a href="index.html#decl-N" class="code_var">N</a></span> component vector with elements of type <span class='code'><a href="index.html#typeparam-T" class="code_type">T</a></span>.
+An <span class='code'><a href="index#decl-N" class="code_var">N</a></span> component vector with elements of type <span class='code'><a href="index#typeparam-T" class="code_type">T</a></span>.
 
 
 ## Generic Parameters
@@ -20,38 +20,38 @@ An <span class='code'><a href="index.html#decl-N" class="code_var">N</a></span> 
 
 ## Fields
 
-####  <a id="decl-elementCount"></a>[elementCount](.html) : int = 2
+####  <a id="decl-elementCount"></a>[elementCount]() : int = 2
 
 ## Methods
 
-* [getCount](../getcount-3.html)
-* [shl](../shl.html)
-* [shr](../shr.html)
-* [bitAnd](../bitand-3.html)
-* [bitOr](../bitor-3.html)
-* [bitXor](../bitxor-3.html)
-* [bitNot](../bitnot-3.html)
-* [and](../and.html)
-* [or](../or.html)
-* [not](../not.html)
-* [toInt](../toint-2.html)
-* [toInt64](../toint64-2.html)
-* [toUInt](../touint-23.html)
-* [toUInt64](../touint64-23.html)
-* [lessThan](../lessthan-4.html)
-* [lessThanOrEquals](../lessthanorequals-48a.html)
-* [equals](../equals.html)
-* [add](../add.html)
-* [sub](../sub.html)
-* [mul](../mul.html)
-* [div](../div.html)
-* [mod](../mod.html)
-* [neg](../neg.html)
-* [scale](../scale.html)
-* [toFloat](../tofloat-2.html)
-* [dzero](../dzero.html)
-* [dadd](../dadd.html)
-* [dmul](../dmul.html)
+* [getCount](../getcount-3)
+* [shl](../shl)
+* [shr](../shr)
+* [bitAnd](../bitand-3)
+* [bitOr](../bitor-3)
+* [bitXor](../bitxor-3)
+* [bitNot](../bitnot-3)
+* [and](../and)
+* [or](../or)
+* [not](../not)
+* [toInt](../toint-2)
+* [toInt64](../toint64-2)
+* [toUInt](../touint-23)
+* [toUInt64](../touint64-23)
+* [lessThan](../lessthan-4)
+* [lessThanOrEquals](../lessthanorequals-48a)
+* [equals](../equals)
+* [add](../add)
+* [sub](../sub)
+* [mul](../mul)
+* [div](../div)
+* [mod](../mod)
+* [neg](../neg)
+* [scale](../scale)
+* [toFloat](../tofloat-2)
+* [dzero](../dzero)
+* [dadd](../dadd)
+* [dmul](../dmul)
 * operator$init
 
 ## Conditional Conformances
@@ -59,62 +59,62 @@ An <span class='code'><a href="index.html#decl-N" class="code_var">N</a></span> 
 ### Conformance to IInteger
 `vector<T, N:int>` additionally conforms to `IInteger` when the following conditions are met:
 
-  * [T](index.html#typeparam-T) : [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index.html)
+  * [T](index#typeparam-T) : [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index)
 ### Conformance to IFloat
 `vector<T, N:int>` additionally conforms to `IFloat` when the following conditions are met:
 
-  * [T](index.html#typeparam-T) : [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+  * [T](index#typeparam-T) : [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
 ### Conformance to IDifferentiable
 `vector<T, N:int>` additionally conforms to `IDifferentiable` when the following conditions are met:
 
-  * [T](index.html#typeparam-T) : [IDifferentiable](../interfaces/idifferentiable-01/index.html)
+  * [T](index#typeparam-T) : [IDifferentiable](../interfaces/idifferentiable-01/index)
 ### Conformance to ITexelElement
 `vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
 
-  * [T](index.html#typeparam-T) == half
+  * [T](index#typeparam-T) == half
 ### Conformance to ITexelElement
 `vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
 
-  * [T](index.html#typeparam-T) == float
+  * [T](index#typeparam-T) == float
 ### Conformance to ITexelElement
 `vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
 
-  * [T](index.html#typeparam-T) == int
+  * [T](index#typeparam-T) == int
 ### Conformance to ITexelElement
 `vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
 
-  * [T](index.html#typeparam-T) == uint
+  * [T](index#typeparam-T) == uint
 ### Conformance to ITexelElement
 `vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
 
-  * [T](index.html#typeparam-T) == int8\_t
+  * [T](index#typeparam-T) == int8\_t
 ### Conformance to ITexelElement
 `vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
 
-  * [T](index.html#typeparam-T) == int16\_t
+  * [T](index#typeparam-T) == int16\_t
 ### Conformance to ITexelElement
 `vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
 
-  * [T](index.html#typeparam-T) == uint8\_t
+  * [T](index#typeparam-T) == uint8\_t
 ### Conformance to ITexelElement
 `vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
 
-  * [T](index.html#typeparam-T) == uint16\_t
+  * [T](index#typeparam-T) == uint16\_t
 ### Conformance to ITexelElement
 `vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
 
-  * [T](index.html#typeparam-T) == double
-  * [N](index.html#decl-N) == 2
+  * [T](index#typeparam-T) == double
+  * [N](index#decl-N) == 2
 ### Conformance to ITexelElement
 `vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
 
-  * [T](index.html#typeparam-T) == uint64\_t
-  * [N](index.html#decl-N) == 2
+  * [T](index#typeparam-T) == uint64\_t
+  * [N](index#decl-N) == 2
 ### Conformance to ITexelElement
 `vector<T, N:int>` additionally conforms to `ITexelElement` when the following conditions are met:
 
-  * [T](index.html#typeparam-T) == int64\_t
-  * [N](index.html#decl-N) == 2
+  * [T](index#typeparam-T) == int64\_t
+  * [N](index#decl-N) == 2
 
 ```{toctree}
 :titlesonly:

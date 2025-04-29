@@ -11,7 +11,7 @@ Built-in structure containing intersection attributes for triangle primitives.
 
 ## Fields
 
-####  <a id="decl-barycentrics"></a>[barycentrics](.html) : [vector](../types/vector/index.html)\<float, 2\>
+####  <a id="decl-barycentrics"></a>[barycentrics]() : [vector](../types/vector/index)\<float, 2\>
 Barycentric coordinates of the intersection point on the triangle.
 
 

@@ -14,9 +14,9 @@ to the alignment of <span class='code'>uint3</span>, which is 12.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a>.<a href="store3aligned-06.html">Store3Aligned</a>(
-    <span class="code_keyword">uint</span> <a href="store3aligned-06.html#decl-address" class="code_param">address</a>,
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="store3aligned-06.html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="../types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="store3aligned-06">Store3Aligned</a>(
+    <span class="code_keyword">uint</span> <a href="store3aligned-06#decl-address" class="code_param">address</a>,
+    <a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 3&gt; <a href="store3aligned-06#decl-value" class="code_param">value</a>);
 
 </pre>
 
@@ -25,7 +25,7 @@ to the alignment of <span class='code'>uint3</span>, which is 12.
 ####  <a id="decl-address"></a>address  : uint
 The input address in bytes, which must be a multiple of 12.
 
-####  <a id="decl-value"></a>value  : [vector](../types/vector/index.html)\<uint, 3\>
+####  <a id="decl-value"></a>value  : [vector](../types/vector/index)\<uint, 3\>
 Three input values.
 
 

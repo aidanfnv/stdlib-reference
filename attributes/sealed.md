@@ -15,11 +15,11 @@ Mark a type as sealed, preventing it from being inherited from or implemented by
 ## Signature
 
 <pre>
-[<a href="sealed.html">sealed</a>]
+[<a href="sealed">sealed</a>]
 </pre>
 
 ## See also
 
-<span class='code'>[<a href=".html">open</a>]</span>.
+<span class='code'>[<a href="">open</a>]</span>.
 
 

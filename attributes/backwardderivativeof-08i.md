@@ -6,19 +6,19 @@ layout: stdlib-reference
 
 ## Description
 
-<span class='code'>[<a href="backwardderivativeof-08i.html">BackwardDerivativeOf</a>(fn)]</span> is the back-reference version of <span class='code'>[<a href=".html">BackwardDerivative</a>(derivFn)]</span>
+<span class='code'>[<a href="backwardderivativeof-08i">BackwardDerivativeOf</a>(fn)]</span> is the back-reference version of <span class='code'>[<a href="">BackwardDerivative</a>(derivFn)]</span>
 
 When used to decorate a function, the decorated function is considered the backward-derivative
 implementation of the referenced function <span class='code'>fn</span>.
 
 Apart from this, the semantics of the custom derivative are the same as for
-<span class='code'>[<a href=".html">BackwardDerivative</a>(derivFn)]</span>
+<span class='code'>[<a href="">BackwardDerivative</a>(derivFn)]</span>
 
 
 ## Signature
 
 <pre>
-[<a href="backwardderivativeof-08i.html">BackwardDerivativeOf</a>(<a href="backwardderivativeof-08i.html#decl-function" class="code_param">function</a>)]
+[<a href="backwardderivativeof-08i">BackwardDerivativeOf</a>(<a href="backwardderivativeof-08i#decl-function" class="code_param">function</a>)]
 </pre>
 
 ## Parameters

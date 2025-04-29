@@ -5,21 +5,21 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [float16\_t](../float16_t.html)
+#### [float16\_t](../float16_t)
 
-#### [float32\_t](../float32_t.html)
+#### [float32\_t](../float32_t)
 
-#### [float64\_t](../float64_t.html)
+#### [float64\_t](../float64_t)
 
-#### [int32\_t](../int32_t.html)
+#### [int32\_t](../int32_t)
 
-#### [size\_t](../size_t.html)
+#### [size\_t](../size_t)
 
-#### [ssize\_t](../ssize_t.html)
+#### [ssize\_t](../ssize_t)
 
-#### [uint32\_t](../uint32_t.html)
+#### [uint32\_t](../uint32_t)
 
-#### [usize\_t](../usize_t.html)
+#### [usize\_t](../usize_t)
 
 
 ```{toctree}

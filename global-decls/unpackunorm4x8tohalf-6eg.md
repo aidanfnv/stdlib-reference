@@ -16,7 +16,7 @@ floating-point value to generate a 4-component vector.
 ## Signature 
 
 <pre>
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, 4&gt; <a href="unpackunorm4x8tohalf-6eg.html">unpackUnorm4x8ToHalf</a>(<span class="code_keyword">uint</span> <a href="unpackunorm4x8tohalf-6eg.html#decl-packedValue" class="code_param">packedValue</a>);
+<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">half</span>, 4&gt; <a href="unpackunorm4x8tohalf-6eg">unpackUnorm4x8ToHalf</a>(<span class="code_keyword">uint</span> <a href="unpackunorm4x8tohalf-6eg#decl-packedValue" class="code_param">packedValue</a>);
 
 </pre>
 

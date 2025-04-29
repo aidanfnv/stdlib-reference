@@ -16,11 +16,11 @@ layout: stdlib-reference
 
 ## Fields
 
-####  <a id="decl-kind"></a>[kind](.html) : [DescriptorKind](../types/descriptorkind-0a/index.html) = [DescriptorKind](../types/descriptorkind-0a/index.html)\.[Buffer](../types/descriptorkind-0a/index.html#decl-Buffer)
+####  <a id="decl-kind"></a>[kind]() : [DescriptorKind](../types/descriptorkind-0a/index) = [DescriptorKind](../types/descriptorkind-0a/index)\.[Buffer](../types/descriptorkind-0a/index#decl-Buffer)
 
 ## Methods
 
-* [init](../init.html)
+* [init](../init)
 
 ## Conditional Conformances
 

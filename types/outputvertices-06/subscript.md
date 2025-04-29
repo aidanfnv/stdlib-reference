@@ -13,8 +13,8 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../types/outputvertices-06/index.html#typeparam-T" class="code_type">T</a> <a href="../types/outputvertices-06/index.html" class="code_type">OutputVertices</a>&lt;<a href="../types/outputvertices-06/index.html#typeparam-T" class="code_type">T</a>, <a href="../types/outputvertices-06/index.html#decl-MAX_VERTS" class="code_var">MAX_VERTS</a>:<span class="code_keyword">uint</span>&gt;.<a href="subscript.html">subscript</a>(
-    <span class="code_keyword">uint</span> <a href="subscript.html#decl-index" class="code_param">index</a>);
+<a href="../types/outputvertices-06/index#typeparam-T" class="code_type">T</a> <a href="../types/outputvertices-06/index" class="code_type">OutputVertices</a>&lt;<a href="../types/outputvertices-06/index#typeparam-T" class="code_type">T</a>, <a href="../types/outputvertices-06/index#decl-MAX_VERTS" class="code_var">MAX_VERTS</a>:<span class="code_keyword">uint</span>&gt;.<a href="subscript">subscript</a>(
+    <span class="code_keyword">uint</span> <a href="subscript#decl-index" class="code_param">index</a>);
 
 </pre>
 

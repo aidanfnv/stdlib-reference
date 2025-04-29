@@ -13,25 +13,25 @@ Hyperbolic arc tangent. Returns the hyperbolic arc tangent of the specified valu
 ## Signature 
 
 <pre>
-<a href="atanh.html#typeparam-T" class="code_type">T</a> <a href="atanh.html">atanh</a>&lt;<a href="atanh.html#typeparam-T" class="code_type">T</a>&gt;(<a href="atanh.html#typeparam-T" class="code_type">T</a> <a href="atanh.html#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="atanh.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="atanh#typeparam-T" class="code_type">T</a> <a href="atanh">atanh</a>&lt;<a href="atanh#typeparam-T" class="code_type">T</a>&gt;(<a href="atanh#typeparam-T" class="code_type">T</a> <a href="atanh#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="atanh#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="atanh.html#typeparam-T" class="code_type">T</a>, <a href="atanh.html#decl-N" class="code_var">N</a>&gt; <a href="atanh.html">atanh</a>&lt;<a href="atanh.html#typeparam-T" class="code_type">T</a>, <a href="atanh.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="atanh.html#typeparam-T" class="code_type">T</a>, <a href="atanh.html#decl-N" class="code_var">N</a>&gt; <a href="atanh.html#decl-x" class="code_param">x</a>)
-    <span class='code_keyword'>where</span> <a href="atanh.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index.html" class="code_type">__BuiltinFloatingPointType</a>;
+<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="atanh#typeparam-T" class="code_type">T</a>, <a href="atanh#decl-N" class="code_var">N</a>&gt; <a href="atanh">atanh</a>&lt;<a href="atanh#typeparam-T" class="code_type">T</a>, <a href="atanh#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="atanh#typeparam-T" class="code_type">T</a>, <a href="atanh#decl-N" class="code_var">N</a>&gt; <a href="atanh#decl-x" class="code_param">x</a>)
+    <span class='code_keyword'>where</span> <a href="atanh#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinfloatingpointtype-029hm/index" class="code_type">__BuiltinFloatingPointType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index)
 ####  <a id="decl-N"></a>N  : int
 
 ## Parameters
 
-####  <a id="decl-x"></a>x  : [T](atanh.html#typeparam-T)
+####  <a id="decl-x"></a>x  : [T](atanh#typeparam-T)
 The value.
 
-####  <a id="decl-x"></a>x  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-x"></a>x  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 The value.
 
 

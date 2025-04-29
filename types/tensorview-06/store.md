@@ -13,39 +13,39 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="../types/tensorview-06/index.html" class="code_type">TensorView</a>&lt;<a href="../types/tensorview-06/index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="store.html">store</a>(
-    <span class="code_keyword">uint</span> <a href="store.html#decl-x" class="code_param">x</a>,
-    <a href="../types/tensorview-06/index.html#typeparam-T" class="code_type">T</a> <a href="store.html#decl-val" class="code_param">val</a>);
+<span class="code_keyword">void</span> <a href="../types/tensorview-06/index" class="code_type">TensorView</a>&lt;<a href="../types/tensorview-06/index#typeparam-T" class="code_type">T</a>&gt;.<a href="store">store</a>(
+    <span class="code_keyword">uint</span> <a href="store#decl-x" class="code_param">x</a>,
+    <a href="../types/tensorview-06/index#typeparam-T" class="code_type">T</a> <a href="store#decl-val" class="code_param">val</a>);
 
-<span class="code_keyword">void</span> <a href="../types/tensorview-06/index.html" class="code_type">TensorView</a>&lt;<a href="../types/tensorview-06/index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="store.html">store</a>(
-    <span class="code_keyword">uint</span> <a href="store.html#decl-x" class="code_param">x</a>,
-    <span class="code_keyword">uint</span> <a href="store.html#decl-y" class="code_param">y</a>,
-    <a href="../types/tensorview-06/index.html#typeparam-T" class="code_type">T</a> <a href="store.html#decl-val" class="code_param">val</a>);
+<span class="code_keyword">void</span> <a href="../types/tensorview-06/index" class="code_type">TensorView</a>&lt;<a href="../types/tensorview-06/index#typeparam-T" class="code_type">T</a>&gt;.<a href="store">store</a>(
+    <span class="code_keyword">uint</span> <a href="store#decl-x" class="code_param">x</a>,
+    <span class="code_keyword">uint</span> <a href="store#decl-y" class="code_param">y</a>,
+    <a href="../types/tensorview-06/index#typeparam-T" class="code_type">T</a> <a href="store#decl-val" class="code_param">val</a>);
 
-<span class="code_keyword">void</span> <a href="../types/tensorview-06/index.html" class="code_type">TensorView</a>&lt;<a href="../types/tensorview-06/index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="store.html">store</a>(
-    <span class="code_keyword">uint</span> <a href="store.html#decl-x" class="code_param">x</a>,
-    <span class="code_keyword">uint</span> <a href="store.html#decl-y" class="code_param">y</a>,
-    <span class="code_keyword">uint</span> <a href="store.html#decl-z" class="code_param">z</a>,
-    <a href="../types/tensorview-06/index.html#typeparam-T" class="code_type">T</a> <a href="store.html#decl-val" class="code_param">val</a>);
+<span class="code_keyword">void</span> <a href="../types/tensorview-06/index" class="code_type">TensorView</a>&lt;<a href="../types/tensorview-06/index#typeparam-T" class="code_type">T</a>&gt;.<a href="store">store</a>(
+    <span class="code_keyword">uint</span> <a href="store#decl-x" class="code_param">x</a>,
+    <span class="code_keyword">uint</span> <a href="store#decl-y" class="code_param">y</a>,
+    <span class="code_keyword">uint</span> <a href="store#decl-z" class="code_param">z</a>,
+    <a href="../types/tensorview-06/index#typeparam-T" class="code_type">T</a> <a href="store#decl-val" class="code_param">val</a>);
 
-<span class="code_keyword">void</span> <a href="../types/tensorview-06/index.html" class="code_type">TensorView</a>&lt;<a href="../types/tensorview-06/index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="store.html">store</a>(
-    <span class="code_keyword">uint</span> <a href="store.html#decl-x" class="code_param">x</a>,
-    <span class="code_keyword">uint</span> <a href="store.html#decl-y" class="code_param">y</a>,
-    <span class="code_keyword">uint</span> <a href="store.html#decl-z" class="code_param">z</a>,
-    <span class="code_keyword">uint</span> <a href="store.html#decl-w" class="code_param">w</a>,
-    <a href="../types/tensorview-06/index.html#typeparam-T" class="code_type">T</a> <a href="store.html#decl-val" class="code_param">val</a>);
+<span class="code_keyword">void</span> <a href="../types/tensorview-06/index" class="code_type">TensorView</a>&lt;<a href="../types/tensorview-06/index#typeparam-T" class="code_type">T</a>&gt;.<a href="store">store</a>(
+    <span class="code_keyword">uint</span> <a href="store#decl-x" class="code_param">x</a>,
+    <span class="code_keyword">uint</span> <a href="store#decl-y" class="code_param">y</a>,
+    <span class="code_keyword">uint</span> <a href="store#decl-z" class="code_param">z</a>,
+    <span class="code_keyword">uint</span> <a href="store#decl-w" class="code_param">w</a>,
+    <a href="../types/tensorview-06/index#typeparam-T" class="code_type">T</a> <a href="store#decl-val" class="code_param">val</a>);
 
-<span class="code_keyword">void</span> <a href="../types/tensorview-06/index.html" class="code_type">TensorView</a>&lt;<a href="../types/tensorview-06/index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="store.html">store</a>(
-    <span class="code_keyword">uint</span> <a href="store.html#decl-i0" class="code_param">i0</a>,
-    <span class="code_keyword">uint</span> <a href="store.html#decl-i1" class="code_param">i1</a>,
-    <span class="code_keyword">uint</span> <a href="store.html#decl-i2" class="code_param">i2</a>,
-    <span class="code_keyword">uint</span> <a href="store.html#decl-i3" class="code_param">i3</a>,
-    <span class="code_keyword">uint</span> <a href="store.html#decl-i4" class="code_param">i4</a>,
-    <a href="../types/tensorview-06/index.html#typeparam-T" class="code_type">T</a> <a href="store.html#decl-val" class="code_param">val</a>);
+<span class="code_keyword">void</span> <a href="../types/tensorview-06/index" class="code_type">TensorView</a>&lt;<a href="../types/tensorview-06/index#typeparam-T" class="code_type">T</a>&gt;.<a href="store">store</a>(
+    <span class="code_keyword">uint</span> <a href="store#decl-i0" class="code_param">i0</a>,
+    <span class="code_keyword">uint</span> <a href="store#decl-i1" class="code_param">i1</a>,
+    <span class="code_keyword">uint</span> <a href="store#decl-i2" class="code_param">i2</a>,
+    <span class="code_keyword">uint</span> <a href="store#decl-i3" class="code_param">i3</a>,
+    <span class="code_keyword">uint</span> <a href="store#decl-i4" class="code_param">i4</a>,
+    <a href="../types/tensorview-06/index#typeparam-T" class="code_type">T</a> <a href="store#decl-val" class="code_param">val</a>);
 
-<span class="code_keyword">void</span> <a href="../types/tensorview-06/index.html" class="code_type">TensorView</a>&lt;<a href="../types/tensorview-06/index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="store.html">store</a>&lt;<a href="store.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="store.html#decl-N" class="code_var">N</a>&gt; <a href="store.html#decl-index" class="code_param">index</a>,
-    <a href="../types/tensorview-06/index.html#typeparam-T" class="code_type">T</a> <a href="store.html#decl-val" class="code_param">val</a>);
+<span class="code_keyword">void</span> <a href="../types/tensorview-06/index" class="code_type">TensorView</a>&lt;<a href="../types/tensorview-06/index#typeparam-T" class="code_type">T</a>&gt;.<a href="store">store</a>&lt;<a href="store#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, <a href="store#decl-N" class="code_var">N</a>&gt; <a href="store#decl-index" class="code_param">index</a>,
+    <a href="../types/tensorview-06/index#typeparam-T" class="code_type">T</a> <a href="store#decl-val" class="code_param">val</a>);
 
 </pre>
 
@@ -56,7 +56,7 @@ layout: stdlib-reference
 ## Parameters
 
 ####  <a id="decl-x"></a>x  : uint
-####  <a id="decl-val"></a>val  : [T](../types/tensorview-06/index.html#typeparam-T)
+####  <a id="decl-val"></a>val  : [T](../types/tensorview-06/index#typeparam-T)
 ####  <a id="decl-y"></a>y  : uint
 ####  <a id="decl-z"></a>z  : uint
 ####  <a id="decl-w"></a>w  : uint
@@ -65,7 +65,7 @@ layout: stdlib-reference
 ####  <a id="decl-i2"></a>i2  : uint
 ####  <a id="decl-i3"></a>i3  : uint
 ####  <a id="decl-i4"></a>i4  : uint
-####  <a id="decl-index"></a>index  : [vector](../types/vector/index.html)\<uint, [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-index"></a>index  : [vector](../types/vector/index)\<uint, [N](../types/vector/index#decl-N)\>
 
 ## Availability and Requirements
 

@@ -15,17 +15,17 @@ with additional alignment.
 
 <pre>
 /// Requires Capability Set 1:
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a>.<a href="load2-0.html">Load2</a>(<span class="code_keyword">int</span> <a href="load2-0.html#decl-location" class="code_param">location</a>);
+<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="../types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="load2-0">Load2</a>(<span class="code_keyword">int</span> <a href="load2-0#decl-location" class="code_param">location</a>);
 
 /// Requires Capability Set 1:
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a>.<a href="load2-0.html">Load2</a>(
-    <span class="code_keyword">int</span> <a href="load2-0.html#decl-location" class="code_param">location</a>,
-    <span class="code_keyword">int</span> <a href="load2-0.html#decl-alignment" class="code_param">alignment</a>);
+<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="../types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="load2-0">Load2</a>(
+    <span class="code_keyword">int</span> <a href="load2-0#decl-location" class="code_param">location</a>,
+    <span class="code_keyword">int</span> <a href="load2-0#decl-alignment" class="code_param">alignment</a>);
 
 /// Requires Capability Set 2:
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a>.<a href="load2-0.html">Load2</a>(
-    <span class="code_keyword">int</span> <a href="load2-0.html#decl-location" class="code_param">location</a>,
-    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="load2-0.html#decl-status" class="code_param">status</a>);
+<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="../types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="load2-0">Load2</a>(
+    <span class="code_keyword">int</span> <a href="load2-0#decl-location" class="code_param">location</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="load2-0#decl-status" class="code_param">status</a>);
 
 </pre>
 
@@ -48,11 +48,11 @@ Two 32-bit unsigned integers loaded from the buffer.
 ## Remarks
 
 This function only supports when targeting HLSL.
-You can't access the output parameter <span class='code'><a href="load2-0.html#decl-status" class="code_param">status</a></span> directly; instead,
-pass the status to the <span class='code'><a href=".html">CheckAccessFullyMapped</a></span> intrinsic function.
-<span class='code'><a href=".html">CheckAccessFullyMapped</a></span> returns TRUE if all values from the corresponding Sample,
+You can't access the output parameter <span class='code'><a href="load2-0#decl-status" class="code_param">status</a></span> directly; instead,
+pass the status to the <span class='code'><a href="">CheckAccessFullyMapped</a></span> intrinsic function.
+<span class='code'><a href="">CheckAccessFullyMapped</a></span> returns TRUE if all values from the corresponding Sample,
 Gather, or Load operation accessed mapped tiles in a tiled resource.
-If any values were taken from an unmapped tile, <span class='code'><a href=".html">CheckAccessFullyMapped</a></span> returns FALSE.
+If any values were taken from an unmapped tile, <span class='code'><a href="">CheckAccessFullyMapped</a></span> returns FALSE.
 When targeting non-HLSL, the status is always 0.
 
 

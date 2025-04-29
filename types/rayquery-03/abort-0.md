@@ -13,7 +13,7 @@ Terminate ray traversal immediately.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="../types/rayquery-03/index.html" class="code_type">RayQuery</a>&lt;<a href="../types/rayquery-03/index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="abort-0.html">Abort</a>();
+<span class="code_keyword">void</span> <a href="../types/rayquery-03/index" class="code_type">RayQuery</a>&lt;<a href="../types/rayquery-03/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="abort-0">Abort</a>();
 
 </pre>
 

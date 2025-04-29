@@ -13,7 +13,7 @@ Gets the barycentric coordinates of the candidate hit point.
 ## Signature 
 
 <pre>
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="../types/rayquery-03/index.html" class="code_type">RayQuery</a>&lt;<a href="../types/rayquery-03/index.html#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="candidateraybarycentrics-09c.html">CandidateRayBarycentrics</a>();
+<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">float</span>, 2&gt; <a href="../types/rayquery-03/index" class="code_type">RayQuery</a>&lt;<a href="../types/rayquery-03/index#decl-rayFlagsGeneric" class="code_var">rayFlagsGeneric</a>:<span class="code_keyword">uint</span>&gt;.<a href="candidateraybarycentrics-09c">CandidateRayBarycentrics</a>();
 
 </pre>
 

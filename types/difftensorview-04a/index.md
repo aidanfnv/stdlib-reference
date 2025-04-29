@@ -6,25 +6,25 @@ layout: stdlib-reference
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index.html) = float
-####  <a id="typeparam-A"></a>A: [IDiffTensorWrapper](../interfaces/idifftensorwrapper-015b/index.html) = [AtomicAdd](../types/atomicadd-06/index.html)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinFloatingPointType](../interfaces/0_builtinfloatingpointtype-029hm/index) = float
+####  <a id="typeparam-A"></a>A: [IDiffTensorWrapper](../interfaces/idifftensorwrapper-015b/index) = [AtomicAdd](../types/atomicadd-06/index)
 
 ## Fields
 
-####  <a id="decl-diff"></a>[diff](.html) : [A](index.html#typeparam-A)
-####  <a id="decl-primal"></a>[primal](.html) : [TensorView](../types/tensorview-06/index.html)\<[T](../types/tensorview-06/index.html#typeparam-T)\>
+####  <a id="decl-diff"></a>[diff]() : [A](index#typeparam-A)
+####  <a id="decl-primal"></a>[primal]() : [TensorView](../types/tensorview-06/index)\<[T](../types/tensorview-06/index#typeparam-T)\>
 
 ## Methods
 
-* [size](../size.html)
-* [dims](../dims.html)
-* [stride](../stride.html)
-* [init](../init.html)
-* [load](../load.html)
-* [store](../store.html)
-* [subscript](../subscript.html)
-* [loadOnce](../loadonce-4.html)
-* [storeOnce](../storeonce-5.html)
+* [size](../size)
+* [dims](../dims)
+* [stride](../stride)
+* [init](../init)
+* [load](../load)
+* [store](../store)
+* [subscript](../subscript)
+* [loadOnce](../loadonce-4)
+* [storeOnce](../storeonce-5)
 
 
 ```{toctree}

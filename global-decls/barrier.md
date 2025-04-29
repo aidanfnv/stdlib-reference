@@ -5,17 +5,17 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [AllMemoryBarrier](../allmemorybarrier-039.html)
+#### [AllMemoryBarrier](../allmemorybarrier-039)
 
-#### [AllMemoryBarrierWithGroupSync](../allmemorybarrierwithgroupsync-039gkp.html)
+#### [AllMemoryBarrierWithGroupSync](../allmemorybarrierwithgroupsync-039gkp)
 
-#### [DeviceMemoryBarrier](../devicememorybarrier-06c.html)
+#### [DeviceMemoryBarrier](../devicememorybarrier-06c)
 
-#### [DeviceMemoryBarrierWithGroupSync](../devicememorybarrierwithgroupsync-06cjns.html)
+#### [DeviceMemoryBarrierWithGroupSync](../devicememorybarrierwithgroupsync-06cjns)
 
-#### [GroupMemoryBarrier](../groupmemorybarrier-05b.html)
+#### [GroupMemoryBarrier](../groupmemorybarrier-05b)
 
-#### [GroupMemoryBarrierWithGroupSync](../groupmemorybarrierwithgroupsync-05bimr.html)
+#### [GroupMemoryBarrierWithGroupSync](../groupmemorybarrierwithgroupsync-05bimr)
 
 
 ```{toctree}

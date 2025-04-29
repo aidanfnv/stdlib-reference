@@ -5,9 +5,9 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [SamplerComparisonState](../samplercomparisonstate-07h/index.html)
+#### [SamplerComparisonState](../samplercomparisonstate-07h/index)
 
-#### [SamplerState](../samplerstate-07/index.html)
+#### [SamplerState](../samplerstate-07/index)
 
 
 ```{toctree}

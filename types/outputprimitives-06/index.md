@@ -15,7 +15,7 @@ layout: stdlib-reference
 
 ## Methods
 
-* [subscript](../subscript.html)
+* [subscript](../subscript)
 
 
 ```{toctree}

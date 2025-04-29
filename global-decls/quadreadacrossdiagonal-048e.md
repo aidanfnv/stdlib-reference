@@ -13,14 +13,14 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="quadreadacrossdiagonal-048e.html#typeparam-T" class="code_type">T</a> <a href="quadreadacrossdiagonal-048e.html">QuadReadAcrossDiagonal</a>&lt;<a href="quadreadacrossdiagonal-048e.html#typeparam-T" class="code_type">T</a>&gt;(<a href="quadreadacrossdiagonal-048e.html#typeparam-T" class="code_type">T</a> <a href="quadreadacrossdiagonal-048e.html#decl-localValue" class="code_param">localValue</a>)
-    <span class='code_keyword'>where</span> <a href="quadreadacrossdiagonal-048e.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="quadreadacrossdiagonal-048e#typeparam-T" class="code_type">T</a> <a href="quadreadacrossdiagonal-048e">QuadReadAcrossDiagonal</a>&lt;<a href="quadreadacrossdiagonal-048e#typeparam-T" class="code_type">T</a>&gt;(<a href="quadreadacrossdiagonal-048e#typeparam-T" class="code_type">T</a> <a href="quadreadacrossdiagonal-048e#decl-localValue" class="code_param">localValue</a>)
+    <span class='code_keyword'>where</span> <a href="quadreadacrossdiagonal-048e#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="quadreadacrossdiagonal-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossdiagonal-048e.html#decl-N" class="code_var">N</a>&gt; <a href="quadreadacrossdiagonal-048e.html">QuadReadAcrossDiagonal</a>&lt;<a href="quadreadacrossdiagonal-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossdiagonal-048e.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="quadreadacrossdiagonal-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossdiagonal-048e.html#decl-N" class="code_var">N</a>&gt; <a href="quadreadacrossdiagonal-048e.html#decl-localValue" class="code_param">localValue</a>)
-    <span class='code_keyword'>where</span> <a href="quadreadacrossdiagonal-048e.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="quadreadacrossdiagonal-048e#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossdiagonal-048e#decl-N" class="code_var">N</a>&gt; <a href="quadreadacrossdiagonal-048e">QuadReadAcrossDiagonal</a>&lt;<a href="quadreadacrossdiagonal-048e#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossdiagonal-048e#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="quadreadacrossdiagonal-048e#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossdiagonal-048e#decl-N" class="code_var">N</a>&gt; <a href="quadreadacrossdiagonal-048e#decl-localValue" class="code_param">localValue</a>)
+    <span class='code_keyword'>where</span> <a href="quadreadacrossdiagonal-048e#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="quadreadacrossdiagonal-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossdiagonal-048e.html#decl-N" class="code_var">N</a>, <a href="quadreadacrossdiagonal-048e.html#decl-M" class="code_var">M</a>&gt; <a href="quadreadacrossdiagonal-048e.html">QuadReadAcrossDiagonal</a>&lt;<a href="quadreadacrossdiagonal-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossdiagonal-048e.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="quadreadacrossdiagonal-048e.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="quadreadacrossdiagonal-048e.html#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossdiagonal-048e.html#decl-N" class="code_var">N</a>, <a href="quadreadacrossdiagonal-048e.html#decl-M" class="code_var">M</a>&gt; <a href="quadreadacrossdiagonal-048e.html#decl-localValue" class="code_param">localValue</a>)
-    <span class='code_keyword'>where</span> <a href="quadreadacrossdiagonal-048e.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="quadreadacrossdiagonal-048e#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossdiagonal-048e#decl-N" class="code_var">N</a>, <a href="quadreadacrossdiagonal-048e#decl-M" class="code_var">M</a>&gt; <a href="quadreadacrossdiagonal-048e">QuadReadAcrossDiagonal</a>&lt;<a href="quadreadacrossdiagonal-048e#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossdiagonal-048e#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="quadreadacrossdiagonal-048e#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="quadreadacrossdiagonal-048e#typeparam-T" class="code_type">T</a>, <a href="quadreadacrossdiagonal-048e#decl-N" class="code_var">N</a>, <a href="quadreadacrossdiagonal-048e#decl-M" class="code_var">M</a>&gt; <a href="quadreadacrossdiagonal-048e#decl-localValue" class="code_param">localValue</a>)
+    <span class='code_keyword'>where</span> <a href="quadreadacrossdiagonal-048e#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>
 
@@ -32,9 +32,9 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-localValue"></a>localValue  : [T](quadreadacrossdiagonal-048e.html#typeparam-T)
-####  <a id="decl-localValue"></a>localValue  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
-####  <a id="decl-localValue"></a>localValue  : [matrix](../types/matrix/index.html)\<[T](.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
+####  <a id="decl-localValue"></a>localValue  : [T](quadreadacrossdiagonal-048e#typeparam-T)
+####  <a id="decl-localValue"></a>localValue  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-localValue"></a>localValue  : [matrix](../types/matrix/index)\<[T](), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 
 ## Availability and Requirements
 

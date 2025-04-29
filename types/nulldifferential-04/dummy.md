@@ -6,6 +6,6 @@ layout: stdlib-reference
 
 ## Signature
 <pre>
-<span class="code_keyword">uint</span> <a href="../types/nulldifferential-04/index.html" class="code_type">NullDifferential</a>.<a href="dummy.html" class="code_var">dummy</a>;
+<span class="code_keyword">uint</span> <a href="../types/nulldifferential-04/index" class="code_type">NullDifferential</a>.<a href="dummy" class="code_var">dummy</a>;
 </pre>
 

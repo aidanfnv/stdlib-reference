@@ -6,8 +6,8 @@ layout: stdlib-reference
 
 ## Methods
 
-* [LoadByteOffset](../loadbyteoffset-048.html)
-* [GetBufferPointer](../getbufferpointer-039.html)
+* [LoadByteOffset](../loadbyteoffset-048)
+* [GetBufferPointer](../getbufferpointer-039)
 
 
 ```{toctree}

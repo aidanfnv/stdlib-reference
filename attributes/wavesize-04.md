@@ -11,7 +11,7 @@ Indicate a compute shader entry point is only compatible with the specified wave
 ## Signature
 
 <pre>
-[<a href="wavesize-04.html">WaveSize</a>(<a href="wavesize-04.html#decl-numLanes" class="code_param">numLanes</a> : <span class="code_keyword">int</span>)]
+[<a href="wavesize-04">WaveSize</a>(<a href="wavesize-04#decl-numLanes" class="code_param">numLanes</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters

@@ -10,13 +10,13 @@ layout: stdlib-reference
 
 ## Properties
 
-####  <a id="decl-length"></a>[length](.html)
+####  <a id="decl-length"></a>[length]()
 
 ## Methods
 
-* [getLength](../getlength-3.html)
-* [getBuffer](../getbuffer-3.html)
-* [init](../init.html)
+* [getLength](../getlength-3)
+* [getBuffer](../getbuffer-3)
+* [init](../init)
 
 
 ```{toctree}

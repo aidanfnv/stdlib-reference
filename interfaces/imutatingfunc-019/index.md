@@ -17,7 +17,7 @@ The function allows to modify the state of the object it belongs to.
 
 ## Methods
 
-* [operator\(\)](../operatorx28x29.html)
+* [operator\(\)](../operatorx28x29)
 
 
 ```{toctree}

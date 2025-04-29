@@ -13,28 +13,28 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="waveactivebitand-04ad.html#typeparam-T" class="code_type">T</a> <a href="waveactivebitand-04ad.html">WaveActiveBitAnd</a>&lt;<a href="waveactivebitand-04ad.html#typeparam-T" class="code_type">T</a>&gt;(<a href="waveactivebitand-04ad.html#typeparam-T" class="code_type">T</a> <a href="waveactivebitand-04ad.html#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="waveactivebitand-04ad.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
+<a href="waveactivebitand-04ad#typeparam-T" class="code_type">T</a> <a href="waveactivebitand-04ad">WaveActiveBitAnd</a>&lt;<a href="waveactivebitand-04ad#typeparam-T" class="code_type">T</a>&gt;(<a href="waveactivebitand-04ad#typeparam-T" class="code_type">T</a> <a href="waveactivebitand-04ad#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="waveactivebitand-04ad#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
 
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="waveactivebitand-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitand-04ad.html#decl-N" class="code_var">N</a>&gt; <a href="waveactivebitand-04ad.html">WaveActiveBitAnd</a>&lt;<a href="waveactivebitand-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitand-04ad.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="waveactivebitand-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitand-04ad.html#decl-N" class="code_var">N</a>&gt; <a href="waveactivebitand-04ad.html#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="waveactivebitand-04ad.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
+<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="waveactivebitand-04ad#typeparam-T" class="code_type">T</a>, <a href="waveactivebitand-04ad#decl-N" class="code_var">N</a>&gt; <a href="waveactivebitand-04ad">WaveActiveBitAnd</a>&lt;<a href="waveactivebitand-04ad#typeparam-T" class="code_type">T</a>, <a href="waveactivebitand-04ad#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="waveactivebitand-04ad#typeparam-T" class="code_type">T</a>, <a href="waveactivebitand-04ad#decl-N" class="code_var">N</a>&gt; <a href="waveactivebitand-04ad#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="waveactivebitand-04ad#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
 
-<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="waveactivebitand-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitand-04ad.html#decl-N" class="code_var">N</a>, <a href="waveactivebitand-04ad.html#decl-M" class="code_var">M</a>&gt; <a href="waveactivebitand-04ad.html">WaveActiveBitAnd</a>&lt;<a href="waveactivebitand-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitand-04ad.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="waveactivebitand-04ad.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<a href="waveactivebitand-04ad.html#typeparam-T" class="code_type">T</a>, <a href="waveactivebitand-04ad.html#decl-N" class="code_var">N</a>, <a href="waveactivebitand-04ad.html#decl-M" class="code_var">M</a>&gt; <a href="waveactivebitand-04ad.html#decl-expr" class="code_param">expr</a>)
-    <span class='code_keyword'>where</span> <a href="waveactivebitand-04ad.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index.html" class="code_type">__BuiltinIntegerType</a>;
+<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="waveactivebitand-04ad#typeparam-T" class="code_type">T</a>, <a href="waveactivebitand-04ad#decl-N" class="code_var">N</a>, <a href="waveactivebitand-04ad#decl-M" class="code_var">M</a>&gt; <a href="waveactivebitand-04ad">WaveActiveBitAnd</a>&lt;<a href="waveactivebitand-04ad#typeparam-T" class="code_type">T</a>, <a href="waveactivebitand-04ad#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>, <a href="waveactivebitand-04ad#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<a href="waveactivebitand-04ad#typeparam-T" class="code_type">T</a>, <a href="waveactivebitand-04ad#decl-N" class="code_var">N</a>, <a href="waveactivebitand-04ad#decl-M" class="code_var">M</a>&gt; <a href="waveactivebitand-04ad#decl-expr" class="code_param">expr</a>)
+    <span class='code_keyword'>where</span> <a href="waveactivebitand-04ad#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinintegertype-029g/index" class="code_type">__BuiltinIntegerType</a>;
 
 </pre>
 
 ## Generic Parameters
 
-####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index.html)
+####  <a id="typeparam-T"></a>T: [\_\_BuiltinIntegerType](../interfaces/0_builtinintegertype-029g/index)
 ####  <a id="decl-N"></a>N  : int
 ####  <a id="decl-M"></a>M  : int
 
 ## Parameters
 
-####  <a id="decl-expr"></a>expr  : [T](waveactivebitand-04ad.html#typeparam-T)
-####  <a id="decl-expr"></a>expr  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
-####  <a id="decl-expr"></a>expr  : [matrix](../types/matrix/index.html)\<[T](.html), [N](../types/matrix/index.html#decl-N), [M](../types/matrix/index.html#decl-M)\>
+####  <a id="decl-expr"></a>expr  : [T](waveactivebitand-04ad#typeparam-T)
+####  <a id="decl-expr"></a>expr  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
+####  <a id="decl-expr"></a>expr  : [matrix](../types/matrix/index)\<[T](), [N](../types/matrix/index#decl-N), [M](../types/matrix/index#decl-M)\>
 
 ## Availability and Requirements
 

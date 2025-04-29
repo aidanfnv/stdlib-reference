@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../types/matrix/index.html" class="code_type">matrix</a>&lt;<span class="code_keyword">float</span>, 4, 3&gt; <a href="../types/hitobject-03/index.html" class="code_type">HitObject</a>.<a href="getobjecttoworld-039b.html">GetObjectToWorld</a>();
+<a href="../types/matrix/index" class="code_type">matrix</a>&lt;<span class="code_keyword">float</span>, 4, 3&gt; <a href="../types/hitobject-03/index" class="code_type">HitObject</a>.<a href="getobjecttoworld-039b">GetObjectToWorld</a>();
 
 </pre>
 

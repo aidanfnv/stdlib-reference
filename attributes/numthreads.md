@@ -11,7 +11,7 @@ Specifies the size of the thread group a compute shader.
 ## Signature
 
 <pre>
-[<a href="numthreads.html">numthreads</a>(<a href="numthreads.html#decl-x" class="code_param">x</a> : <span class="code_keyword">int</span>, <a href="numthreads.html#decl-y" class="code_param">y</a> : <span class="code_keyword">int</span>, <a href="numthreads.html#decl-z" class="code_param">z</a> : <span class="code_keyword">int</span>)]
+[<a href="numthreads">numthreads</a>(<a href="numthreads#decl-x" class="code_param">x</a> : <span class="code_keyword">int</span>, <a href="numthreads#decl-y" class="code_param">y</a> : <span class="code_keyword">int</span>, <a href="numthreads#decl-z" class="code_param">z</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters

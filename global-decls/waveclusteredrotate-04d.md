@@ -13,17 +13,17 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="waveclusteredrotate-04d.html#typeparam-T" class="code_type">T</a> <a href="waveclusteredrotate-04d.html">WaveClusteredRotate</a>&lt;<a href="waveclusteredrotate-04d.html#typeparam-T" class="code_type">T</a>&gt;(
-    <a href="waveclusteredrotate-04d.html#typeparam-T" class="code_type">T</a> <a href="waveclusteredrotate-04d.html#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">uint</span> <a href="waveclusteredrotate-04d.html#decl-delta" class="code_param">delta</a>,
-    <span class="code_keyword">uint</span> <a href="waveclusteredrotate-04d.html#decl-clusterSize" class="code_param">clusterSize</a>)
-    <span class='code_keyword'>where</span> <a href="waveclusteredrotate-04d.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="waveclusteredrotate-04d#typeparam-T" class="code_type">T</a> <a href="waveclusteredrotate-04d">WaveClusteredRotate</a>&lt;<a href="waveclusteredrotate-04d#typeparam-T" class="code_type">T</a>&gt;(
+    <a href="waveclusteredrotate-04d#typeparam-T" class="code_type">T</a> <a href="waveclusteredrotate-04d#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">uint</span> <a href="waveclusteredrotate-04d#decl-delta" class="code_param">delta</a>,
+    <span class="code_keyword">uint</span> <a href="waveclusteredrotate-04d#decl-clusterSize" class="code_param">clusterSize</a>)
+    <span class='code_keyword'>where</span> <a href="waveclusteredrotate-04d#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="waveclusteredrotate-04d.html#typeparam-T" class="code_type">T</a>, <a href="waveclusteredrotate-04d.html#decl-N" class="code_var">N</a>&gt; <a href="waveclusteredrotate-04d.html">WaveClusteredRotate</a>&lt;<a href="waveclusteredrotate-04d.html#typeparam-T" class="code_type">T</a>, <a href="waveclusteredrotate-04d.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/vector/index.html" class="code_type">vector</a>&lt;<a href="waveclusteredrotate-04d.html#typeparam-T" class="code_type">T</a>, <a href="waveclusteredrotate-04d.html#decl-N" class="code_var">N</a>&gt; <a href="waveclusteredrotate-04d.html#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">uint</span> <a href="waveclusteredrotate-04d.html#decl-delta" class="code_param">delta</a>,
-    <span class="code_keyword">uint</span> <a href="waveclusteredrotate-04d.html#decl-clusterSize" class="code_param">clusterSize</a>)
-    <span class='code_keyword'>where</span> <a href="waveclusteredrotate-04d.html#typeparam-T" class="code_type">T</a> : __BuiltinType;
+<a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="waveclusteredrotate-04d#typeparam-T" class="code_type">T</a>, <a href="waveclusteredrotate-04d#decl-N" class="code_var">N</a>&gt; <a href="waveclusteredrotate-04d">WaveClusteredRotate</a>&lt;<a href="waveclusteredrotate-04d#typeparam-T" class="code_type">T</a>, <a href="waveclusteredrotate-04d#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/vector/index" class="code_type">vector</a>&lt;<a href="waveclusteredrotate-04d#typeparam-T" class="code_type">T</a>, <a href="waveclusteredrotate-04d#decl-N" class="code_var">N</a>&gt; <a href="waveclusteredrotate-04d#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">uint</span> <a href="waveclusteredrotate-04d#decl-delta" class="code_param">delta</a>,
+    <span class="code_keyword">uint</span> <a href="waveclusteredrotate-04d#decl-clusterSize" class="code_param">clusterSize</a>)
+    <span class='code_keyword'>where</span> <a href="waveclusteredrotate-04d#typeparam-T" class="code_type">T</a> : __BuiltinType;
 
 </pre>
 
@@ -34,10 +34,10 @@ layout: stdlib-reference
 
 ## Parameters
 
-####  <a id="decl-value"></a>value  : [T](waveclusteredrotate-04d.html#typeparam-T)
+####  <a id="decl-value"></a>value  : [T](waveclusteredrotate-04d#typeparam-T)
 ####  <a id="decl-delta"></a>delta  : uint
 ####  <a id="decl-clusterSize"></a>clusterSize  : uint
-####  <a id="decl-value"></a>value  : [vector](../types/vector/index.html)\<[T](../types/vector/index.html#typeparam-T), [N](../types/vector/index.html#decl-N)\>
+####  <a id="decl-value"></a>value  : [vector](../types/vector/index)\<[T](../types/vector/index#typeparam-T), [N](../types/vector/index#decl-N)\>
 
 ## Availability and Requirements
 

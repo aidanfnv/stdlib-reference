@@ -6,6 +6,6 @@ layout: stdlib-reference
 
 ## Signature
 <pre>
-<span class='code_keyword'>static</span> <span class='code_keyword'>const</span> <a href="../types/descriptorkind-0a/index.html" class="code_type">DescriptorKind</a> <a href="../types/texturebuffer-07/index.html" class="code_type">TextureBuffer</a>&lt;<a href="../types/texturebuffer-07/index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="kind.html" class="code_var">kind</a> = DescriptorKind\.Buffer;
+<span class='code_keyword'>static</span> <span class='code_keyword'>const</span> <a href="../types/descriptorkind-0a/index" class="code_type">DescriptorKind</a> <a href="../types/texturebuffer-07/index" class="code_type">TextureBuffer</a>&lt;<a href="../types/texturebuffer-07/index#typeparam-T" class="code_type">T</a>&gt;.<a href="kind" class="code_var">kind</a> = DescriptorKind\.Buffer;
 </pre>
 

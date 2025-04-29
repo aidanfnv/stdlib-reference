@@ -14,14 +14,14 @@ location of the byte address buffer.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="../types/rasterizerorderedbyteaddressbuffer-0ahls/index.html" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="interlockedmin-0b.html">InterlockedMin</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedmin-0b.html#decl-dest" class="code_param">dest</a>,
-    <span class="code_keyword">uint</span> <a href="interlockedmin-0b.html#decl-value" class="code_param">value</a>,
-    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="interlockedmin-0b.html#decl-original_value" class="code_param">original_value</a>);
+<span class="code_keyword">void</span> <a href="../types/rasterizerorderedbyteaddressbuffer-0ahls/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="interlockedmin-0b">InterlockedMin</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedmin-0b#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href="interlockedmin-0b#decl-value" class="code_param">value</a>,
+    <span class="code_keyword">out</span> <span class="code_keyword">uint</span> <a href="interlockedmin-0b#decl-original_value" class="code_param">original_value</a>);
 
-<span class="code_keyword">void</span> <a href="../types/rasterizerorderedbyteaddressbuffer-0ahls/index.html" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="interlockedmin-0b.html">InterlockedMin</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedmin-0b.html#decl-dest" class="code_param">dest</a>,
-    <span class="code_keyword">uint</span> <a href="interlockedmin-0b.html#decl-value" class="code_param">value</a>);
+<span class="code_keyword">void</span> <a href="../types/rasterizerorderedbyteaddressbuffer-0ahls/index" class="code_type">RasterizerOrderedByteAddressBuffer</a>.<a href="interlockedmin-0b">InterlockedMin</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedmin-0b#decl-dest" class="code_param">dest</a>,
+    <span class="code_keyword">uint</span> <a href="interlockedmin-0b#decl-value" class="code_param">value</a>);
 
 </pre>
 
@@ -34,7 +34,7 @@ The byte address at which to perform the atomic min operation.
 The operand of the atomic operation.
 
 ####  <a id="decl-original_value"></a>original\_value  : uint
-The original value at <span class='code'><a href="interlockedmin-0b.html#decl-dest" class="code_param">dest</a></span> before the min operation.
+The original value at <span class='code'><a href="interlockedmin-0b#decl-dest" class="code_param">dest</a></span> before the min operation.
 
 
 ## Availability and Requirements

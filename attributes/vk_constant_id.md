@@ -11,7 +11,7 @@ Mark a global variable as a Vulkan specialization constant.
 ## Signature
 
 <pre>
-[vk::constant_id(<a href="vk_constant_id.html#decl-location" class="code_param">location</a> : <span class="code_keyword">int</span>)]
+[vk::constant_id(<a href="vk_constant_id#decl-location" class="code_param">location</a> : <span class="code_keyword">int</span>)]
 </pre>
 
 ## Parameters

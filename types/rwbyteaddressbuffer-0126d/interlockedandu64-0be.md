@@ -6,16 +6,16 @@ layout: stdlib-reference
 
 ## Description
 
-Perform a 64-bit unsigned integer atomic and operation at <span class='code'><a href="interlockedandu64-0be.html#decl-byteAddress" class="code_param">byteAddress</a></span>.
+Perform a 64-bit unsigned integer atomic and operation at <span class='code'><a href="interlockedandu64-0be#decl-byteAddress" class="code_param">byteAddress</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-uint64_t <a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedandu64-0be.html">InterlockedAndU64</a>(
-    <span class="code_keyword">uint</span> <a href="interlockedandu64-0be.html#decl-byteAddress" class="code_param">byteAddress</a>,
-    uint64_t <a href="interlockedandu64-0be.html#decl-value" class="code_param">value</a>);
+uint64_t <a href="../types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a>.<a href="interlockedandu64-0be">InterlockedAndU64</a>(
+    <span class="code_keyword">uint</span> <a href="interlockedandu64-0be#decl-byteAddress" class="code_param">byteAddress</a>,
+    uint64_t <a href="interlockedandu64-0be#decl-value" class="code_param">value</a>);
 
 </pre>
 

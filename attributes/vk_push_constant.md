@@ -12,6 +12,6 @@ Mark a global variable as a Vulkan push constant.
 ## Signature
 
 <pre>
-[vk::<a href=".html">push_constant</a>]
+[vk::<a href="">push_constant</a>]
 </pre>
 

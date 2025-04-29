@@ -12,14 +12,14 @@ This type can only be used on the CPU target.
 
 ## Properties
 
-####  <a id="decl-length"></a>[length](.html)
+####  <a id="decl-length"></a>[length]()
 Returns the length of the string.
 
 
 ## Methods
 
-* [init](../init.html)
-* [getLength](../getlength-3.html)
+* [init](../init)
+* [getLength](../getlength-3)
 
 
 ```{toctree}

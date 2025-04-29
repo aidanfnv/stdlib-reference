@@ -6,14 +6,14 @@ layout: stdlib-reference
 
 ## Description
 
-Load an element with type <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span> from the buffer at the specified location with alignment of <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span>.
+Load an element with type <span class='code'><a href="loadaligned-04#typeparam-T" class="code_type">T</a></span> from the buffer at the specified location with alignment of <span class='code'><a href="loadaligned-04#typeparam-T" class="code_type">T</a></span>.
 
 
 
 ## Signature 
 
 <pre>
-<a href="loadaligned-04.html#typeparam-T" class="code_type">T</a> <a href="../types/byteaddressbuffer-04b/index.html" class="code_type">ByteAddressBuffer</a>.<a href="loadaligned-04.html">LoadAligned</a>&lt;<a href="loadaligned-04.html#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">int</span> <a href="loadaligned-04.html#decl-location" class="code_param">location</a>);
+<a href="loadaligned-04#typeparam-T" class="code_type">T</a> <a href="../types/byteaddressbuffer-04b/index" class="code_type">ByteAddressBuffer</a>.<a href="loadaligned-04">LoadAligned</a>&lt;<a href="loadaligned-04#typeparam-T" class="code_type">T</a>&gt;(<span class="code_keyword">int</span> <a href="loadaligned-04#decl-location" class="code_param">location</a>);
 
 </pre>
 
@@ -24,14 +24,14 @@ Load an element with type <span class='code'><a href="loadaligned-04.html#typepa
 ## Parameters
 
 ####  <a id="decl-location"></a>location  : int
-The input address in bytes which must be a multiply of size of <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span>.
+The input address in bytes which must be a multiply of size of <span class='code'><a href="loadaligned-04#typeparam-T" class="code_type">T</a></span>.
 
 
 ## Return value
-T value with type <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span> loaded from the buffer.
+T value with type <span class='code'><a href="loadaligned-04#typeparam-T" class="code_type">T</a></span> loaded from the buffer.
 
 ## Remarks
 
-Currently, this function only supports when <span class='code'><a href="loadaligned-04.html#typeparam-T" class="code_type">T</a></span> is scalar, vector or matrix type.
+Currently, this function only supports when <span class='code'><a href="loadaligned-04#typeparam-T" class="code_type">T</a></span> is scalar, vector or matrix type.
 
 

@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<a href="../types/vector/index.html" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="../types/hitobject-03/index.html" class="code_type">HitObject</a>.<a href="getshaderrecordbufferhandle-039fl.html">GetShaderRecordBufferHandle</a>();
+<a href="../types/vector/index" class="code_type">vector</a>&lt;<span class="code_keyword">uint</span>, 2&gt; <a href="../types/hitobject-03/index" class="code_type">HitObject</a>.<a href="getshaderrecordbufferhandle-039fl">GetShaderRecordBufferHandle</a>();
 
 </pre>
 

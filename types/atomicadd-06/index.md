@@ -4,23 +4,23 @@ layout: stdlib-reference
 
 # struct AtomicAdd
 
-*Conforms to:* [IDiffTensorWrapper](../interfaces/idifftensorwrapper-015b/index.html)
+*Conforms to:* [IDiffTensorWrapper](../interfaces/idifftensorwrapper-015b/index)
 
 ## Fields
 
-####  <a id="decl-diff"></a>[diff](.html) : [TensorView](../types/tensorview-06/index.html)\<float\>
+####  <a id="decl-diff"></a>[diff]() : [TensorView](../types/tensorview-06/index)\<float\>
 
 ## Methods
 
 * init
-* [load\_forward](../load_forward.html)
-* [load\_backward](../load_backward.html)
-* [store\_forward](../store_forward.html)
-* [store\_backward](../store_backward.html)
-* [loadOnce\_forward](../loadonce_forward-4.html)
-* [loadOnce\_backward](../loadonce_backward-4.html)
-* [storeOnce\_forward](../storeonce_forward-5.html)
-* [storeOnce\_backward](../storeonce_backward-5.html)
+* [load\_forward](../load_forward)
+* [load\_backward](../load_backward)
+* [store\_forward](../store_forward)
+* [store\_backward](../store_backward)
+* [loadOnce\_forward](../loadonce_forward-4)
+* [loadOnce\_backward](../loadonce_backward-4)
+* [storeOnce\_forward](../storeonce_forward-5)
+* [storeOnce\_backward](../storeonce_backward-5)
 
 
 ```{toctree}

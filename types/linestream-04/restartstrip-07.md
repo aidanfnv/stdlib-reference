@@ -13,7 +13,7 @@ layout: stdlib-reference
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="../types/linestream-04/index.html" class="code_type">LineStream</a>&lt;<a href="../types/linestream-04/index.html#typeparam-T" class="code_type">T</a>&gt;.<a href="restartstrip-07.html">RestartStrip</a>();
+<span class="code_keyword">void</span> <a href="../types/linestream-04/index" class="code_type">LineStream</a>&lt;<a href="../types/linestream-04/index#typeparam-T" class="code_type">T</a>&gt;.<a href="restartstrip-07">RestartStrip</a>();
 
 </pre>
 

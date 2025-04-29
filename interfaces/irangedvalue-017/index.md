@@ -12,11 +12,11 @@ Implemented by all builtin integer and floating point types.
 
 ## Fields
 
-####  <a id="decl-maxValue"></a>[maxValue](.html) : [IRangedValue](index.html)\.This
+####  <a id="decl-maxValue"></a>[maxValue]() : [IRangedValue](index)\.This
 The maximum value that an instance of the type can hold.
 This is a constant value specific to the type.
 
-####  <a id="decl-minValue"></a>[minValue](.html) : [IRangedValue](index.html)\.This
+####  <a id="decl-minValue"></a>[minValue]() : [IRangedValue](index)\.This
 The minimum value that an instance of the type can hold.
 This is a constant value specific to the type.
 

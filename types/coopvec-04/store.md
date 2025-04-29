@@ -13,20 +13,20 @@ Store all elements of this CoopVec into a buffer at a specified offset.
 ## Signature 
 
 <pre>
-<span class="code_keyword">void</span> <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="../types/coopvec-04/index.html#typeparam-T" class="code_type">T</a>, <a href="../types/coopvec-04/index.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="store.html">store</a>(
-    <a href="../types/rwbyteaddressbuffer-0126d/index.html" class="code_type">RWByteAddressBuffer</a> <a href="store.html#decl-buffer" class="code_param">buffer</a>,
-    <span class="code_keyword">int</span> <a href="store.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
-    <span class='code_keyword'>where</span> <a href="../types/coopvec-04/index.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
+<span class="code_keyword">void</span> <a href="../types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="../types/coopvec-04/index#typeparam-T" class="code_type">T</a>, <a href="../types/coopvec-04/index#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="store">store</a>(
+    <a href="../types/rwbyteaddressbuffer-0126d/index" class="code_type">RWByteAddressBuffer</a> <a href="store#decl-buffer" class="code_param">buffer</a>,
+    <span class="code_keyword">int</span> <a href="store#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
+    <span class='code_keyword'>where</span> <a href="../types/coopvec-04/index#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
 
-<span class="code_keyword">void</span> <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="../types/coopvec-04/index.html#typeparam-T" class="code_type">T</a>, <a href="../types/coopvec-04/index.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="store.html">store</a>(
-    <a href="../types/rwstructuredbuffer-012c/index.html" class="code_type">RWStructuredBuffer</a>&lt;<a href="../types/coopvec-04/index.html#typeparam-T" class="code_type">T</a>, <a href="../types/defaultdatalayout-07b/index.html" class="code_type">DefaultDataLayout</a>&gt; <a href="store.html#decl-buffer" class="code_param">buffer</a>,
-    <span class="code_keyword">int</span> <a href="store.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
-    <span class='code_keyword'>where</span> <a href="../types/coopvec-04/index.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
+<span class="code_keyword">void</span> <a href="../types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="../types/coopvec-04/index#typeparam-T" class="code_type">T</a>, <a href="../types/coopvec-04/index#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="store">store</a>(
+    <a href="../types/rwstructuredbuffer-012c/index" class="code_type">RWStructuredBuffer</a>&lt;<a href="../types/coopvec-04/index#typeparam-T" class="code_type">T</a>, <a href="../types/defaultdatalayout-07b/index" class="code_type">DefaultDataLayout</a>&gt; <a href="store#decl-buffer" class="code_param">buffer</a>,
+    <span class="code_keyword">int</span> <a href="store#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
+    <span class='code_keyword'>where</span> <a href="../types/coopvec-04/index#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
 
-<span class="code_keyword">void</span> <a href="../types/coopvec-04/index.html" class="code_type">CoopVec</a>&lt;<a href="../types/coopvec-04/index.html#typeparam-T" class="code_type">T</a>, <a href="../types/coopvec-04/index.html#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="store.html">store</a>&lt;<a href="store.html#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
-    <a href="../types/coopvec-04/index.html#typeparam-T" class="code_type">T</a>[M] <a href="store.html#decl-data" class="code_param">data</a>,
-    <span class="code_keyword">int</span> <a href="store.html#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
-    <span class='code_keyword'>where</span> <a href="../types/coopvec-04/index.html#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index.html" class="code_type">__BuiltinArithmeticType</a>;
+<span class="code_keyword">void</span> <a href="../types/coopvec-04/index" class="code_type">CoopVec</a>&lt;<a href="../types/coopvec-04/index#typeparam-T" class="code_type">T</a>, <a href="../types/coopvec-04/index#decl-N" class="code_var">N</a>:<span class="code_keyword">int</span>&gt;.<a href="store">store</a>&lt;<a href="store#decl-M" class="code_var">M</a>:<span class="code_keyword">int</span>&gt;(
+    <a href="../types/coopvec-04/index#typeparam-T" class="code_type">T</a>[M] <a href="store#decl-data" class="code_param">data</a>,
+    <span class="code_keyword">int</span> <a href="store#decl-byteOffset16ByteAligned" class="code_param">byteOffset16ByteAligned</a>)
+    <span class='code_keyword'>where</span> <a href="../types/coopvec-04/index#typeparam-T" class="code_type">T</a> : <a href="../interfaces/0_builtinarithmetictype-029j/index" class="code_type">__BuiltinArithmeticType</a>;
 
 </pre>
 
@@ -36,16 +36,16 @@ Store all elements of this CoopVec into a buffer at a specified offset.
 
 ## Parameters
 
-####  <a id="decl-buffer"></a>buffer  : [RWByteAddressBuffer](../types/rwbyteaddressbuffer-0126d/index.html)
+####  <a id="decl-buffer"></a>buffer  : [RWByteAddressBuffer](../types/rwbyteaddressbuffer-0126d/index)
 The destination buffer to store the values into.
 
 ####  <a id="decl-byteOffset16ByteAligned"></a>byteOffset16ByteAligned  : int = 0
 The byte offset from the start of the buffer where the data will be stored. Must be 16-byte aligned.
 
-####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index.html)\<[T](../types/rwstructuredbuffer-012c/index.html#typeparam-T), [DefaultDataLayout](../types/defaultdatalayout-07b/index.html)\>
+####  <a id="decl-buffer"></a>buffer  : [RWStructuredBuffer](../types/rwstructuredbuffer-012c/index)\<[T](../types/rwstructuredbuffer-012c/index#typeparam-T), [DefaultDataLayout](../types/defaultdatalayout-07b/index)\>
 The destination buffer to store the values into.
 
-####  <a id="decl-data"></a>data  : [T](../types/coopvec-04/index.html#typeparam-T) \[ M \]
+####  <a id="decl-data"></a>data  : [T](../types/coopvec-04/index#typeparam-T) \[ M \]
 
 ## Availability and Requirements
 

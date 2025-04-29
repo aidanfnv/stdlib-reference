@@ -5,21 +5,21 @@ layout: stdlib-reference
 
 This category contains the following declarations:
 
-#### [BuiltInTriangleIntersectionAttributes](../builtintriangleintersectionattributes-057fr/index.html)
+#### [BuiltInTriangleIntersectionAttributes](../builtintriangleintersectionattributes-057fr/index)
 
-#### [CANDIDATE\_TYPE](../candidate_type-012345678abcd.html)
+#### [CANDIDATE\_TYPE](../candidate_type-012345678abcd)
 
-#### [COMMITTED\_STATUS](../committed_status-012345678abcdef.html)
+#### [COMMITTED\_STATUS](../committed_status-012345678abcdef)
 
-#### [HitObject](../hitobject-03/index.html)
+#### [HitObject](../hitobject-03/index)
 
-#### [RAY\_FLAG](../ray_flag-0124567.html)
+#### [RAY\_FLAG](../ray_flag-0124567)
 
-#### [RayDesc](../raydesc-03/index.html)
+#### [RayDesc](../raydesc-03/index)
 
-#### [RayQuery\<rayFlagsGeneric:uint\>](../rayquery-03/index.html)
+#### [RayQuery\<rayFlagsGeneric:uint\>](../rayquery-03/index)
 
-#### [RaytracingAccelerationStructure](../raytracingaccelerationstructure-0am/index.html)
+#### [RaytracingAccelerationStructure](../raytracingaccelerationstructure-0am/index)
 
 
 ```{toctree}

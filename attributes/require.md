@@ -11,7 +11,7 @@ Mark declaration to require a specific target capability.
 ## Signature
 
 <pre>
-[<a href="require.html">require</a>(<a href="require.html#decl-capability" class="code_param">capability</a>)]
+[<a href="require">require</a>(<a href="require#decl-capability" class="code_param">capability</a>)]
 </pre>
 
 ## Parameters
