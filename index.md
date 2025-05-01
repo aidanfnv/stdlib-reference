@@ -18,6 +18,7 @@ This reference groups the standard library declarations as:
 
 This documentation is still a work-in-progress.
 
+```{only} READTHEDOCS
 ```{toctree}
 :titlesonly:
 :hidden:
@@ -26,4 +27,5 @@ Interfaces <interfaces/index>
 Types <types/index>
 Attributes <attributes/index>
 Global Declarations <global-decls/index>
+```
 ```
