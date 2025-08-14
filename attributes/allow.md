@@ -1,5 +1,6 @@
 ---
 layout: stdlib-reference
+orphan: true
 ---
 
 # attribute [allow]
